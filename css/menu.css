@@ -1,0 +1,128 @@
+/* Definición de Variables CSS */
+:root {
+    --color-hover: #ddd;
+    --color-text-light: #f2f2f2;
+    --color-text-dark: #000;
+    --color-bg-dark: rgba(0, 0, 0, 0.8);
+    --color-bg-light: #fff;
+    --box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.5);
+    --font-size-base: 1rem; /* 17px */
+    --font-size-large: 1.5rem; /* 24px */
+    --padding-small: 0.875rem; /* 14px */
+    --padding-medium: 1rem; /* 16px */
+    --padding-large: 1.25rem; /* 20px */
+    --border-radius: 0.3125rem; /* 5px */
+}
+
+/* Estilo del Menú de Navegación */
+.topnav {
+    overflow: hidden;
+    background-color: var(--color-primario);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.topnav img {
+    height: 2.5rem;
+    margin-left: 0;
+}
+
+.topnav .menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.topnav a {
+    display: block;
+    color: var(--color-text-light);
+    text-align: center;
+    padding: var(--padding-small) var(--padding-medium);
+    text-decoration: none;
+    font-size: var(--font-size-base);
+}
+
+.topnav a:hover {
+    background-color: var(--color-hover);
+    color: var(--color-text-dark);
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .topnav .menu {
+        display: none;
+    }
+    .topnav a.icon {
+        display: block;
+        margin-right: var(--padding-medium);
+        color: var(--color-text-light);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav .menu {
+        justify-content: flex-end;
+    }
+}
+
+/* Estilo del Menú Móvil */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg-dark);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.mobile-menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: var(--color-bg-light);
+    background-image: url("/IMG/BG_MenuPopUP.png");
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    width: 70%;
+}
+
+.mobile-menu-list li {
+    padding: var(--padding-small);
+    text-align: center;
+}
+
+.mobile-menu-list li a {
+    color: var(--color-text-dark);
+    text-decoration: none;
+}
+
+.mobile-menu .close-btn {
+    position: absolute;
+    top: var(--padding-large);
+    right: var(--padding-large);
+    color: var(--color-text-light);
+    font-size: var(--font-size-large);
+    cursor: pointer;
+}
+
+.show {
+    display: flex;
+    opacity: 1;
+}
+
+
+
+

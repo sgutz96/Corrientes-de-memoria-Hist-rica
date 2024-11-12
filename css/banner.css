@@ -1,0 +1,98 @@
+/* Definición de Variables CSS */
+:root {
+    --bg-color-light: rgba(255, 255, 255, 0.333); /* Fondo con opacidad */
+    --bg-color-medium: rgba(255, 255, 255, 0.5);  /* Fondo con opacidad */
+    --bg-color-dark: rgba(255, 255, 255, 0.7);    /* Fondo con opacidad */
+    --font-color-light: rgb(24, 24, 24);           /* Color del texto */
+    --video-z-index: 0;
+    --content-z-index: 10;
+    --padding-small: 1.25rem; /* Padding para contenido */
+    --padding-medium: 1.5rem; /* Padding adicional */
+    --banner-height: 100vh; /* Altura del banner */
+    --banner-width: 100%;   /* Ancho del banner */
+}
+
+/* Estilos generales (para móviles como base) */
+.banner {
+    position: relative; /* Necesario para el posicionamiento del video */
+    margin: 0;
+    padding: 0; /* Reducir padding del banner en móviles */
+    width: var(--banner-width);
+    height: var(--banner-height);
+    display: flex;
+    justify-content: center; /* Posición en X */
+    align-items: center; /* Posición en Y */
+    overflow: hidden; /* Asegura que nada sobresalga */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+.banner-video {
+    position: absolute; /* Posicionar el video detrás del contenido */
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: var(--video-z-index); /* Asegúrate de que el video esté detrás */
+    transform: translate(-50%, -50%); /* Centrar el video */
+}
+
+.banner-content {
+    position: relative; /* Necesario para que el contenido esté encima del video */
+    background-color: var(--bg-color-light); /* Fondo más opaco en móviles */
+    border-radius: 0; /* Bordes redondeados para un mejor aspecto */
+    padding: var(--padding-small);
+    width: 100%; /* Ajustar el ancho para que sea más responsivo */
+    height: 100%; /* Ajuste de altura automática */
+    z-index: var(--content-z-index); /* Asegúrate de que el texto esté por encima */
+    text-align: center; /* Centrar texto */
+    color: var(--font-color-light); /* Color del texto */
+    display: flex; /* Activar Flexbox */
+    flex-direction: column; /* Colocar los elementos en columna */
+    justify-content: center; /* Centrar verticalmente los elementos */
+    align-items: center; /* Centrar horizontalmente los elementos */
+    z-index: 0;
+}
+
+/* Media Query para pantallas más grandes (tablet y más) */
+@media screen and (min-width: 768px) {
+    .banner {
+        width: 100%;
+        height: var(--banner-height);
+    }
+
+    .banner-video {
+        z-index: var(--video-z-index); /* Video detrás del contenido */
+    }
+
+    .banner-content {
+        background-color: var(--bg-color-medium); /* Fondo más opaco */
+        border-radius: 0.5rem; /* Bordes redondeados */
+        padding: var(--padding-medium); /* Más padding en pantallas grandes */
+        width: 80%; /* Ajustar el ancho */
+        height: auto;
+        z-index: var(--content-z-index); /* Asegúrate de que el texto esté por encima */
+    }
+}
+
+/* Media Query para pantallas más grandes (desktop y más) */
+@media screen and (min-width: 1024px) {
+    .banner {
+        width: 100%;
+        height: var(--banner-height);
+    }
+
+    .banner-video {
+        z-index: var(--video-z-index); /* Video detrás del contenido */
+    }
+
+    .banner-content {
+        background-color: var(--bg-color-dark); /* Fondo más opaco */
+        border-radius: 0.2rem; /* Bordes redondeados */
+        padding: var(--padding-medium); /* Padding ajustado */
+        width: 40%; /* Ajustar el ancho */
+        height: auto;
+        z-index: var(--content-z-index); /* Asegúrate de que el texto esté por encima */
+    }
+}

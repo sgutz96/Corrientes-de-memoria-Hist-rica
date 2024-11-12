@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Menú -->
+  <nav class="topnav" id="myTopnav">
+    <img src="Assets/SVG/Logo.svg" alt="Logo">
+    <div class="menu">
+      <a href="#History">History</a>
+      <a href="#Testimonios">Testimonios</a>
+      <a href="#Productos">Productos</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <span class="close-btn" onclick="toggleMobileMenu()">&times;</span>
+    <ul class="mobile-menu-list">
+      <li><a href="#History">History</a></li>
+      <li><a href="#Testimonios">Testimonios</a></li>
+      <li><a href="#Productos">Productos</a></li>
+    </ul>
+  </div>
+  <!-- Banner -->
+  <div class="banner">
+    <video autoplay muted loop class="banner-video">
+      <source src="./Assets/Videos/Banner_Bg.mp4" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+    <div class="banner-content">
+      <h1>Corrientes de memoria histórica Amazonas</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+      <div class="buttons">
+        <button class="btn-experiencias">experiencias</button>
+        <button class="btn-trailes"><i class="fa fa-play"></i> trailes</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="separator">
+    <div class="separator-image color1">
+      <img src="./Assets/IMG/Paralax_4.png" alt="">
+    </div>
+    <div class="separator-image color2">
+      <img src="./Assets/IMG/Paralax_3.png" alt="">
+    </div>
+    <div class="separator-image color3">
+      <img src="./Assets/IMG/Paralax_2.png" alt="">
+    </div>
+    <div class="separator-image color4">
+      <img src="./Assets/IMG/Paralax_1.png" alt="">
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>Subtítulo de la sección About</h2>
+        <p>Este es el contenido de ejemplo para el párrafo. Aquí puedes escribir sobre la misión, visión, o cualquier
+          aspecto relevante de tu web.</p>
+        <button>Más información</button>
+      </div>
+      <div class="about-image">
+        <img src="./Assets/IMG/About_IMG.png" alt="Descripción de la imagen">
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  <!-- History -->
+  <section class="history">
+    <!-- Contenido de History -->
+  </section>
+
+  <!-- Teaser -->
+  <div class="relatos-container">
+    <div class="relatos-content">
+      <div class="relatos-text">
+        <h2 class="relatos-text-full">Relatos de vida en el amazonas</h2>
+      </div>
+    </div>
+  </div> 
+
+
+  <div class="center-container">
+    <div class="video-container">
+      <!-- Contenedor del video de YouTube -->
+      <div class="video-wrapper">
+        <!-- Video de YouTube sin controles -->
+        <iframe id="video" src="https://www.youtube.com/embed/kxyyKU8rgaU?rel=0&autoplay=0&controls=0&showinfo=0"
+          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+        <img src="./Assets/BG_MenuPopUP.png" class="video-mask" alt="Video Mask">
+      </div>
+    </div>
+  </div>
+
+<!-- Productos -->
+
+<div class="experiencias-container">
+  <div class="experiencias-content">
+    <div class="experiencias-text">
+      <h2 class="experiencias-text-full">Experiencias virtuales del amazonas</h2>
+    </div>
+  </div>
+</div>
+
+  <div class="Productos">
+    <div class="card" style="background-image: url('Assets/IMG/Producto_VR.jpg');">
+        <div class="text-container">
+            <h3 class="title">VR ARCTICLICIA</h3>
+            <p class="description">Descripción del producto VR ARCTICLICIA...</p>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Assets/IMG/Producto_Juego.jpg');">
+        <div class="text-container">
+            <h3 class="title">RESCATA EL AMAZONAS</h3>
+            <p class="description">Descripción del juego Rescata el Amazonas...</p>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Assets/IMG/Producto_AR.jpg');">
+        <div class="text-container">
+            <h3 class="title">AR ARCTICLICIA</h3>
+            <p class="description">Descripción del producto AR ARCTICLICIA...</p>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Assets/IMG/Producto_Doc.jpg');">
+        <div class="text-container">
+            <h3 class="title">DOCUMENTAL</h3>
+            <p class="description">Descripción del documental...</p>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('Assets/IMG/Producto_Lib.jpg');">
+        <div class="text-container">
+            <h3 class="title">LIBRO</h3>
+            <p class="description">Descripción del libro...</p>
+        </div>
+    </div>
+</div>
+<!-- Fotter -->
+<footer>
+  <hr class="footer-line">
+  <!-- Fila 1: Logos y Listas en la misma fila -->
+  <div class="footer-row">
+    <!-- Sección de Logos -->
+    <div class="footer-logos">
+      <div class="logo">
+        <img src="./Assets/IMG/Logo_Armada.png" alt="Logo 1">
+      </div>
+      <div class="separator-footer"></div>
+      <hr>
+      <div class="logo">
+        <img src="./Assets/IMG/Logo_USB.png" alt="Logo 2">
+      </div>
+    </div>
+    
+    <!-- Sección de Listas -->
+    <div class="footer-lists">
+      <ul>
+        <li><strong>Experiencias</strong></li>
+        <li><a href="#">Experiencia 1</a></li>
+        <li><a href="#">Experiencia 2</a></li>
+        <li><a href="#">Experiencia 3</a></li>
+      </ul>
+      <ul>
+        <li><strong>Redes</strong></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+      <ul>
+        <li><strong>Navegar</strong></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Línea divisoria -->
+  <hr class="footer-line">
+
+  <!-- Fila 2: Texto centrado -->
+  <div class="footer-row">
+    <p class="footer-text">© 2024 Tu Empresa. Todos los derechos reservados.</p>
+  </div>
+  
+</footer>
+
+
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/parallax.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/history.css">
+  <link rel="stylesheet" href="css/teaser.css">
+  <link rel="stylesheet" href="css/productos.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+
+  <!--Archivos JS de cada sección -->
+  <script src="JS/popupMenu.js"></script>
+  <script src="JS/parallax.js"></script>
+  <script src="JS/teaser.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+/* Estilo del contenedor principal del footer */
+footer {
+    width: 80%; /* Ocupa el 80% del ancho disponible */
+    margin: 0 auto; /* Centra el footer en la pantalla */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+    color: #333; /* Color por defecto del texto */
+
+}
+
+/* Estilo de las filas dentro del footer */
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2%;
+    width: 100%;
+    flex-wrap: wrap; /* Asegura que los elementos no se desborden en pantallas pequeñas */
+}
+
+/* Contenedor de los logos */
+.footer-logos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea los logos a la izquierda */
+    margin-bottom: 1rem;
+}
+
+/* Estilo de cada logo */
+.logo {
+    margin-right: 10px;
+}
+
+.logo img {
+    max-width: 100px; /* Limita el tamaño de los logos */
+    height: auto;
+}
+
+/* Separador vertical entre las secciones del footer */
+.separator-footer {
+    width: 2px;
+    background-color: black;
+    height: 80px; /* Ajustar la altura del separador */
+    margin: 0 20px;
+}
+
+/* Contenedor de las listas */
+.footer-lists {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap; /* Permite que las listas se acomoden en varias filas en pantallas pequeñas */
+}
+
+/* Estilos de las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Línea horizontal en el footer */
+.footer-line {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Estilo de la sección final con el texto */
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Ajustes para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    footer {
+        width: 100%; /* El footer ocupa todo el ancho en móviles */
+        padding: 20px 10px; /* Reducir el padding en móviles */
+    }
+
+    .footer-row {
+        flex-direction: column; /* Las filas se apilan verticalmente en pantallas pequeñas */
+        align-items: center; /* Centrar todo el contenido */
+    }
+
+    .footer-logos {
+        justify-content: center; /* Centrar los logos */
+        margin-bottom: 1rem;
+    }
+
+    .separator-footer {
+        display: none; /* El separador vertical no es necesario en móviles */
+    }
+
+    .footer-lists {
+        flex-direction: column; /* Las listas se apilan verticalmente */
+        gap: 20px; /* Mayor espacio entre las listas */
+    }
+
+    .footer-text {
+        font-size: 12px; /* Reducir el tamaño de fuente */
+    }
+}
+
+/* Ajustes para pantallas grandes (pantallas de escritorio) */
+@media screen and (min-width: 1024px) {
+    .footer-row {
+        flex-direction: row; /* Asegura que los elementos estén en fila en pantallas grandes */
+    }
+
+    .footer-lists {
+        flex-wrap: nowrap; /* No se envuelven las listas en pantallas grandes */
+    }
+
+    .footer-text {
+        font-size: 14px; /* Aumentar el tamaño de fuente */
+    }
+}

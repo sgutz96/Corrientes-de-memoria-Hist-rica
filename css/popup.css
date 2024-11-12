@@ -1,0 +1,10 @@
+#popup {
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+    border: 2px solid var(--color-accento);
+}
+
+#popup .content {
+    padding: 10px;
+    font-size: 1.2em;
+}
