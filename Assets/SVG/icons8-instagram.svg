@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="iconos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508 508">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a2c44;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #1a2c44;
+        stroke-miterlimit: 10;
+        stroke-width: 18px;
+      }
+    </style>
+  </defs>
+  <path id="insta" class="cls-2" d="M192.2,418.64h140.28c51.65,0,93.52-41.87,93.52-93.52V184.84c0-51.65-41.87-93.52-93.52-93.52H192.2c-51.65,0-93.52,41.87-93.52,93.52v140.28c0,51.65,41.87,93.52,93.52,93.52Z"/>
+  <circle id="insta-2" data-name="insta" class="cls-2" cx="262.34" cy="254.98" r="77.93"/>
+  <circle id="insta-3" data-name="insta" class="cls-1" cx="355.86" cy="161.46" r="15.59"/>
+</svg>

@@ -1,55 +1,155 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
+  <title>Corrientes de memoria</title>
+  <link rel="icon" href="Assets/IMG/Logos/normal.png">
+
+  <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/VideoPopup.css">
+  <link rel="stylesheet" href="./CSS/menu.css">
+  <link rel="stylesheet" href="./CSS/banner.css">
+  <link rel="stylesheet" href="./CSS/Paralax.css">
+  <link rel="stylesheet" href="./CSS/about.css">
+  <link rel="stylesheet" href="./CSS/carrusel.css">
+  <link rel="stylesheet" href="./CSS/histoy.CSS">
+  <link rel="stylesheet" href="./CSS/teaser.css">
+  <link rel="stylesheet" href="./CSS/testimonios.css">
+  <link rel="stylesheet" href="./CSS/experiencias.css">
+  <link rel="stylesheet" href="./CSS/fotter.css">
 </head>
 
 <body>
-  <!-- Menú -->
-  <nav class="topnav" id="myTopnav">
-    <img src="Assets/SVG/Logo.svg" alt="Logo">
-    <div class="menu">
-      <a href="#History">History</a>
-      <a href="#Testimonios">Testimonios</a>
-      <a href="#Productos">Productos</a>
+  <!-- Contenedor del video en popup -->
+  <div id="video-popup" class="video-popup">
+    <div class="popup-content">
+      <video id="video-banner" autoplay muted>
+        <source src="./Assets/Videos/IntroVideo.mp4" type="video/mp4">
+        Tu navegador no soporta el formato de video.
+      </video>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </nav>
-
-  <div class="mobile-menu" id="mobile-menu">
-    <span class="close-btn" onclick="toggleMobileMenu()">&times;</span>
-    <ul class="mobile-menu-list">
-      <li><a href="#History">History</a></li>
-      <li><a href="#Testimonios">Testimonios</a></li>
-      <li><a href="#Productos">Productos</a></li>
-    </ul>
   </div>
+
+  <!-- Menú -->
+  <header>
+    <nav id="menu" class="menu">
+      <div class="menu-left">
+        <img src="Assets/IMG/Logos/LogoNav.png" alt="Logo" class="logo">
+      </div>
+
+      <!-- Botón hamburguesa -->
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-center">
+        <ul>
+          <li><a href="#banner">INICIO</a></li>
+          <li><a href="#exp">EXPERIENCIAS</a></li>
+          <li><a href="#contexto">ACERCA</a></li>
+          <li><a href="#contexto">NUESTRO EQUIPO</a></li>
+        </ul>
+      </div>
+
+      <div class="menu-right">
+        <div class="redes">
+          <ul>
+            <li><a href="#"><img src="Assets/SVG/icons8-instagram.svg" alt="Instagram" width="24" height="24"></a></li>
+            <li><a href="#"><img src="Assets/SVG/icons8-tiktok.svg" alt="TikTok" width="24" height="24"></a></li>
+            <li><a href="#"><img src="Assets/SVG/icons8-youtube.svg" alt="YouTube" width="24" height="24"></a></li>
+          </ul>
+        </div>
+
+        <div class="idiomas">
+          <ul>
+            <li><a href="#"><img src="Assets/SVG/usa.png" alt="English" width="24" height="24"></a></li>
+            <li><a href="#"><img src="Assets/SVG/colombia.png" alt="Español" width="24" height="24"></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menú desplegable para móviles y tablet -->
+    <div id="mobile-menupopup" class="mobile-menupopup">
+      <div class="mobile-menupopup-content">
+        <div class="close-mobile-menubtn" id="close-mobile-menubtn">X</div>
+        <div class="menu-list-mobile">
+          <ul>
+            <li><a href="#menu">INICIO</a></li>
+            <li><a href="#exp">EXPERIENCIAS</a></li>
+            <li><a href="#contexto">ACERCA</a></li>
+          </ul>
+        </div>
+        <div class="menu-right-mobile">
+          <div class="redes">
+            <ul>
+              <li><a href="#"><img src="Assets/SVG/icons8-instagram.svg" alt="Instagram" width="24" height="24"></a>
+              </li>
+              <li><a href="#"><img src="Assets/SVG/icons8-tiktok.svg" alt="TikTok" width="24" height="24"></a></li>
+              <li><a href="#"><img src="Assets/SVG/icons8-youtube.svg" alt="YouTube" width="24" height="24"></a></li>
+            </ul>
+          </div>
+
+          <div class="idiomas">
+            <ul>
+              <li><a href="#"><img src="Assets/SVG/usa.png" alt="English" width="24" height="24"></a></li>
+              <li><a href="#"><img src="Assets/SVG/colombia.png" alt="Español" width="24" height="24"></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Banner -->
-  <div class="banner">
+  <div class="banner" id="banner">
     <video autoplay muted loop class="banner-video">
-      <source src="./Assets/Videos/Banner_Bg.mp4" type="video/mp4">
+      <source src="./Assets/Videos/VideoBanner.mp4" type="video/mp4">
       Tu navegador no soporta el video.
     </video>
     <div class="banner-content">
-      <h1>Corrientes de memoria histórica Amazonas</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.</p>
+      <!-----
+      <h1>
+        <span class="color1">CORRIENTES DE MEMORIA</span>
+        <span class="color2">Narrativa transmedia</span>
+        <span class="color1">de la Amazonía</span>
+      </h1>----->
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>-->
       <div class="buttons">
-        <button class="btn-experiencias">experiencias</button>
-        <button class="btn-trailes"><i class="fa fa-play"></i> trailes</button>
+        <button class="btn-primary" onclick="location.href='#exp'">Experiencias</button>
+        <button class="btn-transparent" onclick="location.href='#teaser'"><i class="fa fa-play"></i> Trailers</button>
       </div>
+
     </div>
   </div>
 
+
+  <!-- separator -->
   <div class="separator">
     <div class="separator-image color1">
       <img src="./Assets/IMG/Paralax_4.png" alt="">
@@ -65,161 +165,593 @@
     </div>
   </div>
 
-  <div class="about">
-    <div class="about-content">
-      <div class="about-text">
-        <h2>Subtítulo de la sección About</h2>
-        <p>Este es el contenido de ejemplo para el párrafo. Aquí puedes escribir sobre la misión, visión, o cualquier
-          aspecto relevante de tu web.</p>
-        <button>Más información</button>
+
+  <!-- About -->
+  <!-- Sección de contexto -->
+  <section class="Aboutcontextosection" id="contexto">
+    <h2>CONTEXTO</h2>
+    <div class="Aboutcontent">
+      <!-- Sección izquierda -->
+      <div class="Aboutleft-section">
+        <h3>CORRIENTES DE MEMORIA</h3>
+        <p>El proyecto de contexto “Corrientes de memoria: narrativa transmedia del Amazonas”, es un trabajo
+          investigativo con alto rigor académico realizado entre la Armada de Colombia y la Universidad San
+          Buenaventura, el cual tiene como propósito dar a conocer la labor de los Marinos de Colombia que se encuentran
+          desplegados en las áreas de responsabilidad de la Fuerza Naval de la Amazonía.</p>
+        <button id="AboutleerMasBtn">Leer más</button>
       </div>
-      <div class="about-image">
-        <img src="./Assets/IMG/About_IMG.png" alt="Descripción de la imagen">
+
+      <!-- Sección derecha -->
+      <div class="Aboutright-section">
+        <img src="Assets/IMG/About/BulletsAbout.png" alt="Imagen del contexto" />
       </div>
     </div>
-  </div>
-
-
-  
-
-  <!-- History -->
-  <section class="history">
-    <!-- Contenido de History -->
   </section>
 
+  <!-- Popup -->
+  <div id="Aboutpopup" class="Aboutpopup">
+    <div class="Aboutpopup-content">
+      <span id="AboutclosePopup" class="Aboutclose">&times;</span>
+      <img src="Assets/IMG/About/5.png" alt="Imagen del contexto" class="popupimg" />
+      <div class="AboutPopUPConte">
+        <h3 class="center-text">CORRIENTES DE MEMORIA</h3>
+        <p>El proyecto de contexto “Corrientes de memoria: narrativa transmedia del Amazonas”, es un trabajo
+          investigativo con alto rigor académico realizado entre la Armada de Colombia y la Universidad San
+          Buenaventura, el cual tiene como propósito dar a conocer la labor de los Marinos de Colombia que se encuentran
+          desplegados en las áreas de responsabilidad de la Fuerza Naval de la Amazonía, así como, visibilizar los
+          hechos históricos que han perdurado en el tiempo y han marcado la memoria del país, toda vez que, se narran
+          sucesos y acontecimientos desde la perspectiva de las comunidades autóctonas de los departamentos de Putumayo,
+          Caquetá, Guaviare, Vaupés y Amazonas, y del personal militar que cumple con la misión de proteger las bonanzas
+          y las costumbres intrínsecas de esta región de Colombia.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- histoy -->
+  <div id="histoy-nav" class="histoy-nav">
+    <div class="histoy-caqueta">
+      <div class="content-text">
+        <h4 id="Titulocaqueta">Título del artículo</h4>
+        <p id="Textcaqueta">Este es el párrafo de ejemplo que describe el contenido. Aquí puedes poner cualquier texto
+          relevante para el
+          tema del artículo o sección.</p>
+        <button id="HisCaqBtnCaqueta">Leer más</button>
+      </div>
+      <div class="content-image">
+        <img src="Assets/IMG/About/depa/PUTUMAYO.png" alt="Imagen de ejemplo">
+      </div>
+    </div>
+    <div class="histoy-putumayo">
+      <div class="content-text">
+        <h4 id="TituloPutumayo">Título del artículo</h4>
+        <p id="TextPutumayo">Este es el párrafo de ejemplo que describe el contenido. Aquí puedes poner cualquier texto
+          relevante para el
+          tema del artículo o sección.</p>
+        <button id="HisCaqBtnPutumayo">Leer más</button>
+      </div>
+      <div class="content-image">
+        <img src="Assets/IMG/About/depa/AMAZONAS1.png" alt="Imagen de ejemplo">
+      </div>
+    </div>
+    <div class="histoy-Guaviare">
+      <div class="content-text">
+        <h4 id="TituloGuaviare">Título del artículo</h4>
+        <p id="TextGuaviare">Este es el párrafo de ejemplo que describe el contenido. Aquí puedes poner cualquier texto
+          relevante para el
+          tema del artículo o sección.</p>
+        <button id="HisCaqBtnGuaviare">Leer más</button>
+      </div>
+    
+      <figure class="content-image">
+        <img src="Assets/IMG/About/depa/GUAVIARE.png" alt="Imagen de ejemplo">
+       <!--- <figcaption>Derechos de autor: Alcaldía Municipal San José del Guaviare</figcaption>-->
+    </figure>
+    </div>
+    <div class="histoy-baupez">
+      <div class="content-text">
+        <h4 id="TituloBaupez">Título del artículo</h4>
+        <p id="TextBaupez">Este es el párrafo de ejemplo que describe el contenido. Aquí puedes poner cualquier texto
+          relevante para el
+          tema del artículo o sección.</p>
+        <button id="HisCaqBtnBaupez">Leer más</button>
+      </div>
+      <div class="content-image">
+        <img src="Assets/IMG/About/depa/CAQUETÁ.png" alt="Imagen de ejemplo">
+      </div>
+    </div>
+    <div class="histoy-AMAZONAS">
+      <div class="content-text">
+        <h4 id="TituloAmazonas">Título del artículo</h4>
+        <p id="TextAmazonas">Este es el párrafo de ejemplo que describe el contenido. Aquí puedes poner cualquier texto
+          relevante para el
+          tema del artículo o sección.</p>
+        <button id="HisCaqBtnAmazonas">Leer más</button>
+      </div>
+      <div class="content-image">
+        <img src="Assets/IMG/About/depa/VAÚPES.png" alt="Imagen de ejemplo">
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup history-->
+  <div id="historypopup" class="Aboutpopup">
+    <div class="Aboutpopup-content">
+      <span id="historyclosePopup" class="Aboutclose">&times;</span>
+      <img src="Assets/IMG/Hitoria/historias/casa arana.png" alt="Imagen del contexto" class="popupimg" id="asd" />
+      <p style="font-size: 0.8rem;">Derechos</p>
+      <div class="AboutPopUPConte">
+        <h3 class="center-text" id="TituloPopAmazonas">Contexto</h3>
+        <p id="TextPopAmazonas">El proyecto de contexto “Corrientes de memoria: narrativa transmedia del Amazonas”, es un trabajo
+          investigativo con alto rigor académico realizado entre la Armada de Colombia y la Universidad San
+          Buenaventura, el cual tiene como propósito dar a conocer la labor de los Marinos de Colombia que se encuentran
+          desplegados en las áreas de responsabilidad de la Fuerza Naval de la Amazonía, así como, visibilizar los
+          hechos históricos que han perdurado en el tiempo y han marcado la memoria del país, toda vez que, se narran
+          sucesos y acontecimientos desde la perspectiva de las comunidades autóctonas de los departamentos de Putumayo,
+          Caquetá, Guaviare, Vaupés y Amazonas, y del personal militar que cumple con la misión de proteger las bonanzas
+          y las costumbres intrínsecas de esta región de Colombia.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+
   <!-- Teaser -->
-  <div class="relatos-container">
-    <div class="relatos-content">
-      <div class="relatos-text">
-        <h2 class="relatos-text-full">Relatos de vida en el amazonas</h2>
-      </div>
-    </div>
-  </div> 
+  <div id="teaser" class="teaser">
+    <h2>
+      <span class="color1">DOCUMENTAL</span>
+      <span class="color2">CORRIENTES</span>
+      <span class="color1">DE MEMORIA</span>
+    </h2>
+  </div>
 
-
-  <div class="center-container">
-    <div class="video-container">
-      <!-- Contenedor del video de YouTube -->
-      <div class="video-wrapper">
-        <!-- Video de YouTube sin controles -->
-        <iframe id="video" src="https://www.youtube.com/embed/kxyyKU8rgaU?rel=0&autoplay=0&controls=0&showinfo=0"
-          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-        </iframe>
-        <img src="./Assets/BG_MenuPopUP.png" class="video-mask" alt="Video Mask">
-      </div>
+  <div class="video-container">
+    <div class="video-wrapper">
+      <iframe class="video" id="video"
+        src="https://www.youtube.com/embed/yQatxvaW8j0?rel=0&autoplay=0&controls=0&showinfo=0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <img src="./Assets/IMG/Teaser-mask-cafe.png" class="video-mask" alt="Video Mask">
     </div>
   </div>
 
-<!-- Productos -->
-
-<div class="experiencias-container">
-  <div class="experiencias-content">
-    <div class="experiencias-text">
-      <h2 class="experiencias-text-full">Experiencias virtuales del amazonas</h2>
-    </div>
+  <!-- Testimonios -->
+  <div id="relatos" class="testimonios">
+    <h2>
+      <span class="color1">RELATOS DE</span>
+      <span class="color2">VIDA EN</span>
+      <span class="color1">EL AMAZONAS</span>
+    </h2>
   </div>
-</div>
+
+  <div class="main-container">
+    <div class="content-container">
+      <div class="left-section">
+        <div class="circle-container">
+          <div class="circle" id="circle-1" style="background: #304D3D;" onclick="mostrarAlerta(1)"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle" id="circle-1" style="background: #FAFAFA;" onclick="mostrarAlerta(2)"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle" id="circle-1" style="background: #FAFAFA;" onclick="mostrarAlerta(3)"></div>
+        </div>
+        <div class="circle-container">
+          <div class="circle" id="circle-1" style="background: #FAFAFA;" onclick="mostrarAlerta(4)"></div>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <h3 class="name" id="relatosNombre">
+          </h2>
+          <h4 class="rank" id="relatosRango">
+        </h3>
+        <p class="Testimoniosdescription" id="relatosText"></p>
+      </div>
+    </div>
+
+    <video class="testimonios-image" id="relatosVideo" autoplay loop muted>
+      <source id="videoSourceTestimonios" src="" type="video/mp4">
+      Tu navegador no soporta la etiqueta de video.
+    </video>
+  </div>
+
+
+  <!-- Experiencias -->
+  <div id="exp" class="experiencias">
+    <h2>
+      <span class="color1">EXPERIENCIAS</span>
+      <span class="color2">VIRTUALES</span>
+      <span class="color1">DEL AMAZONAS</span>
+    </h2>
+  </div>
 
   <div class="Productos">
-    <div class="card" style="background-image: url('Assets/IMG/Producto_VR.jpg');">
-        <div class="text-container">
-            <h3 class="title">VR ARCTICLICIA</h3>
-            <p class="description">Descripción del producto VR ARCTICLICIA...</p>
-        </div>
-    </div>
-    <div class="card" style="background-image: url('Assets/IMG/Producto_Juego.jpg');">
-        <div class="text-container">
-            <h3 class="title">RESCATA EL AMAZONAS</h3>
-            <p class="description">Descripción del juego Rescata el Amazonas...</p>
-        </div>
-    </div>
-    <div class="card" style="background-image: url('Assets/IMG/Producto_AR.jpg');">
-        <div class="text-container">
-            <h3 class="title">AR ARCTICLICIA</h3>
-            <p class="description">Descripción del producto AR ARCTICLICIA...</p>
-        </div>
-    </div>
-    <div class="card" style="background-image: url('Assets/IMG/Producto_Doc.jpg');">
-        <div class="text-container">
-            <h3 class="title">DOCUMENTAL</h3>
-            <p class="description">Descripción del documental...</p>
-        </div>
-    </div>
-    <div class="card" style="background-image: url('Assets/IMG/Producto_Lib.jpg');">
-        <div class="text-container">
-            <h3 class="title">LIBRO</h3>
-            <p class="description">Descripción del libro...</p>
-        </div>
-    </div>
-</div>
-<!-- Fotter -->
-<footer>
-  <hr class="footer-line">
-  <!-- Fila 1: Logos y Listas en la misma fila -->
-  <div class="footer-row">
-    <!-- Sección de Logos -->
-    <div class="footer-logos">
-      <div class="logo">
-        <img src="./Assets/IMG/Logo_Armada.png" alt="Logo 1">
-      </div>
-      <div class="separator-footer"></div>
-      <hr>
-      <div class="logo">
-        <img src="./Assets/IMG/Logo_USB.png" alt="Logo 2">
+    <div class="card" style="background-image: url('Assets/IMG/experiencias/vr2.jpg');">
+      <div class="text-container">
+        <h6 class="title">VR ARC “TECIM REYES HOLGUÍN” </h6>
+        <p class="experienciasdescription">Vive una inmersión total en la Patrullera de Apoyo Fluvial “TECIM Eddic Cristian Reyes Holguín” de la Armada de Colombia con esta experiencia de realidad virtual.         </p>
       </div>
     </div>
+    <div class="card" style="background-image: url('Assets/IMG/experiencias/juego1.jpg');">
+      <div class="text-container">
+        <h6 class="title">RESCATA EL AMAZONAS</h6>
+        <p class="experienciasdescription">Navega por misiones estratégicas para proteger el territorio marítimo y fluvial del país, a través de un videojuego que ofrece una experiencia virtual basada en las operaciones de esfuerzo armado y no armado de la Armada de Colombia.        </p>
+      </div>
+    </div>
+    <div class="card" style="background-image: url('Assets/IMG/experiencias/ar2.jpg');">
+      <div class="text-container">
+        <h6 class="title">AR BONGO HOSPITAL</h6>
+        <p class="experienciasdescription">Sumérgete en una experiencia interactiva que te llevará a bordo del bongo hospital de la Armada de Colombia.
+        </p>
+      </div>
+    </div>
+    <div class="card" style="background-image: url('Assets/IMG/experiencias/documental.jpg');">
+      <div class="text-container">
+        <h6 class="title">DOCUMENTAL</h6>
+        <p class="experienciasdescription">Se estructuraron 12 documentales de contexto y memoria histórica de la Amazonía colombiana, en donde se relatan y se dan a conocer hechos históricos, bonanzas y costumbres de las comunidades indígenas</p>
+      </div>
+    </div>
+    <div class="card" style="background-image: url('Assets/IMG/experiencias/libro.jpg');">
+      <div class="text-container">
+        <h6 class="title">LIBRO</h6>
+        <p class="experienciasdescription">Conoce este importante trabajo de investigación que evoca historias y experiencias de las comunidades locales de la Amazonía, así cómo, el contexto de memoria e información estratégica que se fundamenta en el rol fundamental que desempeña la Armada de Colombia en esta región del país.</p>
+      </div>
+       
+    </div>
+      
+  </div>
+
+
+
+  <!-- carrusel -->
+  <div class="equipo">
+    <h2>
+      <span class="color1"> POSTALES DE</span>
+      <span class="color2">LA AMAZONÍA</span>
+    </h2>
+  </div>
+  <!-- Carrusel Responsive -->
+  <div id="equipo" class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/departamentos/vaupes.jpg" alt="VAÚPES">
+        <div class="carousel-info">
+          <p>VAÚPES</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/departamentos/PUTUMAYO.jpeg" alt="PUTUMAYO">
+        <div class="carousel-info">
+          <p>PUTUMAYO</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/departamentos/SAN JOSÉ DEL GUAVIARE.jpg" alt="SAN JOSÉ DEL GUAVIARE">
+        <div class="carousel-info">
+          <p>SAN JOSÉ DEL GUAVIARE</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/departamentos/CAQUETÁ.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>CAQUETÁ</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/departamentos/LETICIA - AMAZONAS.jpg" alt="AMAZONAS">
+        <div class="carousel-info">
+          <p>AMAZONAS</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-1.png" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img1</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-2.JPG" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img2</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-3.png" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img3</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-4.png" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img4</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-5.png" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img5</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-6.png" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img6</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-7.png" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img7</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-8.png" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div>
+
+      
+
+      <div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-9.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-10.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-11.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-12.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-13.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-14.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-15.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-16.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-17.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-18.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-19.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-20.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-21.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-22.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-23.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-24.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-25.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-26.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-27.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-28.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-31.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-32.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+        
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-33.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-34.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-35.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+        
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-36.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+        
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-37.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+        
+      
+      </div><div class="carousel-item">
+        <img src="Assets/IMG/carrusel/postales/pos-29.jpg" alt="CAQUETÁ">
+        <div class="carousel-info">
+          <p>img8</p>
+        </div>
+      
+
+      </div>
     
-    <!-- Sección de Listas -->
-    <div class="footer-lists">
-      <ul>
-        <li><strong>Experiencias</strong></li>
-        <li><a href="#">Experiencia 1</a></li>
-        <li><a href="#">Experiencia 2</a></li>
-        <li><a href="#">Experiencia 3</a></li>
-      </ul>
-      <ul>
-        <li><strong>Redes</strong></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Twitter</a></li>
-      </ul>
-      <ul>
-        <li><strong>Navegar</strong></li>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
+
+
     </div>
+    <!-- Botones de navegación -->
+    <button class="carousel-control carousel-control-left" onclick="moveCarousel(-1)">&#10094;</button>
+    <button class="carousel-control carousel-control-right" onclick="moveCarousel(1)">&#10095;</button>
   </div>
 
-  <!-- Línea divisoria -->
-  <hr class="footer-line">
 
-  <!-- Fila 2: Texto centrado -->
-  <div class="footer-row">
-    <p class="footer-text">© 2024 Tu Empresa. Todos los derechos reservados.</p>
   </div>
-  
-</footer>
+
+  </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <br>
+    <ul class="footer-social">
+      <li><a href="#"><img src="Assets/SVG/youtube.svg" alt="Instagram" width="20" height="30"></a></li>
+      <li><a href="#"><img src="Assets/SVG/tiktok.svg" alt="TikTok" width="20" height="30"></a></li>
+      <li><a href="#"><img src="Assets/SVG/yt.svg" alt="YouTube" width="20" height="30"></a></li>
+    </ul>
+    <!-- Línea separadora -->
+    <hr class="footer-line">
+    <div class="footer-columns">
+      <div>
+        <ul>
+          <li><strong>Líneas de atención</strong></li>
+          <li><a>Dirección:</a></li>
+          <li><a>Diagonal 40ª No. 8-37 Piso 8
+              Dirección de Apoyo a la Transición
+              Bogotá – Colombia</a></li>
+          <li><a>+57 601 3692000 Ext. 11112 – 10506</a></li>
+          <li><strong>Visítanos</strong></li>
+          <li><a href="http://atencionalciudadano.armada.mil.co/">http://atencionalciudadano.armada.mil.co/</a></li>
+
+        </ul>
+      </div>
+
+
+      <div>
+        <ul>
+          <li><strong>Experiencias</strong></li>
+          <li><a href="#">VR ARC “TECIM REYES HOLGUÍN”</a></li>
+          <li><a href="#">Rescata el Amazonas</a></li>
+          <li><a href="#">AR Bongo Hospital</a></li>
+          <li><a href="#">Documental</a></li>
+          <li><a href="#">Libro de investigación</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><strong>Navegar</strong></li>
+          <li><a href="#menu">Inicio</a></li>
+          <li><a href="#contexto">Contexto</a></li>
+          <li><a href="#histoy-nav">Historia</a></li>
+          <li><a href="#teaser">Documental Corrientes</a></li>
+          <li><a href="#histoy-nav">Relatos de Vida</a></li>
+          <li><a href="#exp">Experiencias Virtuales</a></li>
+          <li><a href="#equipo">Nuestro Equipo</a></li>
+        </ul>
+      </div>
+
+
+      <!--
+    <div>
+      <ul>
+        <li><strong>Redes Armada Nacional</strong></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Tik Tok</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">X</a></li>
+        <li><a href="#">Linkedin</a></li>
+     
+      </ul>
+    </div>-->
+    </div>
+    <hr class="footer-line">
+    <div class="footer-logos">
+      <a href="https://www.armada.mil.co/" target="_blank">
+        <img src="Assets/IMG/Logos/arm.png" alt="Logo 1" class="footer-logo-img">
+      </a>
+      <a href="https://www.usbbog.edu.co/" target="_blank">
+        <img src="Assets/IMG/Logos/usb.png" alt="Logo 2" class="footer-logo-img">
+      </a>
+      <a href="#" target="_blank">
+        <img src="Assets/IMG/Logos/normal1.png" alt="Logo 3" class="footer-logo-img">
+      </a>
+    </div>
+
+    <br>
+    <p class="footer-text">© 2025 Ingeniería Multimedia. Todos los derechos reservados.</p>
+  </footer>
 
 
 
-
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/menu.css">
-  <link rel="stylesheet" href="css/banner.css">
-  <link rel="stylesheet" href="css/parallax.css">
-  <link rel="stylesheet" href="css/about.css">
-  <link rel="stylesheet" href="css/history.css">
-  <link rel="stylesheet" href="css/teaser.css">
-  <link rel="stylesheet" href="css/productos.css">
-  <link rel="stylesheet" href="css/footer.css">
-
-
-  <!--Archivos JS de cada sección -->
-  <script src="JS/popupMenu.js"></script>
-  <script src="JS/parallax.js"></script>
-  <script src="JS/teaser.js"></script>
+  <script src="./JS/Viedo-PopUp.js"></script>
+  <script src="./JS/Menutoggle.js"></script>
+  <script src="./JS/paralax.js"></script>
+  <script src="./JS/contexto.js"></script>
+  <script src="./JS/histoy.JS"></script>
+  <script src="./JS/histoyPopUP.js"></script>
+  <script src="./JS/Relatos.js"></script>
+  <script src="./JS/carrusel.js"></script>
 
 </body>
 

@@ -1,0 +1,126 @@
+/* Estilo general del footer */
+footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: inherit;
+  text-align: center;
+}
+
+/* Redes sociales */
+.footer-social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer-social li img {
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.footer-social li img:hover {
+  opacity: 0.7;
+}
+
+/* Separador */
+.footer-line {
+  border: none;
+  border-top: 1px solid #c9c8c8;
+  margin: 20px 0;
+}
+
+/* Columnas del footer */
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.footer-columns div {
+  flex: 1;
+  max-width: 200px;
+  margin: 0 10px;
+}
+
+.footer-columns h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-columns li {
+  margin-bottom: 8px;
+}
+
+.footer-columns li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-columns li a:hover {
+  color: #000;
+}
+
+/* Logos finales */
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+.footer-logo-img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+  
+}
+
+.footer-logo-img:hover {
+  transform: scale(1.1);
+}
+
+footer p {
+  color: #000;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-columns div {
+    max-width: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-social {
+    flex-wrap: nowrap;
+  }
+
+  .footer-logos {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

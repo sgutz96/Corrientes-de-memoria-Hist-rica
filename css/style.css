@@ -1,268 +1,210 @@
-/* Definir colores principales */
+/* Importar la fuente Lato desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@font-face {
+  font-family: 'POORICH';
+  src: url('../Assets/Fonts/POORICH.TTF') format('truetype');
+} 
+@font-face {
+  font-family: 'HTOWERT';
+  src: url('../Assets/Fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+} 
+
+
+/* Definir las variables de color en :root */
 :root {
-  --color-primario: #304D3D;  /* Azul */
-  --color-secundario: #e74c3c; /* Rojo */
-  --color-terciario: #2ecc71;  /* Verde */
-  --color-cuarto: #f39c12;     /* Amarillo */
-  --color-quinto: #9b59b6;     /* Morado */
+  --color1: #304c3d;  /* Azul */
+  --color2: #252525;  /* Rojo */
+  --color3: #2ecc71;  /* Verde */
+  --color4: #252525;  /* Amarillo */
+  --color5: #9b59b6;  /* Púrpura */
+  --color6: #3b2c13;  /* blanco */
+  --color7: #304c3d;  /* blanco */
+
+
+  --font-size-h1: 2.0rem;  /* Tamaño de fuente para h1 */
+  --font-size-h2: 2.0rem;  /* Tamaño de fuente para h2 */
+  --font-size-h3: 1.5rem;  /* Tamaño de fuente para h3 */
+  --font-size-h4: 1.5rem;  /* Tamaño de fuente para h4 */
+  --font-size-h5: 2rem;  /* Tamaño de fuente para h5 */
+  --font-size-h6: 1.5rem;  /* Tamaño de fuente para h6 */
+  --font-size-p: 1rem;  /* Tamaño de fuente para párrafos */
 }
 
-/* Establecer una fuente global con soporte responsivo */
-body {
-  font-family: 'Arial', sans-serif;
+/* Resetear márgenes y padding para todos los elementos */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.6;
-  background-color: #f2dc8ce6;
-  font-size: 1rem;  /* Tamaño de fuente base */
-  }
-
-/* Colores y tipografía para encabezados */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica', sans-serif;
-  color: var(--color-primario);
-  margin: 0.625rem 0; /* 10px */
 }
+
+/* Establecer la tipografía global */
+body {
+  font-family: Arial, sans-serif;  /* Tipografía predeterminada para el cuerpo */
+  background-color: #e9d3ab;
+  background-image: url(../Assets/IMG/WEBbg2.png);
+background-size: 100% auto; /* Ajusta el fondo al ancho, mantiene la proporción en el alto */
+background-repeat: repeat-y; /* Hace que el fondo se repita en el eje vertical */
+
+
+}
+
+
+/* Estilo para los encabezados (h1 a h6) */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;  /* Margen inferior para separar de otros elementos */
+}
+
+/* Tipografía específica para h1 y h2 */
+h1, h2 {
+  font-family: 'Lato', sans-serif;  /* Usar Lato para h1 y h2 */
+}
+
+/* Estilos para h1 a h6 */
+h1 {
+  font-size: var(--font-size-h1);
+  
+  font-family: 'HTOWERT';
+  color: var(--color1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  
+  font-family: 'HTOWERT';
+  color: var(--color7);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+  
+  font-family: 'HTOWERT';
+  color: var(--color1);
+} 
+
+h4 {
+  font-size: var(--font-size-h4);
+  color: var(--color4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+  color: var(--color5);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+  color: var(--color1);
+}
+
+h2 span.color1 {
+  color: var(--color); /* Verde para "Relatos de" */
+}
+
+h2 span.color2 {
+  color: var(--color6); /* Negro para "vida en" */
+}
+
+h1 span.color1 {
+  color: var(--color1); /* Verde para "Relatos de" */
+}
+
+h1 span.color2 {
+  color: var(--color2); /* Negro para "vida en" */
+}
+
 
 /* Estilo para los párrafos */
 p {
-  font-size: 0.875rem;  /* Tamaño de fuente para móviles (14px) */
-  color: #333;
-  margin: 0.625rem 0; /* 10px */
+  font-size: var(--font-size-p);
+  color: var(--color6);
+  line-height: 1.5;  /* Espaciado de línea */
+  margin-bottom: 1em;  /* Espacio inferior */
 }
 
-/* Estilos de enlaces */
-a {
-  text-decoration: none;
-  color: var(--color-secundario);
-}
-
-a:hover {
-  color: var(--color-primario);
-}
-
-/* Estilo para botones */
+/* Estilos de los botones */
+/* Estilo general de los botones */
 button {
-  background-color: var(--color-primario);
-  color: white;
-  border: none;
-  padding: 0.375rem 0.75rem;  /* Tamaño de botón para móvil (6px 12px) */
-  font-size: 0.75rem;         /* Tamaño de fuente para móviles (12px) */
+  padding: 10px 20px; /* Tamaño del botón */
+  font-size: 1rem; /* Tamaño de fuente para el texto */
+  font-family: Arial, sans-serif; /* Tipografía para el texto del botón */
   cursor: pointer;
-  border-radius: 0.3125rem;  /* 5px */
-  transition: background-color 0.3s ease;
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
-button:hover {
-  background-color: var(--color-secundario);
+/* Botón con fondo color1 */
+button.btn-primary {
+  background-color: var(--color1); /* Fondo azul */
+  color: white; /* Texto blanco */
 }
 
-.sub_Productos {
-  background-image: url("../Assets/IMG/Boolets/sub_Productos.png");
-  background-repeat: no-repeat;
-  background-position: 80% center; /* Imagen de fondo alineada a la derecha */
-  background-size: contain; /* La imagen se ajusta al tamaño del contenedor */
-  padding: 0 2%;
-
-
+button.btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.7); /* Efecto hover más oscuro */
+  color: black;
 }
 
-.sub_Productos h2 {
-  width: 100%;            /* El ancho del h2 será el 80% del contenedor (100% - 10% de margen en cada lado) */
-  padding: 0 0%;        /* Centra el h2 horizontalmente, aplicando márgenes automáticos a los lados */
-  text-align: right;     /* Alinea el texto a la derecha */
-  padding: 0;          /* Elimina cualquier padding predeterminado */
-
+/* Botón transparente con borde y texto color1 */
+button.btn-transparent {
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo transparente */
+  color: var(--color1); /* Texto azul */
+  border: 2px solid var(--color1); /* Borde azul */
 }
 
-.sub_Teaser {
-  background-image: url("../Assets/IMG/Boolets/sub_Teaser.png");
-  background-repeat: no-repeat;
-  background-position: center center; /* Imagen de fondo alineada a la derecha */
-  background-size: contain; /* La imagen se ajusta al tamaño del contenedor */
-  padding: 0 2%;
-
-
+button.btn-transparent:hover {
+  background-color: var(--color1); /* Fondo azul al hacer hover */
+  color: white; /* Texto blanco al hacer hover */
 }
 
-.sub_Teaser h2 {
-  width: 90%;            /* El ancho del h2 será el 80% del contenedor (100% - 10% de margen en cada lado) */
-  padding: 0 10%;        /* Centra el h2 horizontalmente, aplicando márgenes automáticos a los lados */
-  text-align: center;     /* Alinea el texto a la derecha */
-  padding: 0;          /* Elimina cualquier padding predeterminado */
-
+/* Estilos para el ícono dentro del botón */
+button.btn-transparent i {
+  margin-right: 8px; /* Espaciado entre el ícono y el texto */
 }
 
 
-/* Responsividad: Ajustes para pantallas medianas (tabletas, entre 768px y 1024px) */
-@media (min-width: 48em) { /* 768px */
-  /* Ajustar tamaños de fuente */
-  h1 {
-      font-size: 1.75rem; /* 28px */
-  }
-
-  h2 {
-      font-size: 1.5rem;  /* 24px */
-  }
-
-  p {
-      font-size: 1rem;    /* 16px */
-  }
-
-  /* Ajustar el tamaño de los botones */
-  button {
-      padding: 0.5rem 1rem; /* 8px 16px */
-      font-size: 0.875rem;   /* 14px */
-  }
-}
-
-/* Responsividad: Ajustes para pantallas grandes (escritorios, >1024px) */
-@media (min-width: 64em) { /* 1024px */
-  /* Ajustar tamaños de fuente */
-  h1 {
-      font-size: 2rem;  /* 32px */
-  }
-
-  h2 {
-      font-size: 1.75rem; /* 28px */
-  }
-
-  p {
-      font-size: 1.125rem;  /* 18px */
-  }
-
-  /* Ajustar el tamaño de los botones */
-  button {
-      padding: 0.625rem 1.25rem;  /* 10px 20px */
-      font-size: 1rem;            /* 16px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos específicos para tabletas */
+  :root {  
+    --font-size-h1: 2.5rem;  /* Tamaño de fuente para h1 */
+    --font-size-h2: 2.0rem;  /* Tamaño de fuente para h2 */
+    --font-size-h3: 1.5rem;  /* Tamaño de fuente para h3 */
+    --font-size-h4: 1.5rem;  /* Tamaño de fuente para h4 */
+    --font-size-h5: 2rem;  /* Tamaño de fuente para h5 */
+    --font-size-h6: 1.5rem;  /* Tamaño de fuente para h6 */
+    --font-size-p: 1rem;  /* Tamaño de fuente para párrafos */
   }
   
 }
 
-
-
-
-
-
-/* Contenedor principal */
-.relatos-container {
-  width: 100%;
-  max-width: 1440px; /* Establece un límite de ancho */
-  height: 83px;
-  padding: 10px 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-direction: column;
+@media only screen and (max-width: 767px) {
+      /* Estilos específicos para móviles */
+      :root {  
+        --font-size-h1: 2.2rem;  /* Tamaño de fuente para h1 */
+        --font-size-h2: 1.8rem;  /* Tamaño de fuente para h2 */
+        --font-size-h3: 1.5rem;  /* Tamaño de fuente para h3 */
+        --font-size-h4: 1.0rem;  /* Tamaño de fuente para h4 */
+        --font-size-h5: 2rem;  /* Tamaño de fuente para h5 */
+        --font-size-h6: 1.5rem;  /* Tamaño de fuente para h6 */
+        --font-size-p: 0.9rem;  /* Tamaño de fuente para párrafos */
+      }
 }
 
-/* Contenedor interior */
-.relatos-content {
-  width: 100%;
-  max-width: 1180px; /* Limita el ancho */
-  padding: 10px 203px;
-  background-image: url("../Assets/IMG/Boolets/sub_Teaser.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.content-image {
+  position: relative;
+  display: inline-block;
+}
+figcaption {
+  position: absolute;
+  bottom: 20px; /* Ubica el texto en la parte inferior */
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro con opacidad */
+  color: #fff; /* Texto blanco */
+  font-size: 1rem; /* Tamaño del texto */
+  font-family: 'Arial', sans-serif; /* Fuente limpia y moderna */
+  padding: 10px 15px; /* Relleno alrededor del texto */
+  border-radius: 5px; /* Bordes suaves */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil debajo del texto */
 }
 
-/* Texto central */
-.relatos-text {
-  text-align: center;
-  color:  var(--color-primario);
-  font-size: 36px;
-  font-family: Lato, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 43.2px;
-  word-wrap: break-word;
+figcaption:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Efecto hover para hacerlo más oscuro al pasar el mouse */
 }
-
-/* Estilo del texto completo */
-.relatos-text-full {
-  color:  var(--color-primario);
-}
-
-/* Media Query para pantallas pequeñas */
-@media screen and (max-width: 768px) {
-  .relatos-container {
-    padding: 10px 20px; /* Reducir el padding en pantallas pequeñas */
-  }
-
-  .relatos-content {
-    padding: 10px 50px; /* Reducir padding en móviles */
-    background-image: url("../Assets/IMG/Boolets/sub_Teaser.png"); /* Opcional: cambiar la imagen para pantallas pequeñas */
-  }
-
-  .relatos-text {
-    font-size: 28px; /* Reducir tamaño de fuente en pantallas pequeñas */
-  }
-
-  .relatos-text-full {
-    font-size: 28px; /* Ajustar tamaño de texto en pantallas pequeñas */
-  }
-}
-
-/* Media Query para pantallas medianas (tabletas) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .relatos-container {
-    padding: 10px 50px; /* Reducir padding en tabletas */
-  }
-
-  .relatos-text {
-    font-size: 32px; /* Ajustar tamaño de fuente para tabletas */
-  }
-
-  .relatos-text-full {
-    font-size: 32px; /* Ajustar tamaño de texto para tabletas */
-  }
-}
-
-
-
-/* Contenedor principal */
-.experiencias-container {
-  width:80%;
-  height: auto;
-  padding: 2vh 5%; /* Padding ajustado para la parte superior e inferior, en unidades relativas */
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  gap: 1rem;
-  flex-direction: column;
-}
-
-/* Contenedor de fondo */
-.experiencias-content {
-  width: 100%;
-  max-width: 100%; /* Limita el ancho de la imagen de fondo */
-  padding: 2vh 5%; /* Ajustes de padding según el diseño */
-  border-radius: 1rem;
-  background-image: url("../Assets/IMG/Boolets/sub_Productos.png");
-  background-size: cover;
-  background-position: right;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end; /* Alineación hacia abajo del texto */
-  gap: 2vw; /* Usar un valor relativo para el espacio entre los elementos */
-}
-
-/* Estilo del texto */
-.experiencias-text {
-  text-align: right;
-  color: var(--color-primario);
-  line-height: 0.5vw; /* Relativo al ancho de la ventana */
-}
-
-
-
-
-
-
-

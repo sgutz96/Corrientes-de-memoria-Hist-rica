@@ -1,0 +1,159 @@
+.experiencias-text {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.7rem; /* 20px */
+    text-align: center;
+}
+
+.experiencias-title-primary,
+.experiencias-title-secondary {
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+/* Colores específicos para cada parte del título */
+.experiencias-title-primary {
+    color: var(--color1);
+}
+
+.experiencias-title-secondary {
+    color: var(--color2);
+}
+
+
+/* Estilo del contenedor principal */
+.Productos {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;  /* Centramos el contenedor */
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   /* align-items: flex-start;*/
+    gap: 1rem;  /* Espacio entre las tarjetas */
+    width: 100%;
+    /*max-width: 75rem;  / 1200px */
+   /* margin: 0 auto;*/
+    padding: 2rem;
+    box-sizing: border-box;
+    /*height: auto;*/
+}
+
+.Productos p, .Productos h6{
+    color: white;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    position: relative;
+    width: 100%;  /* En móviles, las tarjetas ocupan toda la pantalla */
+    height: 20vh;  /* Altura fija para las tarjetas en móviles */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.0rem;
+    overflow: hidden;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+    opacity: 0.8;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* Degradado oscuro para mejorar legibilidad */
+        url('path-to-your-image.jpg'); /* La URL de tu imagen de fondo */
+   /* filter: grayscale(100%); /* Aplicar filtro de escala de grises */
+
+}
+
+/* Efecto al hacer hover en las tarjetas */
+.card:hover {
+    transform: scale(1.05);  /* Aumenta el tamaño ligeramente */
+    opacity: 1;
+    z-index: 5;
+}
+
+/* Estilo para las tarjetas que no están en hover */
+.card:not(:hover) {
+    opacity: 0.7;
+}
+
+/* Contenedor de texto dentro de la tarjeta */
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+    filter: grayscale(90%);
+}
+
+/* Estilo del título dentro de la tarjeta */
+.title {
+    margin-bottom: 0.625rem;
+}
+
+/* Estilo de la descripción dentro de la tarjeta */
+.experienciasdescription {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+    transition: opacity 0.4s ease-out;
+}
+
+/* Mostrar la descripción solo en hover */
+.card:hover .experienciasdescription {
+    opacity: 1;
+    display: flex;
+    visibility: visible;
+}
+
+/* Estilos para pantallas con un ancho mínimo de 768px (tabletas y pantallas medianas) */
+@media screen and (min-width: 768px) {
+    .Productos {
+        gap: 1.5rem;  /* Aumentar el espacio entre tarjetas */
+        height: auto; /* Ajustar la altura al contenido */
+    }
+
+    .card {
+        width: calc(50% - 1rem); /* Ocupa el 50% del contenedor en tabletas */
+        max-width: calc(50% - 1rem);
+        height: 30vh;  /* Aumento de altura en pantallas medianas */        
+        margin: auto; 
+    }
+}
+
+/* Estilos para pantallas con un ancho mínimo de 1024px (pantallas grandes de escritorio) */
+@media screen and (min-width: 1024px) {
+    .Productos {
+        gap: 0rem;  /* Mantener espacio entre tarjetas */
+        height: auto;
+        margin: 0;
+        padding: 0;
+
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;  
+    }
+
+    .card {
+        width: calc(20% - .0rem);  /* 3 tarjetas por fila en pantallas grandes */
+        height: 80vh;  /* Altura fija de las tarjetas */
+        margin: 5vh auto; 
+    }
+}
+
+
+
+.experiencias h2{
+    background-image: url(../Assets/IMG/BGSubT.png);
+    /*background-size: 150%;*/
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */   
+  }

@@ -1,0 +1,94 @@
+/* Estilos generales para móviles como base */
+.separator {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    height: 0vh;
+    /* Altura ajustada en móviles */
+    width: 100%;
+}
+
+.separator-image {
+    width: 100%;
+    /* Ancho completo */
+    position: absolute;
+    z-index: 25;
+    /* Asegúrate de que las imágenes estén por encima */
+    display: flex;
+    /* Centra las imágenes dentro */
+    justify-content: center;
+    /* Centra las imágenes horizontalmente */
+    align-items: center;
+    /* Centra las imágenes verticalmente */
+}
+
+.separator-image img {
+    width: 100%;
+    /* Para imágenes más grandes en móviles */
+    height: auto;
+    /* Mantener la relación de aspecto */
+    /*max-width: 100%;         /* Asegura que las imágenes no se estiren más allá de su tamaño */
+    object-fit: cover;
+    /* Hace que las imágenes cubran el espacio sin deformarse */
+}
+
+/* Colores de fondo de los bloques */
+.color1 {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.color2 {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.color3 {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.color4 {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.separator {
+    height: 15vh;
+    /* Altura ajustada para escritorios */
+    z-index: 5;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Estilos específicos para tabletas */
+    .separator-image img {
+        width: 200%;
+    }
+
+    .separator {
+        z-index: 25;
+        object-fit: cover;
+        /* Asegúrate de que las imágenes estén por encima */
+    }
+    .separator {
+        overflow: clip visible ;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* Estilos específicos para móviles */
+    .separator-image img {
+        width: 300%;
+    }
+    .separator {
+        object-fit: cover;
+        z-index: 25;
+    }
+
+    .separator {
+        overflow: clip visible ;
+    }   
+}

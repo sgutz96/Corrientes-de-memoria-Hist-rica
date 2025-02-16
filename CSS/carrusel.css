@@ -1,0 +1,111 @@
+.carousel-container {
+    width: 70%; 
+    margin: 0 auto; 
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0; 
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+   
+}
+
+.carousel-item {
+    flex: 0 0 33.33%;  /* 3 ítems visibles a la vez */
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; 
+    transition: transform 0.3s ease;
+    filter: drop-shadow(5px 5px 0.5px rgba(0, 0, 0, 0.5));
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05); 
+}
+
+.carousel-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.carousel-item:hover .carousel-info {
+    opacity: 1;
+}
+
+.carousel-info p {
+    font-size: 14px; 
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+/*para las flechaas*/
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control-left {
+    left: 0;
+}
+
+.carousel-control-right {
+    right: 0;
+}
+
+
+.equipo h2{
+    background-image: url(../Assets/IMG/BGSubT.png);
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */   
+  }
+
+  
+@media (max-width: 1024px) {
+    .carousel-item {
+        flex: 1 0 50%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        flex: 1 0 100%; 
+    }
+    
+    .carousel-control {
+        padding: 5px; 
+    }
+    
+    .carousel-info p {
+        font-size: 12px; /* Reduce el tamaño del texto en móviles */
+    }
+}

@@ -1,128 +1,286 @@
-/* Definición de Variables CSS */
-:root {
-    --color-hover: #ddd;
-    --color-text-light: #f2f2f2;
-    --color-text-dark: #000;
-    --color-bg-dark: rgba(0, 0, 0, 0.8);
-    --color-bg-light: #fff;
-    --box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.5);
-    --font-size-base: 1rem; /* 17px */
-    --font-size-large: 1.5rem; /* 24px */
-    --padding-small: 0.875rem; /* 14px */
-    --padding-medium: 1rem; /* 16px */
-    --padding-large: 1.25rem; /* 20px */
-    --border-radius: 0.3125rem; /* 5px */
+header {
+  background-color: var(--color1);
+  padding: 3px 3vw;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilo del Menú de Navegación */
-.topnav {
-    overflow: hidden;
-    background-color: var(--color-primario);
-    display: flex;
-    align-items: center;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5vh 5vw;
+}
+
+.menu-left {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-left img.logo {
+  height: 40px;
+  margin: 4px;
+  width: auto;
+}
+
+.menu-center,
+.menu-right {
+  display: flex;
+}
+.menu-right{
+  display: flex;
+  flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 20;
-}
-
-.topnav img {
-    height: 2.5rem;
-    margin-left: 0;
-}
-
-.topnav .menu {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-}
-
-.topnav a {
-    display: block;
-    color: var(--color-text-light);
-    text-align: center;
-    padding: var(--padding-small) var(--padding-medium);
-    text-decoration: none;
-    font-size: var(--font-size-base);
-}
-
-.topnav a:hover {
-    background-color: var(--color-hover);
-    color: var(--color-text-dark);
-}
-
-.topnav .icon {
-    display: none;
-}
-
-@media screen and (max-width: 768px) {
-    .topnav .menu {
-        display: none;
-    }
-    .topnav a.icon {
-        display: block;
-        margin-right: var(--padding-medium);
-        color: var(--color-text-light);
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .topnav .menu {
-        justify-content: flex-end;
-    }
-}
-
-/* Estilo del Menú Móvil */
-.mobile-menu {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--color-bg-dark);
-    justify-content: center;
     align-items: center;
-    z-index: 10;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    gap: 1vw;
+
+}
+.menu-center ul,
+.menu-right ul {
+  list-style: none;
+  display: flex;
 }
 
-.mobile-menu-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    background: var(--color-bg-light);
-    background-image: url("/IMG/BG_MenuPopUP.png");
-    border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow);
-    width: 70%;
+.menu-center ul li,
+.menu-right ul li {
+  margin: 0 0px;
 }
 
-.mobile-menu-list li {
-    padding: var(--padding-small);
-    text-align: center;
+.menu-center ul li a {
+  color: #e9d3ab;
+  text-decoration: none;
+  font-family: 'HTOWERT';
+  font-size: 14px;
+  padding: 5px 10px;
 }
 
-.mobile-menu-list li a {
-    color: var(--color-text-dark);
-    text-decoration: none;
+
+
+
+.menu-center ul li:not(:last-child) {
+  border-right: 1px solid #e9d3ab; /* Línea de separación entre los elementos */
 }
 
-.mobile-menu .close-btn {
-    position: absolute;
-    top: var(--padding-large);
-    right: var(--padding-large);
-    color: var(--color-text-light);
-    font-size: var(--font-size-large);
-    cursor: pointer;
+
+
+
+
+.menu-right ul li a {
+  color: #e9d3ab;
+  text-decoration: none;
+  font-family: 'HTOWERT';
+  font-size: 16px;
+  padding: 5px 5px;
 }
 
-.show {
+.menu-center ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu-right ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu-right > div:not(:last-child) {
+  border-right: 1px solid #e9d3ab; /* Línea de separación */
+  padding-right: 20px; /* Espacio entre la línea y los elementos */
+}
+
+
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .menu-center,
+  .menu-right {
+    display: none;
+  }
+
+  .menu-toggle {
     display: flex;
-    opacity: 1;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+
+  .menu-center,
+  .menu-right {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
 }
 
 
 
 
+.idiomas ul li img,
+.redes ul li img {
+  border-radius: 50%;
+  /* Hace que las imágenes sean círculos */
+  filter: grayscale(60%);
+
+
+}
+
+/* Estilos para las imágenes de las redes sociales */
+.menu-right .redes ul li a img {
+  filter: brightness(0) invert(1);
+  /* Cambia los íconos SVG a blanco */
+}
+
+.idiomas ul li img:hover {
+  border-radius: 50%;
+  /* Hace que las imágenes sean círculos */
+  filter: grayscale(0%);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo del Popup */
+.mobile-menupopup {
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Estilo del contenido del Popup */
+.mobile-menupopup-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+  background-image: url('../Assets/IMG/ContextoInfoBG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px; /* Borde redondeado más suave */
+  position: relative;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinea el contenido al inicio */
+  align-items: center;
+}
+
+/* Estilo de la lista de menús */
+.menu-list-mobile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center; /* Alinea los elementos centrados */
+}
+
+.menu-list-mobile ul li {
+  margin-bottom: 20px;
+}
+
+.menu-list-mobile ul li a {
+  font-size: 22px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-list-mobile ul li a:hover {
+  background-color: #f39c12; /* Cambia el fondo al pasar el ratón */
+  color: #fff; /* Cambia el color del texto */
+}
+
+/* Estilo para el botón de cerrar */
+#close-mobile-menubtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo de las redes sociales */
+.menu-right-mobile .redes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.menu-right-mobile .redes ul li a img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilo de los idiomas */
+.menu-right-mobile .idiomas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.menu-right-mobile .idiomas ul li a img {
+  width: 24px;
+  height: 24px;
+}

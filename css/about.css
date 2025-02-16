@@ -1,124 +1,504 @@
-/* Definir Variables CSS */
-:root {
-    --about-bg-image: url("../Assets/IMG/About_IMG.png");   /* Ruta de la imagen de fondo */
-    --about-bg-color: rgba(113, 0, 11, 0);                   /* Fondo transparente */
-    --about-bg-color-tablet: rgba(219, 52, 69, 0.0);         /* Fondo semitransparente para pantallas medianas */
-    --about-bg-color-desktop: rgba(219, 52, 69, 0.0);        /* Fondo semitransparente para escritorios */
-    --about-margin-mobile: 30vw;                              /* Margen superior para móviles */
-    --about-margin-tablet: 20vw;                              /* Margen superior para pantallas medianas */
-    --about-margin-desktop: 10vw;                             /* Margen superior para pantallas grandes */
-    --about-padding-mobile: 5rem;                             /* Padding para móviles */
-    --about-padding-tablet: 4rem;                             /* Padding para pantallas medianas */
-    --about-padding-desktop: 3rem;                            /* Padding para pantallas grandes */
-}
-
-/* Estilos generales (base para móvil) */
-.about {
-    background-image: var(--about-bg-image);
-    background-position: center;
-    background-size: cover; /* Asegura que la imagen cubra todo el área */
-    height: auto;
-    margin-top: var(--about-margin-mobile); /* Margen superior para móviles */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 0;
-}
-
-.about-content {
-    margin: 0; /* Sin margen extra */
-    padding: var(--about-padding-mobile); /* Padding para móvil */
-    background-color: var(--about-bg-color); /* Fondo transparente */
-    color: white;
-    text-align: center; /* Centrado en móviles */
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los elementos se apilen */
-    gap: 2%; /* Espacio entre elementos */
-    border-radius: 0.5em; /* Bordes redondeados */
-}
-
-.about-text {
-    flex: 1 1 100%; /* Ocupa el 100% en móviles */
+h2 {
     text-align: center;
-    text-justify: inter-word; /* Justificar el texto */
-    padding: 2rem; /* Padding ajustado */
+    margin-top: 20px;
 }
 
-.about-text button {
-    padding: 0.5em 1em;
-    font-size: 1em;
-    background-color: #007bff;
+.Aboutcontextosection {
+    margin-top: 35vh;
+    margin-bottom: 20vh;
+    padding: 0 10vw;
+    /* Establece un margen lateral de 10vw */
+}
+
+.Aboutcontextosection h2 {
+    background-image: url(../Assets/IMG/BGSubT002.png);
+    background-position: center;
+    /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+.Aboutcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Aboutleft-section,
+.Aboutright-section {
+    flex: 1;
+    /* Ambas columnas ocupan el mismo ancho */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Aboutleft-section {
+    padding: 20px;
+    /* Asegura que haya espacio entre el texto y la imagen */
+    background-image: url(../Assets/IMG/ContextoInfoBG.png);
+    border-radius: 2%;
+    filter: drop-shadow(10px 10px 5px gray);
+}
+
+.Aboutleft-section p {
+    text-align: justify
+}
+
+.Aboutright-section {
+    padding-left: 20px;
+}
+
+.Aboutright-section img {
+    width: 100%;
+    /* La imagen ocupará todo el ancho disponible */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    max-width: 100%;
+    /* La imagen no se sale del contenedor */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: var(--color1);
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 0.3em;
+    align-self: flex-start;
+    font-size: 0.7rem;
 }
 
-.about-image {
-    flex: 1 1 100%; /* Ocupa el 100% en móviles */
+button:hover {
+    background-color: #508066;
+}
+
+/* Estilo del popup */
+.Aboutpopup {
+    visibility: hidden;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.Aboutpopup-content {
+    background-image: url("../Assets/IMG/ContextoInfoBG.png");
+    border-radius: 50px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    position: relative;
+    text-align: justify;
+}
+
+.Aboutpopup-content img {
+    display: block;
+    object-fit: cover;
+}
+
+.center-text {
     text-align: center;
-    display: none; /* Ocultar imagen en móviles */
 }
 
-.about-image img {
+.AboutPopUPConte {
+    
+    margin: 5%;
+    padding: 0%;
+    text-align: justify;
+}
+
+.popupimg {
+    width: 100%;
+    max-width: 100%;
+    height: 30%;
+}
+
+.Aboutclose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Aboutclose:hover {
+    color: rgb(149, 9, 9);
+}
+
+.Aboutcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Aboutleft-section,
+.Aboutright-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Aboutleft-section {
+    flex: 0 0 40%;
+    /* La imagen ocupa el 60% */
+    padding: 3vw;
+    background-image: url(../Assets/IMG/ContextoInfoBG.png);
+    border-radius: 2%;
+    background-size: cover;
+    /* Asegura que la imagen cubra el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+
+}
+
+.Aboutleft-section p {
+    text-align: justify;
+}
+
+.Aboutright-section {
+    flex: 0 0 55%;
+    /* El contenido ocupa el 30% */
+    padding-left: 20px;
+}
+
+.Aboutright-section img {
     width: 100%;
     height: auto;
-    border-radius: 0.5em;
+    max-width: 100%;
 }
 
-/* Estilos para pantallas con un ancho mínimo de 768px (tabletas y pantallas medianas) */
-@media screen and (min-width: 768px) {
-    .about {
-        margin-top: var(--about-margin-tablet); /* Reducir el margen superior en pantallas medianas */
-        background-image: none;
-    }
-
-    .about-content {
-        padding: var(--about-padding-tablet); /* Padding para pantallas medianas */
-        background-color: var(--about-bg-color-tablet); /* Fondo semitransparente para tabletas */
-    }
-
-    .about-text {
-        flex: 1 1 40%; /* Ocupa el 40% en pantallas medianas */
-        text-align: left; /* Alinear texto a la izquierda */
-    }
-
-    .about-image {
-        flex: 1 1 40%; /* Ocupa el 40% en pantallas medianas */
-        display: block; /* Mostrar la imagen en pantallas medianas */
-    }
+.Aboutleft-section button {
+    padding: 10px 15px;
+    background-color: var(--color1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 0.7rem;
 }
 
-/* Estilos para pantallas con un ancho mínimo de 1024px (pantallas grandes de escritorio) */
-@media screen and (min-width: 1024px) {
-    .about {
-        margin-top: var(--about-margin-desktop); /* Reducir aún más el margen superior en pantallas grandes */
-        background-image: none;
+button:hover {
+    background-color: #508066;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Estilos específicos para tabletas */
+    /* Estilos específicos para móviles */
+    .Aboutleft-section {
+        background-image: url(../Assets/IMG/Teaser-mask-gris.png);
+
+        flex: 0 0 100%;
+        /* La imagen ocupa el 60% */
+        text-align: center;
+
     }
 
-    .about-content {
-        padding: var(--about-padding-desktop); /* Aumentar el padding en pantallas grandes */
-        background-color: var(--about-bg-color-desktop); /* Fondo semitransparente para escritorios */
-        
+    .Aboutright-section {
+        visibility: hidden;
+        display: none;
     }
 
-    .about-text {
-        flex: 1 1 10%; /* Ocupa el 45% en pantallas grandes */
-        text-align: left; /* Alineación a la izquierda */
-        background-image: url("../Assets/marco 580x509.png");
+    .Aboutleft-section button {
+        align-self: center;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* Estilos específicos para móviles */
+    .Aboutleft-section {
+        background-image: url(../Assets/IMG/Teaser-mask-gris.png);
+
+        flex: 0 0 100%;
+        /* La imagen ocupa el 60% */
+        text-align: center;
+
+    }
+
+    .Aboutright-section {
+        visibility: hidden;
+        display: none;
+    }
+
+    .Aboutleft-section button {
+        align-self: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.Aboutcontextosection {
+    margin-top: 35vh;
+    margin-bottom: 20vh;
+    padding: 0 10vw;
+    /* Establece un margen lateral de 10vw */
+
+}
+
+.Aboutcontextosection h2 {
+
+    background-image: url(../Assets/IMG/BGSubT002.png);
+    background-position: center;
+    /* Centra la imagen de fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+.Aboutcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Aboutleft-section,
+.Aboutright-section {
+    flex: 1;
+    /* Ambas columnas ocupan el mismo ancho */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Aboutleft-section {
+    padding: 20px;
+    /* Asegura que haya espacio entre el texto y la imagen */
+    background-image: url(../Assets/IMG/About/Fondo_cafe_oscuro.png);
+    border-radius: 2%;
+
+}
+
+.Aboutleft-section p {
+
+    text-align: justify
+}
+
+.Aboutright-section {
+    padding-left: 20px;
+}
+
+.Aboutright-section img {
+    width: 100%;
+    /* La imagen ocupará todo el ancho disponible */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    max-width: 100%;
+    /* La imagen no se sale del contenedor */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: var(--color1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 0.7rem;
+}
+
+button:hover {
+    background-color: #508066;
+}
+
+/* Estilo del popup */
+.Aboutpopup {
+    visibility: hidden;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aboutpopup-content {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    position: relative;
+    text-align: justify;
+}
+
+.Aboutclose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Aboutclose:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+.Aboutcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Aboutleft-section,
+.Aboutright-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Aboutleft-section {
+    flex: 0 0 40%;
+    /* La imagen ocupa el 60% */
+    padding: 3vw;
+    background-image: url(../Assets/IMG/About/contenBulletAbout_1.png);
+    border-radius: 2%;
+    background-size: cover;
+    /* Asegura que la imagen cubra el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+    background-size: 100% 100%;
+    /* Estira la imagen para que cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+
+
+.Aboutleft-section p {
+    text-align: justify;
+}
+
+.Aboutright-section {
+    flex: 0 0 55%;
+    /* El contenido ocupa el 30% */
+    padding-left: 20px;
+}
+
+.Aboutright-section img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.Aboutleft-section button {
+    padding: 10px 15px;
+    background-color: var(--color1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 0.7rem;
+}
+
+button:hover {
+    background-color: #508066;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* Estilos específicos para tabletas */
+    /* Estilos específicos para móviles */
+    .Aboutleft-section {
+        background-image: url(../Assets/IMG/About/bgBomtenHistory.png);
+        background-size: 100% 100%;
+        /* Estira la imagen para que cubra todo el contenedor */
         background-position: center;
-        background-size: cover; /* Asegura que la imagen cubra todo el área */
+        /* Centra la imagen */
+        background-repeat: no-repeat;
+        /* Evita que la imagen se repita */
+        flex: 0 0 100%;
+        /* La imagen ocupa el 60% */
+        text-align: center;
+        padding-bottom: 10vh;
+
     }
 
-    .about-image {
-        flex: 1 1 45%; /* Ocupa el 45% en pantallas grandes */
-        display: block; /* Mostrar la imagen en pantallas grandes */
+    .Aboutright-section {
+        visibility: hidden;
+        display: none;
     }
+
+    .Aboutleft-section button {
+        align-self: center;
+    }
+
 }
 
+@media only screen and (max-width: 767px) {
 
+    /* Estilos específicos para móviles */
+    .Aboutleft-section {
+        background-image: url(../Assets/IMG/About/bgBomtenHistory.png);
+        background-size: 100% 100%;
+        /* Estira la imagen para que cubra todo el contenedor */
+        background-position: center;
+        /* Centra la imagen */
+        background-repeat: no-repeat;
+        /* Evita que la imagen se repita */
+        flex: 0 0 100%;
+        /* La imagen ocupa el 60% */
+        text-align: center;
+        padding-bottom: 10vh;
 
+    }
 
+    .Aboutright-section {
+        visibility: hidden;
+        display: none;
+    }
+
+    .Aboutleft-section button {
+        align-self: center;
+    }
+
+}
