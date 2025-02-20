@@ -90,5 +90,9 @@
       justify-content: center; /* Alineación vertical hacia la parte superior */
       align-items: center; /* Alineación horizontal a la izquierda */
       
+      border-top-left-radius: 0; 
+      border-top-right-radius: 0; 
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0; 
     }
 }
