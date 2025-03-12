@@ -12,7 +12,7 @@
 
 /* Definir las variables de color en :root */
 :root {
-  --color1: #304c3d;  /* Azul */
+  --color1: #304c3d  ;  /* Azul */
   --color2: #252525;  /* Rojo */
   --color3: #2ecc71;  /* Verde */
   --color4: #252525;  /* Amarillo */
