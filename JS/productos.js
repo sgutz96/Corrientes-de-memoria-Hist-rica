@@ -9,7 +9,7 @@ document.querySelectorAll(".card").forEach(card => {
             a.click();
             document.body.removeChild(a);
         } else {
-            alert("No hay un archivo APK disponible para esta tarjeta.");
+            alert("No hay un archivo disponible para descargar");
         }
     });
 });
