@@ -21,7 +21,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: rgb(76, 0, 255);
+    background-color: rgba(76, 0, 255, 0);
     z-index: 5;
     display: flex;
     align-items: center;

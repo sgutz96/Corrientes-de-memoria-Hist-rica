@@ -23,8 +23,8 @@ function mostrarAlerta(circuloId) {
         break;
         case 2:
             //alert("Has hecho clic en el círculo número " + circuloId);
-            nombre = "Arturo Suleta CO708_1 "
-            rango = "rango2"
+            nombre = "Arturo Suleta"
+            rango = "Poblador"
             text = "De esta región es el eje, créeme que ellos pues la fuente de trabajo, pues cuando ha habido coca, pues la vaina de la gente con su coca, o su oro, pero es el ...";
 
             // Cambiar la fuente del video
