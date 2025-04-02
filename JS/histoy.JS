@@ -208,6 +208,7 @@ function setElementAbsoluteLeft(element) {
     element.style.left = `${interpolacionX}vw`;
   }
 }
+/*
 function setElementAbsoluterotate(element) {
   // Obtener la posición del scroll vertical
   const scrollPosition = window.scrollY;
@@ -259,6 +260,86 @@ function setElementAbsoluterotate(element) {
     element.style.transform = `rotate(${angleInDegrees}deg)`;
   }
 }
+*/
+let previousAngle = null;  // Variable para guardar el último ángulo rotado
+
+function setElementAbsoluterotate(element) {
+  // Obtener la posición del scroll vertical
+  const scrollPosition = window.scrollY;
+  const mitadViewport = window.innerHeight / 2;
+  const mitadViewport2 = mitadViewport + scrollPosition;
+
+  // Buscar el punto rojo más cercano arriba y abajo al punto azul
+  let puntoRojoAnterior = null;
+  let puntoRojoSiguiente = null;
+
+  for (let i = 0; i < puntosRojosElements.length; i++) {
+    const rect = puntosRojosElements[i].getBoundingClientRect();
+    const puntoRojoY = rect.top + scrollPosition;
+
+    // Verificamos si el punto azul está entre el punto rojo anterior y el siguiente
+    if (puntoRojoY <= mitadViewport2 && (i === puntosRojosElements.length - 1 || puntosRojosElements[i + 1].getBoundingClientRect().top + scrollPosition >= mitadViewport2)) {
+      puntoRojoAnterior = puntosRojosElements[i];
+      puntoRojoSiguiente = puntosRojosElements[i + 1] || puntosRojosElements[i];
+      break;
+    }
+  }
+
+  // Si encontramos un siguiente punto rojo
+  if (puntoRojoSiguiente) {
+    const rectPuntoAzul = element.getBoundingClientRect();
+    const rectPuntoSiguiente = puntoRojoSiguiente.getBoundingClientRect();
+
+    // Calcular las coordenadas absolutas de ambos puntos
+    const puntoAzulX = rectPuntoAzul.left + window.scrollX;
+    const puntoAzulY = rectPuntoAzul.top + window.scrollY;
+
+    const puntoSiguienteX = rectPuntoSiguiente.left + window.scrollX;
+    const puntoSiguienteY = rectPuntoSiguiente.top + window.scrollY;
+
+    // Calcular la diferencia entre las posiciones X y Y de ambos puntos
+    const deltaX = puntoSiguienteX - puntoAzulX;
+    const deltaY = puntoSiguienteY - puntoAzulY;
+
+    // Calcular el ángulo en radianes entre los dos puntos
+    const angle = Math.atan2(deltaY, deltaX) + (Math.PI) / 2;  // En radianes
+
+    // Convertir de radianes a grados
+    let angleInDegrees = angle * (180 / Math.PI);
+
+    // Restringir el ángulo al rango de -180 a 180 grados para evitar rotaciones innecesarias
+    if (angleInDegrees > 180) {
+      angleInDegrees -= 360;
+    } else if (angleInDegrees < -180) {
+      angleInDegrees += 360;
+    }
+
+    // Si es la primera vez o la diferencia de ángulo es pequeña, actualizamos la rotación suavemente
+    if (previousAngle === null) {
+      previousAngle = angleInDegrees;
+    }
+
+    // Calcular la diferencia entre el ángulo actual y el anterior
+    let angleDifference = angleInDegrees - previousAngle;
+
+    // Asegurarnos de que la diferencia de ángulo sea la más pequeña posible (sin rotar de 360°)
+    if (angleDifference > 180) {
+      angleDifference -= 360;
+    } else if (angleDifference < -180) {
+      angleDifference += 360;
+    }
+
+    // Llamar a la función de transición suave
+    const smoothAngle = previousAngle + angleDifference * 0.1; // Controlamos la velocidad de rotación (0.1 es el factor de suavizado)
+
+    // Aplicar la rotación al elemento (la imagen) para que apunte hacia el siguiente punto
+    element.style.transform = `rotate(${smoothAngle}deg)`;
+
+    // Actualizar el ángulo previo
+    previousAngle = smoothAngle;
+  }
+}
+
 
 function ChangeText() {
   var ImgPutumayoLink = "./Assets/IMG/Hitoria/historias/his-"
