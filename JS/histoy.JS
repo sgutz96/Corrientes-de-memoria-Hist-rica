@@ -343,12 +343,14 @@ function setElementAbsoluterotate(element) {
 
 
 function ChangeText() {
-  var ImgPutumayoLink = "./Assets/IMG/Hitoria/historias/his-"
+  var ImgPutumayoLink = "./Assets/IMG/Hitoria/historias/IMG/his-"
   switch (NumHistory) {
     case 0:
       document.getElementById("").innerHTML = ""
       break;
     case 1:
+      document.getElementById("asd").style.display = "block";
+      document.getElementById("HistoryDerechos").innerHTML = "Imperio conocido como Casa Arana, que explotó el caucho en el Amazonas. Fuente: Libro La Fuerza Naval del Sur en la Amazonía colombiana, 2017."
       document.getElementById("Titulocaqueta").innerHTML = "Casa Arana: La rebelión por el caucho (1904-1907)"
       document.getElementById("Textcaqueta").innerHTML = "La Casa Arana cuenta con una estructura colonial con características típicas de la arquitectura adaptada a la región amazónica, en donde predominan el uso de materiales..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Casa Arana: La rebelión por el caucho (1904-1907) "
@@ -356,6 +358,9 @@ function ChangeText() {
       document.getElementById("asd").src= ImgPutumayoLink + NumHistory + ".webp"
       break;
     case 2:
+      document.getElementById("asd").style.display = "block";
+      document.getElementById("HistoryDerechos").innerHTML = "Archivo fotográfico del ICANH. Fuente: https://colecciones.icanh.gov.co/articulos/expeEtnologica.php#undefined – Expedición Etnológica a la Intendencia del Putumayo (1945-1946)."
+
       document.getElementById("Titulocaqueta").innerHTML = "Creación de la Intendencia del Putumayo (1905)"
       document.getElementById("Textcaqueta").innerHTML = "La reorganización territorial de 1905, bajo la presidencia de Rafael Reyes Prieto, buscaba debilitar las grandes unidades territoriales y frenar los intentos separatistas..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia del Putumayo (1905)"
@@ -364,6 +369,10 @@ function ChangeText() {
             document.getElementById("asd").src= ImgPutumayoLink + NumHistory + ".webp"
       break;
     case 3:
+      document.getElementById("asd").style.display = "block";
+      document.getElementById("HistoryDerechos").innerHTML = "Formación Flotilla de Guerra del Putumayo. Fuente: Pañol de la Historia, “El Combate de Güepí, y los cañoneros Cartagena y Santa Marta”, Por: Capitán de Navío Carlos A. Prieto Ávila – Cyber-corredera, Página web: https://www.cyber-corredera.de/panoles/Panol-48.htm."
+
+
       document.getElementById("Titulocaqueta").innerHTML = "Flotilla de Guerra del Putumayo (1931)"
       document.getElementById("Textcaqueta").innerHTML = "La Flotilla de Guerra del Putumayo fue creada en 1931 mediante el Decreto 1507 del 31 de agosto de ese año..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Flotilla de Guerra del Putumayo (1931)"
@@ -371,6 +380,10 @@ function ChangeText() {
            document.getElementById("asd").src= ImgPutumayoLink + NumHistory + ".webp"
       break;
     case 4:
+      document.getElementById("asd").style.display = "block";
+      document.getElementById("HistoryDerechos").innerHTML = "Puesto Avanzado de Monclart. Fuente: Libro La Infantería de Marina en la Historia de Colombia, 2021."
+
+
       document.getElementById("Titulocaqueta").innerHTML = "Creación del Puesto Fluvial Avanzado Monclart (1933)"
       document.getElementById("Textcaqueta").innerHTML = "El 20 de enero de 1933, después del conflicto con el Perú fue creado el Puesto Fluvial Avanzado de Monclart, unidad que se entregó en forma oficial a la Armada de Colombia..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del Puesto Fluvial Avanzado Monclart (1933)"
@@ -378,6 +391,9 @@ function ChangeText() {
             document.getElementById("asd").src= ImgPutumayoLink + NumHistory + ".webp"
       break;
     case 5:
+      document.getElementById("asd").style.display = "block";
+            document.getElementById("HistoryDerechos").innerHTML = "Botes de la Flotilla “Avispa”. Fuente: Libro La Infantería de Marina en la Historia de Colombia, 2021."
+
       document.getElementById("Titulocaqueta").innerHTML = "La Flotilla Avispa (1956)"
       document.getElementById("Textcaqueta").innerHTML = "En septiembre de 1956, por iniciativa del señor Capitán de Infantería de Marina Aurelio Castrillón Muñoz y el Teniente de Fragata Rafael Grau Araujo, quienes prestaban..."
       document.getElementById("TituloPopAmazonas").innerHTML = "La Flotilla Avispa (1956)"
@@ -386,6 +402,9 @@ function ChangeText() {
             document.getElementById("asd").src= ImgPutumayoLink + NumHistory + ".webp"
       break;
     case 6:
+      document.getElementById("asd").style.display = "block";
+            document.getElementById("HistoryDerechos").innerHTML = "ARC Cartagena. Fuente: Libro La Infantería de Marina en la Historia de Colombia, 2021)."
+
       document.getElementById("TituloPutumayo").innerHTML = "Conflicto Colombo – Peruano, conocido como Conflicto de Leticia (1932-1933 )"
       document.getElementById("TextPutumayo").innerHTML = "En el año 1932, con los vaivenes de la política en los países latinoamericanos, sobrevino el conflicto de Colombia con el Perú. A comienzos de septiembre un grupo de civiles..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Conflicto Colombo – Peruano, conocido como Conflicto de Leticia (1932-1933 )"
@@ -394,6 +413,9 @@ function ChangeText() {
             document.getElementById("asd").src= ImgPutumayoLink + NumHistory + ".webp"
       break;
     case 7:
+      document.getElementById("asd").style.display = "block";
+            document.getElementById("HistoryDerechos").innerHTML = "Desplazamiento de tropas para el Combate de Guëpí. Fuente: https://www.cyber-corredera.de/panoles/Panol-48.htm"
+
       document.getElementById("TituloPutumayo").innerHTML = "Batalla de Guëpí (1932-1933)"
       document.getElementById("TextcaquetaPutumayo").innerHTML = "La Batalla de Guëpí fue un enfrentamiento clave durante la Guerra Colombo – Peruana ocurrido el 26 de marzo de 1933, el cual se desarrolló en el contexto de la disputa..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Batalla de Guëpí (1932-1933)"
@@ -401,6 +423,9 @@ function ChangeText() {
       document.getElementById("asd").src= ImgPutumayoLink + NumHistory.toString() + "1.png"
       break;
     case 8:
+      document.getElementById("asd").style.display = "block";
+            document.getElementById("HistoryDerechos").innerHTML = "Escuadrilla aérea colombiana, Batalla de Tarapacá. Fuente: https://www.fac.mil.co/es/noticias/batalla-de-tarapaca-hecho-historico-que-marco-la-historia-de-la-aviacion-militar-en - Artículo: Batalla de Tarapacá, hecho histórico que marcó la historia de la aviación militar en Colombia."
+
       document.getElementById("TituloPutumayo").innerHTML = "La Batalla de Tarapacá (1933)"
       document.getElementById("TextPutumayo").innerHTML = "La Batalla de Tarapacá, también conocido como el Combate de Nuevo Tarapacá o la defensa del Bajo Putumayo, fue un enfrentamiento militar ocurrido el 14 de febrero de 1933 durante..."
       document.getElementById("TituloPopAmazonas").innerHTML = "La Batalla de Tarapacá (1933)"
@@ -408,30 +433,45 @@ function ChangeText() {
       document.getElementById("asd").src= ImgPutumayoLink + NumHistory.toString() + "2.png"
       break;
     case 9:
+      document.getElementById("asd").style.display = "block";
+            document.getElementById("HistoryDerechos").innerHTML = "Estampilla que conmemora la Intendencia del Amazonas, Archivo Banco de la República de Colombia. Fuente: https://sinchi.org.co/galeria-de-fotos"
+
       document.getElementById("TituloPutumayo").innerHTML = "Creación de la Intendencia Nacional del Amazonas (1951)"
       document.getElementById("TextPutumayo").innerHTML = "La Intendencia Nacional del Amazonas fue establecida mediante el Decreto Ley 963 de fecha 14 de marzo de 1951, esta medida reforzó la presencia de la Armada de Colombia, fortaleció..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia Nacional del Amazonas (1951)"
       document.getElementById("TextPopAmazonas").innerHTML = "La Intendencia Nacional del Amazonas fue establecida mediante el Decreto Ley 963 de fecha 14 de marzo de 1951, esta medida reforzó la presencia de la Armada de Colombia, fortaleció la infraestructura naval y reafirmó el dominio colombiano sobre el territorio amazónico. La Intendencia del Amazonas había sido previamente una entidad territorial creada en 1931 para consolidar la soberanía colombiana en la región tras los conflictos con Perú y Brasil. La creación de la Intendencia Nacional del Amazonas formó parte de un esfuerzo más amplío por parte del gobierno colombiano para fortalecer su control sobre la región amazónica, la cual había sido objeto de disputas territoriales con Perú y Brasil. La región del Amazonas, conocida como el “Trapecio Amazónico”, es una zona estratégica debido a su riqueza en recursos naturales junto con su posición geográfica. El establecimiento de la Intendencia Nacional del Amazonas permitió una mayor presencia militar y naval en la región, facilitando la protección de las fronteras y la navegación fluvial, fortaleciendo la lucha contra el narcotráfico y sus delitos conexos transnacionales."  
       break;
     case 10:
+      document.getElementById("asd").style.display = "block";
+            document.getElementById("HistoryDerechos").innerHTML = "Tropas peruanas marchan hacia La Pedrera. Fuente: Libro La Fuerza Naval del Sur en la Amazonía colombiana, 2017)."
+
       document.getElementById("TituloPutumayo").innerHTML = "Conflicto en La Pedrera (1911)"
       document.getElementById("TextPutumayo").innerHTML = "“El conflicto de La Pedrera fue un enfrentamiento armado entre Colombia y Perú que tuvo lugar en el año 1911 en el Puesto Fronterizo de La Pedrera, una pequeña localidad ubicada a..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Conflicto en La Pedrera (1911)"
       document.getElementById("TextPopAmazonas").innerHTML = "“El conflicto de La Pedrera fue un enfrentamiento armado entre Colombia y Perú que tuvo lugar en el año 1911 en el Puesto Fronterizo de La Pedrera, una pequeña localidad ubicada a orillas del río Caquetá, en la región amazónica. Este conflicto surgió por las disputas territoriales no resueltas entre ambos países en la cuenca amazónica, en donde la delimitación de las fronteras eran imprecisas y los intereses económicos en la extracción de caucho intensificaban las tensiones. La disputa en el territorio, inició el 10 de julio de 1911, y después de dos días de intensa lucha por parte de las tropas colombianas, estas se retiraron con arrojo y valentía hacia una localidad de Brasil dadas las condiciones de inferioridad en las que se encontraban; sin embargo, esta confrontación fue el preludio de lo que veinte años después se convertiría en el conflicto Colombo – Peruano”. (Revista Putumayo, 2012. P. 19). “El conflicto terminó en el año 1911 con la firma del Tratado Tezanos Pinto-Larrea que reafirmó el compromiso de Colombia y Perú de resolver sus diferencias a través del diálogo y la negociación diplomática. Aunque no resolvió definitivamente la situación fronteriza, este tratado ayudó a mantener la paz temporal entre ambos países” (Libro Historia de la Fuerza Naval del Sur en la Amazonía Colombiana, 2017. P. 37-38)."  
       break;
     case 11:
+      document.getElementById("asd").style.display = "block";
+            document.getElementById("HistoryDerechos").innerHTML = "Conmemoración aniversario No. 72 de la Base Naval ARC Leguízamo. Fuente: Archivo Armada Nacional, año 2015."
+
       document.getElementById("TituloGuaviare").innerHTML = "Auge de la extracción de quina, tigrillos, caucho y madera (1920-1950)"
       document.getElementById("TextGuaviare").innerHTML = "Durante el auge de la extracción de quina, tigrillos, caucho y madera entre 1920 y 1950, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente compone..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Auge de la extracción de quina, tigrillos, caucho y madera (1920-1950)"
       document.getElementById("TextPopAmazonas").innerHTML = "Durante el auge de la extracción de quina, tigrillos, caucho y madera entre 1920 y 1950, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente compone el departamento de Guaviare, llevando a cabo operaciones de control territorial en los afluentes y zonas de extracción para asegurar que no se presentaran infiltraciones ni actividades ilegales que amenazaran la estabilidad y seguridad de la región. Así mismo, la Armada de Colombia facilitó el transporte de materiales y personal hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera eficiente y segura. En ese sentido, también se ayudó a salvaguardar las fronteras, evitar conflictos con países vecinos, asegurar la soberanía colombiana y proporcionar asistencia a las comunidades locales, con el fin de adaptarse a los cambios económicos y sociales provocados por la extracción de recursos naturales. Finalmente, la Institución Naval desempeñó un papel en la regulación y control de las actividades extractivas para minimizar el impacto ambiental, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el medio ambiente."  
       break;
     case 12:
-      document.getElementById("TituloGuaviare").innerHTML = "Expedición Militar para la Consolidación de la soberanía en la Frontera Amazónica (1930-1940)"
+      document.getElementById("asd").style.display = "none";
+            document.getElementById("HistoryDerechos").innerHTML = ""
+
+      document.getElementById("TituloGuaviare").innerHTML = "Militar para la Consolidación de la soberanía en la Frontera Amazónica (1930-1940)"
       document.getElementById("TextGuaviare").innerHTML = "En la década de 1930, luego del conflicto Colombo – Peruano (1932-1933), Colombia fortaleció su presencia militar en los territorios amazónicos, incluyendo lo que ahora es el..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Expedición Militar para la Consolidación de la soberanía en la Frontera Amazónica (1930-1940)"
+      document.getElementById("TituloPopAmazonas").innerHTML = "Militar para la Consolidación de la soberanía en la Frontera Amazónica (1930-1940)"
       document.getElementById("TextPopAmazonas").innerHTML = "En la década de 1930, luego del conflicto Colombo – Peruano (1932-1933), Colombia fortaleció su presencia militar en los territorios amazónicos, incluyendo lo que ahora es el departamento de Guaviare, para asegurar las fronteras definidas por el Tratado Salomón-Lozano (1922). La Armada de Colombia ejerció su presencia mediante exploraciones, patrullajes fluviales y operaciones coordinadas con el Ejército Nacional, con el fin de consolidar la soberanía del territorio en los ríos Guaviare y sus afluentes. Finalmente, la Institución Naval contribuyó a establecer puestos de control fluvial y asegurar la estabilidad en la región, demostrando un alto nivel de alistamiento e importante capacidad operacional y logística para la consolidación territorial."  
       break;
     case 13:
+      document.getElementById("asd").style.display = "none";
+            document.getElementById("HistoryDerechos").innerHTML = ""
+
       document.getElementById("TituloGuaviare").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Ferza Naval de la Amazonía (1991)"
       document.getElementById("TextGuaviare").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, el Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Ferza Naval de la Amazonía (1991)"
@@ -452,18 +492,24 @@ function ChangeText() {
       //document.getElementById("TextPopAmazonas").innerHTML = ""  
       //break;
     case 16:
+      document.getElementById("asd").style.display = "none";
+
       document.getElementById("TituloBaupez").innerHTML = "Inclusión en el Territorio Nacional del Caquetá (1858)"
       document.getElementById("TextBaupez").innerHTML = "En 1958, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un rol determinante en contribuir a la navegación y el control de las rutas..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Inclusión en el Territorio Nacional del Caquetá (1858)"
       document.getElementById("TextPopAmazonas").innerHTML = "En 1958, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un rol determinante en contribuir a la navegación y el control de las rutas fluviales que comprenden este departamento. En ese sentido, la Armada de Colombia facilitó el desarrollo de la región y tuvo varias responsabilidades durante este proceso de reorganización territorial, entre ellas: 1.	Desarrollar patrullajes fluviales en las zonas estratégicas de la región, asegurando que no se produjeran actividades ilícitas que amenazaran la estabilidad y seguridad de las comunidades autóctonas del departamento. 2.	Se facilitó el transporte del personal militar y civil, suministros, medicamentos, alimentos, entre otros, esenciales para la región, manteniendo el orden y control territorial. 3.	Se garantizó la protección de las fronteras del departamento del Caquetá, evitando conflictos con países vecinos y asegurando la soberanía colombiana en la zona. 4.	Se proporcionó asistencia a las comunidades locales, brindándoles atención oportuna, bienestar y seguridad. "  
       break;
     case 17:
+      document.getElementById("asd").style.display = "none";
+
       document.getElementById("TituloBaupez").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filigonio Hichamón Kuegajima (Q.E.P.D) (1981)"
       document.getElementById("TextBaupez").innerHTML = "“El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D), desempeñó un papel crucial en la Fuerza de Tarea “Leopardo” de la Armada de Colombia, su misión..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filigonio Hichamón Kuegajima (Q.E.P.D) (1981)"
       document.getElementById("TextPopAmazonas").innerHTML = "“El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D), desempeñó un papel crucial en la Fuerza de Tarea “Leopardo” de la Armada de Colombia, su misión consistía en recopilar información estratégica del grupo armado ilegal de ese entonces, liderado por Jairo Capera Díaz. Lamentablemente, su identidad fue descubierta, y el 31 de octubre de 1981 en el sector de Peñas Blancas (Caquetá), fue capturado, torturado y finalmente ejecutado con un tiro de gracia a orillas del río Caquetá. Antes de su muerte, Hichamón manifestó a Capera: “Yo hice mi trabajo mejor que usted”. En reconocimiento a su valentía y sacrificio, la Armada de Colombia incorporó en 1993 una unidad a flote Patrullera de Apoyo Fluvial denominada ARC “CP Filigonio Hichamón” (El Boletím – Medio de difusión de la Infantería de Marina de Colombia. Edición No. 50 – Año 2020. Artículo Fuerza Naval del Sur, unidad de memoria histórica, por Teniente de Navío Wilmar Raúl Amaya Plata – Asesor Jurídico Operacional Fuerza Naval del Sur. P. 100-101). "  
       break;
     case 18:
+      document.getElementById("asd").style.display = "none";
+
       document.getElementById("TituloBaupez").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)"
       document.getElementById("TextBaupez").innerHTML = "“El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)"
@@ -482,24 +528,32 @@ function ChangeText() {
       //document.getElementById("TextPopAmazonas").innerHTML = ""  
       //break;
     case 21:
+      document.getElementById("asd").style.display = "none";
+
       document.getElementById("TituloAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)"
       document.getElementById("TextAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)"
       document.getElementById("TextPopAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa propia, bajo el gobierno central. Esto marcó el inicio del reconocimiento de la región como una unidad político-administrativa. Transformación en Comisaría Especial (1943) En 1943, el Vaupés dejó de ser una intendencia para convertirse en una Comisaría Especial. Esto implicó un cambio en el modelo administrativo, aumentando la supervisión directa del gobierno nacional sobre la región debido a su importancia geoestratégica, su diversidad cultural y su riqueza natural. Elevación a departamento (1991) Con la promulgación de la Constitución Política de Colombia en 1991, el Vaupés fue elevado a la categoría de departamento. Este cambio fortaleció su autonomía administrativa y política, permitiendo mayor participación en el desarrollo regional y en la protección de sus comunidades indígenas y su biodiversidad. La intervención de la Armada de Colombia contribuyó a la oportuna creación de la Intendencia y Comisaría del Vaupés, dado que su aporte estratégico-operacional consolidó la estabilidad de la región, en lo concerniente al control territorial, soberanía en las zonas fronterizas y desarrollo integral de las comunidades."  
       break;
     case 22:
+      document.getElementById("asd").style.display = "none";
+
       document.getElementById("TituloAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)"
       document.getElementById("TextAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia en el año de 1968, en el departamento del Vaupés el conflicto adoptó una dinámica particular debido a su condición..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)"
       document.getElementById("TextPopAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia en el año de 1968, en el departamento del Vaupés el conflicto adoptó una dinámica particular debido a su condición de territorio selvático y de difícil acceso. Esta región, habitada en su mayoría por comunidades indígenas, fue escenario de abusos y enfrentamientos entre los grupos armados que buscaban imponer su control político y territorial. La violencia política durante la década de 1960, conocida como “La Violencia”, llevó a una migración masiva de personas que huían de sus hogares en busca de seguridad. Esta situación generó una crisis humanitaria que requería una respuesta coordinada y efectiva. En ese sentido, la Armada de Colombia desempeñó un rol fundamental en la protección y asistencia de los desplazados, toda vez que, la geografía era atravesada por los ríos Apaporis y el Vaupés. Al ser una zona selvática, la navegación fluvial era la principal forma de transporte y comunicación, lo que hizo que la Institución Naval tuviera un rol estratégico."  
       break;
     case 23:
+      document.getElementById("asd").style.display = "none";
+
       document.getElementById("TituloAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)"
       document.getElementById("TextAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)"
       document.getElementById("TextPopAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de las comunidades indígenas, generando tensiones y disputas sobre la regulación del trabajo indígena entre caucheros, misioneros y funcionarios. Estas tensiones contribuyeron a que algunas comunidades indígenas buscaran establecerse en nuevas regiones (Revista Colombiana de Antropología. Volumen 46 (2), julio-diciembre 2010. P. 331)."  
       break;
     case 24:
+      document.getElementById("asd").style.display = "none";
+
       document.getElementById("TituloAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998)"
       document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, que dejó como resultado 24 militares, 16 policías..."      
       document.getElementById("TituloPopAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998) VERIFICAR VIABLIDAD DE INCLUIR ESTE HECHO"

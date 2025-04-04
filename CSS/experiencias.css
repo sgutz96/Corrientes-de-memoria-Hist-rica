@@ -75,6 +75,8 @@
     transform: scale(1.05);  /* Aumenta el tamaño ligeramente */
     opacity: 1;
     z-index: 5;
+    
+  cursor: pointer;
 }
 
 /* Estilo para las tarjetas que no están en hover */
