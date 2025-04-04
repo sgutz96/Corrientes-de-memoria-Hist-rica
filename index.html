@@ -10,6 +10,7 @@
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="stylesheet" href="./CSS/style.css">
   <link rel="stylesheet" href="./CSS/VideoPopup.css">
@@ -23,6 +24,15 @@
   <link rel="stylesheet" href="./CSS/testimonios.css">
   <link rel="stylesheet" href="./CSS/experiencias.css">
   <link rel="stylesheet" href="./CSS/fotter.css">
+
+  <head>
+    <!-- Incluye AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <!-- Incluye AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+
 </head>
 
 <body>
@@ -127,7 +137,7 @@
       <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>-->
       <div class="buttons">
-        <button class="btn-primary" onclick="location.href='#exp'">Experiencias</button>
+        <button class="btn-primary" onclick="location.href='#exp'"  >Experiencias</button>
         <button class="btn-transparent" onclick="location.href='#teaser'"><i class="fa fa-play"></i> Trailers</button>
       </div>
 
@@ -154,25 +164,25 @@
 
   <!-- About -->
   <!-- Sección de contexto -->
-  <section class="Aboutcontextosection" id="contexto">
-    <h2>CONTEXTO</h2>
-    <div class="Aboutcontent">
-      <!-- Sección izquierda -->
-      <div class="Aboutleft-section">
-        <h3>CORRIENTES DE MEMORIA</h3>
-        <p>El proyecto de contexto “Corrientes de memoria: narrativa transmedia del Amazonas”, es un trabajo
-          investigativo con alto rigor académico realizado entre la Armada de Colombia y la Universidad San
-          Buenaventura, el cual tiene como propósito dar a conocer la labor de los Marinos de Colombia que se encuentran
-          desplegados en las áreas de responsabilidad de la Fuerza Naval de la Amazonía.</p>
-        <button id="AboutleerMasBtn">Leer más</button>
-      </div>
+    <section class="Aboutcontextosection" id="contexto">
+      <h2>CONTEXTO</h2>
+      <div class="Aboutcontent">
+        <!-- Sección izquierda -->
+        <div class="Aboutleft-section" data-aos="fade-down-right" data-aos-duration="1000">
+          <h3>CORRIENTES DE MEMORIA</h3>
+          <p>El proyecto de contexto “Corrientes de memoria: narrativa transmedia del Amazonas”, es un trabajo
+            investigativo con alto rigor académico realizado entre la Armada de Colombia y la Universidad San
+            Buenaventura, el cual tiene como propósito dar a conocer la labor de los Marinos de Colombia que se encuentran
+            desplegados en las áreas de responsabilidad de la Fuerza Naval de la Amazonía.</p>
+          <button id="AboutleerMasBtn">Leer más</button>
+        </div>
 
-      <!-- Sección derecha -->
-      <div class="Aboutright-section">
-        <img src="Assets/IMG/About/BulletsAbout-min.webp" alt="Imagen del contexto" />
+        <!-- Sección derecha -->
+        <div class="Aboutright-section"  data-aos="fade-down-left" data-aos-duration="1000">
+          <img src="Assets/IMG/About/BulletsAbout-min.webp" alt="Imagen del contexto" />
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Popup -->
   <div id="Aboutpopup" class="Aboutpopup">
@@ -297,8 +307,8 @@
     </h2>
   </div>
 
-  <div class="video-container">
-    <div class="video-wrapper">
+  <div class="video-container" >
+    <div class="video-wrapper" data-aos="fade-up">
       <iframe class="video" id="video"
         src="https://www.youtube.com/embed/yQatxvaW8j0?rel=0&autoplay=0&controls=0&showinfo=0" frameborder="0"
         allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -316,8 +326,8 @@
   </div>
 
   <div class="main-container">
-    <div class="content-container">
-      <div class="left-section">
+    <div class="content-container" data-aos="fade-right">
+      <div class="left-section" >
         <div class="circle-container">
           <div class="circle" id="circle-1" style="background: #304D3D;" onclick="mostrarAlerta(1)"></div>
         </div>
@@ -334,20 +344,19 @@
 
       <div class="right-section">
         <h3 class="name" id="relatosNombre">
-          Carlos Arbey Claros
+          Arnold
         </h3>
         <h4 class="rank" id="relatosRango">
-          rango1
+          Comunidad Apapois
         </h4>
         <p class="Testimoniosdescription" id="relatosText">
-          Pues la armada nacional es la empresa más importante que tiene este municipio, la armada nacional es la que le
-          genera soberanía nacional...
+          Pues la armada nacional es la empresa más importante que tiene este municipio, la armada nacional es la que le genera soberanía nacional...
         </p>
       </div>
     </div>
 
-    <video class="testimonios-image" id="relatosVideo" autoplay loop muted>
-      <source id="videoSourceTestimonios" src="./Assets/Videos/VideoBanner.mp4" type="video/mp4">
+    <video class="testimonios-image" data-aos="fade-left" id="relatosVideo" autoplay loop muted>
+      <source id="videoSourceTestimonios" src="./Assets/Videos/Relatos/Arnold comunidad apapois.webm" type="video/mp4">
       Tu navegador no soporta la etiqueta de video.
     </video>
   </div>
@@ -362,7 +371,7 @@
     </h2>
   </div>
 
-  <div class="Productos">
+  <div class="Productos"  data-aos="fade-up">
     <div class="card" data-apk="vr.apk" style="background-image: url('Assets/IMG/experiencias/vr2.webp');">
       <div class="text-container">
         <h6 class="title">VR ARC “TECIM REYES HOLGUÍN” </h6>
@@ -768,6 +777,10 @@
     <p class="footer-text">© 2025 Corrientes De Memoria. Todos los derechos reservados.</p>
   </footer>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
   <script src="./JS/Viedo-PopUp.js"></script>

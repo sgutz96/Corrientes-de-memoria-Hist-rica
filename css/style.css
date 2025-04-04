@@ -28,6 +28,10 @@
   --font-size-h5: 2rem;  /* Tamaño de fuente para h5 */
   --font-size-h6: 1.5rem;  /* Tamaño de fuente para h6 */
   --font-size-p: 1rem;  /* Tamaño de fuente para párrafos */
+
+  --imagen-sombreado-left: 10px 10px 5px gray;
+  --imagen-sombreado-right: 10px 10px 5px gray;
+  --imagen-sombreado-center: 0px 5px 10px rgba(24, 24, 24, 0.74);
 }
 
 /* Resetear márgenes y padding para todos los elementos */
@@ -41,7 +45,7 @@
 body {
   font-family: Arial, sans-serif;  /* Tipografía predeterminada para el cuerpo */
   background-color: #e9d3ab;
-  background-image: url(../Assets/IMG/WEBbg2.png);
+  background-image: url(../Assets/IMG/WEBbg3.png);
 background-size: 100% auto; /* Ajusta el fondo al ancho, mantiene la proporción en el alto */
 background-repeat: repeat-y; /* Hace que el fondo se repita en el eje vertical */
 

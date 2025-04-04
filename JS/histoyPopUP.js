@@ -8,6 +8,13 @@ const leerMasBtnAmazonas = document.getElementById('HisCaqBtnAmazonas');
 const popupAmazonas = document.getElementById('historypopup');
 const closePopupAmazonas = document.getElementById('historyclosePopup');
 
+// Cierra el popup si haces clic fuera del contenido
+window.addEventListener('click', (e) => {
+    if (e.target === popupAmazonas) {
+        popupAmazonas.style.visibility = 'hidden';
+    }
+  });
+  
 
 // Al hacer clic en el botón, abre el popup
 leerMasBtnCaqueta.addEventListener('click', () => {
