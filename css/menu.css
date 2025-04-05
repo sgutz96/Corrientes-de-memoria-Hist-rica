@@ -140,6 +140,11 @@ header {
 }
 
 
+.image-idioma {
+  border-radius: 50%;
+  filter: grayscale(60%);
+  transition: filter 0.3s ease;
+}
 
 
 .idiomas ul li img,
