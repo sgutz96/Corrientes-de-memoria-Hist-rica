@@ -29,6 +29,10 @@ document.getElementById("isEsp").addEventListener("click", function (event) {
     cambiarIdioma(); // Llamar a la función para cambiar el idioma
 });
 function cambiarIdioma() {
+    
+                // Change video popUp
+                document.getElementById('Relatos-Popup-video').src ="Assets/Videos/Relatos/Arnold comunidad apapois.webm";
+
     // Cambiar el idioma de los textos según el valor de isEspanish
     if (isEspanish) {
         // Menú en la versión de escritorio

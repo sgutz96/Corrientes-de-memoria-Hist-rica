@@ -119,6 +119,7 @@ background-repeat: no-repeat;
   height: auto;
   object-fit: cover;
   filter: drop-shadow(var(--imagen-sombreado-right));
+  cursor: pointer;
 } 
 .testimonios h2{
   background-image: url(../Assets/IMG/BGSubT.png);

@@ -19,11 +19,12 @@
     position: relative;
     overflow: hidden;
     padding: 10px;
+    
+    
 }
 
 .carousel-item img {
-  
-        border: 5px solid rgb(104, 66, 20); /* Borde de 5px de grosor y color dorado */
+    border: 5px solid transparent; /* Borde transparente para usar border-image */
         border-image: linear-gradient(180deg, #293905, #011a0952) 1; 
       
     width: 100%;
@@ -32,7 +33,11 @@
     border-radius: 8px; 
     transition: transform 0.3s ease;
     filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.5));
+
+
+    
 }
+
 
 
 .carousel-item:hover img {

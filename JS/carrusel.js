@@ -7,7 +7,7 @@ function moveCarousel(direction) {
 
     if (currentIndex < 0) {
         currentIndex = totalItems - 1;
-    } else if (currentIndex >= totalItems) {
+    } else if (currentIndex >= totalItems -2) {
         currentIndex = 0;
     }
 

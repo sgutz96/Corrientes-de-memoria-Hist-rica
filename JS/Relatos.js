@@ -16,7 +16,7 @@ function colorCirculos(circuloActive) {
 function mostrarAlerta(circuloId) {
 
     var video = document.getElementById('relatosVideo');
-    var videoSource = document.getElementById('videoSourceTestimonios');
+    var videoSource = document.getElementById('Relatos-Popup-video');
 
     if (isEspanish) {
         switch (circuloId) {
@@ -35,6 +35,9 @@ function mostrarAlerta(circuloId) {
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.JPG";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
+                
+                // Change video popUp
+                videoSource.src ="Assets/Videos/Relatos/Arnold comunidad apapois.webm";
 
                 colorCirculos(circuloId);
                 break;
@@ -51,6 +54,9 @@ function mostrarAlerta(circuloId) {
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Erika_Paula_Cruz_Gaitan_Gobernadora.JPG";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
+          
+                // Change video popUp
+            videoSource.src = "Assets/Videos/Relatos/Erika_Paula_Cruz_Gaitan_Gobernadora.mp4";
 
                 colorCirculos(circuloId);
                 break;
@@ -61,11 +67,14 @@ function mostrarAlerta(circuloId) {
                 text = "La jurisdicción del municipio cuenta con 87 km del río, donde se encuentran dispersas diecinueve comunidades indígenas con necesidades distintas a la capital...";
 
                 // Cambiar la imagen en escritorio
-                document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
+                document.getElementById("RelatosimageDesktop").srcset = "   ./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
                 // Cambiar la imagen en móvil
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Fernando_trujillo.JPG";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
+      
+                // Change video popUp
+          videoSource.src = "./Assets/Videos/Relatos/Fernando_trujillo.webm";
 
                 colorCirculos(circuloId);
                 break;
@@ -81,7 +90,10 @@ function mostrarAlerta(circuloId) {
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Viana_makiscara_quipa.JPG";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
-
+                
+                // Change video popUp
+                videoSource.src ="Assets/Videos/Relatos/Viana_makiscara_quipa.webm";
+                
                 colorCirculos(circuloId);
                 break;
             case 5:
@@ -112,6 +124,10 @@ function mostrarAlerta(circuloId) {
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
         
+                // Change video popUp
+                videoSource.src ="Assets/Videos/Relatos/Arnold comunidad apapois.webm";
+
+
                 colorCirculos(circuloId);
                 break;
             case 2:
@@ -127,6 +143,9 @@ function mostrarAlerta(circuloId) {
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
         
+                 // Change video popUp
+            videoSource.src = "Assets/Videos/Relatos/Erika_Paula_Cruz_Gaitan_Gobernadora.mp4";
+
                 colorCirculos(circuloId);
                 break;
             case 3:
@@ -142,6 +161,10 @@ function mostrarAlerta(circuloId) {
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
         
+                // Change video popUp
+          videoSource.src = "./Assets/Videos/Relatos/Fernando_trujillo.webm";
+                
+
                 colorCirculos(circuloId);
                 break;
             case 4:
@@ -157,6 +180,9 @@ function mostrarAlerta(circuloId) {
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
         
+// Change video popUp
+                videoSource.src ="Assets/Videos/Relatos/Viana_makiscara_quipa.webm";
+                
                 colorCirculos(circuloId);
                 break;
             case 5:

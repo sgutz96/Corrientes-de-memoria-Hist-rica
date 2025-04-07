@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="./CSS/histoy.CSS">
   <link rel="stylesheet" href="./CSS/teaser.css">
   <link rel="stylesheet" href="./CSS/testimonios.css">
+  <link rel="stylesheet" href="./CSS/testimoniosPopUp.css">
   <link rel="stylesheet" href="./CSS/experiencias.css">
   <link rel="stylesheet" href="./CSS/fotter.css">
 
@@ -168,7 +169,7 @@
       <h2>CONTEXTO</h2>
       <div class="Aboutcontent">
         <!-- Sección izquierda -->
-        <div class="Aboutleft-section" data-aos="fade-down-right" data-aos-duration="1000">
+        <div class="Aboutleft-section" data-aos="fade-right" data-aos-duration="1000">
           <h3>CORRIENTES DE MEMORIA</h3>
           <p>El proyecto de contexto “Corrientes de memoria: narrativa transmedia del Amazonas”, es un trabajo
             investigativo con alto rigor académico realizado entre la Armada de Colombia y la Universidad San
@@ -178,7 +179,7 @@
         </div>
 
         <!-- Sección derecha -->
-        <div class="Aboutright-section"  data-aos="fade-down-left" data-aos-duration="1000">
+        <div class="Aboutright-section"  data-aos="fade-left" data-aos-duration="1000">
           <img src="Assets/IMG/About/BulletsAbout-min.webp" alt="Imagen del contexto" />
         </div>
       </div>
@@ -209,7 +210,7 @@
   <!-- histoy -->
   <div id="histoy-nav" class="histoy-nav">
     <div class="histoy-caqueta">
-      <div class="content-text">
+      <div class="content-text" data-aos="zoom-in" data-aos-duration="000">
         <h4 id="Titulocaqueta">Título del artículo</h4>
         <p id="Textcaqueta">Este es el párrafo de ejemplo que describe el contenido. Aquí puedes poner cualquier texto
           relevante para el
@@ -361,13 +362,18 @@
       <source id="RelatosimageMobile" srcset="./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.JPG" media="(max-width: 1023px)" type="image/png">
       <img id="RelatosdefaultImage" src="./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png" alt="Imagen de Arnold comunidad apapois">
     </picture>
-<!--
-    <video class="testimonios-image" data-aos="fade-left" id="relatosVideo" autoplay loop muted>
-      <source id="videoSourceTestimonios" src="./Assets/Videos/Relatos/Arnold comunidad apapois.webm" type="video/mp4">
-      Tu navegador no soporta la etiqueta de video.
-    </video>
-  -->
   </div>
+
+      <!-- Pop-Up -->
+      <div id="RelatosVideoPopUp" class="RelatosVideoPopUp">
+        <div class="Relatospopup-content">
+            <span class="Relatosclose-btn" id="Relatosclose-btn">&times;</span>
+            <video class="Relatos-Popup-video" id="Relatos-Popup-video" controls>
+                <source id="RelatosPopUpVideo" src="Assets/Videos/Relatos/Arnold comunidad apapois.webm" type="video/webm">
+                Tu navegador no soporta el formato de video.
+            </video>
+        </div>
+    </div>
 
 
   <!-- Experiencias -->
@@ -785,6 +791,7 @@
   <script src="./JS/histoy.JS"></script>
   <script src="./JS/histoyPopUP.js"></script>
   <script src="./JS/Relatos.js"></script>
+  <script src="./JS/testimoniosPopUp.js"></script>
   <script src="./JS/carrusel.js"></script>
   <script src="./JS/productos.js"></script>
 
