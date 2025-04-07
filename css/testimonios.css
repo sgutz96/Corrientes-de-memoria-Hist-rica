@@ -110,8 +110,16 @@ background-repeat: no-repeat;
   width: 30%;  
   height: 80%;
   object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.testimonios-image img{
+  width: 80%;  
+  height: auto;
+  object-fit: cover;
+  filter: drop-shadow(var(--imagen-sombreado-right));
+} 
 .testimonios h2{
   background-image: url(../Assets/IMG/BGSubT.png);
   background-position: center; /* Centra la imagen de fondo */
