@@ -66,6 +66,12 @@ function cambiarIdioma() {
 
 
 
+// Cambiar el texto de la sección relatos
+document.querySelector("#relatos h2 .color1").textContent = "RELATOS";
+document.querySelector("#relatos h2 .color2").textContent = "DE VIDA";
+document.querySelector("#relatos h2 .color1:last-child").textContent = "EN EL AMAZONAS";
+
+
 
 
 document.getElementById("relatosNombre").innerHTML = "Arnold";
@@ -177,7 +183,10 @@ document.querySelectorAll(".circle")[0].style.backgroundColor = "#304D3D";
         document.querySelector("#teaser h2 .color1:last-child").textContent = "OF MEMORY";
 
 
-
+//cambiar el texto de la sección relatos
+document.querySelector("#relatos h2 .color1").textContent = "LIFE";
+document.querySelector("#relatos h2 .color2").textContent = "STORIES";
+document.querySelector("#relatos h2 .color1:last-child").textContent = "IN THE AMAZON";
 
 
         document.getElementById("relatosNombre").innerHTML = "Arnold";

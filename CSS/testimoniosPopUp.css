@@ -14,18 +14,24 @@
 
 /* Estilo del contenido dentro del pop-up */
 .Relatospopup-content {
+    
     position: relative;
     width: 80%;
     max-width: 800px;
     padding: 7px;
-    background-color: #fff;
+  /*  background-color: #fff;
     background-image: url(../Assets/IMG/ContextoInfoBG.png);
+    */
+    background-color: rgba(193, 193, 193, 0);
+    background-size: cover;
+    background-position: center;    
     border-radius: 5px;
 }
 
 /* Botón de cerrar */
 .Relatosclose-btn {
-    position: absolute;
+    float: right;
+    position: static;
     top: 10px;
     right: 10px;
     font-size: 30px;
