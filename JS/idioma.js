@@ -2,6 +2,36 @@ var isEspanish = true; // Variable para determinar el idioma actual
 document.getElementById("isEng-img").style.filter = "grayscale(60%)"; // Eliminar el filtro en 'isEng'
 document.getElementById("isEsp-img").style.filter = "grayscale(0%)"; // Mostrar el filtro en 'isEsp'
 
+document.getElementById("isEng-img-movil").style.filter = "grayscale(60%)"; // Eliminar el filtro en 'isEng'
+document.getElementById("isEsp-img-movil").style.filter = "grayscale(0%)"; // Mostrar el filtro en 'isEsp'
+// Seleccionamos los elementos <a> usando su ID
+document.getElementById("isEng-movil").addEventListener("click", function (event) {
+    // Prevenir que el enlace redirija a otra página
+    event.preventDefault();
+
+    // Cambiar el idioma a inglés
+    isEspanish = false;
+
+    // Aplicar el filtro grayscale al enlace 'isEng' y quitarlo del 'isEsp'
+    document.getElementById("isEng-img-movil").style.filter = "grayscale(0%)";
+    document.getElementById("isEsp-img-movil").style.filter = "grayscale(60%)"; // Eliminar el filtro en 'isEsp'
+    cambiarIdioma(); // Llamar a la función para cambiar el idioma
+});
+
+document.getElementById("isEsp-movil").addEventListener("click", function (event) {
+    // Prevenir que el enlace redirija a otra página
+    event.preventDefault();
+
+    // Cambiar el idioma a español
+    isEspanish = true;
+
+    // Aplicar el filtro grayscale al enlace 'isEsp' y quitarlo del 'isEng'
+    document.getElementById("isEng-img-movil").style.filter = "grayscale(60%)"; // Eliminar el filtro en 'isEng'
+    document.getElementById("isEsp-img-movil").style.filter = "grayscale(0%)";
+    cambiarIdioma(); // Llamar a la función para cambiar el idioma
+});
+
+
 // Seleccionamos los elementos <a> usando su ID
 document.getElementById("isEng").addEventListener("click", function (event) {
     // Prevenir que el enlace redirija a otra página
@@ -28,6 +58,11 @@ document.getElementById("isEsp").addEventListener("click", function (event) {
     document.getElementById("isEsp-img").style.filter = "grayscale(0%)";
     cambiarIdioma(); // Llamar a la función para cambiar el idioma
 });
+
+
+
+
+
 function cambiarIdioma() {
     
                 // Change video popUp
@@ -81,7 +116,7 @@ document.getElementById("relatosText").innerHTML = "Pues la armada nacional es l
   // Cambiar la imagen en escritorio
   document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
   // Cambiar la imagen en móvil
-  document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.JPG";
+  document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
   // Cambiar la imagen por defecto
   document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
 
@@ -196,7 +231,7 @@ document.querySelector("#relatos h2 .color1:last-child").textContent = "IN THE A
        // Change the image for desktop
        document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
        // Change the image for mobile
-       document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.JPG";
+       document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
        // Change the default image
        document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
 

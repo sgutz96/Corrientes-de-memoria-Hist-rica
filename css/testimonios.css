@@ -128,7 +128,7 @@ background-repeat: no-repeat;
 }
 
 /* Media tablets y móvil */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px){
   .main-container {
     background-image: url(../Assets/IMG/Teaser-mask-cafe.png);
     background-image: url(../Assets/IMG/testimonios/carpeta1.png);
@@ -154,7 +154,7 @@ width: 90%;
 height: auto;
     flex-direction: column-reverse;
     text-align: center;
-    padding: 0 5%;
+    padding: 2% 5%;
     gap: 0;
   }
   .left-section{
@@ -171,10 +171,12 @@ height: auto;
   .testimonios-image{
     width: 100%;
     height: auto;
+    padding-bottom: 25%;
+    z-index: -1;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .main-container {
     background-image: url(../Assets/IMG/Teaser-mask-cafe.png);
     background-image: url(../Assets/IMG/testimonios/carpeta1.png);
@@ -202,7 +204,7 @@ width: 80%;
 height: auto;
     flex-direction: column-reverse;
     text-align: center;
-    padding: 0 5%;
+    padding: 3% 5%;
     gap: 0;
   }
   .left-section{
@@ -221,6 +223,7 @@ height: auto;
   width: 100%;  
   height: auto;
   object-fit: cover;
+  padding-bottom: 10vh;
 }
 
 

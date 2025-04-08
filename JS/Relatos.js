@@ -32,7 +32,7 @@ function mostrarAlerta(circuloId) {
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
                 // Cambiar la imagen en móvil
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
                 
@@ -51,7 +51,7 @@ function mostrarAlerta(circuloId) {
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
                 // Cambiar la imagen en móvil
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Erika_Paula_Cruz_Gaitan_Gobernadora.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Erika_Paula_Cruz_Gaitan_Gobernadora.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
           
@@ -69,7 +69,7 @@ function mostrarAlerta(circuloId) {
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "   ./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
                 // Cambiar la imagen en móvil
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Fernando_trujillo.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Fernando_trujillo.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
       
@@ -87,7 +87,7 @@ function mostrarAlerta(circuloId) {
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
                 // Cambiar la imagen en móvil
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Viana_makiscara_quipa.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Viana_makiscara_quipa.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
                 
@@ -120,7 +120,7 @@ function mostrarAlerta(circuloId) {
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
                 // Change the image for mobile
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
         
@@ -139,7 +139,7 @@ function mostrarAlerta(circuloId) {
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
                 // Change the image for mobile
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Erika_Paula_Cruz_Gaitan_Gobernadora.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Erika_Paula_Cruz_Gaitan_Gobernadora.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
         
@@ -157,7 +157,7 @@ function mostrarAlerta(circuloId) {
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
                 // Change the image for mobile
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Fernando_trujillo.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Fernando_trujillo.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
         
@@ -176,7 +176,7 @@ function mostrarAlerta(circuloId) {
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
                 // Change the image for mobile
-                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Viana_makiscara_quipa.JPG";
+                document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Viana_makiscara_quipa.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
         
