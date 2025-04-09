@@ -134,7 +134,9 @@
 
 
 .content-text-histoy h4{
-    height: 40%;
+    
+min-height: 20%;
+    max-height: 35%;
 }
 
 .content-image-histoy{
