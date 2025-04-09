@@ -117,8 +117,8 @@
 
 
 
-.content-text {
-    height: 60%;
+.content-text-histoy {
+    height: 60vh;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -133,11 +133,11 @@
 }
 
 
-.content-image{
+.content-image-histoy{
     width: 50%;
 
 }
-.content-image img {
+.content-image-histoy img {
     width: 100%;
     height: auto;
 }

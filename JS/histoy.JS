@@ -617,40 +617,45 @@ function ChangeTextEsp() {
     case 21:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)"
-      document.getElementById("TextAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)"
-      document.getElementById("TextPopAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa propia, bajo el gobierno central. Esto marcó el inicio del reconocimiento de la región como una unidad político-administrativa. Transformación en Comisaría Especial (1943) En 1943, el Vaupés dejó de ser una intendencia para convertirse en una Comisaría Especial. Esto implicó un cambio en el modelo administrativo, aumentando la supervisión directa del gobierno nacional sobre la región debido a su importancia geoestratégica, su diversidad cultural y su riqueza natural. Elevación a departamento (1991) Con la promulgación de la Constitución Política de Colombia en 1991, el Vaupés fue elevado a la categoría de departamento. Este cambio fortaleció su autonomía administrativa y política, permitiendo mayor participación en el desarrollo regional y en la protección de sus comunidades indígenas y su biodiversidad. La intervención de la Armada de Colombia contribuyó a la oportuna creación de la Intendencia y Comisaría del Vaupés, dado que su aporte estratégico-operacional consolidó la estabilidad de la región, en lo concerniente al control territorial, soberanía en las zonas fronterizas y desarrollo integral de las comunidades."
+      document.getElementById("TituloAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)";
+document.getElementById("TextAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa independiente...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)";
+document.getElementById("TextPopAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa propia, bajo el gobierno central. Esto marcó el inicio del reconocimiento de la región como una unidad político-administrativa.\n\n" +
+"**Transformación en Comisaría Especial (1943)**\n\n" +
+"En 1943, el Vaupés dejó de ser una intendencia para convertirse en una Comisaría Especial. Este cambio implicó una modificación en el modelo administrativo, lo que aumentó la supervisión directa del gobierno nacional sobre la región debido a su importancia geoestratégica, su diversidad cultural y su riqueza natural.\n\n" +
+"**Elevación a Departamento (1991)**\n\n" +
+"Con la promulgación de la Constitución Política de Colombia en 1991, el Vaupés fue elevado a la categoría de departamento. Este cambio fortaleció su autonomía administrativa y política, permitiendo una mayor participación en el desarrollo regional y en la protección de sus comunidades indígenas y su biodiversidad.\n\n" +
+"La intervención de la Armada de Colombia contribuyó significativamente a la creación oportuna de la Intendencia y Comisaría del Vaupés, consolidando la estabilidad de la región, en términos de control territorial, soberanía en las zonas fronterizas y el desarrollo integral de las comunidades.";
 
       //
       break;
     case 22:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)"
-      document.getElementById("TextAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia en el año de 1968, en el departamento del Vaupés el conflicto adoptó una dinámica particular debido a su condición..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)"
-      document.getElementById("TextPopAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia en el año de 1968, en el departamento del Vaupés el conflicto adoptó una dinámica particular debido a su condición de territorio selvático y de difícil acceso. Esta región, habitada en su mayoría por comunidades indígenas, fue escenario de abusos y enfrentamientos entre los grupos armados que buscaban imponer su control político y territorial. La violencia política durante la década de 1960, conocida como “La Violencia”, llevó a una migración masiva de personas que huían de sus hogares en busca de seguridad. Esta situación generó una crisis humanitaria que requería una respuesta coordinada y efectiva. En ese sentido, la Armada de Colombia desempeñó un rol fundamental en la protección y asistencia de los desplazados, toda vez que, la geografía era atravesada por los ríos Apaporis y el Vaupés. Al ser una zona selvática, la navegación fluvial era la principal forma de transporte y comunicación, lo que hizo que la Institución Naval tuviera un rol estratégico."
+      document.getElementById("TituloAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)";
+document.getElementById("TextAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés debido a su condición...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)";
+document.getElementById("TextPopAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés, debido a su condición de territorio selvático y de difícil acceso. Esta región, habitada en su mayoría por comunidades indígenas, fue escenario de abusos y enfrentamientos entre los grupos armados que buscaban imponer su control político y territorial. La violencia política de la década de 1960, conocida como ‘La Violencia’, provocó una migración masiva de personas que huían de sus hogares en busca de seguridad. Esta situación generó una crisis humanitaria que requería una respuesta coordinada y efectiva. En ese contexto, la Armada de Colombia desempeñó un papel fundamental en la protección y asistencia de los desplazados, dada la geografía de la región, atravesada por los ríos Apaporis y Vaupés. Al ser una zona selvática, la navegación fluvial era la principal forma de transporte y comunicación, lo que le otorgó a la Institución Naval un papel estratégico en la región.";
 
       //
       break;
     case 23:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)"
-      document.getElementById("TextAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)"
-      document.getElementById("TextPopAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de las comunidades indígenas, generando tensiones y disputas sobre la regulación del trabajo indígena entre caucheros, misioneros y funcionarios. Estas tensiones contribuyeron a que algunas comunidades indígenas buscaran establecerse en nuevas regiones (Revista Colombiana de Antropología. Volumen 46 (2), julio-diciembre 2010. P. 331)."
+      document.getElementById("TituloAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)";
+document.getElementById("TextAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de la región...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)";
+document.getElementById("TextPopAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de las comunidades indígenas, generando tensiones y disputas sobre la regulación del trabajo indígena entre caucheros, misioneros y funcionarios. Estas tensiones contribuyeron a que algunas comunidades indígenas buscaran establecerse en nuevas regiones (Revista Colombiana de Antropología. Volumen 46 (2), julio-diciembre 2010, p. 331).";
 
       //
       break;
     case 24:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998)"
-      document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, que dejó como resultado 24 militares, 16 policías..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998) VERIFICAR VIABLIDAD DE INCLUIR ESTE HECHO"
-      document.getElementById("TextPopAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, que dejó como resultado 24 militares, 16 policías, 11 civiles muertos, 47 uniformados heridos y más de 60 secuestrados. Durante 72 horas, la población de Mitú estuvo sometida a crímenes de guerra y de lesa humanidad, una muestra de la violación a los Derechos Humanos y el Derecho Internacional Humanitario. Sin embargo, las Fuerzas Militares de Colombia desplegaron todas sus capacidades aéreas, fluviales y terrestres para consolidar el territorio y proteger a la población civil de las acciones violentas, en donde más de 1200 uniformados de la Fuerza Pública enfrentaron entre 900 y 1500 guerrilleros que participaron en el ataque. (Diferentes fuentes de información)"
+      document.getElementById("TituloAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998)";
+document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, ocurrida el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, dejando como saldo 24 militares, 16 policías...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998) VERIFICAR VIABILIDAD DE INCLUIR ESTE HECHO";
+document.getElementById("TextPopAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP. El ataque resultó en la muerte de 24 militares, 16 policías, 11 civiles y dejó 47 uniformados heridos, además de más de 60 secuestrados. Durante 72 horas, la población de Mitú estuvo sometida a crímenes de guerra y violaciones de los derechos humanos, constituyendo una flagrante transgresión del Derecho Internacional Humanitario. No obstante, las Fuerzas Militares de Colombia desplegaron todas sus capacidades aéreas, fluviales y terrestres para consolidar el control territorial y proteger a la población civil. Más de 1,200 uniformados de la Fuerza Pública enfrentaron entre 900 y 1,500 guerrilleros que participaron en el ataque (Diferentes fuentes de información).";
 
       //
       break;
@@ -941,28 +946,28 @@ function ChangeTextEng() {
     case 17:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloBaupez").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filogonio Hichamón Kuegajima (Q.E.P.D.) (1981)";
-      document.getElementById("TextBaupez").innerHTML = "El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D.) desempeñó un papel crucial en la Fuerza de Tarea 'Leopardo' de la Armada de Colombia. Su misión consistía en recopilar información estratégica...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filogonio Hichamón Kuegajima (Q.E.P.D.) (1981)";
-      document.getElementById("TextPopAmazonas").innerHTML = "El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D.) desempeñó un papel crucial en la Fuerza de Tarea 'Leopardo' de la Armada de Colombia. Su misión consistía en recopilar información estratégica sobre el grupo armado ilegal de ese entonces, liderado por Jairo Capera Díaz.\n\n" +
-        "Lamentablemente, su identidad fue descubierta, y el 31 de octubre de 1981, en el sector de Peñas Blancas (Caquetá), fue capturado, torturado y finalmente ejecutado con un tiro de gracia a orillas del río Caquetá. Antes de su muerte, Hichamón le dijo a Capera: 'Yo hice mi trabajo mejor que usted.'\n\n" +
-        "En reconocimiento a su valentía y sacrificio, la Armada de Colombia incorporó, en 1993, una unidad a flote, la Patrullera de Apoyo Fluvial ARC 'CP Filogonio Hichamón'. (El Boletín – Medio de difusión de la Infantería de Marina de Colombia, Edición No. 50 – Año 2020. Artículo 'Fuerza Naval del Sur, unidad de memoria histórica', por Teniente de Navío Wilmar Raúl Amaya Plata – Asesor Jurídico Operacional Fuerza Naval del Sur. P. 100-101).";
+      document.getElementById("TituloBaupez").innerHTML = "Honor and bravery of a hero of the Colombian Navy, CP Filogonio Hichamón Kuegajima (R.I.P.) (1981)";
+document.getElementById("TextBaupez").innerHTML = "First Corporal of Marine Infantry Filogonio Hichamón Kuegajima (R.I.P.) played a crucial role in the 'Leopard' Task Force of the Colombian Navy. His mission was to gather strategic information...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Honor and bravery of a hero of the Colombian Navy, CP Filogonio Hichamón Kuegajima (R.I.P.) (1981)";
+document.getElementById("TextPopAmazonas").innerHTML = "First Corporal of Marine Infantry Filogonio Hichamón Kuegajima (R.I.P.) played a crucial role in the 'Leopard' Task Force of the Colombian Navy. His mission was to gather strategic information about the illegal armed group at the time, led by Jairo Capera Díaz.\n\n" +
+        "Unfortunately, his identity was discovered, and on October 31, 1981, in the Peñas Blancas area (Caquetá), he was captured, tortured, and finally executed with a bullet to the head on the banks of the Caquetá River. Before his death, Hichamón told Capera: 'I did my job better than you.'\n\n" +
+        "In recognition of his bravery and sacrifice, the Colombian Navy incorporated, in 1993, a floating unit, the ARC 'CP Filogonio Hichamón' River Support Patrol. (The Bulletin – Media outlet of the Colombian Marine Infantry, Edition No. 50 – Year 2020. Article 'Naval Force of the South, historical memory unit', by Lieutenant Commander Wilmar Raúl Amaya Plata – Operational Legal Advisor, Naval Force of the South. P. 100-101).";
 
       //
       break;
     case 18:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloBaupez").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextBaupez").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización tenía como objetivo una mejor administración de las regiones amazónicas...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas. (Hacia la departamentalización. Instituto Geográfico Agustín Codazzi IGAC - Diccionario Geográfico. Gobernación del Departamento del Caquetá).\n\n" +
-        "De su extenso territorio, que inicialmente abarcaba toda la región al sur del río Guaviare, se desprendieron sucesivamente las intendencias y comisarías amazónicas. La colonización del Caquetá comenzó en realidad en 1930, como resultado del conflicto Colombo-Peruano. Es importante destacar que la extracción de caucho fue el eje central de la economía en este período.\n\n" +
-        "**Elevación a Departamento (1981)**\n\n" +
-        "El 15 de diciembre de 1981, mediante la Ley 78, la Intendencia Nacional del Caquetá fue erigida como departamento, consolidando su estructura administrativa actual y ratificando a Florencia como su capital.\n\n" +
-        "Estos eventos reflejan la evolución administrativa del Caquetá, desde su inicio como territorio nacional hasta su consolidación como departamento, destacando la importancia estratégica y geográfica de la región en el contexto colombiano.\n\n" +
-        "La creación del departamento del Caquetá consolidó la presencia de la Fuerza Naval de la Amazonía en la región, desempeñando un papel fundamental en la lucha frontal contra el narcotráfico y sus delitos conexos, la defensa de los intereses fluviales y los recursos naturales, así como la asistencia y protección de las comunidades y la población civil de la cuenca amazónica.";
-
+      document.getElementById("TituloBaupez").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
+document.getElementById("TextBaupez").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
+document.getElementById("TextPopAmazonas").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization sought better administration of the Amazonian regions. (Towards departmentalization. Geographical Institute Agustín Codazzi IGAC - Geographical Dictionary. Caquetá Department Government).\n\n" +
+        "From its vast territory, which initially covered the entire region south of the Guaviare River, the Amazonian intendencies and commissariats were successively separated. The colonization of Caquetá actually began in 1930, as a result of the Colombia-Peru conflict. It is important to highlight that rubber extraction was the central pillar of the economy during this period.\n\n" +
+        "**Elevation to Department (1981)**\n\n" +
+        "On December 15, 1981, through Law 78, the National Intendency of Caquetá was established as a department, consolidating its current administrative structure and confirming Florencia as its capital.\n\n" +
+        "These events reflect the administrative evolution of Caquetá, from its beginnings as a national territory to its consolidation as a department, highlighting the strategic and geographical importance of the region in the Colombian context.\n\n" +
+        "The creation of the Caquetá department consolidated the presence of the Amazon Naval Force in the region, playing a key role in the front-line fight against drug trafficking and related crimes, defending the fluvial interests and natural resources, as well as providing assistance and protection to the communities and civilian population in the Amazon basin.";
+        
       //
       break;
     //case 19:
@@ -980,40 +985,45 @@ function ChangeTextEng() {
     case 21:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)"
-      document.getElementById("TextAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)"
-      document.getElementById("TextPopAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa propia, bajo el gobierno central. Esto marcó el inicio del reconocimiento de la región como una unidad político-administrativa. Transformación en Comisaría Especial (1943) En 1943, el Vaupés dejó de ser una intendencia para convertirse en una Comisaría Especial. Esto implicó un cambio en el modelo administrativo, aumentando la supervisión directa del gobierno nacional sobre la región debido a su importancia geoestratégica, su diversidad cultural y su riqueza natural. Elevación a departamento (1991) Con la promulgación de la Constitución Política de Colombia en 1991, el Vaupés fue elevado a la categoría de departamento. Este cambio fortaleció su autonomía administrativa y política, permitiendo mayor participación en el desarrollo regional y en la protección de sus comunidades indígenas y su biodiversidad. La intervención de la Armada de Colombia contribuyó a la oportuna creación de la Intendencia y Comisaría del Vaupés, dado que su aporte estratégico-operacional consolidó la estabilidad de la región, en lo concerniente al control territorial, soberanía en las zonas fronterizas y desarrollo integral de las comunidades."
+      document.getElementById("TituloAmazonas").innerHTML = "Creation of the Vaupés Intendancy (1910)";
+document.getElementById("TextAmazonas").innerHTML = "The territory of Vaupés was recognized as part of the Caquetá Intendancy in 1910. Subsequently, in 1913, the Vaupés Intendancy was created as an independent administrative entity...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Vaupés Intendancy (1910)";
+document.getElementById("TextPopAmazonas").innerHTML = "The territory of Vaupés was recognized as part of the Caquetá Intendancy in 1910. Later, in 1913, the Vaupés Intendancy was created as an independent administrative entity under the central government. This marked the beginning of the recognition of the region as a political-administrative unit.\n\n" +
+"**Transformation into Special Commissariat (1943)**\n\n" +
+"In 1943, Vaupés ceased to be an intendancy and became a Special Commissariat. This change implied a modification in the administrative model, which increased the direct supervision of the national government over the region due to its geostrategic importance, cultural diversity, and natural wealth.\n\n" +
+"**Elevation to Department (1991)**\n\n" +
+"With the promulgation of the Political Constitution of Colombia in 1991, Vaupés was elevated to the status of a department. This change strengthened its administrative and political autonomy, allowing for greater participation in regional development and in the protection of its indigenous communities and biodiversity.\n\n" +
+"The intervention of the Colombian Navy significantly contributed to the timely creation of the Vaupés Intendancy and Commissariat, consolidating the stability of the region in terms of territorial control, sovereignty in border areas, and the comprehensive development of the communities.";
 
       //
       break;
     case 22:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)"
-      document.getElementById("TextAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia en el año de 1968, en el departamento del Vaupés el conflicto adoptó una dinámica particular debido a su condición..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)"
-      document.getElementById("TextPopAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia en el año de 1968, en el departamento del Vaupés el conflicto adoptó una dinámica particular debido a su condición de territorio selvático y de difícil acceso. Esta región, habitada en su mayoría por comunidades indígenas, fue escenario de abusos y enfrentamientos entre los grupos armados que buscaban imponer su control político y territorial. La violencia política durante la década de 1960, conocida como “La Violencia”, llevó a una migración masiva de personas que huían de sus hogares en busca de seguridad. Esta situación generó una crisis humanitaria que requería una respuesta coordinada y efectiva. En ese sentido, la Armada de Colombia desempeñó un rol fundamental en la protección y asistencia de los desplazados, toda vez que, la geografía era atravesada por los ríos Apaporis y el Vaupés. Al ser una zona selvática, la navegación fluvial era la principal forma de transporte y comunicación, lo que hizo que la Institución Naval tuviera un rol estratégico."
+      document.getElementById("TituloAmazonas").innerHTML = "Great migration due to political violence in Colombia (1948-1958)";
+document.getElementById("TextAmazonas").innerHTML = "During the great migration due to political violence in Colombia, in 1968, the conflict adopted a particular dynamic in the department of Vaupés due to its condition...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Great migration due to political violence in Colombia (1948-1958)";
+document.getElementById("TextPopAmazonas").innerHTML = "During the great migration due to political violence in Colombia, in 1968, the conflict adopted a particular dynamic in the department of Vaupés due to its condition as a jungle territory with difficult access. This region, mostly inhabited by indigenous communities, became the scene of abuses and clashes between armed groups seeking to impose their political and territorial control. The political violence of the 1960s, known as 'La Violencia,' caused a massive migration of people fleeing their homes in search of safety. This situation generated a humanitarian crisis that required a coordinated and effective response. In this context, the Colombian Navy played a fundamental role in the protection and assistance of the displaced people, given the geography of the region, crossed by the Apaporis and Vaupés rivers. Being a jungle area, river navigation was the main form of transportation and communication, which gave the Naval Institution a strategic role in the region.";
 
-      //
+//
       break;
     case 23:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)"
-      document.getElementById("TextAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)"
-      document.getElementById("TextPopAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de las comunidades indígenas, generando tensiones y disputas sobre la regulación del trabajo indígena entre caucheros, misioneros y funcionarios. Estas tensiones contribuyeron a que algunas comunidades indígenas buscaran establecerse en nuevas regiones (Revista Colombiana de Antropología. Volumen 46 (2), julio-diciembre 2010. P. 331)."
+      document.getElementById("TituloAmazonas").innerHTML = "Impact of rubber extraction (1960-1970)";
+document.getElementById("TextAmazonas").innerHTML = "The rubber industry had a significant influence on the migratory dynamics of Vaupés. During the 1960s and 1970s, rubber extraction affected the social and economic structures of the region...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Impact of rubber extraction (1960-1970)";
+document.getElementById("TextPopAmazonas").innerHTML = "The rubber industry had a significant influence on the migratory dynamics of Vaupés. During the 1960s and 1970s, rubber extraction affected the social and economic structures of indigenous communities, generating tensions and disputes over the regulation of indigenous labor between rubber gatherers, missionaries, and officials. These tensions contributed to some indigenous communities seeking to settle in new regions (Colombian Journal of Anthropology. Volume 46 (2), July-December 2010, p. 331).";
 
       //
       break;
     case 24:
       document.getElementById("asd").style.display = "none";
 
-      document.getElementById("TituloAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998)"
-      document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, que dejó como resultado 24 militares, 16 policías..."
-      document.getElementById("TituloPopAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998) VERIFICAR VIABLIDAD DE INCLUIR ESTE HECHO"
-      document.getElementById("TextPopAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, que dejó como resultado 24 militares, 16 policías, 11 civiles muertos, 47 uniformados heridos y más de 60 secuestrados. Durante 72 horas, la población de Mitú estuvo sometida a crímenes de guerra y de lesa humanidad, una muestra de la violación a los Derechos Humanos y el Derecho Internacional Humanitario. Sin embargo, las Fuerzas Militares de Colombia desplegaron todas sus capacidades aéreas, fluviales y terrestres para consolidar el territorio y proteger a la población civil de las acciones violentas, en donde más de 1200 uniformados de la Fuerza Pública enfrentaron entre 900 y 1500 guerrilleros que participaron en el ataque. (Diferentes fuentes de información)"
+      document.getElementById("TituloAmazonas").innerHTML = "Takeover of Mitú – Vaupés (1998)";
+document.getElementById("TextAmazonas").innerHTML = "The takeover of Mitú – Vaupés, which occurred on November 1, 1998, was considered the bloodiest military action executed by the now-defunct FARC-EP, resulting in 24 military personnel, 16 police officers...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Takeover of Mitú – Vaupés (1998) VERIFY VIABILITY OF INCLUDING THIS EVENT";
+document.getElementById("TextPopAmazonas").innerHTML = "The takeover of Mitú – Vaupés, on November 1, 1998, was considered the bloodiest military action executed by the now-defunct FARC-EP. The attack resulted in the death of 24 military personnel, 16 police officers, 11 civilians, and left 47 soldiers injured, in addition to more than 60 hostages taken. For 72 hours, the population of Mitú was subjected to war crimes and human rights violations, constituting a blatant violation of International Humanitarian Law. However, the Colombian Armed Forces deployed all their air, river, and land capabilities to consolidate territorial control and protect the civilian population. Over 1,200 uniformed members of the Public Force faced between 900 and 1,500 guerrillas who participated in the attack (Various information sources).";
 
       //
       break;
