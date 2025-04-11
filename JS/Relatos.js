@@ -25,9 +25,9 @@ function mostrarAlerta(circuloId) {
                 break;
             case 1:
                 //alert("Has hecho clic en el círculo número " + circuloId);
-                nombre = "Arnol Tanimuka"
-                rango = "Referencia personal"
-                text = " Mi nombre es Arnold Tanimuka, Makuna mi apellido y yo vengo de Apaporis; De una comunidad llamada Bellavista, de ahí vengo, vengo a estudiar... ";
+                nombre = "Arnol Tanimuka-Riayawa'y"
+                rango = "Comunidad Bellavista Tanimuka"
+                text = '"'+"Mi nombre es Arnol Tanimuka-Riayawa'y, vengo de Apaporis de una comunidad llamada Bellavista Tanimuka, a estudiar, aprender y conocer lo bello del Amazonas, para sentirme orgulloso de mí mismo... "+'"';
 
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
@@ -44,9 +44,8 @@ function mostrarAlerta(circuloId) {
             case 2:
                 //alert("Has hecho clic en el círculo número " + circuloId);
                 nombre = "Erika Paola Cruz Gaitán"
-                rango = "Gobernadora y líder política representando por  la comunidad del resguardo indígena Lagartococha"
-                text = "Bueno, unos de los impactos que estamos sufriendo hoy, es el cambio climático en nuestro cambio de nuestro calendario ecológico, ya por lo que ve, ya nosotros...";
-
+                rango = "Gobernadora y representante de la comunidad del resguardo indígena Lagartococha"
+                text = '"' + "(...) unos de los impactos que estamos sufriendo hoy, es el cambio climático en nuestro calendario ecológico..." + '"';
 
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
@@ -64,7 +63,7 @@ function mostrarAlerta(circuloId) {
                 //alert("Has hecho clic en el círculo número " + circuloId);
                 nombre = "Fernando Trujillo"
                 rango = " Director Científico Fundación Omacha"
-                text = "A lo largo de 37 años se ven los cambios, no, se ven muchos cambios. Cuando llegué la biodiversidad era mucho más evidente. Uno salía de noche. prendía una linterna...";
+                text = '"' + "A lo largo de 37 años se ven los cambios, no, se ven muchos cambios. Cuando llegué la biodiversidad era mucho más evidente..." + '"';
 
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "   ./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
@@ -82,8 +81,8 @@ function mostrarAlerta(circuloId) {
                 //alert("Has hecho clic en el círculo número " + circuloId);
                 nombre = "Viane Masakaje Hipa"
                 rango = "Gobernadora del resguardo indígena Tukunare"
-                text = "pero uno como líder no está mirando quien le hace el mal y quien le hace el bien, sino que uno trabaja es para toda una comunidad, y en eso los hombres que hemos estado...";
-
+                text = '"' + "(...) pero uno como líder no está mirando quien le hace el mal y quien le hace el bien, sino que uno trabaja es para toda una comunidad"+'"';
+                
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
                 // Cambiar la imagen en móvil
