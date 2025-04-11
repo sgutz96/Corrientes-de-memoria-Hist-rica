@@ -67,7 +67,6 @@
 }
 
 .carousel-info p {
-    font-size: 14px; 
     font-weight: bold;
     margin: 0;
 }
@@ -116,7 +115,5 @@
         padding: 5px; 
     }
     
-    .carousel-info p {
-        font-size: 12px; /* Reduce el tamaño del texto en móviles */
-    }
+
 }

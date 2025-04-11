@@ -10,6 +10,9 @@ const RelatoscloseBtn = document.getElementById('Relatosclose-btn');
 // Mostrar el pop-up cuando se haga clic en la imagen
 Relatosimage.addEventListener('click', () => {
     Relatospopup.style.display = 'flex';
+
+    const RelatosPopUpvideo = document.getElementById('Relatos-Popup-video');
+    RelatosPopUpvideo.play(); // Reproducir el video al abrir el pop-up
     
 });
 

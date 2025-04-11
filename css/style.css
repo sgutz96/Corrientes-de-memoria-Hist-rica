@@ -1,38 +1,204 @@
 /* Importar la fuente Lato desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 @font-face {
   font-family: 'POORICH';
   src: url('../Assets/Fonts/POORICH.TTF') format('truetype');
-} 
+}
+
 @font-face {
   font-family: 'HTOWERT';
   src: url('../Assets/Fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-} 
+}
 
 
-/* Definir las variables de color en :root */
+
+
+/* 🌐 Estilos base (PC o móviles por defecto) */
 :root {
-  --color1: #304c3d  ;  /* Azul */
-  --color2: #252525;  /* Rojo */
-  --color3: #2ecc71;  /* Verde */
-  --color4: #252525;  /* Amarillo */
-  --color5: #9b59b6;  /* Púrpura */
-  --color6: #3b2c13;  /* blanco */
-  --color7: #304c3d;  /* blanco */
+  --color1: #304c3d;
+  /* Azul */
+  --color2: #252525;
+  /* Rojo */
+  --color3: #e9d3ab;
+  /* Verde */
+  --color4: #252525;
+  /* Amarillo */
+  --color5: #9b59b6;
+  /* Púrpura */
+  --color6: #3b2c13;
+  /* blanco */
+  --color7: #304c3d;
+  /* blanco */
 
 
-  --font-size-h1: 2.0rem;  /* Tamaño de fuente para h1 */
-  --font-size-h2: 2.0rem;  /* Tamaño de fuente para h2 */
-  --font-size-h3: 1.5rem;  /* Tamaño de fuente para h3 */
-  --font-size-h4: 1.5rem;  /* Tamaño de fuente para h4 */
-  --font-size-h5: 2rem;  /* Tamaño de fuente para h5 */
-  --font-size-h6: 1.5rem;  /* Tamaño de fuente para h6 */
-  --font-size-p: 1rem;  /* Tamaño de fuente para párrafos */
+  --font-size-h1: 2.0rem;
+  /* Tamaño de fuente para h1 */
+  --font-size-h2: 2.0rem;
+  /* Tamaño de fuente para h2 */
+  --font-size-h3: 1.5rem;
+  /* Tamaño de fuente para h3 */
+  --font-size-h4: 1.5rem;
+  /* Tamaño de fuente para h4 */
+  --font-size-h5: 2rem;
+  /* Tamaño de fuente para h5 */
+  --font-size-h6: 1.5rem;
+  /* Tamaño de fuente para h6 */
+  --font-size-p: 1rem;
+  /* Tamaño de fuente para párrafos */
 
   --imagen-sombreado-left: 10px 10px 5px gray;
   --imagen-sombreado-right: 10px 10px 5px gray;
-  --imagen-sombreado-center: 0px 5px 10px rgba(24, 24, 24, 0.74);
+  --imagen-sombreado-center: 0 10px 10px rgba(59, 59, 59, 0.585);
 }
+
+
+/* 📱 Móvil S (hasta 374px) */
+@media screen and (max-width: 374px) {
+  :root {
+    --font-size-h1: 1.2rem;
+    /* Tamaño de fuente para h1 */
+    --font-size-h2: 1.2rem;
+    /* Tamaño de fuente para h2 */
+    --font-size-h3: 1.0rem;
+    /* Tamaño de fuente para h3 */
+    --font-size-h4: 1.0rem;
+    /* Tamaño de fuente para h4 */
+    --font-size-h5: 1.2rem;
+    /* Tamaño de fuente para h5 */
+    --font-size-h6: 1.0rem;
+    /* Tamaño de fuente para h6 */
+    --font-size-p: 0.9rem;
+    /* Tamaño de fuente para párrafos */
+  }
+}
+
+/* 📱 Móvil M (375px – 424px) */
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  :root {
+    --font-size-h1: 1.3rem;
+    /* Tamaño de fuente para h1 */
+    --font-size-h2: 1.3rem;
+    /* Tamaño de fuente para h2 */
+    --font-size-h3: 1.1rem;
+    /* Tamaño de fuente para h3 */
+    --font-size-h4: 1.1rem;
+    /* Tamaño de fuente para h4 */
+    --font-size-h5: 1.3rem;
+    /* Tamaño de fuente para h5 */
+    --font-size-h6: 1.1rem;
+    /* Tamaño de fuente para h6 */
+    --font-size-p: 0.9rem;
+    /* Tamaño de fuente para párrafos */
+  }
+}
+
+/* 📱 Móvil L (425px – 767px) */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  :root {
+    --font-size-h1: 1.4rem;
+    /* Tamaño de fuente para h1 */
+    --font-size-h2: 1.4rem;
+    /* Tamaño de fuente para h2 */
+    --font-size-h3: 1.2rem;
+    /* Tamaño de fuente para h3 */
+    --font-size-h4: 1.2rem;
+    /* Tamaño de fuente para h4 */
+    --font-size-h5: 1.4rem;
+    /* Tamaño de fuente para h5 */
+    --font-size-h6: 1.2rem;
+    /* Tamaño de fuente para h6 */
+    --font-size-p: 0.9rem;
+    /* Tamaño de fuente para párrafos */
+  }
+}
+
+/* 📲 Tablet (768px – 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    --font-size-h1: 1.6rem;
+    /* Tamaño de fuente para h1 */
+    --font-size-h2: 1.6rem;
+    /* Tamaño de fuente para h2 */
+    --font-size-h3: 1.3rem;
+    /* Tamaño de fuente para h3 */
+    --font-size-h4: 1.3rem;
+    /* Tamaño de fuente para h4 */
+    --font-size-h5: 1.6rem;
+    /* Tamaño de fuente para h5 */
+    --font-size-h6: 1.3rem;
+    /* Tamaño de fuente para h6 */
+    --font-size-p: 0.9rem;
+    /* Tamaño de fuente para párrafos */
+  }
+}
+
+/* 💻 Laptop (1024px – 1439px) */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  :root {
+    --font-size-h1: 1.8rem;
+    /* Tamaño de fuente para h1 */
+    --font-size-h2: 1.8rem;
+    /* Tamaño de fuente para h2 */
+    --font-size-h3: 1.4rem;
+    /* Tamaño de fuente para h3 */
+    --font-size-h4: 1.4rem;
+    /* Tamaño de fuente para h4 */
+    --font-size-h5: 1.8rem;
+    /* Tamaño de fuente para h5 */
+    --font-size-h6: 1.4rem;
+    /* Tamaño de fuente para h6 */
+    --font-size-p: 1rem;
+    /* Tamaño de fuente para párrafos */
+  }
+}
+
+/* 💻 Laptop L / QHD (1440px – 2559px) */
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  :root {
+    --font-size-h1: 2.0rem;
+    /* Tamaño de fuente para h1 */
+    --font-size-h2: 2.0rem;
+    /* Tamaño de fuente para h2 */
+    --font-size-h3: 1.5rem;
+    /* Tamaño de fuente para h3 */
+    --font-size-h4: 1.5rem;
+    /* Tamaño de fuente para h4 */
+    --font-size-h5: 2rem;
+    /* Tamaño de fuente para h5 */
+    --font-size-h6: 1.5rem;
+    /* Tamaño de fuente para h6 */
+    --font-size-p: 1rem;
+    /* Tamaño de fuente para párrafos */
+  }
+}
+
+/* 🖥️ Pantalla 4K (2560px en adelante) */
+@media screen and (min-width: 2560px) {
+  :root {
+    --font-size-h1: 3.0rem;
+    /* Tamaño de fuente para h1 */
+    --font-size-h2: 3.0rem;
+    /* Tamaño de fuente para h2 */
+    --font-size-h3: 2.5rem;
+    /* Tamaño de fuente para h3 */
+    --font-size-h4: 2.5rem;
+    /* Tamaño de fuente para h4 */
+    --font-size-h5: 3.0rem;
+    /* Tamaño de fuente para h5 */
+    --font-size-h6: 2.5rem;
+    /* Tamaño de fuente para h6 */
+    --font-size-p: 1.5rem;
+    /* Tamaño de fuente para párrafos */
+  }
+}
+
+
+
+
+
+
+
 
 /* Resetear márgenes y padding para todos los elementos */
 * {
@@ -43,51 +209,70 @@
 
 /* Establecer la tipografía global */
 body {
-  font-family: Arial, sans-serif;  /* Tipografía predeterminada para el cuerpo */
+  font-family: Arial, sans-serif;
+  /* Tipografía predeterminada para el cuerpo */
   background-color: #e9d3ab;
   background-image: url(../Assets/IMG/WEBbg3.png);
-background-size: 100% auto; /* Ajusta el fondo al ancho, mantiene la proporción en el alto */
-background-repeat: repeat-y; /* Hace que el fondo se repita en el eje vertical */
+  background-size: 100% auto;
+  /* Ajusta el fondo al ancho, mantiene la proporción en el alto */
+  background-repeat: repeat-y;
+  /* Hace que el fondo se repita en el eje vertical */
 
-
+  width: 100%;
+  /* Ocupa exactamente el ancho de la ventana */
+  overflow-x: hidden;
+  /* Oculta cualquier desbordamiento horizontal */
+  margin: 0;
 }
 
 
 /* Estilo para los encabezados (h1 a h6) */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.5em;  /* Margen inferior para separar de otros elementos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+  /* Margen inferior para separar de otros elementos */
 }
 
 /* Tipografía específica para h1 y h2 */
-h1, h2 {
-  font-family: 'Lato', sans-serif;  /* Usar Lato para h1 y h2 */
+h1,
+h2 {
+  font-family: 'Lato', sans-serif;
+  /* Usar Lato para h1 y h2 */
 }
 
 /* Estilos para h1 a h6 */
 h1 {
   font-size: var(--font-size-h1);
-  
+
   font-family: 'HTOWERT';
   color: var(--color1);
 }
 
 h2 {
   font-size: var(--font-size-h2);
-  
+
   font-family: 'HTOWERT';
-  color: var(--color7);
+  color: var(--color1);
+
+  
+  text-align: center;
+  margin-top: 20px;
 }
 
 h3 {
   font-size: var(--font-size-h3);
-  
+
   font-family: 'HTOWERT';
   color: var(--color1);
-} 
+}
 
 h4 {
   font-size: var(--font-size-h4);
-  color: var(--color4);
+  color: var(--color2);
 }
 
 h5 {
@@ -101,19 +286,23 @@ h6 {
 }
 
 h2 span.color1 {
-  color: var(--color); /* Verde para "Relatos de" */
+  color: var(--color);
+  /* Verde para "Relatos de" */
 }
 
 h2 span.color2 {
-  color: var(--color6); /* Negro para "vida en" */
+  color: var(--color6);
+  /* Negro para "vida en" */
 }
 
 h1 span.color1 {
-  color: var(--color1); /* Verde para "Relatos de" */
+  color: var(--color1);
+  /* Verde para "Relatos de" */
 }
 
 h1 span.color2 {
-  color: var(--color2); /* Negro para "vida en" */
+  color: var(--color2);
+  /* Negro para "vida en" */
 }
 
 
@@ -121,94 +310,126 @@ h1 span.color2 {
 p {
   font-size: var(--font-size-p);
   color: var(--color6);
-  line-height: 1.5;  /* Espaciado de línea */
-  margin-bottom: 1em;  /* Espacio inferior */
+  line-height: 1.5;
+  /* Espaciado de línea */
+  margin-bottom: 1em;
+  /* Espacio inferior */
+}
+
+/* Estilo para los a */
+a {
+  font-size: var(--font-size-p);
+  color: var(--color1);
 }
 
 /* Estilos de los botones */
 /* Estilo general de los botones */
 button {
-  padding: 10px 20px; /* Tamaño del botón */
-  font-size: 1rem; /* Tamaño de fuente para el texto */
-  font-family: Arial, sans-serif; /* Tipografía para el texto del botón */
+  padding: 10px 20px;
+  /* Tamaño del botón */
+  font-size: var(--font-size-p);
+  /* Tamaño de fuente para el texto */
+  font-family: Arial, sans-serif;
+  /* Tipografía para el texto del botón */
   cursor: pointer;
   border: none;
-  border-radius: 5px; /* Bordes redondeados */
+  border-radius: 5px;
+  /* Bordes redondeados */
   transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
 /* Botón con fondo color1 */
-button.btn-primary {
-  background-color: var(--color1); /* Fondo azul */
-  color: white; /* Texto blanco */
+.btn-primary {
+  background-color: var(--color1);
+  /* Fondo azul */
+  color: white;
+  /* Texto blanco */
 }
 
-button.btn-primary:hover {
-  background-color: rgba(255, 255, 255, 0.7); /* Efecto hover más oscuro */
+.btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Efecto hover más oscuro */
   color: black;
 }
 
 /* Botón transparente con borde y texto color1 */
-button.btn-transparent {
-  background-color: rgba(255, 255, 255, 0.7); /* Fondo transparente */
-  color: var(--color1); /* Texto azul */
-  border: 2px solid var(--color1); /* Borde azul */
+.btn-transparent {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Fondo transparente */
+  color: var(--color2);
+  /* Texto azul */
+  border: 2px solid var(--color2);
+  /* Borde azul */
 }
 
-button.btn-transparent:hover {
-  background-color: var(--color1); /* Fondo azul al hacer hover */
-  color: white; /* Texto blanco al hacer hover */
+.btn-transparent:hover {
+  background-color: var(--color1);
+  /* Fondo azul al hacer hover */
+  color: white;
+  /* Texto blanco al hacer hover */
 }
 
 /* Estilos para el ícono dentro del botón */
 button.btn-transparent i {
-  margin-right: 8px; /* Espaciado entre el ícono y el texto */
+  margin-right: 8px;
+  /* Espaciado entre el ícono y el texto */
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos específicos para tabletas */
-  :root {  
-    --font-size-h1: 2.5rem;  /* Tamaño de fuente para h1 */
-    --font-size-h2: 2.0rem;  /* Tamaño de fuente para h2 */
-    --font-size-h3: 1.5rem;  /* Tamaño de fuente para h3 */
-    --font-size-h4: 1.5rem;  /* Tamaño de fuente para h4 */
-    --font-size-h5: 2rem;  /* Tamaño de fuente para h5 */
-    --font-size-h6: 1.5rem;  /* Tamaño de fuente para h6 */
-    --font-size-p: 1rem;  /* Tamaño de fuente para párrafos */
-  }
+/* Botón con fondo color1 */
+.btn-secondary {
   
+  font-size: 0.7rem;
+  width: fit-content;
+  background-color: var(--color1);
+  /* Fondo azul */
+  color: white;
+  /* Texto blanco */
 }
 
-@media only screen and (max-width: 767px) {
-      /* Estilos específicos para móviles */
-      :root {  
-        --font-size-h1: 2.2rem;  /* Tamaño de fuente para h1 */
-        --font-size-h2: 1.8rem;  /* Tamaño de fuente para h2 */
-        --font-size-h3: 1.5rem;  /* Tamaño de fuente para h3 */
-        --font-size-h4: 1.0rem;  /* Tamaño de fuente para h4 */
-        --font-size-h5: 2rem;  /* Tamaño de fuente para h5 */
-        --font-size-h6: 1.5rem;  /* Tamaño de fuente para h6 */
-        --font-size-p: 0.9rem;  /* Tamaño de fuente para párrafos */
-      }
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Efecto hover más oscuro */
+  color: black;
 }
+
+
+
 
 .content-image {
   position: relative;
   display: inline-block;
 }
+
 figcaption {
   position: absolute;
-  bottom: 20px; /* Ubica el texto en la parte inferior */
-  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro con opacidad */
-  color: #fff; /* Texto blanco */
-  font-size: 1rem; /* Tamaño del texto */
-  font-family: 'Arial', sans-serif; /* Fuente limpia y moderna */
-  padding: 10px 15px; /* Relleno alrededor del texto */
-  border-radius: 5px; /* Bordes suaves */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil debajo del texto */
+  bottom: 20px;
+  /* Ubica el texto en la parte inferior */
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Fondo oscuro con opacidad */
+  color: #fff;
+  /* Texto blanco */
+  font-size: 1rem;
+  /* Tamaño del texto */
+  font-family: 'Arial', sans-serif;
+  /* Fuente limpia y moderna */
+  padding: 10px 15px;
+  /* Relleno alrededor del texto */
+  border-radius: 5px;
+  /* Bordes suaves */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  /* Sombra sutil debajo del texto */
 }
 
 figcaption:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Efecto hover para hacerlo más oscuro al pasar el mouse */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Efecto hover para hacerlo más oscuro al pasar el mouse */
+}
+
+
+/* TABLET & MOBILE (≤ 1024px) */
+@media only screen and (max-width: 1024px) {
+  .btn-secondary {
+  
+  }
+  
 }

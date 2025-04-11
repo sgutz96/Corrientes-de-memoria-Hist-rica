@@ -25,9 +25,9 @@ function mostrarAlerta(circuloId) {
                 break;
             case 1:
                 //alert("Has hecho clic en el círculo número " + circuloId);
-                nombre = "Arnold"
-                rango = "Comunidad Apapois"
-                text = "Pues la armada nacional es la empresa más importante que tiene este municipio, la armada nacional es la que le genera soberanía nacional... ";
+                nombre = "Arnol Tanimuka"
+                rango = "Referencia personal"
+                text = " Mi nombre es Arnold Tanimuka, Makuna mi apellido y yo vengo de Apaporis; De una comunidad llamada Bellavista, de ahí vengo, vengo a estudiar... ";
 
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
@@ -35,17 +35,17 @@ function mostrarAlerta(circuloId) {
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
-                
+
                 // Change video popUp
-                videoSource.src ="Assets/Videos/Relatos/Arnold comunidad apapois.webm";
+                videoSource.src = "Assets/Videos/Relatos/Arnold comunidad apapois.webm";
 
                 colorCirculos(circuloId);
                 break;
             case 2:
                 //alert("Has hecho clic en el círculo número " + circuloId);
-                nombre = "Erika Paula cruz gaitan"
-                rango = "Gobernadora Resguardo indigena Lagarto Cocha"
-                text = "De esta región es el eje, créeme que ellos pues la fuente de trabajo, pues cuando ha habido coca, pues la vaina de la gente con su coca, o su oro, pero es el ...";
+                nombre = "Erika Paola Cruz Gaitán"
+                rango = "Gobernadora y líder política representando por  la comunidad del resguardo indígena Lagartococha"
+                text = "Bueno, unos de los impactos que estamos sufriendo hoy, es el cambio climático en nuestro cambio de nuestro calendario ecológico, ya por lo que ve, ya nosotros...";
 
 
                 // Cambiar la imagen en escritorio
@@ -54,17 +54,17 @@ function mostrarAlerta(circuloId) {
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Erika_Paula_Cruz_Gaitan_Gobernadora.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
-          
+
                 // Change video popUp
-            videoSource.src = "Assets/Videos/Relatos/Erika_Paula_Cruz_Gaitan_Gobernadora.mp4";
+                videoSource.src = "Assets/Videos/Relatos/Erika_Paula_Cruz_Gaitan_Gobernadora.mp4";
 
                 colorCirculos(circuloId);
                 break;
             case 3:
                 //alert("Has hecho clic en el círculo número " + circuloId);
-                nombre = "Fernando trujillo"
-                rango = "Fundacion Omacha"
-                text = "La jurisdicción del municipio cuenta con 87 km del río, donde se encuentran dispersas diecinueve comunidades indígenas con necesidades distintas a la capital...";
+                nombre = "Fernando Trujillo"
+                rango = " Director Científico Fundación Omacha"
+                text = "A lo largo de 37 años se ven los cambios, no, se ven muchos cambios. Cuando llegué la biodiversidad era mucho más evidente. Uno salía de noche. prendía una linterna...";
 
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "   ./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
@@ -72,17 +72,17 @@ function mostrarAlerta(circuloId) {
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Fernando_trujillo.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
-      
+
                 // Change video popUp
-          videoSource.src = "./Assets/Videos/Relatos/Fernando_trujillo.webm";
+                videoSource.src = "./Assets/Videos/Relatos/Fernando_trujillo.webm";
 
                 colorCirculos(circuloId);
                 break;
             case 4:
                 //alert("Has hecho clic en el círculo número " + circuloId);
-                nombre = "Viana makiscara quipa"
-                rango = "Gobernadora Resguardo indigena Lagarto Cocha"
-                text = "Hemos ganado terreno con la comunidad, nos hemos dado a querer, en el sentido de que promovemos la navegación segura. Iniciamos la campaña 'Cuida tu vida, navega seguro'...";
+                nombre = "Viane Masakaje Hipa"
+                rango = "Gobernadora del resguardo indígena Tukunare"
+                text = "pero uno como líder no está mirando quien le hace el mal y quien le hace el bien, sino que uno trabaja es para toda una comunidad, y en eso los hombres que hemos estado...";
 
                 // Cambiar la imagen en escritorio
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
@@ -90,10 +90,10 @@ function mostrarAlerta(circuloId) {
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Viana_makiscara_quipa.jpg";
                 // Cambiar la imagen por defecto
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
-                
+
                 // Change video popUp
-                videoSource.src ="Assets/Videos/Relatos/Viana_makiscara_quipa.webm";
-                
+                videoSource.src = "Assets/Videos/Relatos/Viana_makiscara_quipa.webm";
+
                 colorCirculos(circuloId);
                 break;
             case 5:
@@ -106,94 +106,94 @@ function mostrarAlerta(circuloId) {
             default:
                 break;
         }
-    }else{
+    } else {
         switch (circuloId) {
             case 0:
                 colorCirculos(circuloId);
                 break;
             case 1:
-                //alert("You clicked on circle number " + circuloId);
-                nombre = "Arnold"
-                rango = "Apapois Community"
-                text = "The National Navy is the most important company in this municipality, the National Navy is the one that generates national sovereignty...";
-        
+                //alert("You have clicked on circle number " + circuloId);
+                name = "Arnol Tanimuka"
+                relation = "Personal reference"
+                text = "My name is Arnold Tanimuka, Makuna is my surname and I come from Apaporis; from a community called Bellavista, that’s where I’m from, I came here to study... ";
+
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
                 // Change the image for mobile
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
-        
+
                 // Change video popUp
-                videoSource.src ="Assets/Videos/Relatos/Arnold comunidad apapois.webm";
+                videoSource.src = "Assets/Videos/Relatos/Arnold comunidad apapois.webm";
 
 
                 colorCirculos(circuloId);
                 break;
             case 2:
-                //alert("You clicked on circle number " + circuloId);
-                nombre = "Erika Paula Cruz Gaitán"
-                rango = "Governor Indigenous Reserve Lagarto Cocha"
-                text = "This region is the axis, believe me, they are the source of work, when there has been coca, it's the people's coca or their gold, but it's the ...";
-        
+                //alert("You have clicked on circle number " + circuloId);
+                name = "Erika Paola Cruz Gaitán"
+                role = "Governor and political leader representing the community of the Lagartococha Indigenous Reserve"
+                text = "Well, one of the impacts we are experiencing today is climate change, which is affecting our ecological calendar. As you can see, we are already..."
+
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
                 // Change the image for mobile
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Erika_Paula_Cruz_Gaitan_Gobernadora.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
-        
-                 // Change video popUp
-            videoSource.src = "Assets/Videos/Relatos/Erika_Paula_Cruz_Gaitan_Gobernadora.mp4";
+
+                // Change video popUp
+                videoSource.src = "Assets/Videos/Relatos/Erika_Paula_Cruz_Gaitan_Gobernadora.mp4";
 
                 colorCirculos(circuloId);
                 break;
             case 3:
-                //alert("You clicked on circle number " + circuloId);
-                nombre = "Fernando Trujillo"
-                rango = "Omacha Foundation"
-                text = "The municipality's jurisdiction has 87 km of river, where nineteen indigenous communities are dispersed, each with needs different from the capital...";
-        
+                //alert("You have clicked on circle number " + circuloId);
+                name = "Fernando Trujillo"
+                role = "Scientific Director, Omacha Foundation"
+                text = "Over the course of 37 years, you can see the changes—many changes. When I first arrived, the biodiversity was much more evident. You would go out at night, turn on a flashlight...";
+
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
                 // Change the image for mobile
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Fernando_trujillo.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
-        
+
                 // Change video popUp
-          videoSource.src = "./Assets/Videos/Relatos/Fernando_trujillo.webm";
-                
+                videoSource.src = "./Assets/Videos/Relatos/Fernando_trujillo.webm";
+
 
                 colorCirculos(circuloId);
                 break;
             case 4:
-                //alert("You clicked on circle number " + circuloId);
-                nombre = "Viana Makiscara Quipa"
-                rango = "Governor Indigenous Reserve Lagarto Cocha"
-                text = "We have gained ground with the community, we have earned their trust by promoting safe navigation. We started the campaign 'Take care of your life, navigate safely'...";
-        
+                //alert("You have clicked on circle number " + circuloId);
+                name = "Viane Masakaje Hipa"
+                role = "Governor of the Tukunare Indigenous Reserve"
+                text = "But as a leader, you’re not looking at who does you harm or who does you good — you work for the whole community, and in that, the men who have been...";
+
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
                 // Change the image for mobile
                 document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Viana_makiscara_quipa.jpg";
                 // Change the default image
                 document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";
-        
-// Change video popUp
-                videoSource.src ="Assets/Videos/Relatos/Viana_makiscara_quipa.webm";
-                
+
+                // Change video popUp
+                videoSource.src = "Assets/Videos/Relatos/Viana_makiscara_quipa.webm";
+
                 colorCirculos(circuloId);
                 break;
             case 5:
                 break;
             case 6:
                 break;
-        
+
             default:
                 break;
         }
-        
+
     }
 
 

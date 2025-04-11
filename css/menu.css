@@ -5,7 +5,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--imagen-sombreado-center);
 }
 
 .menu {
@@ -31,69 +31,60 @@ header {
 .menu-right {
   display: flex;
 }
-.menu-right{
-  display: flex;
-  flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1vw;
 
-}
 .menu-center ul,
 .menu-right ul {
-  list-style: none;
   display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-center ul li,
 .menu-right ul li {
-  margin: 0 0px;
+  margin: 0;
 }
 
-.menu-center ul li a {
-  color: #e9d3ab;
-  text-decoration: none;
-  font-family: 'HTOWERT';
-  font-size: 14px;
-  padding: 5px 10px;
-}
-
-
-
-
-.menu-center ul li:not(:last-child) {
-  border-right: 1px solid #e9d3ab; /* Línea de separación entre los elementos */
-}
-
-
-
-
-
+.menu-center ul li a,
 .menu-right ul li a {
   color: #e9d3ab;
   text-decoration: none;
   font-family: 'HTOWERT';
-  font-size: 16px;
-  padding: 5px 5px;
+  padding: 5px;
+  transition: text-decoration 0.3s ease;
 }
 
-.menu-center ul li a:hover {
-  text-decoration: underline;
+.menu-center ul li a {
+  padding: 5px 10px;
 }
 
+.menu-right ul li a {
+}
+
+.menu-center ul li:not(:last-child),
+.menu-right > div:not(:last-child) {
+  border-right: 1px solid #e9d3ab;
+}
+
+.menu-right > div:not(:last-child) {
+  padding-right: 20px;
+}
+
+.menu-center ul li a:hover,
 .menu-right ul li a:hover {
   text-decoration: underline;
 }
 
-.menu-right > div:not(:last-child) {
-  border-right: 1px solid #e9d3ab; /* Línea de separación */
-  padding-right: 20px; /* Espacio entre la línea y los elementos */
+.menu-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
 }
 
-
-
+/* Toggle para móviles/tablets */
 .menu-toggle {
   display: none;
   flex-direction: column;
@@ -107,24 +98,8 @@ header {
   background-color: #fff;
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-  .menu-center,
-  .menu-right {
-    display: none;
-  }
-
-  .menu-toggle {
-    display: flex;
-  }
-
-  .mobile-menu {
-    display: none;
-  }
-}
-@media only screen and (max-width: 767px) {
-
+/* Responsivo */
+@media (max-width: 1024px) {
   .menu-center,
   .menu-right {
     display: none;
@@ -139,93 +114,61 @@ header {
   }
 }
 
-
-.image-idioma {
+/* Idiomas y redes */
+.image-idioma,
+.idiomas ul li img,
+.redes ul li img {
   border-radius: 50%;
   filter: grayscale(60%);
   transition: filter 0.3s ease;
 }
 
-
-.idiomas ul li img,
-.redes ul li img {
-  border-radius: 50%;
-  /* Hace que las imágenes sean círculos */
-  filter: grayscale(60%);
-
-
+.redes ul li img:hover {
+  opacity: 0.7;
 }
 
-/* Estilos para las imágenes de las redes sociales */
-.menu-right .redes ul li a img {
-  filter: brightness(0) invert(1);
-  /* Cambia los íconos SVG a blanco */
-}
 
 .idiomas ul li img:hover {
-  border-radius: 50%;
-  /* Hace que las imágenes sean círculos */
   filter: grayscale(0%);
-
-
-
 }
 
+.menu-right .redes ul li a img {
+  filter: brightness(0) invert(1);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estilo del Popup */
+/* Mobile Popup */
 .mobile-menupopup {
   visibility: hidden;
   position: fixed;
   z-index: 1000;
-  left: 0;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-/* Estilo del contenido del Popup */
 .mobile-menupopup-content {
-  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
-  background-image: url('../Assets/IMG/ContextoInfoBG.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: rgba(255, 255, 255, 0.9) url('../Assets/IMG/Menu/ContextoInfoBG.webp') center/cover no-repeat;
   padding: 20px;
   width: 80%;
   max-width: 600px;
-  border-radius: 10px; /* Borde redondeado más suave */
+  border-radius: 10px;
   position: relative;
-  text-align: justify;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Alinea el contenido al inicio */
   align-items: center;
+  text-align: justify;
 }
 
-/* Estilo de la lista de menús */
 .menu-list-mobile ul {
   list-style: none;
   padding: 0;
-  margin: 0;
   width: 100%;
-  text-align: center; /* Alinea los elementos centrados */
+  text-align: center;
 }
 
 .menu-list-mobile ul li {
@@ -233,7 +176,6 @@ header {
 }
 
 .menu-list-mobile ul li a {
-  font-size: 22px;
   color: #333;
   text-decoration: none;
   padding: 10px 20px;
@@ -242,47 +184,33 @@ header {
 }
 
 .menu-list-mobile ul li a:hover {
-  background-color: #f39c12; /* Cambia el fondo al pasar el ratón */
-  color: #fff; /* Cambia el color del texto */
+  background-color: #f39c12;
+  color: #fff;
 }
 
-/* Estilo para el botón de cerrar */
 #close-mobile-menubtn {
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 30px;
   color: #fff;
   background: none;
   border: none;
   cursor: pointer;
 }
 
-/* Estilo de las redes sociales */
-.menu-right-mobile .redes ul {
+.menu-right-mobile .redes ul,
+.menu-right-mobile .idiomas ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-top: 20px;
 }
 
 .menu-right-mobile .redes ul li a img {
   width: 30px;
   height: 30px;
-}
-
-/* Estilo de los idiomas */
-.menu-right-mobile .idiomas ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
 }
 
 .menu-right-mobile .idiomas ul li a img {

@@ -1,98 +1,87 @@
-/* Estilos generales (para móviles como base) */
+/* Estilos generales (mobile-first) */
 .banner {
-    position: relative; /* Necesario para el posicionamiento del video */
+    position: relative;
     margin: 0;
-    padding: 0; /* Reducir padding del banner en móviles */
+    padding: 0;
     width: 100%;
-    height: 100vh; /* Aseguramos que el banner ocupe toda la pantalla */
+    height: 100vh;
     display: flex;
-    justify-content: center; /* Posición en X */
-    align-items: flex-end; /* Posición en Y */
-    overflow: hidden; /* Asegura que nada sobresalga */
-    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
-/* Estilo del video de fondo */
 .banner-video {
-    position: absolute; /* Posicionar el video detrás del contenido */
+    position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
     width: auto;
     height: auto;
-    z-index: 1; /* Asegúrate de que el video esté detrás */
-    transform: translate(-50%, -50%); /* Centrar el video */
-    object-fit: cover; /* Asegura que el video cubra todo el espacio */
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
 }
 
-/*banner */
 .banner-content {
-    margin-left: 0vw;   
-    position: relative; 
-    /*background-color: rgba(255, 255, 255, 0.7);*/
-    border-top-left-radius: 500px; 
-    border-top-right-radius: 500px; 
-    border-bottom-left-radius: 40%;
-    border-bottom-right-radius: 40%; 
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
     padding: 3rem;
     padding-bottom: 30vh;
-    width: 100%;
-    max-width: 500px; 
-    height: 150px; /* Altura de circulito */
-    z-index: 1; 
+    margin: 0;
     text-align: center;
     color: var(--color1);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden; 
+    overflow: hidden;
+    z-index: 1;
+
+    /* Estilo por defecto en móvil sin bordes redondeados */
+    border-radius: 0;
 }
 
 
-.buttons .btn-transparent{
-    color: black;
-    font-size: larger;
-}
 
-.buttons .btn-primary {
-
-    font-size: larger;
-}
-
+/* Tablets (768px - 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Estilos específicos para tabletas */
-    .banner{
-        justify-content: center  
+    .banner {
+        justify-content: center;
     }
+
     .banner-content {
-        margin: 0vw;   
-     /* background-color: rgba(255, 255, 255, 0.5);  Fondo con opacidad para contraste */  
-      max-width: 80vw; /* Limitar el ancho máximo */
-      text-align: center; /* Alineación del texto a la izquierda */
-      justify-content: center; /* Alineación vertical hacia la parte superior */
-      align-items: center; /* Alineación horizontal a la izquierda */
-      
+        max-width: 100vw;
+        justify-content: center;
+        align-items: center;
     }
 }
-@media only screen and (max-width: 767px) {    
-    /* Estilos específicos para móviles */
-    .banner{
-        justify-content: center  
+
+/* Móviles */
+@media only screen and (max-width: 767px) {
+    .banner {
+        justify-content: center;
     }
+
     .banner-content {
-        margin: 0vw;   
-      /*background-color: rgba(255, 255, 255, 0.5); /* Fondo con opacidad para contraste */  
-      max-width: 100vw; /* Limitar el ancho máximo */
-      height: 100vh;
-      text-align: center; /* Alineación del texto a la izquierda */
-      justify-content: center; /* Alineación vertical hacia la parte superior */
-      align-items: center; /* Alineación horizontal a la izquierda */
-      
-      border-top-left-radius: 0; 
-      border-top-right-radius: 0; 
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0; 
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Estilo de border-radius solo para pantallas más grandes (desktop) */
+@media only screen and (min-width: 1025px) {
+    .banner-content {
+        border-top-left-radius: 500px;
+        border-top-right-radius: 500px;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
     }
 }

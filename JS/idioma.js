@@ -64,9 +64,9 @@ document.getElementById("isEsp").addEventListener("click", function (event) {
 
 
 function cambiarIdioma() {
-    
-                // Change video popUp
-                document.getElementById('Relatos-Popup-video').src ="Assets/Videos/Relatos/Arnold comunidad apapois.webm";
+
+    // Change video popUp
+    document.getElementById('Relatos-Popup-video').src = "Assets/Videos/Relatos/Arnold comunidad apapois.webm";
 
     // Cambiar el idioma de los textos según el valor de isEspanish
     if (isEspanish) {
@@ -101,32 +101,32 @@ function cambiarIdioma() {
 
 
 
-// Cambiar el texto de la sección relatos
-document.querySelector("#relatos h2 .color1").textContent = "RELATOS";
-document.querySelector("#relatos h2 .color2").textContent = "DE VIDA";
-document.querySelector("#relatos h2 .color1:last-child").textContent = "EN EL AMAZONAS";
+        // Cambiar el texto de la sección relatos
+        document.querySelector("#relatos h2 .color1").textContent = "RELATOS";
+        document.querySelector("#relatos h2 .color2").textContent = "DE VIDA";
+        document.querySelector("#relatos h2 .color1:last-child").textContent = "EN EL AMAZONAS";
 
 
+        // Cambiar el texto de la sección Relatos
+        document.getElementById("relatosNombre").innerHTML = "Arnol Tanimuka"
+        document.getElementById("relatosRango").innerHTML = "Referencia personal"
+        document.getElementById("relatosText").innerHTML = " Mi nombre es Arnold Tanimuka, Makuna mi apellido y yo vengo de Apaporis; De una comunidad llamada Bellavista, de ahí vengo, vengo a estudiar... ";
 
 
-document.getElementById("relatosNombre").innerHTML = "Arnold";
-document.getElementById("relatosRango").innerHTML = "Comunidad Apapois";
-document.getElementById("relatosText").innerHTML = "Pues la armada nacional es la empresa más importante que tiene este municipio, la armada nacional es la que le genera soberanía nacional... ";
-
-  // Cambiar la imagen en escritorio
-  document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
-  // Cambiar la imagen en móvil
-  document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
-  // Cambiar la imagen por defecto
-  document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
+        // Cambiar la imagen en escritorio
+        document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
+        // Cambiar la imagen en móvil
+        document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
+        // Cambiar la imagen por defecto
+        document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
 
 
- // Resetear todos los círculos a blanco
- document.querySelectorAll(".circle").forEach(circle => {
-    circle.style.background = "#FAFAFA"; // Blanco
-});
+        // Resetear todos los círculos a blanco
+        document.querySelectorAll(".circle").forEach(circle => {
+            circle.style.background = "#FAFAFA"; // Blanco
+        });
 
-document.querySelectorAll(".circle")[0].style.backgroundColor = "#304D3D";
+        document.querySelectorAll(".circle")[0].style.backgroundColor = "#304D3D";
 
 
 
@@ -150,8 +150,8 @@ document.querySelectorAll(".circle")[0].style.backgroundColor = "#304D3D";
 
         document.querySelectorAll(".card .title")[4].textContent = "LIBRO";
         document.querySelectorAll(".card .experienciasdescription")[4].textContent = "Conoce este importante trabajo de investigación que evoca historias y experiencias de las comunidades locales de la Amazonía, así cómo, el contexto de memoria e información estratégica que se fundamenta en el rol fundamental que desempeña la Armada de Colombia en esta región del país.";
-       
-               // Cambiar el texto de la sección POSTALES  en español
+
+        // Cambiar el texto de la sección POSTALES  en español
         document.querySelector(".equipo h2 .color1").textContent = "POSTALES DE ";
         document.querySelector(".equipo h2 .color2").textContent = "LA AMAZONÍA";
         //  Cambiar el texto de footer
@@ -218,34 +218,34 @@ document.querySelectorAll(".circle")[0].style.backgroundColor = "#304D3D";
         document.querySelector("#teaser h2 .color1:last-child").textContent = "OF MEMORY";
 
 
-//cambiar el texto de la sección relatos
-document.querySelector("#relatos h2 .color1").textContent = "LIFE";
-document.querySelector("#relatos h2 .color2").textContent = "STORIES";
-document.querySelector("#relatos h2 .color1:last-child").textContent = "IN THE AMAZON";
+        //cambiar el texto de la sección relatos
+        document.querySelector("#relatos h2 .color1").textContent = "LIFE";
+        document.querySelector("#relatos h2 .color2").textContent = "STORIES";
+        document.querySelector("#relatos h2 .color1:last-child").textContent = "IN THE AMAZON";
 
 
-        document.getElementById("relatosNombre").innerHTML = "Arnold";
-        document.getElementById("relatosRango").innerHTML = "Apapois Community";
-        document.getElementById("relatosText").innerHTML = "The National Navy is the most important company in this municipality, the National Navy is the one that generates national sovereignty...";
-        
-       // Change the image for desktop
-       document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
-       // Change the image for mobile
-       document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
-       // Change the default image
-       document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
+        document.getElementById("relatosNombre").innerHTML = "Arnol Tanimuka"
+        document.getElementById("relatosRango").innerHTML = "Personal reference"
+        document.getElementById("relatosText").innerHTML = "My name is Arnold Tanimuka, Makuna is my surname and I come from Apaporis; from a community called Bellavista, that’s where I’m from, I came here to study... ";
 
-        
-         // Resetear todos los círculos a blanco
-         document.querySelectorAll(".circle").forEach(circle => {
+        // Change the image for desktop
+        document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
+        // Change the image for mobile
+        document.getElementById("RelatosimageMobile").srcset = "./Assets/IMG/testimonios/Movil/Arnold_comunidad_apapois.jpg";
+        // Change the default image
+        document.getElementById("RelatosdefaultImage").src = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
+
+
+        // Resetear todos los círculos a blanco
+        document.querySelectorAll(".circle").forEach(circle => {
             circle.style.background = "#FAFAFA"; // Blanco
         });
-        
+
         document.querySelectorAll(".circle")[0].style.backgroundColor = "#304D3D";
 
 
 
-        
+
         // Cambiar el texto de la sección Experiencias en inglés
         document.querySelector("#exp h2 .color1").textContent = "EXPERIENCES";
         document.querySelector("#exp h2 .color2").textContent = "VIRTUAL";
@@ -270,7 +270,7 @@ document.querySelector("#relatos h2 .color1:last-child").textContent = "IN THE A
         // Cambiar el texto de la sección POSTALES  en inglés
         document.querySelector(".equipo h2 .color1").textContent = "POSTCARDS FROM ";
         document.querySelector(".equipo h2 .color2").textContent = "THE AMAZON";
-       
+
         //  Cambiar el texto de footer
         // Cambiar texto de la sección "Líneas de atención"
         document.querySelector(".footer-columns div:first-child ul li:nth-child(1)").textContent = "Customer Support Lines";
