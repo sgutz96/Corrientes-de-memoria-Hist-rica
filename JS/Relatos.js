@@ -44,7 +44,7 @@ function mostrarAlerta(circuloId) {
             case 2:
                 //alert("Has hecho clic en el círculo número " + circuloId);
                 nombre = "Erika Paola Cruz Gaitán"
-                rango = "Gobernadora y representante de la comunidad del resguardo indígena Lagartococha"
+                rango = "Gobernadora de la comunidad del resguardo indígena Lagartococha"
                 text = '"' + "(...) unos de los impactos que estamos sufriendo hoy, es el cambio climático en nuestro calendario ecológico..." + '"';
 
                 // Cambiar la imagen en escritorio

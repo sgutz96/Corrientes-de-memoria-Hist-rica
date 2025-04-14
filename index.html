@@ -786,9 +786,33 @@
   </footer>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  
+  
   <script>
+    
     AOS.init();
   </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const image = document.getElementById("relatosVideo");
+
+    function updateAOS() {
+      const width = window.innerWidth;
+
+      if (width <= 1023) {
+        image.setAttribute("data-aos", "fade-up");
+      } else {
+        image.setAttribute("data-aos", "fade-left");
+      }
+    }
+
+    updateAOS(); // Ejecuta al cargar
+    window.addEventListener("resize", updateAOS); // Ejecuta al cambiar el tamaño
+  });
+</script>
+
 
   <script src="./JS/idioma.js"></script>
   <script src="./JS/Viedo-PopUp.js"></script>

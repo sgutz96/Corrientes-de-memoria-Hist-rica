@@ -164,9 +164,9 @@
     /* Tamaño de fuente para h3 */
     --font-size-h4: 1.5rem;
     /* Tamaño de fuente para h4 */
-    --font-size-h5: 2rem;
+    --font-size-h5: 1.4rem;
     /* Tamaño de fuente para h5 */
-    --font-size-h6: 1.5rem;
+    --font-size-h6: 1.4rem;
     /* Tamaño de fuente para h6 */
     --font-size-p: 1rem;
     /* Tamaño de fuente para párrafos */
@@ -184,9 +184,9 @@
     /* Tamaño de fuente para h3 */
     --font-size-h4: 2.5rem;
     /* Tamaño de fuente para h4 */
-    --font-size-h5: 3.0rem;
+    --font-size-h5: 2.4rem;
     /* Tamaño de fuente para h5 */
-    --font-size-h6: 2.5rem;
+    --font-size-h6: 2.4rem;
     /* Tamaño de fuente para h6 */
     --font-size-p: 1.5rem;
     /* Tamaño de fuente para párrafos */
@@ -219,8 +219,7 @@ body {
   /* Hace que el fondo se repita en el eje vertical */
 
   width: 100%;
-  /* Ocupa exactamente el ancho de la ventana */
-  overflow-x: hidden;
+ 
   /* Oculta cualquier desbordamiento horizontal */
   margin: 0;
 }
@@ -426,10 +425,3 @@ figcaption:hover {
 }
 
 
-/* TABLET & MOBILE (≤ 1024px) */
-@media only screen and (max-width: 1024px) {
-  .btn-secondary {
-  
-  }
-  
-}

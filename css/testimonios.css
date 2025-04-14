@@ -1,3 +1,98 @@
+/* Estilo principal del contenedor */
+.main-container {
+  height: 90vh;
+  margin: 0vh 0vw;
+  padding: 2.5rem 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  background-image: url(../Assets/IMG/bgCarpeta2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: drop-shadow(10px 10px 5px gray);
+}
+
+/* Contenedor de contenido */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0vw;
+  width: 35%;
+  height: 70%;
+  background: url(../Assets/IMG/testimonios/carpeta2.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+/* Estilos de la sección izquierda */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  flex: 0;
+}
+
+/* Estilos para los círculos */
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.644));
+}
+
+.circle {
+  width: var(--font-size-h4);
+  height: var(--font-size-h4);
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Sección derecha */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.1rem;
+  flex: 1;
+  height: 100%;
+  overflow-wrap: break-word;
+  padding: 0 2VW 0 0
+}
+
+.right-section p {
+  word-break: break-word;
+  margin-right: 2.5vw;
+}
+
+/* Imagen de testimonio */
+.testimonios-image {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.testimonios-image img {
+  width: 95%;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+  filter: drop-shadow(var(--imagen-sombreado-right));
+}
+
+/* Títulos */
+.testimonios h2 {
+  background: url(../Assets/IMG/BGSubT.png) no-repeat center;
+}
+
 .testimonios-text {
   display: flex;
   justify-content: flex-end;
@@ -11,223 +106,144 @@
   word-wrap: break-word;
 }
 
-/* Colores específicos para cada parte del título */
 .testimonios-title-primary {
-  color: var(--color3); /* Usar el color verde definido */
+  color: var(--color3); /* Verde */
 }
 
 .testimonios-title-secondary {
-  color: var(--color1); /* Usar el color azul para el título secundario */
+  color: var(--color1); /* Azul */
 }
 
-/* Contenedor principal centrado con 60% de ancho */
-.main-container {
-  width: 100%;
-  height: 90vh;
-  padding: 2.5rem;
-  background-image: url(../Assets/IMG/bgCarpeta2.png);
-  background-position: center; /* Centra la imagen de fondo */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-size: contain; /* Ajusta la imagen sin recortarla */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2vh 0;
-  gap: 1vw;
-  filter: drop-shadow(10px 10px 5px gray);
-}
+/* =======================
+   Responsive Styles
+======================= */
 
-
-/* Contenedor del contenido */
-.content-container {
-  display: flex;
-  gap: 1.25rem;
-  justify-content: space-between;
-  width: 30vw;
-
-  background-image: url(../Assets/IMG/testimonios/carpeta2.png);
-background-size: 100%;  /* Ajuste automático de la imagen al tamaño del contenedor */
-background-position: center;
-background-repeat: no-repeat;
-}
-
-
-/* Sección izquierda */
-.left-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1.25rem;
-  flex: 0;
-  padding: 1.25rem;
- /* background-image: url(https://via.placeholder.com/640x720);
-  background-size: cover;
-  background-position: center;
-  border-radius: 0.625rem;
-  box-shadow: 0px 0.25rem 0.375rem rgba(0, 0, 0, 0.1);*/
-}
-
-/* Estilos para los círculos */
-.circle-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.644));
-}
-
-.circle {
-  width: 2rem;
-  height: 2rem;
-  position: relative;
-  border-radius: 50%;
-}
-
-.circle:hover {
-  cursor: pointer;
-}
-
-
-.right-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.1rem;
-  flex: 1;
-  height: 20.125rem;
-  word-wrap: break-word;  /* Permite que las palabras largas se ajusten al contenedor */
-  overflow-wrap: break-word; /* Asegura que el texto se divida si es necesario */
-}
-
-.right-section p {
-  word-break: break-word; /* Esto hace que las palabras largas se dividan */
-  margin-right: 2.5vw;
-}
-
-/* Estilo para la imagen */
-.testimonios-image {
-  width: 30%;  
-  height: 80%;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.testimonios-image img{
-  width: 80%;  
-  height: auto;
-  object-fit: cover;
-  filter: drop-shadow(var(--imagen-sombreado-right));
-  cursor: pointer;
-} 
-.testimonios h2{
-  background-image: url(../Assets/IMG/BGSubT.png);
-  background-position: center; /* Centra la imagen de fondo */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */   
-}
-
-/* Media tablets y móvil */
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .main-container {
-    background-image: url(../Assets/IMG/Teaser-mask-cafe.png);
-    background-image: url(../Assets/IMG/testimonios/carpeta1.png);
-    background-position: center; /* Centra la imagen de fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-size:  cover; /* Ajusta la imagen sin recortarla */
-
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin: 0vh 0;
-    gap: 1vw;
-    filter: drop-shadow(10px 10px 5px gray);
-
+    width: 100%;
     height: auto;
-    margin-bottom: 10VH;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+    gap: 2vh;
+    background: url(../Assets/IMG/testimonios/carpeta1.png) no-repeat center;
+    background-size: cover;
   }
+
   .content-container {
-    position: absolute;
-    top: 60%;
-width: 90%;
-height: auto;
+    margin: 0;
+    padding: 2VH 2VW;
+    position: relative;
+    width: 100%;
+    height: 40VH;
     flex-direction: column-reverse;
     text-align: center;
-    padding: 2% 5%;
-    gap: 0;
+    justify-content: flex-end;
+    gap: 0; 
+    bottom: 10vh;
+    z-index: 1;
+    background-size: 100%;
+    background-position: center;  
   }
-  .left-section{
-    flex-direction: row;
 
+  .left-section {
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    height: 40vh;
   }
-  
-  .right-section{
+
+  .right-section {
+    justify-content: flex-start;
     flex-direction: column;
+    margin: 0;
+    padding: 2vh 0 0 0;
+    flex: none;
+    justify-content: flex-center;
+    align-items: center;   
+    height: 80%; 
   }
-  .right-section h3{
-    width: 100%;
-  }
-  .testimonios-image{
+
+
+  .testimonios-image {
+    
+    margin: 0;
+    padding: 0;
+    
     width: 100%;
     height: auto;
-    padding-bottom: 25%;
-    z-index: -1;
+    object-fit: cover;
+  }
+  .testimonios-image img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 }
 
+/* Móviles */
 @media only screen and (max-width: 767px) {
   .main-container {
-    background-image: url(../Assets/IMG/Teaser-mask-cafe.png);
-    background-image: url(../Assets/IMG/testimonios/carpeta1.png);
-    background-position: center; /* Centra la imagen de fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-size:  cover; /* Ajusta la imagen sin recortarla */
-
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin: 0vh 0;
-    gap: 1vw;
-    filter: drop-shadow(10px 10px 5px gray);
-
+    width: 100%;
     height: auto;
-    margin-bottom: 30VH;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
     gap: 2vh;
+    background: url(../Assets/IMG/testimonios/carpeta1.png) no-repeat center;
+    background-size: cover;
   }
+
   .content-container {
-    
-    position: absolute;
-    top: 80%;
-width: 80%;
-height: auto;
+    margin: 0;
+    padding: 2VH 2VW;
+    position: relative;
+    width: 100%;
+    height: 40VH;
     flex-direction: column-reverse;
     text-align: center;
-    padding: 3% 5%;
-    gap: 0;
+    justify-content: flex-end;
+    gap: 0; 
+    bottom: 0vh;
+    z-index: 1;
+    background-size: 100%;
+    background-position: center;  
   }
-  .left-section{
+
+  .left-section {
     flex-direction: row;
-
+    margin: 0;
+    padding: 0;
+    height: auto;
+    height: 40vh;
   }
-  
-  .right-section{
+
+  .right-section {
+    justify-content: flex-start;
     flex-direction: column;
+    margin: 0;
+    padding: 2vh 0 0 0;
+    flex: none;
+    justify-content: flex-center;
+    align-items: center;   
+    height: 80%; 
   }
-  .right-section h3{
+
+
+  .testimonios-image {
+    
+    margin: 0;
+    padding: 0;
+    
     width: 100%;
+    height: auto;
+    object-fit: cover;
   }
- /* Estilo para la imagen */
-.testimonios-image {
-  width: 100%;  
-  height: auto;
-  object-fit: cover;
-  padding-bottom: 10vh;
+  .testimonios-image img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
-
-
-
-}
-
-  

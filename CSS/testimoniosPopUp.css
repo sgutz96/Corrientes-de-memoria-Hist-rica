@@ -44,3 +44,28 @@
     width: 100%;
     max-height: 500px;
 }
+
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+    .RelatosVideoPopUp{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .Relatospopup-content{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .Relatos-Popup-video {
+        width: 100%;
+        max-height: 100vw;
+    }
+
+    /* Botón de cerrar */
+.Relatosclose-btn {
+    float: right;
+right: 20vw;
+}
+    
+}
