@@ -112,9 +112,9 @@ function mostrarAlerta(circuloId) {
                 break;
             case 1:
                 //alert("You have clicked on circle number " + circuloId);
-                name = "Arnol Tanimuka"
-                relation = "Personal reference"
-                text = "My name is Arnold Tanimuka, Makuna is my surname and I come from Apaporis; from a community called Bellavista, that’s where I’m from, I came here to study... ";
+                nombre = "Arnol Tanimuka-Riayawa'y"
+                rango    = "Community of Bellavista Tanimuka"
+                text = '"' + "My name is Arnol Tanimuka-Riayawa'y, I come from Apaporis from a community called Bellavista Tanimuka, to study, learn, and discover the beauty of the Amazon, to feel proud of myself... " + '"';
 
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";
@@ -130,10 +130,9 @@ function mostrarAlerta(circuloId) {
                 colorCirculos(circuloId);
                 break;
             case 2:
-                //alert("You have clicked on circle number " + circuloId);
-                name = "Erika Paola Cruz Gaitán"
-                role = "Governor and political leader representing the community of the Lagartococha Indigenous Reserve"
-                text = "Well, one of the impacts we are experiencing today is climate change, which is affecting our ecological calendar. As you can see, we are already..."
+                nombre = "Erika Paola Cruz Gaitán";
+                rango = "Governor of the indigenous reservation community of Lagartococha";
+        text = '"' + "(...) one of the impacts we are suffering today is climate change in our ecological calendar..." + '"';
 
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Erika_Paula_Cruz_Gaitan_Gobernadora.png";
@@ -149,9 +148,9 @@ function mostrarAlerta(circuloId) {
                 break;
             case 3:
                 //alert("You have clicked on circle number " + circuloId);
-                name = "Fernando Trujillo"
-                role = "Scientific Director, Omacha Foundation"
-                text = "Over the course of 37 years, you can see the changes—many changes. When I first arrived, the biodiversity was much more evident. You would go out at night, turn on a flashlight...";
+                nombre = "Fernando Trujillo";
+                role = "Scientific Director of Fundación Omacha";
+                text = '"' + "Over the past 37 years, changes have become visible—many changes. When I arrived, the biodiversity was much more evident..." + '"';
 
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Fernando_trujillo.png";
@@ -168,9 +167,9 @@ function mostrarAlerta(circuloId) {
                 break;
             case 4:
                 //alert("You have clicked on circle number " + circuloId);
-                name = "Viane Masakaje Hipa"
-                role = "Governor of the Tukunare Indigenous Reserve"
-                text = "But as a leader, you’re not looking at who does you harm or who does you good — you work for the whole community, and in that, the men who have been...";
+                nombre = "Viane Masakaje Hipa";
+                role = "Governor of the Tukunare indigenous reservation";
+                text = '"' + "(...) but as a leader, you don’t focus on who does you harm or who does you good—you work for the entire community." + '"';
 
                 // Change the image for desktop
                 document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Viana_makiscara_quipa.png";

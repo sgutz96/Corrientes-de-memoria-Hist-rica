@@ -108,9 +108,9 @@ function cambiarIdioma() {
 
 
         // Cambiar el texto de la sección Relatos
-        document.getElementById("relatosNombre").innerHTML = "Arnol Tanimuka"
-        document.getElementById("relatosRango").innerHTML = "Referencia personal"
-        document.getElementById("relatosText").innerHTML = " Mi nombre es Arnold Tanimuka, Makuna mi apellido y yo vengo de Apaporis; De una comunidad llamada Bellavista, de ahí vengo, vengo a estudiar... ";
+        document.getElementById("relatosNombre").innerHTML = "Arnol Tanimuka-Riayawa'y"
+        document.getElementById("relatosRango").innerHTML = "Comunidad Bellavista Tanimuka"
+        document.getElementById("relatosText").innerHTML = '"'+"Mi nombre es Arnol Tanimuka-Riayawa'y, vengo de Apaporis de una comunidad llamada Bellavista Tanimuka, a estudiar, aprender y conocer lo bello del Amazonas, para sentirme orgulloso de mí mismo... "+'"';
 
 
         // Cambiar la imagen en escritorio
@@ -224,9 +224,9 @@ function cambiarIdioma() {
         document.querySelector("#relatos h2 .color1:last-child").textContent = "IN THE AMAZON";
 
 
-        document.getElementById("relatosNombre").innerHTML = "Arnol Tanimuka"
-        document.getElementById("relatosRango").innerHTML = "Personal reference"
-        document.getElementById("relatosText").innerHTML = "My name is Arnold Tanimuka, Makuna is my surname and I come from Apaporis; from a community called Bellavista, that’s where I’m from, I came here to study... ";
+        document.getElementById("relatosNombre").innerHTML = "Arnol Tanimuka-Riayawa'y"
+        document.getElementById("relatosRango").innerHTML = "Community of Bellavista Tanimuka"
+        document.getElementById("relatosText").innerHTML = '"' + "My name is Arnol Tanimuka-Riayawa'y, I come from Apaporis from a community called Bellavista Tanimuka, to study, learn, and discover the beauty of the Amazon, to feel proud of myself... " + '"';
 
         // Change the image for desktop
         document.getElementById("RelatosimageDesktop").srcset = "./Assets/IMG/testimonios/PC/Arnold_comunidad_apapois.png";

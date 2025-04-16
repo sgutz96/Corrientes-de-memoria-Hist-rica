@@ -281,8 +281,7 @@
   <div id="historypopup" class="Aboutpopup">
     <div class="Aboutpopup-content">
       <div id="historyclosePopup" class="Aboutclose">&times;</div>
-      <img src="./Assets/IMG/Hitoria/historias/IMG/his-1.webp" alt="Imagen del contexto" class="popupimg"
-        id="asd" />
+      <img src="./Assets/IMG/Hitoria/historias/IMG/his-1.webp" alt="Imagen del contexto" class="popupimg" id="asd" />
       <p id="HistoryDerechos">Derechos</p>
       <div class="AboutPopUPConte">
         <h3 class="center-text" id="TituloPopAmazonas">Contexto</h3>
@@ -349,13 +348,14 @@
 
       <div class="right-section">
         <h3 class="name" id="relatosNombre">
-          Arnol Tanimuka
+          Arnol Tanimuka-Riayawa'y
         </h3>
         <h4 class="rank" id="relatosRango">
-          Referencia personal
+          Comunidad Bellavista Tanimuka
         </h4>
         <p class="Testimoniosdescription" id="relatosText">
-          Mi nombre es Arnold Tanimuka, Makuna mi apellido y yo vengo de Apaporis; De una comunidad llamada Bellavista, de ahí vengo, vengo a estudiar... 
+          "Mi nombre es Arnol Tanimuka-Riayawa'y, vengo de Apaporis de una comunidad llamada Bellavista Tanimuka, a
+          estudiar, aprender y conocer lo bello del Amazonas, para sentirme orgulloso de mí mismo... "
         </p>
       </div>
     </div>
@@ -411,7 +411,8 @@
     <div class="card" data-apk="ar.apk" style="background-image: url('Assets/IMG/experiencias/ar2.webp');">
       <div class="text-container">
         <h6 class="title">REALIDAD AUMENTADA BONGO HOSPITAL</h6>
-        <p class="experienciasdescription">Sumérgete en una experiencia interactiva que te llevará a conocer más sobre el Bongo
+        <p class="experienciasdescription">Sumérgete en una experiencia interactiva que te llevará a conocer más sobre
+          el Bongo
           Hospital de la Armada de Colombia.</p>
       </div>
     </div>
@@ -786,32 +787,32 @@
   </footer>
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
-  
-  
+
+
+
   <script>
-    
+
     AOS.init();
   </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const image = document.getElementById("relatosVideo");
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const image = document.getElementById("relatosVideo");
 
-    function updateAOS() {
-      const width = window.innerWidth;
+      function updateAOS() {
+        const width = window.innerWidth;
 
-      if (width <= 1023) {
-        image.setAttribute("data-aos", "fade-up");
-      } else {
-        image.setAttribute("data-aos", "fade-left");
+        if (width <= 1023) {
+          image.setAttribute("data-aos", "fade-up");
+        } else {
+          image.setAttribute("data-aos", "fade-left");
+        }
       }
-    }
 
-    updateAOS(); // Ejecuta al cargar
-    window.addEventListener("resize", updateAOS); // Ejecuta al cambiar el tamaño
-  });
-</script>
+      updateAOS(); // Ejecuta al cargar
+      window.addEventListener("resize", updateAOS); // Ejecuta al cambiar el tamaño
+    });
+  </script>
 
 
   <script src="./JS/idioma.js"></script>

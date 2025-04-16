@@ -87,6 +87,7 @@
   .video-container {
    
     padding: 0;
+    background-image: none;
   }
   .video-wrapper {
     width: 90%;
@@ -102,7 +103,7 @@
 
   /* Estilos específicos para móviles */
   .video-container {
-   
+    background-image: none;
     padding: 0;
   }
   .video-wrapper {
