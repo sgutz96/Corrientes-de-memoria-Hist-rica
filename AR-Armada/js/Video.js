@@ -16,6 +16,6 @@ function controlarVideoConMarcador(videoId, marcadorId) {
     });
 }
 
-controlarVideoConMarcador("video_DB", "markerVideo_DB");
-controlarVideoConMarcador("video_CB", "markerVideo_CB");
-controlarVideoConMarcador("video_VB", "markerVideo_VB");
+controlarVideoConMarcador("video_VBo", "markerVideo_VBo");
+controlarVideoConMarcador("video_VBi", "markervideo_VBi");
+controlarVideoConMarcador("video_DBi", "markerVideo_DBi");
