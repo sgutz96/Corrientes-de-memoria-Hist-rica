@@ -1,34 +1,24 @@
-  let time = 0;  // Tiempo inicial
-  const radius = 2;  // Radio del círculo (tamaño del carrusel)
-  const totalImages = 3;  // Número total de imágenes en el carrusel
+let time = 0;
+const radius = 2;
 
-  // Obtén todas las imágenes del carrusel
-  const carouselImages = [
-    document.getElementById("image1"),
-    document.getElementById("image2"),
-    document.getElementById("image3")
-  ];
+// Selecciona todas las imágenes con la clase 'ImagenCarrusel'
+const carouselImages = Array.from(document.getElementsByClassName("ImagenCarrusel"));
+const totalImages = carouselImages.length;
 
-  function animateCarousel() {
-    // Incrementa el tiempo
-    time += 0.001;
+function animateCarousel() {
+  time += 0.0005;
+  const angle = time * Math.PI * 2;
 
-    // Calcula el ángulo en función del tiempo
-    const angle = time * Math.PI * 2;  // 2 * PI para completar un círculo
+  carouselImages.forEach((image, index) => {
+    const angleOffset = (index / totalImages) * Math.PI * 2;
+    const x = radius * Math.cos(angle + angleOffset);
+    const y = radius * Math.sin(angle + angleOffset);
+    const scale = 1 + Math.sin(angle + angleOffset) * 0.5; // Scale based on sine wave
+    image.setAttribute('scale', `${scale} ${scale} ${scale}`);
+    image.setAttribute('position', `${x} 0 ${y}`);
+  });
 
-    // Para cada imagen, asigna una posición basada en seno y coseno
-    carouselImages.forEach((image, index) => {
-      const angleOffset = (index / totalImages) * Math.PI * 2;  // Espaciado equidistante entre las imágenes
-      const x = radius * Math.cos(angle + angleOffset);  // Calcula la posición en el eje X
-      const y = radius * Math.sin(angle + angleOffset);  // Calcula la posición en el eje Y
+  requestAnimationFrame(animateCarousel);
+}
 
-      // Asigna la nueva posición de la imagen
-      image.setAttribute('position', `${x} 0 ${y}`);
-    });
-
-    // Vuelve a llamar a la función de animación en el siguiente fotograma
-    requestAnimationFrame(animateCarousel);
-  }
-
-  // Llamar a la función para iniciar la animación
-  animateCarousel();
+animateCarousel();

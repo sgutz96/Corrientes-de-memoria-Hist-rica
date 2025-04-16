@@ -747,16 +747,15 @@ function ChangeTextEsp() {
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)";
-      document.getElementById("TextAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa independiente...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia del Vaupés (1910)";
-      document.getElementById("TextPopAmazonas").innerHTML = "El territorio del Vaupés fue reconocido como parte de la Intendencia del Caquetá en 1910. Posteriormente, en 1913, se creó la Intendencia del Vaupés como una entidad administrativa propia, bajo el gobierno central. Esto marcó el inicio del reconocimiento de la región como una unidad político-administrativa.\n\n" +
-        "**Transformación en Comisaría Especial (1943)**\n\n" +
-        "En 1943, el Vaupés dejó de ser una intendencia para convertirse en una Comisaría Especial. Este cambio implicó una modificación en el modelo administrativo, lo que aumentó la supervisión directa del gobierno nacional sobre la región debido a su importancia geoestratégica, su diversidad cultural y su riqueza natural.\n\n" +
-        "**Elevación a Departamento (1991)**\n\n" +
-        "Con la promulgación de la Constitución Política de Colombia en 1991, el Vaupés fue elevado a la categoría de departamento. Este cambio fortaleció su autonomía administrativa y política, permitiendo una mayor participación en el desarrollo regional y en la protección de sus comunidades indígenas y su biodiversidad.\n\n" +
-        "La intervención de la Armada de Colombia contribuyó significativamente a la creación oportuna de la Intendencia y Comisaría del Vaupés, consolidando la estabilidad de la región, en términos de control territorial, soberanía en las zonas fronterizas y el desarrollo integral de las comunidades.";
-
+      document.getElementById("TituloAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)";
+      document.getElementById("TextAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés, debido a su condición..."
+      document.getElementById("TituloPopAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés, debido a su condición de territorio selvático y de difícil acceso. Esta región, habitada en su mayoría por comunidades indígenas, fue escenario de abusos y enfrentamientos entre los grupos armados que buscaban imponer su control político y territorial. 
+      
+      La violencia política de la década de 1960, conocida como ‘La Violencia’, provocó una migración masiva de personas que huían de sus hogares en busca de seguridad. Esta situación generó una crisis humanitaria que requería una respuesta coordinada y efectiva. En ese contexto, la Armada de Colombia desempeñó un papel fundamental en la protección y asistencia de los desplazados, dada la geografía de la región, atravesada por los ríos Apaporis y Vaupés. Al ser una zona selvática, la navegación fluvial era la principal forma de transporte y comunicación, lo que le otorgó a la Institución Naval un papel estratégico en la región.
+    `;
+    
       //
       break;
     case 22:
@@ -765,10 +764,14 @@ function ChangeTextEsp() {
 
       document.getElementById("HistoryDerechos").innerHTML = ""
       document.getElementById("TituloAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)";
-      document.getElementById("TextAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés debido a su condición...";
+      document.getElementById("TextAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés, debido a su condición..."
       document.getElementById("TituloPopAmazonas").innerHTML = "Gran migración debido a la violencia política en Colombia (1948-1958)";
-      document.getElementById("TextPopAmazonas").innerHTML = "Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés, debido a su condición de territorio selvático y de difícil acceso. Esta región, habitada en su mayoría por comunidades indígenas, fue escenario de abusos y enfrentamientos entre los grupos armados que buscaban imponer su control político y territorial. La violencia política de la década de 1960, conocida como ‘La Violencia’, provocó una migración masiva de personas que huían de sus hogares en busca de seguridad. Esta situación generó una crisis humanitaria que requería una respuesta coordinada y efectiva. En ese contexto, la Armada de Colombia desempeñó un papel fundamental en la protección y asistencia de los desplazados, dada la geografía de la región, atravesada por los ríos Apaporis y Vaupés. Al ser una zona selvática, la navegación fluvial era la principal forma de transporte y comunicación, lo que le otorgó a la Institución Naval un papel estratégico en la región.";
-
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      Durante la gran migración debido a la violencia política en Colombia, en 1968, el conflicto adoptó una dinámica particular en el departamento del Vaupés, debido a su condición de territorio selvático y de difícil acceso. Esta región, habitada en su mayoría por comunidades indígenas, fue escenario de abusos y enfrentamientos entre los grupos armados que buscaban imponer su control político y territorial. 
+      
+      La violencia política de la década de 1960, conocida como ‘La Violencia’, provocó una migración masiva de personas que huían de sus hogares en busca de seguridad. Esta situación generó una crisis humanitaria que requería una respuesta coordinada y efectiva. En ese contexto, la Armada de Colombia desempeñó un papel fundamental en la protección y asistencia de los desplazados, dada la geografía de la región, atravesada por los ríos Apaporis y Vaupés. Al ser una zona selvática, la navegación fluvial era la principal forma de transporte y comunicación, lo que le otorgó a la Institución Naval un papel estratégico en la región.
+    `;
+    
       //
       break;
     case 23:
@@ -779,20 +782,24 @@ function ChangeTextEsp() {
       document.getElementById("TituloAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)";
       document.getElementById("TextAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de la región...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Impacto de la explotación cauchera (1960-1970)";
-      document.getElementById("TextPopAmazonas").innerHTML = "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de las comunidades indígenas, generando tensiones y disputas sobre la regulación del trabajo indígena entre caucheros, misioneros y funcionarios. Estas tensiones contribuyeron a que algunas comunidades indígenas buscaran establecerse en nuevas regiones (Revista Colombiana de Antropología. Volumen 46 (2), julio-diciembre 2010, p. 331).";
+      document.getElementById("TextPopAmazonas").innerHTML = 
+      "La industria del caucho tuvo una influencia significativa en la dinámica migratoria del Vaupés. Durante las décadas de 1960 y 1970, la explotación cauchera afectó las estructuras sociales y económicas de las comunidades indígenas, generando tensiones y disputas sobre la regulación del trabajo indígena entre caucheros, misioneros y funcionarios. Estas tensiones contribuyeron a que algunas comunidades indígenas buscaran establecerse en nuevas regiones (Revista Colombiana de Antropología. Volumen 46 (2), julio-diciembre 2010, p. 331).";
 
       //
       break;
     case 24:
+      ///
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = ""
       document.getElementById("TituloAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998)";
       document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, ocurrida el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, dejando como saldo 24 militares, 16 policías...";
+      document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP. El ataque resultó en la muerte de 24 militares, 16 ...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998) VERIFICAR VIABILIDAD DE INCLUIR ESTE HECHO";
-      document.getElementById("TextPopAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP. El ataque resultó en la muerte de 24 militares, 16 policías, 11 civiles y dejó 47 uniformados heridos, además de más de 60 secuestrados. Durante 72 horas, la población de Mitú estuvo sometida a crímenes de guerra y violaciones de los derechos humanos, constituyendo una flagrante transgresión del Derecho Internacional Humanitario. No obstante, las Fuerzas Militares de Colombia desplegaron todas sus capacidades aéreas, fluviales y terrestres para consolidar el control territorial y proteger a la población civil. Más de 1,200 uniformados de la Fuerza Pública enfrentaron entre 900 y 1,500 guerrilleros que participaron en el ataque (Diferentes fuentes de información).";
-
+      document.getElementById("TextPopAmazonas").innerHTML = 
+      "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP. El ataque resultó en la muerte de 24 militares, 16 policías, 11 civiles y dejó 47 uniformados heridos, además de más de 60 secuestrados. Durante 72 horas, la población de Mitú estuvo sometida a crímenes de guerra y violaciones de los derechos humanos, constituyendo una flagrante transgresión del Derecho Internacional Humanitario. No obstante, las Fuerzas Militares de Colombia desplegaron todas sus capacidades aéreas, fluviales y terrestres para consolidar el control territorial y proteger a la población civil. Más de 1,200 uniformados de la Fuerza Pública enfrentaron entre 900 y 1,500 guerrilleros que participaron en el ataque (Diferentes fuentes de información).";
+      
       //
       break;
     case 25:
@@ -803,9 +810,11 @@ function ChangeTextEsp() {
       document.getElementById("HistoryDerechos").innerHTML = ""
       document.getElementById("TituloAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998)";
       document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, ocurrida el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP, dejando como saldo 24 militares, 16 policías...";
+      document.getElementById("TextAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP. El ataque resultó en la muerte de 24 militares, 16 ...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Toma de Mitú – Vaupés (1998) VERIFICAR VIABILIDAD DE INCLUIR ESTE HECHO";
-      document.getElementById("TextPopAmazonas").innerHTML = "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP. El ataque resultó en la muerte de 24 militares, 16 policías, 11 civiles y dejó 47 uniformados heridos, además de más de 60 secuestrados. Durante 72 horas, la población de Mitú estuvo sometida a crímenes de guerra y violaciones de los derechos humanos, constituyendo una flagrante transgresión del Derecho Internacional Humanitario. No obstante, las Fuerzas Militares de Colombia desplegaron todas sus capacidades aéreas, fluviales y terrestres para consolidar el control territorial y proteger a la población civil. Más de 1,200 uniformados de la Fuerza Pública enfrentaron entre 900 y 1,500 guerrilleros que participaron en el ataque (Diferentes fuentes de información).";
-
+      document.getElementById("TextPopAmazonas").innerHTML = 
+      "La toma de Mitú – Vaupés, el 1 de noviembre de 1998, fue considerada la acción bélica más sangrienta ejecutada por las extintas FARC-EP. El ataque resultó en la muerte de 24 militares, 16 policías, 11 civiles y dejó 47 uniformados heridos, además de más de 60 secuestrados. Durante 72 horas, la población de Mitú estuvo sometida a crímenes de guerra y violaciones de los derechos humanos, constituyendo una flagrante transgresión del Derecho Internacional Humanitario. No obstante, las Fuerzas Militares de Colombia desplegaron todas sus capacidades aéreas, fluviales y terrestres para consolidar el control territorial y proteger a la población civil. Más de 1,200 uniformados de la Fuerza Pública enfrentaron entre 900 y 1,500 guerrilleros que participaron en el ataque (Diferentes fuentes de información).";
+      
       //
       break;
     default:

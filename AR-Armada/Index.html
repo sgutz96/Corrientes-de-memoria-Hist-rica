@@ -52,6 +52,26 @@
           </a-video>
         </a-marker>
 
+        <a-marker preset="custom" type="pattern" url="./data/letterG.patt">
+          <!-- Galería de imágenes 3D -->
+          <a-entity id="carousel" position="0 0 0">
+            <a-image class="ImagenCarrusel" src="#img1" position="0 0 0" width="2" height="1.5"></a-image>
+            <a-image class="ImagenCarrusel" src="#img2" position="0 0 0" width="2" height="1.5"></a-image>
+            <a-image class="ImagenCarrusel" src="#img3" position="0 0 0" width="2" height="1.5"></a-image>
+            <a-image class="ImagenCarrusel" src="#img4" position="0 0 0" width="2" height="1.5"></a-image>
+            <a-image class="ImagenCarrusel" src="#img5" position="0 0 0" width="2" height="1.5"></a-image>
+            <!-- Agrega más imágenes aquí si quieres -->
+          </a-entity>
+        </a-marker>
+        
+        <a-assets>
+          <img id="img1" src="./assets/IMG/Carrusel/ImgCarrusel (1).webp" />
+          <img id="img2" src="./assets/IMG/Carrusel/ImgCarrusel (2).webp" />
+          <img id="img3" src="./assets/IMG/Carrusel/ImgCarrusel (3).webp" />
+          <img id="img4" src="./assets/IMG/Carrusel/ImgCarrusel (4).webp" />
+          <img id="img5" src="./assets/IMG/Carrusel/ImgCarrusel (5).webp" />
+        </a-assets>
+        
 
         <!-- Cámara estática (no se mueve con el dispositivo) -->
         <a-camera-static></a-camera-static>
@@ -86,7 +106,8 @@
 
 
   <script src="js/PopUp.js"></script>
-  <script src="js/Video.js"></script>
+  <script src="js/Video.js"></script>  
+  <script src="js/Carrusel.js"></script>
 
 
 </body>
