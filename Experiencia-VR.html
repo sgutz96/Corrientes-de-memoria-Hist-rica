@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corrientes de memoria</title>
+  <link rel="icon" href="./Assets/IMG/Logos/normal-min.webp">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/VideoPopup.css">
+  <link rel="stylesheet" href="./CSS/menu.css">
+  <link rel="stylesheet" href="./CSS/banner.css">
+  <link rel="stylesheet" href="./CSS/Paralax.css">
+  <link rel="stylesheet" href="./CSS/about.css">
+  <link rel="stylesheet" href="./CSS/carrusel.css">
+  <link rel="stylesheet" href="./CSS/histoy.CSS">
+  <link rel="stylesheet" href="./CSS/teaser.css">
+  <link rel="stylesheet" href="./CSS/testimonios.css">
+  <link rel="stylesheet" href="./CSS/testimoniosPopUp.css">
+  <link rel="stylesheet" href="./CSS/experiencias.css">
+  <link rel="stylesheet" href="./CSS/fotter.css">
+
+  <head>
+    <!-- Incluye AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <!-- Incluye AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  </head>
+
+
+</head>
+
+<body>
+  
+  <!-- Menú -->
+  <header>
+    <nav id="menu" class="menu">
+      <div class="menu-left">
+        <img src="./Assets/IMG/Logos/LogoNav-min.webp" alt="Logo" class="logo">
+      </div>
+
+      <!-- Botón hamburguesa -->
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-center">
+        <ul>
+          <li><a href="index.html#banner">INICIO</a></li>
+          <li><a href="index.html#exp">EXPERIENCIAS</a></li>
+          <li><a href="index.html#contexto">ACERCA</a></li>          
+        </ul>
+      </div>
+
+      <div class="menu-right">
+        <div class="redes">
+          <ul>
+            <li><a href="#"><img src="./Assets/SVG/icons8-instagram.svg" alt="Instagram" width="24" height="24"></a>
+            </li>
+            <li><a href="#"><img src="./Assets/SVG/icons8-tiktok.svg" alt="TikTok" width="24" height="24"></a></li>
+            <li><a href="#"><img src="./Assets/SVG/icons8-youtube.svg" alt="YouTube" width="24" height="24"></a></li>
+          </ul>
+        </div>
+
+        <div class="idiomas">
+          <ul>
+            <li><a href="#" id="isEng"><img src="./Assets/SVG/usa.png" alt="English" width="24" height="24"
+                  id="isEng-img"></a></li>
+            <li><a href="#" id="isEsp"><img src="./Assets/SVG/colombia.png" alt="Español" width="24" height="24"
+                  id="isEsp-img"></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menú desplegable para móviles y tablet -->
+    <div id="mobile-menupopup" class="mobile-menupopup">
+      <div class="mobile-menupopup-content">
+        <div class="close-mobile-menubtn" id="close-mobile-menubtn">X</div>
+        <div class="menu-list-mobile">
+          <ul>
+            <li><a href="#banner">INICIO</a></li>
+            <li><a href="#exp">EXPERIENCIAS</a></li>
+            <li><a href="#contexto">ACERCA</a></li>
+          </ul>
+        </div>
+        <div class="menu-right-mobile">
+          <div class="redes">
+            <ul>
+              <li><a href="#"><img src="./Assets/SVG/icons8-instagram.svg" alt="Instagram" width="24" height="24"></a>
+              </li>
+              <li><a href="#"><img src="./Assets/SVG/icons8-tiktok.svg" alt="TikTok" width="24" height="24"></a></li>
+              <li><a href="#"><img src="./Assets/SVG/icons8-youtube.svg" alt="YouTube" width="24" height="24"></a></li>
+            </ul>
+          </div>
+
+          <div class="idiomas">
+            <ul>
+              <li><a href="#" id="isEng-movil"><img src="./Assets/SVG/usa.png" alt="English" width="24" height="24"
+                    id="isEng-img-movil"></a></li>
+              <li><a href="#" id="isEsp-movil"><img src="./Assets/SVG/colombia.png" alt="Español" width="24" height="24"
+                    id="isEsp-img-movil"></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Banner -->
+  <div class="banner" id="banner">
+    <video autoplay muted loop class="banner-video">
+      <source src="./Assets/Videos/Banner/Banner.webm" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+    <div class="banner-content">
+      <!-----
+      <h1>
+        <span class="color1">CORRIENTES DE MEMORIA</span>
+        <span class="color2">Narrativa transmedia</span>
+        <span class="color1">de la Amazonía</span>
+      </h1>----->
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>-->
+      <div class="buttons">
+        <button class="btn-primary" onclick="location.href='#exp'">Experiencias</button>
+        <button class="btn-transparent" onclick="location.href='#teaser'"><i class="fa fa-play"></i> Trailers</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- separator -->
+  <div class="separator">
+    <div class="separator-image color1">
+      <img src="./Assets/IMG/Paralax_4-min.webp" alt="">
+    </div>
+    <div class="separator-image color2">
+      <img src="./Assets/IMG/Paralax_3-min.webp" alt="">
+    </div>
+    <div class="separator-image color3">
+      <img src="./Assets/IMG/Paralax_2-min.webp" alt="">
+    </div>
+    <div class="separator-image color4">
+      <img src="./Assets/IMG/Paralax_1-min.webp" alt="">
+    </div>
+  </div>
+
+
+  <!-- About -->
+  <!-- Sección de contexto -->
+  <section class="Aboutcontextosection" id="contexto">
+    <h2>CONTEXTO</h2>
+    <div class="Aboutcontent">
+      <!-- Sección izquierda -->
+      <div class="Aboutleft-section" data-aos="fade-right" data-aos-duration="1000">
+        <h3>Explora el ARC Leticia en Realidad Virtual</h3>
+        <p>Adéntrate en una experiencia educativa en Realidad Virtual a bordo del buque ARC Reyes. Recorre de manera interactiva sus diferentes áreas, aprende sobre sus funciones y conoce su papel estratégico en la región amazónica. Esta experiencia didáctica está diseñada para ofrecer una visión detallada del barco, permitiéndote explorar su interior desde una perspectiva inmersiva y accesible desde visores VR compatibles.</p>
+        <button class="btn-secondary">Explorar en VR</button>
+      </div>
+
+      <!-- Sección derecha -->
+      <div class="Aboutright-section" data-aos="fade-left" data-aos-duration="1000">
+        <img src="./Assets/IMG/About/BulletsAbout-min.webp" alt="Imagen del contexto" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <br>
+    <ul class="footer-social">
+      <li><a href="#"><img src="./Assets/SVG/youtube.svg" alt="Instagram" width="20" height="30"></a></li>
+      <li><a href="#"><img src="./Assets/SVG/tiktok.svg" alt="TikTok" width="20" height="30"></a></li>
+      <li><a href="#"><img src="./Assets/SVG/yt.svg" alt="YouTube" width="20" height="30"></a></li>
+    </ul>
+    <!-- Línea separadora -->
+    <hr class="footer-line">
+    <div class="footer-columns">
+      <div>
+        <ul>
+          <li><strong>Líneas de atención</strong></li>
+          <li><a>Dirección:</a></li>
+          <li><a>Diagonal 40ª No. 8-37 Piso 8
+              Dirección de Apoyo a la Transición
+              Bogotá – Colombia</a></li>
+          <li><a>+57 601 3692000 Ext. 11112 – 10506</a></li>
+          <li><strong>Visítanos</strong></li>
+          <li><a href="http://atencionalciudadano.armada.mil.co/">http://atencionalciudadano.armada.mil.co/</a></li>
+
+        </ul>
+      </div>
+
+
+      <div>
+        <ul>
+          <li><strong>Experiencias</strong></li>
+          <li><a href="#">VR ARC “TECIM REYES HOLGUÍN”</a></li>
+          <li><a href="#">Rescata el Amazonas</a></li>
+          <li><a href="#">AR Bongo Hospital</a></li>
+          <li><a href="#">Documental</a></li>
+          <li><a href="#">Libro de investigación</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><strong>Navegar</strong></li>
+          <li><a href="#menu">Inicio</a></li>
+          <li><a href="#contexto">Contexto</a></li>
+          <li><a href="#histoy-nav">Historia</a></li>
+          <li><a href="#teaser">Documental Corrientes</a></li>
+          <li><a href="#histoy-nav">Relatos de Vida</a></li>
+          <li><a href="#exp">Experiencias Virtuales</a></li>
+          <li><a href="#equipo">Nuestro Equipo</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <hr class="footer-line">
+    <div class="footer-logos">
+      <a href="https://www.armada.mil.co/" target="_blank">
+        <img src="./Assets/IMG/Logos/arm-min.webp" alt="Logo 1" class="footer-logo-img">
+      </a>
+      <a href="https://www.usbbog.edu.co/" target="_blank">
+        <img src="./Assets/IMG/Logos/usb-min.webp" alt="Logo 2" class="footer-logo-img">
+      </a>
+      <a href="#" target="_blank">
+        <img src="./Assets/IMG/Logos/normal1-min.webp" alt="Logo 3" class="footer-logo-img">
+      </a>
+    </div>
+
+    <br>
+    <p class="footer-text">© 2025 Corrientes De Memoria. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+
+  <script>
+
+    AOS.init();
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const image = document.getElementById("relatosVideo");
+
+      function updateAOS() {
+        const width = window.innerWidth;
+
+        if (width <= 1023) {
+          image.setAttribute("data-aos", "fade-up");
+        } else {
+          image.setAttribute("data-aos", "fade-left");
+        }
+      }
+
+      updateAOS(); // Ejecuta al cargar
+      window.addEventListener("resize", updateAOS); // Ejecuta al cambiar el tamaño
+    });
+  </script>
+
+
+  <script src="./JS/idioma.js"></script>
+  <script src="./JS/Menutoggle.js"></script>
+  <script src="./JS/paralax.js"></script>
+  <script src="./JS/contexto.js"></script>
+  <script src="./JS/histoy.JS"></script>
+  <script src="./JS/histoyPopUP.js"></script>
+  <script src="./JS/Relatos.js"></script>
+  <script src="./JS/testimoniosPopUp.js"></script>
+  <script src="./JS/carrusel.js"></script>
+  <script src="./JS/productos.js"></script>
+
+</body>
+
+</html>

@@ -50,6 +50,6 @@ window.onload = function() {
             habilitarScroll();
             videoPopup.style.display = 'none'; // Ocultar el popup
             // contenido.style.display = 'block'; // Mostrar el contenido de la página
-        }, 200); // Esperar 2 segundos para completar el desvanecimiento
+        }, 2); // Esperar 2 segundos para completar el desvanecimiento
     };
 };

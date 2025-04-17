@@ -1,0 +1,19 @@
+/* Estilos para el botón flotante */
+.floating-button-music {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--color2);
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: var(--font-size-h6/2);
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Efecto cuando el botón está activo (puedes cambiarle el color si lo deseas) */
+.floating-button-music.active {
+    background-color: var(--color1);
+}

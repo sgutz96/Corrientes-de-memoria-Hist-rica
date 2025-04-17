@@ -23,7 +23,27 @@
     z-index: 1;
     transform: translate(-50%, -50%);
     object-fit: cover;
+    filter: brightness(0.6) blur(2px);
 }
+
+.banner-info{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    
+}
+
+.banner-logo{
+    width: 15vw;
+    height: auto;
+    z-index: 2;
+  
+}
+
 
 .banner-content {
     position: relative;
@@ -45,6 +65,7 @@
     /* Estilo por defecto en móvil sin bordes redondeados */
     border-radius: 0;
 }
+
 
 
 

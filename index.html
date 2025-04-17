@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="./CSS/style.css">
   <link rel="stylesheet" href="./CSS/VideoPopup.css">
+  <link rel="stylesheet" href="./CSS/musica.css">
   <link rel="stylesheet" href="./CSS/menu.css">
   <link rel="stylesheet" href="./CSS/banner.css">
   <link rel="stylesheet" href="./CSS/Paralax.css">
@@ -45,6 +46,19 @@
         Tu navegador no soporta el formato de video.
       </video>
     </div>
+  </div>
+
+
+
+  <!-- Contenedor del audio -->
+  <audio id="audio-music" loop>
+    <source src="./Assets/Audios/audio-music.mp3" type="audio/mp3">
+    Tu navegador no soporta la etiqueta de audio.
+  </audio>
+
+  <!-- Botón flotante -->
+  <div class="floating-button-music" onclick="toggleMusic()">
+    🎵
   </div>
 
   <!-- Menú -->
@@ -133,18 +147,23 @@
       <source src="./Assets/Videos/Banner/Banner.webm" type="video/mp4">
       Tu navegador no soporta el video.
     </video>
-    <div class="banner-content">
-      <!-----
+    <div class="banner-info">
+      <img class="banner-logo" src="./Assets/IMG/Logos/comprimido/sobre oscuros sin fondo-min.png" alt="Logo Corrientes de memoria"
+        srcset="">
+      <div class="banner-content">
+        <!-----
       <h1>
         <span class="color1">CORRIENTES DE MEMORIA</span>
         <span class="color2">Narrativa transmedia</span>
         <span class="color1">de la Amazonía</span>
       </h1>----->
-      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>-->
-      <div class="buttons">
-        <button class="btn-primary" onclick="location.href='#exp'">Experiencias</button>
-        <button class="btn-transparent" onclick="location.href='#teaser'"><i class="fa fa-play"></i> Trailers</button>
+        <div class="buttons">
+          <button class="btn-primary" onclick="location.href='#exp'">Experiencias</button>
+          <button class="btn-transparent" onclick="location.href='#teaser'"><i class="fa fa-play"></i> Trailers</button>
+        </div>
+
       </div>
 
     </div>
@@ -393,14 +412,16 @@
   </div>
 
   <div class="Productos" data-aos="fade-up">
-    <div class="card"  style="background-image: url('Assets/IMG/experiencias/vr2.webp');">
+    <div class="card" onclick="window.location.href='Experiencia-VR.html'"
+    style="background-image: url('Assets/IMG/experiencias/vr2.webp');">
       <div class="text-container">
         <h6 class="title">REALIDAD VIRTUAL ARC “TECIM REYES HOLGUÍN” </h6>
         <p class="experienciasdescription">Vive una inmersión total en la Patrullera de Apoyo Fluvial “TECIM Eddic
           Cristian Reyes Holguín” de la Armada de Colombia con esta experiencia de realidad virtual.</p>
       </div>
     </div>
-    <div class="card" onclick="window.location.href='Experiencia-Game.html'" style="background-image: url('Assets/IMG/experiencias/juego1.webp');">
+    <div class="card" onclick="window.location.href='Experiencia-Game.html'"
+      style="background-image: url('Assets/IMG/experiencias/juego1.webp');">
       <div class="text-container">
         <h6 class="title">RESCATA EL AMAZONAS</h6>
         <p class="experienciasdescription">Navega por misiones estratégicas para proteger el territorio marítimo y
@@ -408,7 +429,8 @@
           esfuerzo armado y no armado de la Armada de Colombia.</p>
       </div>
     </div>
-    <div class="card"  onclick="window.location.href='Experiencia-AR.html'" style="background-image: url('Assets/IMG/experiencias/ar2.webp');">
+    <div class="card" onclick="window.location.href='Experiencia-AR.html'"
+      style="background-image: url('Assets/IMG/experiencias/ar2.webp');">
       <div class="text-container">
         <h6 class="title">REALIDAD AUMENTADA BONGO HOSPITAL</h6>
         <p class="experienciasdescription">Sumérgete en una experiencia interactiva que te llevará a conocer más sobre
@@ -416,7 +438,8 @@
           Hospital de la Armada de Colombia.</p>
       </div>
     </div>
-    <div class="card" data-apk="docu.apk" style="background-image: url('Assets/IMG/experiencias/documental.webp');">
+    <div class="card" onclick="window.location.href='Experiencias-Documental.html'"
+      style="background-image: url('Assets/IMG/experiencias/documental.webp');">
       <div class="text-container">
         <h6 class="title">DOCUMENTAL</h6>
         <p class="experienciasdescription">Se estructuraron 12 documentales de contexto y memoria histórica de la
@@ -424,7 +447,8 @@
           comunidades indígenas.</p>
       </div>
     </div>
-    <div class="card" data-apk="libro.apk" style="background-image: url('Assets/IMG/experiencias/libro.webp');">
+    <div class="card" onclick="window.location.href='Experiencia-Libro.html'"
+    style="background-image: url('Assets/IMG/experiencias/libro.webp');">
       <div class="text-container">
         <h6 class="title">LIBRO</h6>
         <p class="experienciasdescription">Conoce este importante trabajo de investigación que evoca historias y
@@ -786,6 +810,13 @@
     <p class="footer-text">© 2025 Corrientes De Memoria. Todos los derechos reservados.</p>
   </footer>
 
+
+
+
+
+
+
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 
@@ -826,6 +857,7 @@
   <script src="./JS/testimoniosPopUp.js"></script>
   <script src="./JS/carrusel.js"></script>
   <script src="./JS/productos.js"></script>
+  <script src="./JS/musica.js"></script>
 
 </body>
 
