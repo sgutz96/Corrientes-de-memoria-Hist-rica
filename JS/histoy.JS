@@ -657,90 +657,123 @@ function ChangeTextEsp() {
       //
       break;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////  
-    case 16:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+case 16:
+  document.getElementById("asd").style.display = "none";
+  //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
-      document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloBaupez").innerHTML = "Inclusión del Caquetá en el Territorio Nacional (1858)";
-      document.getElementById("TextBaupez").innerHTML = "En 1858, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un papel crucial en la navegación y el control de las rutas fluviales que cruzaban este territorio...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Inclusión del Caquetá en el Territorio Nacional (1858)";
-      document.getElementById("TextPopAmazonas").innerHTML = "En 1858, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un rol determinante en la navegación y el control de las rutas fluviales que atraviesan este departamento.\n\n" +
-        "En este contexto, la Armada facilitó el desarrollo de la región y asumió varias responsabilidades durante el proceso de reorganización territorial, entre ellas:\n\n" +
-        "1. Realizar patrullajes fluviales en las zonas estratégicas del territorio, asegurando que no se produjeran actividades ilícitas que amenazaran la estabilidad y seguridad de las comunidades autóctonas del departamento.\n" +
-        "2. Facilitar el transporte de personal militar y civil, así como suministros, medicamentos, alimentos, entre otros, esenciales para el bienestar de la región, manteniendo el orden y control territorial.\n" +
-        "3. Garantizar la protección de las fronteras del Caquetá, evitando conflictos con los países vecinos y asegurando la soberanía colombiana en la zona.\n" +
-        "4. Brindar asistencia a las comunidades locales, proporcionándoles atención oportuna, bienestar y seguridad.";
+  document.getElementById("HistoryDerechos").innerHTML = ""
+  document.getElementById("TituloBaupez").innerHTML = "Inclusión en el Territorio Nacional del Caquetá (1858)";
+  document.getElementById("TextBaupez").innerHTML = "El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D.) desempeñó un papel crucial en la Fuerza de Tarea 'Leopardo' de la Armada de Colombia. Su misión consistía en recopilar información estratégica...";
+  document.getElementById("TextBaupez").innerHTML = "En 1958, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un rol determinante en contribuir a la navegación y el control de las rutas fluviales que comprenden este departamento...";
+  document.getElementById("TituloPopAmazonas").innerHTML = "Inclusión en el Territorio Nacional del Caquetá (1858)";
+  document.getElementById("TextPopAmazonas").innerHTML = `
+  En 1958, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un rol determinante en contribuir a la navegación y el control de las rutas fluviales que comprenden este departamento.
 
-      //
-      break;
-    case 17:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+  En ese sentido, la Armada de Colombia facilitó el desarrollo de la región y tuvo varias responsabilidades durante este proceso de reorganización territorial, entre ellas:
 
-      document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloBaupez").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filogonio Hichamón Kuegajima (Q.E.P.D.) (1981)";
-      document.getElementById("TextBaupez").innerHTML = "El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D.) desempeñó un papel crucial en la Fuerza de Tarea 'Leopardo' de la Armada de Colombia. Su misión consistía en recopilar información estratégica...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filogonio Hichamón Kuegajima (Q.E.P.D.) (1981)";
-      document.getElementById("TextPopAmazonas").innerHTML = "El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D.) desempeñó un papel crucial en la Fuerza de Tarea 'Leopardo' de la Armada de Colombia. Su misión consistía en recopilar información estratégica sobre el grupo armado ilegal de ese entonces, liderado por Jairo Capera Díaz.\n\n" +
-        "Lamentablemente, su identidad fue descubierta, y el 31 de octubre de 1981, en el sector de Peñas Blancas (Caquetá), fue capturado, torturado y finalmente ejecutado con un tiro de gracia a orillas del río Caquetá. Antes de su muerte, Hichamón le dijo a Capera: 'Yo hice mi trabajo mejor que usted.'\n\n" +
-        "En reconocimiento a su valentía y sacrificio, la Armada de Colombia incorporó, en 1993, una unidad a flote, la Patrullera de Apoyo Fluvial ARC 'CP Filogonio Hichamón'. (El Boletín – Medio de difusión de la Infantería de Marina de Colombia, Edición No. 50 – Año 2020. Artículo 'Fuerza Naval del Sur, unidad de memoria histórica', por Teniente de Navío Wilmar Raúl Amaya Plata – Asesor Jurídico Operacional Fuerza Naval del Sur. P. 100-101).";
+  <ol>
+    <li>Desarrollar patrullajes fluviales en las zonas estratégicas de la región, asegurando que no se produjeran actividades ilícitas que amenazaran la estabilidad y seguridad de las comunidades autóctonas del departamento.</li>
+    <li>Se facilitó el transporte del personal militar y civil, suministros, medicamentos, alimentos, entre otros, esenciales para la región, manteniendo el orden y control territorial.</li>
+    <li>Se garantizó la protección de las fronteras del departamento del Caquetá, evitando conflictos con países vecinos y asegurando la soberanía colombiana en la zona.</li>
+    <li>Se proporcionó asistencia a las comunidades locales, brindándoles atención oportuna, bienestar y seguridad.</li>
+  </ol>
+`;
 
-      //
-      break;
-    case 18:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloBaupez").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextBaupez").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización tenía como objetivo una mejor administración de las regiones amazónicas...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas. (Hacia la departamentalización. Instituto Geográfico Agustín Codazzi IGAC - Diccionario Geográfico. Gobernación del Departamento del Caquetá).\n\n" +
-        "De su extenso territorio, que inicialmente abarcaba toda la región al sur del río Guaviare, se desprendieron sucesivamente las intendencias y comisarías amazónicas. La colonización del Caquetá comenzó en realidad en 1930, como resultado del conflicto Colombo-Peruano. Es importante destacar que la extracción de caucho fue el eje central de la economía en este período.\n\n" +
-        "**Elevación a Departamento (1981)**\n\n" +
-        "El 15 de diciembre de 1981, mediante la Ley 78, la Intendencia Nacional del Caquetá fue erigida como departamento, consolidando su estructura administrativa actual y ratificando a Florencia como su capital.\n\n" +
-        "Estos eventos reflejan la evolución administrativa del Caquetá, desde su inicio como territorio nacional hasta su consolidación como departamento, destacando la importancia estratégica y geográfica de la región en el contexto colombiano.\n\n" +
-        "La creación del departamento del Caquetá consolidó la presencia de la Fuerza Naval de la Amazonía en la región, desempeñando un papel fundamental en la lucha frontal contra el narcotráfico y sus delitos conexos, la defensa de los intereses fluviales y los recursos naturales, así como la asistencia y protección de las comunidades y la población civil de la cuenca amazónica.";
-
-      //
-      break;
-    case 19:
-      ///Repetir el caso 18
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloBaupez").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextBaupez").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización tenía como objetivo una mejor administración de las regiones amazónicas...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas. (Hacia la departamentalización. Instituto Geográfico Agustín Codazzi IGAC - Diccionario Geográfico. Gobernación del Departamento del Caquetá).\n\n" +
-        "De su extenso territorio, que inicialmente abarcaba toda la región al sur del río Guaviare, se desprendieron sucesivamente las intendencias y comisarías amazónicas. La colonización del Caquetá comenzó en realidad en 1930, como resultado del conflicto Colombo-Peruano. Es importante destacar que la extracción de caucho fue el eje central de la economía en este período.\n\n" +
-        "**Elevación a Departamento (1981)**\n\n" +
-        "El 15 de diciembre de 1981, mediante la Ley 78, la Intendencia Nacional del Caquetá fue erigida como departamento, consolidando su estructura administrativa actual y ratificando a Florencia como su capital.\n\n" +
-        "Estos eventos reflejan la evolución administrativa del Caquetá, desde su inicio como territorio nacional hasta su consolidación como departamento, destacando la importancia estratégica y geográfica de la región en el contexto colombiano.\n\n" +
-        "La creación del departamento del Caquetá consolidó la presencia de la Fuerza Naval de la Amazonía en la región, desempeñando un papel fundamental en la lucha frontal contra el narcotráfico y sus delitos conexos, la defensa de los intereses fluviales y los recursos naturales, así como la asistencia y protección de las comunidades y la población civil de la cuenca amazónica.";
-
-      //
-      break;
-    case 20:
-      ///Repetir el caso 18
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloBaupez").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextBaupez").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización tenía como objetivo una mejor administración de las regiones amazónicas...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML = "El 18 de febrero de 1905, mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas. (Hacia la departamentalización. Instituto Geográfico Agustín Codazzi IGAC - Diccionario Geográfico. Gobernación del Departamento del Caquetá).\n\n" +
-        "De su extenso territorio, que inicialmente abarcaba toda la región al sur del río Guaviare, se desprendieron sucesivamente las intendencias y comisarías amazónicas. La colonización del Caquetá comenzó en realidad en 1930, como resultado del conflicto Colombo-Peruano. Es importante destacar que la extracción de caucho fue el eje central de la economía en este período.\n\n" +
-        "**Elevación a Departamento (1981)**\n\n" +
-        "El 15 de diciembre de 1981, mediante la Ley 78, la Intendencia Nacional del Caquetá fue erigida como departamento, consolidando su estructura administrativa actual y ratificando a Florencia como su capital.\n\n" +
-        "Estos eventos reflejan la evolución administrativa del Caquetá, desde su inicio como territorio nacional hasta su consolidación como departamento, destacando la importancia estratégica y geográfica de la región en el contexto colombiano.\n\n" +
-        "La creación del departamento del Caquetá consolidó la presencia de la Fuerza Naval de la Amazonía en la región, desempeñando un papel fundamental en la lucha frontal contra el narcotráfico y sus delitos conexos, la defensa de los intereses fluviales y los recursos naturales, así como la asistencia y protección de las comunidades y la población civil de la cuenca amazónica.";
-
-      //
-      break;
+  //
+  break;
+      case 17:
+        document.getElementById("asd").style.display = "none";
+        //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+  
+        document.getElementById("HistoryDerechos").innerHTML = ""
+        document.getElementById("TituloBaupez").innerHTML = "Inclusión en el Territorio Nacional del Caquetá (1858)";
+        document.getElementById("TextBaupez").innerHTML = "El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D.) desempeñó un papel crucial en la Fuerza de Tarea 'Leopardo' de la Armada de Colombia. Su misión consistía en recopilar información estratégica...";
+        document.getElementById("TextBaupez").innerHTML = "En 1958, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un rol determinante en contribuir a la navegación y el control de las rutas fluviales que comprenden este departamento...";
+        document.getElementById("TituloPopAmazonas").innerHTML = "Inclusión en el Territorio Nacional del Caquetá (1858)";
+        document.getElementById("TextPopAmazonas").innerHTML = `
+        En 1958, el Caquetá fue incluido como Territorio Nacional de Colombia, y la Armada de Colombia desempeñó un rol determinante en contribuir a la navegación y el control de las rutas fluviales que comprenden este departamento.
+      
+        En ese sentido, la Armada de Colombia facilitó el desarrollo de la región y tuvo varias responsabilidades durante este proceso de reorganización territorial, entre ellas:
+      
+        <ol>
+          <li>Desarrollar patrullajes fluviales en las zonas estratégicas de la región, asegurando que no se produjeran actividades ilícitas que amenazaran la estabilidad y seguridad de las comunidades autóctonas del departamento.</li>
+          <li>Se facilitó el transporte del personal militar y civil, suministros, medicamentos, alimentos, entre otros, esenciales para la región, manteniendo el orden y control territorial.</li>
+          <li>Se garantizó la protección de las fronteras del departamento del Caquetá, evitando conflictos con países vecinos y asegurando la soberanía colombiana en la zona.</li>
+          <li>Se proporcionó asistencia a las comunidades locales, brindándoles atención oportuna, bienestar y seguridad.</li>
+        </ol>
+      `;
+  
+        //
+        break;
+        case 18:
+          document.getElementById("asd").style.display = "none";
+          //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+    
+          document.getElementById("HistoryDerechos").innerHTML = ""
+          document.getElementById("TituloBaupez").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filogonio Hichamón Kuegajima (Q.E.P.D) (1981)";
+          document.getElementById("TextBaupez").innerHTML = `“El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D), desempeñó un papel crucial en la Fuerza de Tarea “Leopardo” de la Armada de Colombia, su misión consistía en recopilar información estratégica del grupo armado ilegal de...`;
+          document.getElementById("TituloPopAmazonas").innerHTML = "Honor y valentía de un héroe de la Armada de Colombia, CP Filogonio Hichamón Kuegajima (Q.E.P.D) (1981)";
+          document.getElementById("TextPopAmazonas").innerHTML =
+            `“El Cabo Primero de Infantería de Marina Filogonio Hichamón Kuegajima (Q.E.P.D), desempeñó un papel crucial en la Fuerza de Tarea “Leopardo” de la Armada de Colombia, su misión consistía en recopilar información estratégica del grupo armado ilegal de ese entonces, liderado por Jairo Capera Díaz.
+        
+          Lamentablemente, su identidad fue descubierta y el 31 de octubre de 1981 en el sector de Peñas Blancas (Caquetá), fue capturado, torturado y finalmente ejecutado con un tiro de gracia a orillas del río Caquetá. Antes de su muerte, Hichamón manifestó a Capera: “Yo hice mi trabajo mejor que usted”.
+        
+          En reconocimiento a su valentía y sacrificio, la Armada de Colombia incorporó en 1993 una unidad a flote Patrullera de Apoyo Fluvial denominada ARC “CP Filigonio Hichamón” 
+          <em>(El Boletín – Medio de difusión de la Infantería de Marina de Colombia. Edición No. 50 – Año 2020. Artículo Fuerza Naval del Sur, unidad de memoria histórica, por Teniente de Navío Wilmar Raúl Amaya Plata – Asesor Jurídico Operacional Fuerza Naval del Sur. P. 100-101).</em>
+        `;
+    
+          //
+          break;
+          case 19:
+            ///Repetir el caso 18
+            document.getElementById("asd").style.display = "none";
+            //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+      
+            document.getElementById("HistoryDerechos").innerHTML = ""
+            document.getElementById("TituloBaupez").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
+            document.getElementById("TextBaupez").innerHTML = `“El 18 de febrero de 1905 mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas”...`;
+            document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
+            document.getElementById("TextPopAmazonas").innerHTML = `
+        “El 18 de febrero de 1905 mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas” 
+        (Hacia la departamentalización. Instituto Geográfico Agustín Codazzi IGAC - Diccionario Geográfico. Gobernación del Departamento del Caquetá).
+      
+        De su extenso territorio, que inicialmente cubría toda la región al sur del río Guaviare se desprendieron sucesivamente las intendencias y comisarías amazónicas. La colonización del Caquetá se inició en realidad en 1930 con motivo del conflicto Colombo – Peruano, y se destaca que la extracción del caucho era el eje fundamental de la economía en este periodo.
+      
+        <strong>Elevación a departamento (1981)</strong>
+      
+        El 15 de diciembre de 1981, mediante la Ley 78 se erige en departamento la Intendencia Nacional del Caquetá, consolidando su estructura administrativa actual y ratificando a Florencia como su capital.
+      
+        Estos eventos reflejan la evolución administrativa del Caquetá, desde sus inicios como territorio nacional hasta su consolidación como departamento, destacando la importancia estratégica y geográfica de la región en el contexto colombiano.
+      
+        La creación del departamento del Caquetá consolidó la presencia de la Fuerza Naval de la Amazonía en la región, desempeñando un papel fundamental en la lucha frontal contra el narcotráfico y sus delitos conexos, la defensa de los intereses fluviales y recursos naturales, así como, la asistencia y protección de las comunidades y población civil de la cuenca amazónica.
+      `;
+            //
+            break;
+            case 20:
+              ///Repetir el caso 18
+              document.getElementById("asd").style.display = "none";
+              //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+        
+              document.getElementById("HistoryDerechos").innerHTML = ""
+              document.getElementById("TituloBaupez").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
+              document.getElementById("TextBaupez").innerHTML = `“El 18 de febrero de 1905 mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas”...`;
+              document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Intendencia del Alto Caquetá (1905)";
+              document.getElementById("TextPopAmazonas").innerHTML = `
+          “El 18 de febrero de 1905 mediante el Decreto 167, se reorganizaron varias intendencias y se creó la Intendencia del Alto Caquetá, con capital en Florencia. Esta reorganización buscaba una mejor administración de las regiones amazónicas” 
+          (Hacia la departamentalización. Instituto Geográfico Agustín Codazzi IGAC - Diccionario Geográfico. Gobernación del Departamento del Caquetá).
+        
+          De su extenso territorio, que inicialmente cubría toda la región al sur del río Guaviare se desprendieron sucesivamente las intendencias y comisarías amazónicas. La colonización del Caquetá se inició en realidad en 1930 con motivo del conflicto Colombo – Peruano, y se destaca que la extracción del caucho era el eje fundamental de la economía en este periodo.
+        
+          <strong>Elevación a departamento (1981)</strong>
+        
+          El 15 de diciembre de 1981, mediante la Ley 78 se erige en departamento la Intendencia Nacional del Caquetá, consolidando su estructura administrativa actual y ratificando a Florencia como su capital.
+        
+          Estos eventos reflejan la evolución administrativa del Caquetá, desde sus inicios como territorio nacional hasta su consolidación como departamento, destacando la importancia estratégica y geográfica de la región en el contexto colombiano.
+        
+          La creación del departamento del Caquetá consolidó la presencia de la Fuerza Naval de la Amazonía en la región, desempeñando un papel fundamental en la lucha frontal contra el narcotráfico y sus delitos conexos, la defensa de los intereses fluviales y recursos naturales, así como, la asistencia y protección de las comunidades y población civil de la cuenca amazónica.
+        `;
+              //
+              break;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     case 21:
       document.getElementById("asd").style.display = "none";
