@@ -289,33 +289,23 @@ function ChangeTextEsp() {
       document.getElementById("Titulocaqueta").innerHTML = "Casa Arana: La rebelión por el caucho (1904-1907)";
       document.getElementById("Textcaqueta").innerHTML = "La Casa Arana presenta una estructura colonial con características típicas de la arquitectura adaptada a la región amazónica, donde predominan el uso de materiales locales como la madera...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Casa Arana: La rebelión por el caucho (1904-1907)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-      "En el año 1904, la compañía denominada Peruvian Amazon Company, con sede central en Londres, se encontraba en la Amazonía colombiana, " +
-      "y fue allí donde estableció relaciones con Julio César Arana, las cuales terminaron en una fusión en 1907, asegurando la viabilidad y el futuro de la empresa, " +
-      "al que él mismo le dio el nombre de Casa Arana.<br><br>" +
-  
-      "La Casa Arana se estableció en 1912 en La Chorrera, a orillas del río Igaraparaná, departamento de Amazonas; y contaba con una estructura colonial " +
-      "con características típicas de la arquitectura adaptada a la región amazónica, en donde predominaban el uso de materiales locales como madera y techos de palma.<br><br>" +
-  
-      "Sin embargo, el sitio es tristemente célebre por ser uno de los principales centros de explotación y abuso de los pueblos indígenas de la región, " +
-      "particularmente de las comunidades Huitoto, Bora y Ocaína, sometidas a trabajos forzados para la extracción de caucho, el cual era fuente de riqueza " +
-      "y de transformaciones culturales y sociales en la Amazonía.<br><br>" +
-  
-      "“Funcionaba como centro de acopio y escenario de castigos para aquellos que no cumplían con las cuotas impuestas. La Casa Arana estaba organizada en torno a dos centros de acopio, " +
-      "La Chorrera, para la zona del río Igaraparaná, y El Encanto, para la región del río Caraparaná, desde donde se embarcaba el caucho a Iquitos, Perú y de allí al exterior. " +
-      "Ambas se subdividían en secciones de acuerdo con los diferentes asentamientos indígenas: quince para La Chorrera y ocho para El Encanto” " +
-      "(<i>El libro rojo del Putumayo</i>, Norman, Thomson - Roberto, Pineda Camacho. P. 13-14).<br><br>" +
-  
-      "Los indígenas eran sometidos a un sistema de “endeude”, donde se les entregaban herramientas como machetes a cambio de cantidades desproporcionadas de caucho, " +
-      "creando deudas impagables que perpetuaban su esclavitud”. " +
-      "(Artículo BBC.com – “El Paraíso del diablo: las atrocidades del ‘holocausto del caucho’ en la Amazonía de Colombia”, por: Andrea Díaz Cardona, 26 de agosto 2022. " +
-      "Página web: <a href='https://www.bbc.com/mundo/noticias-america-latina-60922508' target='_blank'>https://www.bbc.com/mundo/noticias-america-latina-60922508</a>).<br><br>" +
-  
-      "Actualmente, la Casa Arana es un “Centro de Conocimiento” para jóvenes indígenas de la región del Putumayo; y es considerada un símbolo del recuerdo y la memoria histórica " +
-      "en la lucha por los derechos indígenas durante los años de desarrollo económico en el sur de Colombia. En ese sentido, se ha convertido en un lugar de reflexión y en algunos casos, " +
-      "en un destino para dignificar a las víctimas del conflicto armado acaecido en el pasado” " +
-      "(<i>Libro La Historia de la Fuerza Naval del Sur en la Amazonía Colombia</i>, 2017. Capítulo 5, P. 30-32).<br><br>";
-  
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>En el año 1904, la compañía denominada <strong>Peruvian Amazon Company</strong>, con sede central en Londres, se encontraba en la Amazonía colombiana. Allí estableció relaciones con <strong>Julio César Arana</strong>, las cuales terminaron en una fusión en 1907, asegurando la viabilidad y el futuro de la empresa, a la que él mismo le dio el nombre de <strong>Casa Arana</strong>.</p>
+    
+      <p>La Casa Arana se estableció en 1912 en <strong>La Chorrera</strong>, a orillas del río Igaraparaná, departamento de Amazonas. Contaba con una estructura colonial, con características típicas de la arquitectura adaptada a la región amazónica, donde predominaban el uso de materiales locales como madera y techos de palma.</p>
+    
+      <p>Sin embargo, el sitio es tristemente célebre por ser uno de los principales centros de explotación y abuso de los pueblos indígenas de la región, particularmente de las comunidades <strong>Huitoto</strong>, <strong>Bora</strong> y <strong>Ocaína</strong>, sometidas a trabajos forzados para la extracción de caucho, el cual era fuente de riqueza y de transformaciones culturales y sociales en la Amazonía.</p>
+    
+      <p>"Funcionaba como centro de acopio y escenario de castigos para aquellos que no cumplían con las cuotas impuestas. La Casa Arana estaba organizada en torno a dos centros de acopio: <strong>La Chorrera</strong>, para la zona del río Igaraparaná, y <strong>El Encanto</strong>, para la región del río Caraparaná, desde donde se embarcaba el caucho a Iquitos, Perú, y de allí al exterior. Ambas se subdividían en secciones de acuerdo con los diferentes asentamientos indígenas: quince para La Chorrera y ocho para El Encanto."</p>
+      <p><em>(El libro rojo del Putumayo, Norman Thomson - Roberto Pineda Camacho, pp. 13-14)</em></p>
+    
+      <p>Los indígenas eran sometidos a un sistema de "endeude", donde se les entregaban herramientas como machetes a cambio de cantidades desproporcionadas de caucho, creando deudas impagables que perpetuaban su esclavitud.</p>
+      <p><em>(Artículo BBC.com – “El Paraíso del diablo: las atrocidades del 'holocausto del caucho' en la Amazonía de Colombia”, por Andrea Díaz Cardona, 26 de agosto de 2022. <a href="https://www.bbc.com/mundo/noticias-america-latina-60922508" target="_blank">bbc.com</a>)</em></p>
+    
+      <p>Actualmente, la Casa Arana es un <strong>“Centro de Conocimiento”</strong> para jóvenes indígenas de la región del Putumayo, y es considerada un símbolo del recuerdo y la memoria histórica en la lucha por los derechos indígenas durante los años de desarrollo económico en el sur de Colombia. En ese sentido, se ha convertido en un lugar de reflexión y, en algunos casos, en un destino para dignificar a las víctimas del conflicto armado acaecido en el pasado.</p>
+      <p><em>(Libro “La Historia de la Fuerza Naval del Sur en la Amazonía Colombia”, 2017. Capítulo 5, pp. 30-32)</em></p>
+    `;
+    
       //
       break;
     case 2:
@@ -326,19 +316,21 @@ function ChangeTextEsp() {
       document.getElementById("Titulocaqueta").innerHTML = "Creación de la Intendencia del Putumayo (1905)";
       document.getElementById("Textcaqueta").innerHTML = "La reorganización territorial de 1905, bajo la presidencia de Rafael Reyes Prieto, tenía como objetivo debilitar las grandes unidades territoriales y frenar los intentos separatistas...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia del Putumayo (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-      "La reorganización territorial de 1905, bajo la presidencia de Rafael Reyes Prieto, buscaba debilitar las grandes unidades territoriales y frenar los intentos separatistas, " +
-      "por lo cual, la creación de la Intendencia del Putumayo fue parte de este esfuerzo por consolidar el control colombiano sobre la región amazónica.<br><br>" +
-  
-      "La Armada de Colombia fue fundamental en la seguridad de la región durante este proceso. A continuación, se describen algunas de las funciones que dieron lugar al eficiente control territorial:<br><br>" +
-  
-      "<strong>1. Patrullaje fluvial:</strong> Se realizaron despliegues constantes en los ríos de la región, asegurando que no hubiera infiltraciones ni actividades ilegales que pudieran amenazar la estabilidad.<br>" +
-      "<strong>2. Transporte de Fuerzas:</strong> Facilitó el transporte de tropas y suministros a la nueva Intendencia del Putumayo, asegurando que las autoridades civiles y militares pudieran establecerse rápidamente.<br>" +
-      "<strong>3. Protección de fronteras:</strong> La Armada de Colombia ayudó a proteger las fronteras de la región, evitando conflictos con países vecinos y asegurando la soberanía colombiana en la zona.<br>" +
-      "<strong>4. Asistencia a la población local:</strong> Proporcionó asistencia a las comunidades locales, ayudándoles a adaptarse a los cambios administrativos y asegurando su seguridad y bienestar.<br><br>" +
-  
-      "La contribución de la Armada de Colombia fue vital para el éxito de la reorganización territorial y para la estabilidad del Putumayo. " +
-      "Su presencia ayudó a consolidar el control colombiano y a garantizar la seguridad y el desarrollo de la región.<br><br>";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>La reorganización territorial de 1905, bajo la presidencia de <strong>Rafael Reyes Prieto</strong>, buscaba debilitar las grandes unidades territoriales y frenar los intentos separatistas. Por ello, la creación de la <strong>Intendencia del Putumayo</strong> fue parte de este esfuerzo por consolidar el control colombiano sobre la región amazónica.</p>
+    
+      <p>La <strong>Armada de Colombia</strong> fue fundamental en la seguridad de la región durante este proceso. A continuación, se describen algunas de las funciones que dieron lugar al eficiente control territorial:</p>
+    
+      <ul>
+        <li><strong>Patrullaje fluvial:</strong> Se realizaron despliegues constantes en los ríos de la región, asegurando que no hubiera infiltraciones ni actividades ilegales que pudieran amenazar la estabilidad.</li>
+        <li><strong>Transporte de Fuerzas:</strong> Facilitó el transporte de tropas y suministros a la nueva Intendencia del Putumayo, asegurando que las autoridades civiles y militares pudieran establecerse rápidamente.</li>
+        <li><strong>Protección de fronteras:</strong> La Armada de Colombia ayudó a proteger las fronteras de la región, evitando conflictos con países vecinos y asegurando la soberanía colombiana en la zona.</li>
+        <li><strong>Asistencia a la población local:</strong> Proporcionó asistencia a las comunidades locales, ayudándoles a adaptarse a los cambios administrativos y asegurando su seguridad y bienestar.</li>
+      </ul>
+    
+      <p>La contribución de la Armada de Colombia fue vital para el éxito de la reorganización territorial y para la estabilidad del Putumayo. Su presencia ayudó a consolidar el control colombiano y a garantizar la seguridad y el desarrollo de la región.</p>
+    `;
+    
   
         //
       break;
@@ -350,21 +342,21 @@ function ChangeTextEsp() {
       document.getElementById("Titulocaqueta").innerHTML = "Flotilla de Guerra del Putumayo (1931)";
       document.getElementById("Textcaqueta").innerHTML = "La Flotilla de Guerra del Putumayo fue creada en 1931 mediante el Decreto 1507 del 31 de agosto de ese año, como una medida para fortalecer la presencia colombiana en la región amazónica ...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Flotilla de Guerra del Putumayo (1931)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-      "La Flotilla de Guerra del Putumayo fue creada mediante el Decreto 1507 del 31 de agosto de 1931. " +
-      "Esta decisión se tomó en respuesta a la necesidad de fortalecer la presencia militar en la región amazónica y proteger la soberanía nacional en el área del río Putumayo, " +
-      "por lo que estaba conformada por los cañoneros ARC “Cartagena” y ARC “Santa Marta”, que fueron trasladados desde Santa Cruz en el río Magdalena hasta el Puerto de Caucayá sobre el río Putumayo” " +
-      "(<i>Pañol de la Historia, “El Combate de Güepí, y los cañoneros Cartagena y Santa Marta”</i>, por: Capitán de Navío Carlos A. Prieto Ávila – Cyber-corredera, Página web: " +
-      "<a href='https://www.cyber-corredera.de/panoles/Panol-48.htm' target='_blank'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>).<br><br>" +
-  
-      "La creación de esta flotilla fue una medida estratégica para reforzar la presencia estatal en esta zona. " +
-      "Además, desempeñó un papel crucial durante el conflicto Colombo – Peruano (1932-1933), al desplegar de manera permanente unidades para efectuar operaciones de patrullaje y control fluvial en la región.<br><br>" +
-  
-      "<strong>Creación de la Base Fluvial del Putumayo (1940)</strong><br><br>" +
-  
-      "“El 8 marzo de 1940 se creó la Base Fluvial del Putumayo, mediante el Decreto 0487 del 8 de marzo de 1940, el cual reorganizó en su momento a la Infantería de Marina y, " +
-      "dada la experiencia vivida en el conflicto con el Perú, estableció que la Compañía de Infantería de Marina y la Flotilla Fluvial quedarían bajo órdenes del Ejército Nacional” " +
-      "(<i>Libro La Infantería de Marina en la Historia de Colombia</i>, 2021. Capítulo 5, P. 204).<br><br>";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>La <strong>Flotilla de Guerra del Putumayo</strong> fue creada mediante el <strong>Decreto 1507 del 31 de agosto de 1931</strong>. Esta decisión se tomó en respuesta a la necesidad de fortalecer la presencia militar en la región amazónica y proteger la soberanía nacional en el área del río Putumayo.</p>
+    
+      <p>Estaba conformada por los cañoneros <strong>ARC “Cartagena”</strong> y <strong>ARC “Santa Marta”</strong>, que fueron trasladados desde Santa Cruz en el río Magdalena hasta el <strong>Puerto de Caucayá</strong>, sobre el río Putumayo.</p>
+    
+      <p><em>“Pañol de la Historia, ‘El Combate de Güepí, y los cañoneros Cartagena y Santa Marta’, por Capitán de Navío Carlos A. Prieto Ávila – <a href="https://www.cyber-corredera.de/panoles/Panol-48.htm" target="_blank">Cyber-corredera</a></em>)</p>
+    
+      <p>La creación de esta flotilla fue una medida estratégica para reforzar la presencia estatal en esta zona. Además, desempeñó un papel crucial durante el <strong>conflicto Colombo–Peruano (1932–1933)</strong>, al desplegar de manera permanente unidades para efectuar operaciones de patrullaje y control fluvial en la región.</p>
+    
+      <h4>Creación de la Base Fluvial del Putumayo (1940)</h4>
+    
+      <p>El <strong>8 de marzo de 1940</strong> se creó la <strong>Base Fluvial del Putumayo</strong>, mediante el <strong>Decreto 0487</strong> del mismo día. Este reorganizó en su momento a la <strong>Infantería de Marina</strong> y, dada la experiencia vivida en el conflicto con el Perú, estableció que la <strong>Compañía de Infantería de Marina</strong> y la <strong>Flotilla Fluvial</strong> quedarían bajo órdenes del <strong>Ejército Nacional</strong>.</p>
+    
+      <p><em>(Libro "La Infantería de Marina en la Historia de Colombia", 2021. Capítulo 5, p. 204)</em></p>
+    `;    
   
       //
       break;
@@ -376,19 +368,20 @@ function ChangeTextEsp() {
       document.getElementById("Titulocaqueta").innerHTML = "Creación del Puesto Fluvial Avanzado Monclart (1933)";
       document.getElementById("Textcaqueta").innerHTML = "El 20 de enero de 1933, después del conflicto con el Perú, fue creado el Puesto Fluvial Avanzado de Monclart, unidad que se entregó en forma oficial a la Armada de Colombia ...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del Puesto Fluvial Avanzado Monclart (1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-      "“El 20 de enero de 1933, después del conflicto con el Perú fue creado el Puesto Fluvial Avanzado de Monclart, unidad que se entregó en forma oficial a la Armada de Colombia por el Ejército Nacional mediante Decreto 2167 de noviembre de 1943, " +
-      "como parte de las fuerzas de cobertura de la frontera sur del país. Esta unidad militar fue en realidad un traslado del antiguo Puesto de “Chamaco” que estaba situado enfrente del puesto peruano de Güepí” " +
-      "(<i>Libro La Infantería de Marina en la Historia de Colombia</i>, 2021. Capítulos 3 y 5 - P. 37 y 218).<br><br>" +
-  
-      "Dados los inconvenientes presentados durante el conflicto, al tener un puesto extranjero tan cercano, se trasladó 10 kilómetros más abajo hasta el inicio de la vía que comunicaba con Las Delicias, sobre el río Caquetá.<br><br>" +
-  
-      "Cabe resaltar que el Puesto Fluvial Avanzado Monclart fue esencial para asegurar el control del río Putumayo, una vía fluvial fundamental para el comercio y las operaciones militares. " +
-      "Así mismo, este puesto fluvial funcionó como una base de apoyo para proporcionar suministros, alojamiento para las tropas colombianas, y un punto de defensa y vigilancia.<br><br>" +
-  
-      "Su posición geográfica permitió controlar el tránsito fluvial, prevenir incursiones extranjeras y responder rápidamente a cualquier amenaza en la zona fronteriza. " +
-      "En ese sentido, representó un hito en la consolidación de la presencia militar colombiana en la Amazonía, marcando el compromiso del país con la defensa de su soberanía.<br><br>";
-  
+  document.getElementById("TextPopAmazonas").innerHTML = `
+  <p><strong>“El 20 de enero de 1933</strong>, después del conflicto con el Perú, fue creado el <strong>Puesto Fluvial Avanzado de Monclart</strong>, unidad que se entregó en forma oficial a la Armada de Colombia por el Ejército Nacional mediante el <strong>Decreto 2167 de noviembre de 1943</strong>, como parte de las fuerzas de cobertura de la frontera sur del país.</p>
+
+  <p>Esta unidad militar fue, en realidad, un traslado del antiguo <strong>Puesto de “Chamaco”</strong>, que estaba situado enfrente del puesto peruano de Güepí.</p>
+
+  <p><em>(Libro "La Infantería de Marina en la Historia de Colombia", 2021. Capítulos 3 y 5, pp. 37 y 218)</em></p>
+
+  <p>Dados los inconvenientes presentados durante el conflicto, al tener un puesto extranjero tan cercano, se trasladó 10 kilómetros más abajo, hasta el inicio de la vía que comunicaba con <strong>Las Delicias</strong>, sobre el <strong>río Caquetá</strong>.</p>
+
+  <p>El <strong>Puesto Fluvial Avanzado Monclart</strong> fue esencial para asegurar el control del <strong>río Putumayo</strong>, una vía fluvial fundamental para el comercio y las operaciones militares. Asimismo, este puesto fluvial funcionó como una base de apoyo para proporcionar suministros, alojamiento para las tropas colombianas, y un punto de defensa y vigilancia.</p>
+
+  <p>Su posición geográfica permitió controlar el tránsito fluvial, prevenir incursiones extranjeras y responder rápidamente a cualquier amenaza en la zona fronteriza. En ese sentido, representó un hito en la consolidación de la presencia militar colombiana en la Amazonía, marcando el compromiso del país con la defensa de su soberanía.</p>
+`;
+
 
       //
       break;
@@ -400,25 +393,24 @@ function ChangeTextEsp() {
       document.getElementById("Titulocaqueta").innerHTML = "La Flotilla Avispa (1956)";
       document.getElementById("Textcaqueta").innerHTML = "En septiembre de 1956, por iniciativa del Capitán de Infantería de Marina Aurelio Castrillón Muñoz y el Teniente de Fragata Rafael Grau Araujo, quienes prestaban sus servicios ...";
       document.getElementById("TituloPopAmazonas").innerHTML = "La Flotilla Avispa (1956)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-    "“En septiembre de 1956, por iniciativa del señor Capitán de Infantería de Marina Aurelio Castrillón Muñoz y el Teniente de Fragata Rafael Grau Araujo, quienes prestaban sus servicios en Puerto Leguízamo (Putumayo), " +
-    "se creó la “Flotilla Avispa” que realizó una demostración ante el alto mando militar en aguas del río Putumayo con botes armados y tripulados por Infantes de Marina, " +
-    "en una contundente exhibición de velocidad y maniobrabilidad superiores a los cañoneros ARC “Cartagena” y ARC “Santa Marta”.<br><br>" +
-
-    "La organización inicial contemplaba 7 botes artillados: 6 que llevaban la Fuerza de Tarea Fluvial y 1 bote de Comando y Control. " +
-    "La “Flotilla Avispa” quedó bajo mando operacional de la Compañía Kilo de Puerto Leguízamo. " +
-    "Los botes utilizados eran de 13 pies de eslora y 1,5 pies de calado, con una capacidad de carga de 800 kilos y tripulado por 6 hombres cada uno; " +
-    "organización que se mantuvo hasta 1971, cuando el Capitán de Infantería de Marina Alejandro Pimiento le dio un nuevo impulso con la creación de los Comandos de Selva " +
-    "(Apartes tomados textualmente de la Organización Operativa de la Flotilla Avispa, septiembre de 1956).<br><br>" +
-
-    "Para el funcionamiento de la Flotilla Avispa, se creó un manual el cual presentó un proyecto de organización en el que se resaltaban las necesidades tácticas de esta unidad. " +
-    "Cada grupo de tarea estaba conformado por nueve botes, cada uno de ellos tripulado por cuatro hombres, acompañados por un pelotón, " +
-    "el cual tenía la organización administrativa de un pelotón " +
-    "(<i>Libro La Infantería de Marina en la Historia de Colombia</i>, 2021. Capítulo 3 - P. 58).<br><br>" +
-
-    "La creación de la Flotilla Avispa permitió dar a conocer la capacidad de adaptación de las Fuerzas Militares de Colombia a las exigencias del combate en los escenarios fluviales de la región amazónica. " +
-    "Su éxito contribuyó significativamente al esfuerzo bélico de Colombia y a la recuperación de Leticia, demostrando la importancia del poder fluvial en conflictos territoriales fronterizos, " +
-    "fundamental para el desarrollo de las futuras unidades fluviales de la Armada de Colombia, esenciales para la soberanía, seguridad y desarrollo integral de las comunidades de la Amazonía colombiana.<br><br>";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>En <strong>septiembre de 1956</strong>, por iniciativa del Capitán de Infantería de Marina <strong>Aurelio Castrillón Muñoz</strong> y el Teniente de Fragata <strong>Rafael Grau Araujo</strong>, quienes prestaban sus servicios en <strong>Puerto Leguízamo (Putumayo)</strong>, se creó la <strong>“Flotilla Avispa”</strong>.</p>
+    
+      <p>Esta unidad realizó una demostración ante el alto mando militar en aguas del <strong>río Putumayo</strong> con botes armados y tripulados por Infantes de Marina, en una contundente exhibición de velocidad y maniobrabilidad superiores a los cañoneros <strong>ARC “Cartagena”</strong> y <strong>ARC “Santa Marta”</strong>.</p>
+    
+      <p>La organización inicial contemplaba siete botes artillados: seis destinados a la <strong>Fuerza de Tarea Fluvial</strong> y uno como <strong>bote de Comando y Control</strong>. La Flotilla quedó bajo el mando operacional de la <strong>Compañía Kilo</strong> de Puerto Leguízamo. Los botes tenían 13 pies de eslora, 1,5 pies de calado, capacidad de carga de 800 kilos y eran tripulados por seis hombres cada uno.</p>
+    
+      <p>Esta organización se mantuvo hasta <strong>1971</strong>, cuando el Capitán de Infantería de Marina <strong>Alejandro Pimiento</strong> le dio un nuevo impulso con la creación de los <strong>Comandos de Selva</strong>.</p>
+    
+      <p><em>(Apartes tomados textualmente de la “Organización Operativa de la Flotilla Avispa”, septiembre de 1956)</em></p>
+    
+      <p>Para el funcionamiento de la Flotilla Avispa, se creó un manual con un proyecto de organización en el que se resaltaban las necesidades tácticas de esta unidad. Cada grupo de tarea estaba conformado por <strong>nueve botes</strong>, cada uno tripulado por <strong>cuatro hombres</strong>, acompañados por un pelotón con la estructura administrativa correspondiente.</p>
+    
+      <p><em>(Libro "La Infantería de Marina en la Historia de Colombia", 2021. Capítulo 3, p. 58)</em></p>
+    
+      <p>La creación de la Flotilla Avispa demostró la capacidad de adaptación de las <strong>Fuerzas Militares de Colombia</strong> a las exigencias del combate en escenarios fluviales amazónicos. Su éxito contribuyó significativamente al esfuerzo bélico nacional y a la <strong>recuperación de Leticia</strong>, destacando la importancia del poder fluvial en los conflictos fronterizos y su papel esencial en la soberanía, seguridad y desarrollo de las comunidades de la Amazonía colombiana.</p>
+    `;
+    
       //
       break;
 //amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas//amazonas
@@ -430,29 +422,26 @@ function ChangeTextEsp() {
       document.getElementById("TituloPutumayo").innerHTML = "Conflicto Colombo – Peruano, conocido como Conflicto de Leticia (1932-1933)";
       document.getElementById("TextPutumayo").innerHTML = "En 1932, debido a las fluctuaciones políticas en los países latinoamericanos, surgió el conflicto entre Colombia y Perú. A principios de septiembre, un grupo de civiles peruanos ...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Conflicto Colombo – Peruano, conocido como Conflicto de Leticia (1932-1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-    "En el año 1932, con los vaivenes de la política en los países latinoamericanos, sobrevino el conflicto de Colombia con el Perú. " +
-    "A comienzos de septiembre, un grupo de civiles peruanos se tomó por asalto a Leticia (Amazonas) y capturó a todos los moradores colombianos.<br><br>" +
-
-    "Es por esto que la presencia de la Armada de Colombia en el sur del país se remonta a cuando, a causa del conflicto Colombo–Peruano, " +
-    "fueron destinados los cañoneros fluviales ARC “Cartagena” y ARC “Santa Marta”, el Buque Hospital MC “Yamari” y las unidades “Madeira” y “Esmarck”, estas últimas de origen brasileño, " +
-    "las cuales estaban tripuladas en su mayoría por marinos colombianos. Así se conformó la Flotilla Fluvial del Putumayo, que tenía la misión de proteger los ríos fronterizos, " +
-    "realizando múltiples operaciones sobre el río Putumayo y salvaguardando la integridad y soberanía del territorio nacional.<br><br>" +
-
-    "“En años anteriores, Colombia se había dedicado a dar solución a diferentes problemas internos y se vio envuelta en un conflicto internacional para lo cual no estaba preparada. " +
-    "Como consecuencia de la ingenuidad e imprevisión, la falta de medios tuvo que ser suplida ante tal emergencia con improvisaciones y patriotismo. En ese sentido, se adquirieron algunas unidades de guerra " +
-    "y el Gobierno Nacional se vio precisado a contratar un grupo de Oficiales de la Real Armada Británica para que organizara y dirigiera la incipiente Armada de Colombia.<br><br>" +
-
-    "Los peruanos llamaban la “flota suicida” a nuestra improvisada Armada, que debía operar sobre el trapecio amazónico para la reconquista de Leticia (Amazonas), sin embargo, como resultado de las experiencias del conflicto amazónico, " +
-    "el Gobierno Nacional crea la moderna Marina de Guerra.<br><br>" +
-
-    "La Misión Inglesa, dirigida por el Almirante Bell O. Salter, organizó al respecto nuestra actual moderna Armada de Colombia, orgullo de todos e insomne vigilante de la soberanía en nuestros mares y ríos limítrofes. " +
-    "En primer lugar, se creó la Escuela Naval de Cadetes, por cuanto la anterior Escuela Naval Nacional, creada por el General Rafael Reyes en 1907, había sido abolida. " +
-    "La Escuela Naval inició labores a bordo del improvisado Buque Escuela M. G. Cúcuta, el 3 de julio de 1935, con una planta de profesores entre ingleses y colombianos procedentes de la extinguida Escuela Reyes y, " +
-    "con la colaboración de Oficiales y Suboficiales del Ejército, adelantaron las respectivas instrucciones de tierra para la marinería y más tarde algunos de ellos ingresaron con mucho entusiasmo a la Armada Nacional " +
-    "y se escalafonaron en la Infantería de Marina”.<br><br>" +
-
-    "(<i>Libro La Infantería de Marina en la Historia de Colombia</i>, 2021. Capítulo 3, P. 37)<br><br>";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>En el año <strong>1932</strong>, con los vaivenes de la política en los países latinoamericanos, sobrevino el <strong>conflicto de Colombia con el Perú</strong>. A comienzos de septiembre, un grupo de civiles peruanos tomó por asalto <strong>Leticia (Amazonas)</strong> y capturó a todos los moradores colombianos.</p>
+    
+      <p>Es por esto que la <strong>presencia de la Armada de Colombia</strong> en el sur del país se remonta a este conflicto. Como respuesta, fueron destinados los cañoneros fluviales <strong>ARC “Cartagena”</strong> y <strong>ARC “Santa Marta”</strong>, el <strong>Buque Hospital MC “Yamari”</strong> y las unidades <strong>“Madeira”</strong> y <strong>“Esmarck”</strong> (de origen brasileño, pero tripuladas mayormente por marinos colombianos). Así se conformó la <strong>Flotilla Fluvial del Putumayo</strong>, con la misión de proteger los ríos fronterizos y realizar múltiples operaciones en el río Putumayo, salvaguardando la integridad y soberanía del territorio nacional.</p>
+    
+      <blockquote>
+        <p>“En años anteriores, Colombia se había dedicado a dar solución a diferentes problemas internos y se vio envuelta en un conflicto internacional para lo cual no estaba preparada. Como consecuencia de la ingenuidad e imprevisión, la falta de medios tuvo que ser suplida ante tal emergencia con improvisaciones y patriotismo.</p>
+    
+        <p>En ese sentido, se adquirieron algunas unidades de guerra y el Gobierno Nacional se vio precisado a contratar un grupo de Oficiales de la Real Armada Británica para que organizara y dirigiera la incipiente Armada de Colombia.</p>
+    
+        <p>Los peruanos llamaban la <strong>“flota suicida”</strong> a nuestra improvisada Armada, que debía operar sobre el trapecio amazónico para la reconquista de Leticia (Amazonas). Sin embargo, como resultado de las experiencias del conflicto amazónico, el Gobierno Nacional crea la moderna <strong>Marina de Guerra</strong>.</p>
+    
+        <p>La <strong>Misión Inglesa</strong>, dirigida por el Almirante <strong>Bell O. Salter</strong>, organizó al respecto nuestra actual moderna <strong>Armada de Colombia</strong>, orgullo de todos e insomne vigilante de la soberanía en nuestros mares y ríos limítrofes.</p>
+    
+        <p>En primer lugar, se creó la <strong>Escuela Naval de Cadetes</strong>, por cuanto la anterior Escuela Naval Nacional, creada por el General Rafael Reyes en 1907, había sido abolida. La Escuela Naval inició labores a bordo del improvisado <strong>Buque Escuela M. G. Cúcuta</strong> el 3 de julio de 1935, con una planta de profesores entre ingleses y colombianos procedentes de la extinguida Escuela Reyes. Con la colaboración de Oficiales y Suboficiales del Ejército, se adelantaron las respectivas instrucciones de tierra para la marinería, y más tarde algunos de ellos ingresaron con entusiasmo a la Armada Nacional y se escalafonaron en la <strong>Infantería de Marina</strong>.”</p>
+    
+        <p><em>(Libro "La Infantería de Marina en la Historia de Colombia", 2021. Capítulo 3, p. 37)</em></p>
+      </blockquote>
+    `;
+    
 
       //
       break;
@@ -464,30 +453,26 @@ function ChangeTextEsp() {
       document.getElementById("TituloPutumayo").innerHTML = "Batalla de Guëpí (1932-1933)";
       document.getElementById("TextPutumayo").innerHTML = "La Batalla de Guëpí fue un enfrentamiento clave durante la Guerra Colombo – Peruana, ocurrido el 26 de marzo de 1933. Este combate se desarrolló en el contexto de la disputa territorial...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Batalla de Guëpí (1932-1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-      "La Batalla de Güepí fue un enfrentamiento clave durante la Guerra Colombo–Peruana, ocurrido el 26 de marzo de 1933, " +
-      "el cual se desarrolló en el contexto de la disputa territorial por la soberanía del Puerto de Leticia y las áreas circundantes, ubicadas en el departamento del Amazonas. " +
-      "La batalla fue un ejemplo del papel decisivo de las Fuerzas Militares de Colombia en la recuperación de territorios ocupados por Perú.<br><br>" +
-  
-      "Cabe indicar que esta reconocida batalla se generó a causa del inconformismo de los hacendados peruanos por la firma del Tratado Salomón–Lozano en el año 1922, " +
-      "en donde se redefinieron las fronteras entre Brasil, Colombia y Perú, produciendo la creación de un puesto de aduanas por parte de Colombia en la frontera, " +
-      "el cual dificultaba el transporte de caucho y caña de azúcar hacia Iquitos (Perú), afectando sus finanzas.<br><br>" +
-  
-      "“El conflicto en Güepí se desdobló a lo largo de un sector de 15 kilómetros y durante casi nueve horas sin descanso”.<br>" +
-      "(<i>Libro Historia de la Fuerza Naval del Sur en la Amazonía Colombiana</i>, 2017. P. 44).<br><br>" +
-  
-      "“El 26 de marzo de 1933, durante el conflicto con el Perú, se creó el destacamento del Putumayo y la Flotilla Fluvial. " +
-      "Desde Puerto Leguízamo se lanzó la ofensiva contra la guarnición militar peruana de Güepí, en donde nuestros soldados, con un heroísmo sin precedentes, " +
-      "se trenzaron en feroz combate cuerpo a cuerpo con el enemigo, y el Sargento Néstor Ospina Melo arrió la bandera peruana e izó la bandera de Colombia, " +
-      "y todos los nuestros gritaban “¡Viva Colombia!”. Esta victoria puso fin a la guerra con el Perú y rescató para nuestro país el honor y la dignidad.<br><br>" +
-  
-      "La máxima personificación del valor de nuestros soldados queda reflejada en Juan Bautista Solarte Obando, quien al descubrir la ametralladora del enemigo " +
-      "se lanzó sobre ella para salvar la vida de sus compañeros”.<br>" +
-      "(<i>Libro La Infantería de Marina en la Historia de Colombia</i>, 2021. Capítulo 5, P. 203).<br><br>" +
-  
-      "Un total de 16 militares ofrendaron su vida, siendo este un acto valeroso y heroico que contribuyó a la victoria de las tropas colombianas, " +
-      "quienes garantizaron la soberanía nacional y la legitimidad institucional, mediante el despliegue oportuno y eficiente de las capacidades terrestres, fluviales y aéreas.<br><br>";
-
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p><strong>La Batalla de Güepí</strong> fue un enfrentamiento clave durante la <strong>Guerra Colombo–Peruana</strong>, ocurrido el <strong>26 de marzo de 1933</strong>. Este se desarrolló en el contexto de la disputa territorial por la soberanía del <strong>Puerto de Leticia</strong> y las áreas circundantes, ubicadas en el departamento del Amazonas. La batalla evidenció el papel decisivo de las Fuerzas Militares de Colombia en la recuperación de territorios ocupados por Perú.</p>
+    
+      <p>Esta reconocida batalla se originó debido al inconformismo de los hacendados peruanos tras la firma del <strong>Tratado Salomón-Lozano</strong> en 1922, mediante el cual se redefinieron las fronteras entre Brasil, Colombia y Perú. Como resultado, Colombia estableció un puesto de aduanas en la frontera que dificultaba el transporte de caucho y caña de azúcar hacia <strong>Iquitos (Perú)</strong>, afectando las finanzas peruanas.</p>
+    
+      <blockquote>
+        <p>“El conflicto en Güepí se desdobló a lo largo de un sector de 15 kilómetros y durante casi nueve horas sin descanso.”</p>
+        <p><em>(Libro "Historia de la Fuerza Naval del Sur en la Amazonía Colombiana", 2017. P. 44)</em></p>
+      </blockquote>
+    
+      <blockquote>
+        <p>“El 26 de marzo de 1933, durante el conflicto con el Perú, se creó el destacamento del Putumayo y la Flotilla Fluvial. Desde Puerto Leguízamo se lanzó la ofensiva contra la guarnición militar peruana de Güepí, en donde nuestros soldados, con un heroísmo sin precedentes, se trenzaron en feroz combate cuerpo a cuerpo con el enemigo y el <strong>Sargento Néstor Ospina Melo</strong> arrió la bandera peruana e izó la bandera de Colombia y todos los nuestros gritaban ‘<strong>¡Viva Colombia!</strong>’. Esta victoria puso fin a la guerra con el Perú, y rescató para nuestro país el honor y la dignidad.</p>
+        
+        <p>La máxima personificación del valor de nuestros soldados queda reflejada en <strong>Juan Bautista Solarte Obando</strong>, quien al descubrir la ametralladora del enemigo se lanzó sobre ella para salvar la vida de sus compañeros.”</p>
+        <p><em>(Libro "La Infantería de Marina en la Historia de Colombia", 2021. Capítulo 5, P. 203)</em></p>
+      </blockquote>
+    
+      <p>Un total de <strong>16 militares ofrendaron su vida</strong> en esta batalla, siendo este un acto valeroso y heroico que contribuyó a la victoria de las tropas colombianas, quienes garantizaron la soberanía nacional y la legitimidad institucional, mediante el despliegue oportuno y eficiente de las capacidades terrestres, fluviales y aéreas.</p>
+    `;
+    
       //
       break;
     case 8:
@@ -498,29 +483,25 @@ function ChangeTextEsp() {
       document.getElementById("TituloPutumayo").innerHTML = "La Batalla de Tarapacá (1933)";
       document.getElementById("TextPutumayo").innerHTML = "La Batalla de Tarapacá, también conocida como el Combate de Nuevo Tarapacá o la defensa del Bajo Putumayo, fue un enfrentamiento militar ocurrido el 14 de febrero de 1933 durante el conflicto Colombo – Peruano (1932-1933)...";
       document.getElementById("TituloPopAmazonas").innerHTML = "La Batalla de Tarapacá (1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-    "La Batalla de Tarapacá, también conocida como el Combate de Nuevo Tarapacá o la defensa del Bajo Putumayo, fue un enfrentamiento militar ocurrido el 14 de febrero de 1933 " +
-    "durante el conflicto Colombo–Peruano (1932–1933), en la cual ambas naciones se disputaban una amplia región que circundaba el río Putumayo.<br><br>" +
-
-    "“La batalla inició cuando en horas de la mañana del 14 de febrero de 1933, tropas colombianas sufrieron el ataque de una escuadrilla aérea peruana, " +
-    "lo que provocó la respuesta inmediata de la escuadrilla aérea colombiana que se encontraba fondeada en las proximidades a Tarapacá (Amazonas), sin llegarse a dar un combate directo. " +
-    "Se buscaba con esta maniobra desconcertar a los peruanos sobre las verdaderas intenciones del ataque.<br><br>" +
-
-    "En ese año, el General Alfredo Vásquez Cobo se traslada a bordo del Destructor ARC “Córdoba” y pide la convergencia sobre Tarapacá (Amazonas), " +
-    "de los cañoneros ARC “Cartagena” y ARC “Santa Marta” desde el Alto Putumayo, solicitud que no pudo ser atendida debido a que el destacamento del Putumayo " +
-    "adelantaba operaciones en su zona de responsabilidad, que culminarían con el ataque sobre Güepí (Perú).<br><br>" +
-
-    "En horas de la mañana del día 15 de febrero, tuvo lugar el ataque de las unidades fluviales, cuyo desembarco fue dirigido personalmente por el General Efraín Rojas; " +
-    "con sorpresa se encontró que la guarnición peruana había abandonado el fortín. A las nueve de la mañana se izó sobre Tarapacá (Amazonas) el pabellón colombiano.<br><br>" +
-
-    "Se restituía a la heredad patria, el primero de los fragmentos que se intentó arrebatar. Con Tarapacá, la proyección del poder aéreo y fluvial colombiano sobre el escenario amazónico " +
-    "se hizo más evidente. Se pudo instalar allí una base de apoyo a las operaciones subsiguientes”.<br>" +
-    "(<i>Cyber-corredera, Artículo “Se recupera Tarapacá”</i>, Página web: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm' target='_blank'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>).<br><br>" +
-
-    "En la Batalla de Tarapacá, las tropas colombianas tomaron el control del bajo Putumayo, lo que daría una posición relevante para las operaciones posteriores " +
-    "en donde logran acercarse más a Leticia (Amazonas). Cabe resaltar que la mediación de la Liga de las Naciones en Ginebra, Suiza puso fin al conflicto, " +
-    "devolviendo Leticia a Colombia en el año 1934.<br><br>";
-
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p><strong>La Batalla de Tarapacá</strong>, también conocida como el <strong>Combate de Nuevo Tarapacá</strong> o la <strong>defensa del Bajo Putumayo</strong>, fue un enfrentamiento militar ocurrido el <strong>14 de febrero de 1933</strong> durante el conflicto <strong>Colombo–Peruano (1932–1933)</strong>, en el cual ambas naciones se disputaban una amplia región que circundaba el río Putumayo.</p>
+    
+      <blockquote>
+        <p>“La batalla inició cuando en horas de la mañana del 14 de febrero de 1933, tropas colombianas sufrieron el ataque de una escuadrilla aérea peruana, lo que provocó la respuesta inmediata de la escuadrilla aérea colombiana que se encontraba fondeada en las proximidades a Tarapacá (Amazonas), sin llegarse a dar un combate directo. Se buscaba con esta maniobra desconcertar a los peruanos sobre las verdaderas intenciones del ataque.</p>
+    
+        <p>En ese año, el General Alfredo Vásquez Cobo se traslada a bordo del Destructor ARC “Córdoba” y pide la convergencia sobre Tarapacá (Amazonas), de los cañoneros ARC “Cartagena” y ARC “Santa Marta” desde el Alto Putumayo, solicitud que no pudo ser atendida debido a que el destacamento del Putumayo adelantaba operaciones en su zona de responsabilidad, que culminarían con el ataque sobre Güepí (Perú).</p>
+    
+        <p>En horas de la mañana del día 15 de febrero, tuvo lugar el ataque de las unidades fluviales, cuyo desembarco fue dirigido personalmente por el General Efraín Rojas; con sorpresa se encontró que la guarnición peruana había abandonado el fortín. A las nueve de la mañana se izó sobre Tarapacá (Amazonas) el pabellón colombiano.</p>
+    
+        <p>Se restituía a la heredad patria, el primero de los fragmentos que se intentó arrebatar. Con Tarapacá, la proyección del poder aéreo y fluvial colombiano sobre el escenario Amazónico se hizo más evidente. Se pudo instalar allí una base de apoyo a las operaciones subsiguientes.”</p>
+        <p><em>(Cyber-corredera, Artículo “Se recupera Tarapacá”, https://www.cyber-corredera.de/panoles/Panol-48.htm)</em></p>
+      </blockquote>
+    
+      <p>En la <strong>Batalla de Tarapacá</strong>, las tropas colombianas tomaron el control del Bajo Putumayo, obteniendo una posición estratégica que facilitaría las operaciones posteriores hacia <strong>Leticia (Amazonas)</strong>.</p>
+    
+      <p>Cabe resaltar que la <strong>mediación de la Liga de las Naciones</strong> en Ginebra, Suiza, fue fundamental para poner fin al conflicto, devolviendo Leticia a Colombia en el año <strong>1934</strong>.</p>
+    `;
+    
       //
       break;
     case 9:
@@ -531,18 +512,16 @@ function ChangeTextEsp() {
       document.getElementById("TituloPutumayo").innerHTML = "Creación de la Intendencia Nacional del Amazonas (1951)";
       document.getElementById("TextPutumayo").innerHTML = "La Intendencia Nacional del Amazonas fue establecida mediante el Decreto Ley 963 de fecha 14 de marzo de 1951. Esta medida reforzó la presencia de la Armada de Colombia, fortaleció la infraestructura naval y reafirmó el...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación de la Intendencia Nacional del Amazonas (1951)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-    "La Intendencia Nacional del Amazonas fue establecida mediante el Decreto Ley 963 de fecha 14 de marzo de 1951. " +
-    "Esta medida reforzó la presencia de la Armada de Colombia, fortaleció la infraestructura y reafirmó el dominio colombiano sobre el territorio amazónico. " +
-    "La Intendencia del Amazonas había sido previamente una entidad territorial creada en 1931 para consolidar la soberanía colombiana en la región tras los conflictos con Perú y Brasil.<br><br>" +
-
-    "La creación de la Intendencia Nacional del Amazonas formó parte de un esfuerzo más amplio por parte del gobierno colombiano para fortalecer su control sobre la región amazónica, " +
-    "la cual había sido objeto de disputas territoriales con Perú y Brasil. La región del Amazonas, conocida como el “Trapecio Amazónico”, es una zona estratégica debido a su riqueza en recursos naturales " +
-    "junto con su posición geográfica.<br><br>" +
-
-    "El establecimiento de la Intendencia Nacional del Amazonas permitió una mayor presencia militar y naval en la región, facilitando la protección de las fronteras y la navegación fluvial, " +
-    "fortaleciendo la lucha contra el narcotráfico y sus delitos conexos transnacionales.<br><br>";
-
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p><strong>La Intendencia Nacional del Amazonas</strong> fue establecida mediante el <strong>Decreto Ley 963 del 14 de marzo de 1951</strong>. Esta medida reforzó la presencia de la Armada de Colombia, fortaleció la infraestructura y reafirmó el dominio colombiano sobre el territorio amazónico.</p>
+    
+      <p>La Intendencia del Amazonas había sido previamente una entidad territorial creada en <strong>1931</strong> para consolidar la soberanía colombiana en la región tras los conflictos con <strong>Perú y Brasil</strong>.</p>
+    
+      <p>La creación de la Intendencia Nacional del Amazonas formó parte de un esfuerzo más amplio por parte del gobierno colombiano para fortalecer su control sobre la región amazónica, conocida como el <strong>“Trapecio Amazónico”</strong>, una zona estratégica debido a su riqueza en recursos naturales y su posición geográfica.</p>
+    
+      <p>El establecimiento de esta intendencia permitió una mayor presencia <strong>militar y naval</strong> en la región, facilitando la protección de las fronteras y la navegación fluvial, así como fortaleciendo la lucha contra el <strong>narcotráfico y sus delitos conexos transnacionales</strong>.</p>
+    `;
+    
        
       //
       break;
@@ -554,20 +533,18 @@ function ChangeTextEsp() {
       document.getElementById("TituloPutumayo").innerHTML = "Conflicto en La Pedrera (1911)";
       document.getElementById("TextPutumayo").innerHTML = "El conflicto de La Pedrera fue un enfrentamiento armado entre Colombia y Perú que tuvo lugar en el año 1911 en el Puesto Fronterizo de La Pedrera, una pequeña localidad ubicada a orillas del río Caquetá, en la región amazónica...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Conflicto en La Pedrera (1911)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-      "“El conflicto de La Pedrera fue un enfrentamiento armado entre Colombia y Perú que tuvo lugar en el año 1911 en el Puesto Fronterizo de La Pedrera, " +
-      "una pequeña localidad ubicada a orillas del río Caquetá, en la región amazónica. Este conflicto surgió por las disputas territoriales no resueltas entre ambos países en la cuenca amazónica, " +
-      "en donde la delimitación de las fronteras era imprecisa y los intereses económicos en la extracción de caucho intensificaban las tensiones.<br><br>" +
-  
-      "La disputa en el territorio inició el 10 de julio de 1911, y después de dos días de intensa lucha por parte de las tropas colombianas, " +
-      "estas se retiraron con arrojo y valentía hacia una localidad de Brasil dadas las condiciones de inferioridad en las que se encontraban; " +
-      "sin embargo, esta confrontación fue el preludio de lo que veinte años después se convertiría en el conflicto Colombo–Peruano”.<br>" +
-      "(<i>Revista Putumayo</i>, 2012. P. 19).<br><br>" +
-  
-      "“El conflicto terminó en el año 1911 con la firma del Tratado Tezanos Pinto-Larrea que reafirmó el compromiso de Colombia y Perú de resolver sus diferencias " +
-      "a través del diálogo y la negociación diplomática. Aunque no resolvió definitivamente la situación fronteriza, este tratado ayudó a mantener la paz temporal entre ambos países”.<br>" +
-      "(<i>Libro Historia de la Fuerza Naval del Sur en la Amazonía Colombiana</i>, 2017. P. 37-38).<br><br>";
-  
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p><strong>El conflicto de La Pedrera</strong> fue un enfrentamiento armado entre Colombia y Perú que tuvo lugar en el año <strong>1911</strong> en el Puesto Fronterizo de La Pedrera, una pequeña localidad ubicada a orillas del río Caquetá, en la región amazónica.</p>
+    
+      <p>Este conflicto surgió por las <strong>disputas territoriales no resueltas</strong> entre ambos países en la cuenca amazónica, donde la delimitación de fronteras era imprecisa y los intereses económicos en la extracción de caucho intensificaban las tensiones.</p>
+    
+      <p>La disputa en el territorio inició el <strong>10 de julio de 1911</strong>, y después de dos días de intensa lucha por parte de las tropas colombianas, estas se retiraron con arrojo y valentía hacia una localidad de Brasil, dadas las condiciones de inferioridad en las que se encontraban. Sin embargo, esta confrontación fue el preludio de lo que veinte años después se convertiría en el <strong>conflicto Colombo – Peruano</strong>.” 
+      <br><em>(Revista Putumayo, 2012. P. 19)</em></p>
+    
+      <p>“El conflicto terminó en el año <strong>1911</strong> con la firma del <strong>Tratado Tezanos Pinto-Larrea</strong>, que reafirmó el compromiso de Colombia y Perú de resolver sus diferencias a través del diálogo y la negociación diplomática. Aunque no resolvió definitivamente la situación fronteriza, este tratado ayudó a mantener la paz temporal entre ambos países.” 
+      <br><em>(Libro Historia de la Fuerza Naval del Sur en la Amazonía Colombiana, 2017. P. 37-38)</em></p>
+    `;
+    
       //
       break;
 //GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE//GUAVIARE      
@@ -580,13 +557,15 @@ function ChangeTextEsp() {
       document.getElementById("TituloGuaviare").innerHTML = "Establecimiento de la Flotilla Fluvial del Sur (1929-1930)";
       document.getElementById("TextGuaviare").innerHTML = "Durante el auge de la extracción de quina, tigrillos, caucho y madera, entre 1920 y 1950, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente corresponde a...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Flotilla Fluvial del Sur (1929-1930)";
-      document.getElementById("TextPopAmazonas").innerHTML = 
-      "La Flotilla Fluvial del Sur se enmarcó en los esfuerzos de Colombia por fortalecer el control territorial en la cuenca amazónica, salvaguardar las fronteras y ejercer soberanía, especialmente por los conflictos limítrofes con Perú, como el conflicto de La Pedrera (1911) y el conflicto Colombo – Peruano (1932-1933).<br><br>" + 
-
-      "Estos acontecimientos revelaron la necesidad de desarrollar una fuerza naval con capacidades de despliegue fluvial en la región; por lo cual, la flotilla fue formalmente establecida en los inicios de la década de 1930, mediante la ratificación del Protocolo de Río de Janeiro (1934), que reafirmó la soberanía colombiana sobre Leticia y otras zonas disputadas.<br><br>" + 
-
-      "La Armada de Colombia organizó y desplegó unidades fluviales operativas y con alto nivel de alistamiento, entre ellos patrulleras rápidas, lanchas patrulleras de río, cañoneros y remolcadores fluviales, con el fin de efectuar patrullaje sobre los ríos Amazonas, Putumayo y Caquetá, preservando el control y la seguridad de las áreas de responsabilidad asignada, garantizando la legitimidad institucional y la soberanía del territorio colombiano.";
-     //
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>Durante el auge de la extracción de <strong>quina, tigrillos, caucho y madera</strong> entre <strong>1920 y 1950</strong>, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente compone el departamento de <strong>Guaviare</strong>, llevando a cabo operaciones de control territorial en los afluentes y zonas de extracción para asegurar que no se presentaran infiltraciones ni actividades ilegales que amenazaran la estabilidad y seguridad de la región.</p>
+    
+      <p>Así mismo, la Armada de Colombia facilitó el <strong>transporte de materiales y personal</strong> hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera eficiente y segura. En ese sentido, también ayudó a <strong>salvaguardar las fronteras</strong>, evitar conflictos con países vecinos, asegurar la <strong>soberanía colombiana</strong> y proporcionar <strong>asistencia a las comunidades locales</strong>, con el fin de adaptarse a los cambios económicos y sociales provocados por la extracción de recursos naturales.</p>
+    
+      <p>Finalmente, la Institución Naval desempeñó un papel en la <strong>regulación y control</strong> de las actividades extractivas para minimizar el <strong>impacto ambiental</strong>, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el medio ambiente.</p>
+    `;
+    
+      //
       break;
     case 12:
       document.getElementById("asd").style.display = "none";
@@ -596,12 +575,13 @@ function ChangeTextEsp() {
       document.getElementById("TituloGuaviare").innerHTML = "Militar para la consolidación de la soberanía en la frontera amazónica (1930-1940)";
       document.getElementById("TextGuaviare").innerHTML = "En la década de 1930, luego del conflicto colombo-peruano (1932-1933), Colombia fortaleció su presencia militar en los territorios amazónicos, incluyendo lo que actualmente corresponde al...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Militar para la consolidación de la soberanía en la frontera amazónica (1930-1940)";
-      document.getElementById("TextPopAmazonas").innerHTML = 
-    "Durante el auge de la extracción de quina, tigrillos, caucho y madera entre 1920 y 1950, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente compone el departamento de Guaviare, llevando a cabo operaciones de control territorial en los afluentes y zonas de extracción para asegurar que no se presentaran infiltraciones ni actividades ilegales que amenazaran la estabilidad y seguridad de la región.<br><br>" + 
+      document.getElementById("TextPopAmazonas").innerHTML = `
+  <p>Durante el auge de la extracción de <strong>quina, tigrillos, caucho y madera</strong> entre <strong>1920 y 1950</strong>, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente compone el departamento de <strong>Guaviare</strong>, llevando a cabo operaciones de control territorial en los afluentes y zonas de extracción para asegurar que no se presentaran infiltraciones ni actividades ilegales que amenazaran la estabilidad y seguridad de la región.</p>
 
-    "Así mismo, la Armada de Colombia facilitó el transporte de materiales y personal hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera eficiente y segura. En ese sentido, también se ayudó a salvaguardar las fronteras, evitar conflictos con países vecinos, asegurar la soberanía colombiana y proporcionar asistencia a las comunidades locales, con el fin de adaptarse a los cambios económicos y sociales provocados por la extracción de recursos naturales.<br><br>" + 
+  <p>Así mismo, la Armada de Colombia facilitó el <strong>transporte de materiales y personal</strong> hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera eficiente y segura. En ese sentido, también ayudó a <strong>salvaguardar las fronteras</strong>, evitar conflictos con países vecinos, asegurar la <strong>soberanía colombiana</strong> y proporcionar <strong>asistencia a las comunidades locales</strong>, con el fin de adaptarse a los cambios económicos y sociales provocados por la extracción de recursos naturales.</p>
 
-    "Finalmente, la Institución Naval desempeñó un papel en la regulación y control de las actividades extractivas para minimizar el impacto ambiental, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el medio ambiente.";
+  <p>Finalmente, la Institución Naval desempeñó un papel en la <strong>regulación y control</strong> de las actividades extractivas para minimizar el <strong>impacto ambiental</strong>, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el medio ambiente.</p>
+`;
 
       //
       break;
@@ -613,13 +593,14 @@ function ChangeTextEsp() {
       document.getElementById("TituloGuaviare").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
       document.getElementById("TextGuaviare").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-    "En la década de 1930, luego del conflicto Colombo – Peruano (1932-1933), Colombia fortaleció su presencia militar en los territorios amazónicos, incluyendo lo que ahora es el departamento de Guaviare, para asegurar las fronteras definidas por el Tratado Salomón-Lozano (1922).<br><br>" +
-
-    "La Armada de Colombia ejerció su presencia mediante exploraciones, patrullajes fluviales y operaciones coordinadas con el Ejército Nacional, con el fin de consolidar la soberanía del territorio en los ríos Guaviare y sus afluentes.<br><br>" +
-
-    "Finalmente, la Institución Naval contribuyó a establecer puestos de control fluvial y asegurar la estabilidad en la región, demostrando un alto nivel de alistamiento e importante capacidad operacional y logística para la consolidación territorial.";
-
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>En la década de 1930, luego del <strong>conflicto Colombo – Peruano (1932-1933)</strong>, Colombia fortaleció su presencia militar en los territorios amazónicos, incluyendo lo que ahora es el departamento de <strong>Guaviare</strong>, para asegurar las fronteras definidas por el <strong>Tratado Salomón-Lozano (1922)</strong>.</p>
+    
+      <p>La Armada de Colombia ejerció su presencia mediante <strong>exploraciones, patrullajes fluviales</strong> y <strong>operaciones coordinadas con el Ejército Nacional</strong>, con el fin de consolidar la soberanía del territorio en los ríos Guaviare y sus afluentes.</p>
+    
+      <p>Finalmente, la Institución Naval contribuyó a establecer <strong>puestos de control fluvial</strong> y asegurar la estabilidad en la región, demostrando un <strong>alto nivel de alistamiento</strong> e importante capacidad <strong>operacional y logística</strong> para la consolidación territorial.</p>
+    `;
+    
       //
       break;
     case 14:
@@ -631,13 +612,14 @@ function ChangeTextEsp() {
       document.getElementById("TituloGuaviare").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
       document.getElementById("TextGuaviare").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
-      document.getElementById("TextPopAmazonas").innerHTML = 
-    "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo de las regiones más alejadas del país. Antes del año 1991, Guaviare era considerado una Comisaría Especial, una entidad administrativa que no tenía la misma autonomía ni recursos.<br><br>" +
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>En 1991, con la promulgación de la nueva <strong>Constitución Política de Colombia</strong>, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo de las regiones más alejadas del país. Antes del año 1991, Guaviare era considerado una <strong>Comisaría Especial</strong>, una entidad administrativa que no tenía la misma autonomía ni recursos.</p>
     
-    "En ese sentido, la creación del departamento de Guaviare consolidó la presencia de la Fuerza Naval de la Amazonía en la región, la cual desempeñó un rol fundamental en la protección de las zonas fronterizas, la lucha frontal contra el narcotráfico y la defensa de los recursos naturales. Adicionalmente, la nueva administración permitió una mejor distribución de recursos y una mayor atención a las necesidades de la población.<br><br>" +
+      <p>En ese sentido, la creación del departamento de Guaviare consolidó la presencia de la <strong>Fuerza Naval de la Amazonía</strong> en la región, la cual desempeñó un rol fundamental en la <strong>protección de las zonas fronterizas</strong>, la <strong>lucha frontal contra el narcotráfico</strong> y la <strong>defensa de los recursos naturales</strong>. Adicionalmente, la nueva administración permitió una mejor distribución de recursos y una mayor atención a las necesidades de la población.</p>
     
-    "Es importante mencionar que, desde su creación, el departamento de Guaviare ha enfrentado varios desafíos, incluyendo la preservación del medio ambiente y la protección de los derechos de las comunidades indígenas. Sin embargo, la Fuerza Naval de la Amazonía ha continuado de manera irrestricta cumpliendo con su misión de proteger a la población civil, garantizar la soberanía y el control territorial, contrarrestar las actividades ilícitas y delitos conexos transnacionales, así como, coadyuvar al desarrollo sostenible de la región amazónica.";
-
+      <p>Es importante mencionar que, desde su creación, el departamento de Guaviare ha enfrentado varios desafíos, incluyendo la <strong>preservación del medio ambiente</strong> y la <strong>protección de los derechos de las comunidades indígenas</strong>. Sin embargo, la Fuerza Naval de la Amazonía ha continuado de manera irrestricta cumpliendo con su misión de <strong>proteger a la población civil</strong>, <strong>garantizar la soberanía y el control territorial</strong>, <strong>contrarrestar las actividades ilícitas</strong> y <strong>coadyuvar al desarrollo sostenible</strong> de la región amazónica.</p>
+    `;
+    
       //
       break;
 
@@ -650,9 +632,13 @@ function ChangeTextEsp() {
       document.getElementById("TituloGuaviare").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
       document.getElementById("TextGuaviare").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
-      document.getElementById("TextPopAmazonas").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, como parte de una redistribución territorial destinada a mejorar la administración y el desarrollo de las regiones más apartadas del país. Antes de 1991, Guaviare era considerado una Comisaría Especial, una entidad administrativa sin la autonomía ni los recursos de un departamento.\n\n" +
-        "En este contexto, la creación del departamento de Guaviare consolidó la presencia de la Fuerza Naval de la Amazonía en la región, que desempeñó un rol fundamental en la protección de las zonas fronterizas, la lucha contra el narcotráfico y la defensa de los recursos naturales. Además, la nueva estructura administrativa permitió una distribución más equitativa de recursos y una mayor atención a las necesidades de la población.\n\n" +
-        "Es importante destacar que, desde su creación, el departamento de Guaviare ha enfrentado varios desafíos, como la preservación del medio ambiente y la protección de los derechos de las comunidades indígenas. Sin embargo, la Fuerza Naval de la Amazonía ha continuado, de manera incansable, cumpliendo con su misión de proteger a la población civil, garantizar la soberanía y el control territorial, contrarrestar las actividades ilícitas y los delitos conexos transnacionales, así como contribuir al desarrollo sostenible de la región amazónica.";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+  <p>En 1991, con la promulgación de la nueva <strong>Constitución Política de Colombia</strong>, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo de las regiones más alejadas del país. Antes del año 1991, Guaviare era considerado una <strong>Comisaría Especial</strong>, una entidad administrativa que no tenía la misma autonomía ni recursos.</p>
+
+  <p>En ese sentido, la creación del departamento de Guaviare consolidó la presencia de la <strong>Fuerza Naval de la Amazonía</strong> en la región, la cual desempeñó un rol fundamental en la <strong>protección de las zonas fronterizas</strong>, la <strong>lucha frontal contra el narcotráfico</strong> y la <strong>defensa de los recursos naturales</strong>. Adicionalmente, la nueva administración permitió una mejor distribución de recursos y una mayor atención a las necesidades de la población.</p>
+
+  <p>Es importante mencionar que, desde su creación, el departamento de Guaviare ha enfrentado varios desafíos, incluyendo la <strong>preservación del medio ambiente</strong> y la <strong>protección de los derechos de las comunidades indígenas</strong>. Sin embargo, la Fuerza Naval de la Amazonía ha continuado de manera irrestricta cumpliendo con su misión de <strong>proteger a la población civil</strong>, <strong>garantizar la soberanía y el control territorial</strong>, <strong>contrarrestar las actividades ilícitas</strong> y <strong>coadyuvar al desarrollo sostenible</strong> de la región amazónica.</p>
+`;
 
       //
       break;
