@@ -18,10 +18,10 @@ window.onload = function() {
         window.removeEventListener('keydown', bloquearScrollTeclado);
     }
 
-    // Bloquear el scroll al cargar la página
-    window.addEventListener('wheel', bloquearScroll, { passive: false });
-    window.addEventListener('touchmove', bloquearScroll, { passive: false });
-    window.addEventListener('keydown', bloquearScrollTeclado);
+        // Bloquear el scroll al cargar la página
+        window.addEventListener('wheel', bloquearScroll, { passive: false });
+        window.addEventListener('touchmove', bloquearScroll, { passive: false });
+        window.addEventListener('keydown', bloquearScrollTeclado);
 
     function bloquearScrollTeclado(e) {
         // Bloquear la tecla de "barra espaciadora", "arriba", "abajo", "page up", "page down", etc.

@@ -5,17 +5,20 @@ const closePopup = document.getElementById('AboutclosePopup');
 
 // Al hacer clic en el botón, abre el popup
 leerMasBtn.addEventListener('click', () => {
+  bloquearScrollBody();
   popup.style.visibility = 'visible';
 });
 
 // Al hacer clic en el icono de cerrar, cierra el popup
 closePopup.addEventListener('click', () => {
+  permitirScrollBody();
   popup.style.visibility = 'hidden';
 });
 
 // Cierra el popup si haces clic fuera del contenido
 window.addEventListener('click', (e) => {
   if (e.target === popup) {
+    permitirScrollBody();
     popup.style.visibility = 'hidden';
   }
 });

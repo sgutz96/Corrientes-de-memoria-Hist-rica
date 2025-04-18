@@ -9,6 +9,12 @@ const RelatoscloseBtn = document.getElementById('Relatosclose-btn');
 
 // Mostrar el pop-up cuando se haga clic en la imagen
 Relatosimage.addEventListener('click', () => {
+    
+  bloquearScrollBody();
+
+  musicVideo();
+
+
     Relatospopup.style.display = 'flex';
 
     const RelatosPopUpvideo = document.getElementById('Relatos-Popup-video');
@@ -18,6 +24,11 @@ Relatosimage.addEventListener('click', () => {
 
 // Cerrar el pop-up cuando se haga clic en el botón de cerrar
 RelatoscloseBtn.addEventListener('click', () => {
+    permitirScrollBody();
+
+    musicVideo();
+
+
     Relatospopup.style.display = 'none';
     // Pausar el video cuando se cierre
     const RelatosPopUpvideo = document.getElementById('Relatos-Popup-video');
@@ -28,6 +39,11 @@ RelatoscloseBtn.addEventListener('click', () => {
 // Cerrar el pop-up si se hace clic fuera del contenido
 window.addEventListener('click', (event) => {
     if (event.target === Relatospopup) {
+        // Si el clic fue fuera del contenido del pop-up, cierra el pop-up
+        // y permite el scroll del body
+        permitirScrollBody();
+        //  Desactivar la música al cerrar el pop-up
+        musicVideo()
         Relatospopup.style.display = 'none';
         const RelatosPopUpvideo = document.getElementById('Relatos-Popup-video');
     RelatosPopUpvideo.pause();
@@ -35,4 +51,10 @@ window.addEventListener('click', (event) => {
 
     }
 });
+
+function musicVideo() {
+    if(isMusic) {
+         toggleMusic()
+    }
+}
 
