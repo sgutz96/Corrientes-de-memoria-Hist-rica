@@ -1,0 +1,49 @@
+.equipo {
+    margin-top: 25vh;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .equipo h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+  
+  .equipo-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .miembro {
+    flex: 1 1 calc(20% - 30px); /* 5 por fila con espacio */
+    max-width: calc(20% - 30px);
+    box-sizing: border-box;
+    padding: var(--font-size-h2);
+    border-radius: 10px;
+    filter: drop-shadow(var(--imagen-sombreado-left));
+    background-image: url(../Assets/IMG/About/contenBulletAbout_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .miembro img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .miembro h5 {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .miembro h6 {
+    font-size: 0.95em;
+    color: #777;
+  }
+  

@@ -47,7 +47,7 @@
   --font-size-p: 1rem;
   /* Tamaño de fuente para párrafos */
 
-  --imagen-sombreado-left: 10px 10px 5px gray;
+  --imagen-sombreado-left: 10px 10px 10px gray;
   --imagen-sombreado-right: 10px 10px 5px gray;
   --imagen-sombreado-center: 0 10px 10px rgba(59, 59, 59, 0.585);
 }
