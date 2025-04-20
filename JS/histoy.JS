@@ -554,57 +554,57 @@ function ChangeTextEsp() {
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "Conmemoración del 72º aniversario de la Base Naval ARC Leguízamo. Fuente: Archivo de la Armada Nacional, año 2015.";
-      document.getElementById("TituloGuaviare").innerHTML = "Establecimiento de la Flotilla Fluvial del Sur (1929-1930)";
+      document.getElementById("TituloGuaviare").innerHTML = "Auge de la extracción de quina, tigrillos, caucho y madera (1920-1950)";
       document.getElementById("TextGuaviare").innerHTML = "Durante el auge de la extracción de quina, tigrillos, caucho y madera, entre 1920 y 1950, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente corresponde a...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establecimiento de la Flotilla Fluvial del Sur (1929-1930)";
+      document.getElementById("TituloPopAmazonas").innerHTML = "Auge de la extracción de quina, tigrillos, caucho y madera (1920-1950)";
       document.getElementById("TextPopAmazonas").innerHTML = `
-      <p>Durante el auge de la extracción de <strong>quina, tigrillos, caucho y madera</strong> entre <strong>1920 y 1950</strong>, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente compone el departamento de <strong>Guaviare</strong>, llevando a cabo operaciones de control territorial en los afluentes y zonas de extracción para asegurar que no se presentaran infiltraciones ni actividades ilegales que amenazaran la estabilidad y seguridad de la región.</p>
+      <p>Durante el auge de la extracción de <strong>quina</strong>, <strong>tigrillos</strong>, <strong>caucho</strong> y <strong>madera</strong> entre <strong>1920 y 1950</strong>, la <strong>Armada de Colombia</strong> desempeñó un papel fundamental en el territorio que actualmente compone el departamento de <strong>Guaviare</strong>, llevando a cabo operaciones de <strong>control territorial</strong> en los afluentes y zonas de extracción para asegurar que no se presentaran <strong>infiltraciones</strong> ni <strong>actividades ilegales</strong> que amenazaran la <strong>estabilidad</strong> y <strong>seguridad</strong> de la región.</p>
     
-      <p>Así mismo, la Armada de Colombia facilitó el <strong>transporte de materiales y personal</strong> hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera eficiente y segura. En ese sentido, también ayudó a <strong>salvaguardar las fronteras</strong>, evitar conflictos con países vecinos, asegurar la <strong>soberanía colombiana</strong> y proporcionar <strong>asistencia a las comunidades locales</strong>, con el fin de adaptarse a los cambios económicos y sociales provocados por la extracción de recursos naturales.</p>
+      <p>Así mismo, la <strong>Armada de Colombia</strong> facilitó el <strong>transporte de materiales y personal</strong> hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera <strong>eficiente</strong> y <strong>segura</strong>. En ese sentido, también ayudó a <strong>salvaguardar las fronteras</strong>, <strong>evitar conflictos</strong> con países vecinos, asegurar la <strong>soberanía colombiana</strong> y proporcionar <strong>asistencia a las comunidades locales</strong>, con el fin de adaptarse a los <strong>cambios económicos y sociales</strong> provocados por la extracción de recursos naturales.</p>
     
-      <p>Finalmente, la Institución Naval desempeñó un papel en la <strong>regulación y control</strong> de las actividades extractivas para minimizar el <strong>impacto ambiental</strong>, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el medio ambiente.</p>
+      <p>Finalmente, la <strong>Institución Naval</strong> desempeñó un papel en la <strong>regulación y control</strong> de las actividades extractivas para minimizar el <strong>impacto ambiental</strong>, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el <strong>medio ambiente</strong>.</p>
     `;
     
       //
       break;
-    case 12:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloGuaviare").innerHTML = "Militar para la consolidación de la soberanía en la frontera amazónica (1930-1940)";
-      document.getElementById("TextGuaviare").innerHTML = "En la década de 1930, luego del conflicto colombo-peruano (1932-1933), Colombia fortaleció su presencia militar en los territorios amazónicos, incluyendo lo que actualmente corresponde al...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Militar para la consolidación de la soberanía en la frontera amazónica (1930-1940)";
-      document.getElementById("TextPopAmazonas").innerHTML = `
-  <p>Durante el auge de la extracción de <strong>quina, tigrillos, caucho y madera</strong> entre <strong>1920 y 1950</strong>, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente compone el departamento de <strong>Guaviare</strong>, llevando a cabo operaciones de control territorial en los afluentes y zonas de extracción para asegurar que no se presentaran infiltraciones ni actividades ilegales que amenazaran la estabilidad y seguridad de la región.</p>
-
-  <p>Así mismo, la Armada de Colombia facilitó el <strong>transporte de materiales y personal</strong> hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera eficiente y segura. En ese sentido, también ayudó a <strong>salvaguardar las fronteras</strong>, evitar conflictos con países vecinos, asegurar la <strong>soberanía colombiana</strong> y proporcionar <strong>asistencia a las comunidades locales</strong>, con el fin de adaptarse a los cambios económicos y sociales provocados por la extracción de recursos naturales.</p>
-
-  <p>Finalmente, la Institución Naval desempeñó un papel en la <strong>regulación y control</strong> de las actividades extractivas para minimizar el <strong>impacto ambiental</strong>, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el medio ambiente.</p>
-`;
-
-      //
-      break;
+      case 12:
+        document.getElementById("asd").style.display = "block";
+        document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+  
+        document.getElementById("HistoryDerechos").innerHTML = "Conmemoración del 72º aniversario de la Base Naval ARC Leguízamo. Fuente: Archivo de la Armada Nacional, año 2015.";
+        document.getElementById("TituloGuaviare").innerHTML = "Auge de la extracción de quina, tigrillos, caucho y madera (1920-1950)";
+        document.getElementById("TextGuaviare").innerHTML = "Durante el auge de la extracción de quina, tigrillos, caucho y madera, entre 1920 y 1950, la Armada de Colombia desempeñó un papel fundamental en el territorio que actualmente corresponde a...";
+        document.getElementById("TituloPopAmazonas").innerHTML = "Auge de la extracción de quina, tigrillos, caucho y madera (1920-1950)";
+        document.getElementById("TextPopAmazonas").innerHTML = `
+        <p>Durante el auge de la extracción de <strong>quina</strong>, <strong>tigrillos</strong>, <strong>caucho</strong> y <strong>madera</strong> entre <strong>1920 y 1950</strong>, la <strong>Armada de Colombia</strong> desempeñó un papel fundamental en el territorio que actualmente compone el departamento de <strong>Guaviare</strong>, llevando a cabo operaciones de <strong>control territorial</strong> en los afluentes y zonas de extracción para asegurar que no se presentaran <strong>infiltraciones</strong> ni <strong>actividades ilegales</strong> que amenazaran la <strong>estabilidad</strong> y <strong>seguridad</strong> de la región.</p>
+      
+        <p>Así mismo, la <strong>Armada de Colombia</strong> facilitó el <strong>transporte de materiales y personal</strong> hacia y desde las áreas de extracción, asegurando que las operaciones pudieran llevarse a cabo de manera <strong>eficiente</strong> y <strong>segura</strong>. En ese sentido, también ayudó a <strong>salvaguardar las fronteras</strong>, <strong>evitar conflictos</strong> con países vecinos, asegurar la <strong>soberanía colombiana</strong> y proporcionar <strong>asistencia a las comunidades locales</strong>, con el fin de adaptarse a los <strong>cambios económicos y sociales</strong> provocados por la extracción de recursos naturales.</p>
+      
+        <p>Finalmente, la <strong>Institución Naval</strong> desempeñó un papel en la <strong>regulación y control</strong> de las actividades extractivas para minimizar el <strong>impacto ambiental</strong>, aunque la explotación de recursos naturales durante este período tuvo efectos significativos en el <strong>medio ambiente</strong>.</p>
+      `;
+      
+        //
+        break;
     case 13:
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = ""
-      document.getElementById("TituloGuaviare").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
+      document.getElementById("TituloGuaviare").innerHTML = "Expedición Militar para la Consolidación de la soberanía en la Frontera Amazónica (1930-1940)";
       document.getElementById("TextGuaviare").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
+      document.getElementById("TituloPopAmazonas").innerHTML = "Expedición Militar para la Consolidación de la soberanía en la Frontera Amazónica (1930-1940)";
       document.getElementById("TextPopAmazonas").innerHTML = `
-      <p>En la década de 1930, luego del <strong>conflicto Colombo – Peruano (1932-1933)</strong>, Colombia fortaleció su presencia militar en los territorios amazónicos, incluyendo lo que ahora es el departamento de <strong>Guaviare</strong>, para asegurar las fronteras definidas por el <strong>Tratado Salomón-Lozano (1922)</strong>.</p>
-    
-      <p>La Armada de Colombia ejerció su presencia mediante <strong>exploraciones, patrullajes fluviales</strong> y <strong>operaciones coordinadas con el Ejército Nacional</strong>, con el fin de consolidar la soberanía del territorio en los ríos Guaviare y sus afluentes.</p>
-    
-      <p>Finalmente, la Institución Naval contribuyó a establecer <strong>puestos de control fluvial</strong> y asegurar la estabilidad en la región, demostrando un <strong>alto nivel de alistamiento</strong> e importante capacidad <strong>operacional y logística</strong> para la consolidación territorial.</p>
-    `;
+  <p>En la <strong>década de 1930</strong>, luego del conflicto <strong>Colombo – Peruano</strong> (1932-1933), <strong>Colombia</strong> fortaleció su presencia militar en los territorios <strong>amazónicos</strong>, incluyendo lo que ahora es el departamento de <strong>Guaviare</strong>, para asegurar las fronteras definidas por el <strong>Tratado Salomón-Lozano</strong> (1922).</p>
+
+  <p>La <strong>Armada de Colombia</strong> ejerció su presencia mediante <strong>exploraciones</strong>, <strong>patrullajes fluviales</strong> y <strong>operaciones coordinadas</strong> con el <strong>Ejército Nacional</strong>, con el fin de consolidar la <strong>soberanía</strong> del territorio en los ríos <strong>Guaviare</strong> y sus afluentes.</p>
+
+  <p>Finalmente, la <strong>Institución Naval</strong> contribuyó a establecer <strong>puestos de control fluvial</strong> y asegurar la <strong>estabilidad</strong> en la región, demostrando un alto nivel de <strong>alistamiento</strong> e importante capacidad <strong>operacional y logística</strong> para la <strong>consolidación territorial</strong>.</p>
+`;
+
     
       //
       break;
     case 14:
-      ///Repetir el caso 13
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
@@ -613,18 +613,19 @@ function ChangeTextEsp() {
       document.getElementById("TextGuaviare").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
       document.getElementById("TextPopAmazonas").innerHTML = `
-      <p>En 1991, con la promulgación de la nueva <strong>Constitución Política de Colombia</strong>, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo de las regiones más alejadas del país. Antes del año 1991, Guaviare era considerado una <strong>Comisaría Especial</strong>, una entidad administrativa que no tenía la misma autonomía ni recursos.</p>
-    
-      <p>En ese sentido, la creación del departamento de Guaviare consolidó la presencia de la <strong>Fuerza Naval de la Amazonía</strong> en la región, la cual desempeñó un rol fundamental en la <strong>protección de las zonas fronterizas</strong>, la <strong>lucha frontal contra el narcotráfico</strong> y la <strong>defensa de los recursos naturales</strong>. Adicionalmente, la nueva administración permitió una mejor distribución de recursos y una mayor atención a las necesidades de la población.</p>
-    
-      <p>Es importante mencionar que, desde su creación, el departamento de Guaviare ha enfrentado varios desafíos, incluyendo la <strong>preservación del medio ambiente</strong> y la <strong>protección de los derechos de las comunidades indígenas</strong>. Sin embargo, la Fuerza Naval de la Amazonía ha continuado de manera irrestricta cumpliendo con su misión de <strong>proteger a la población civil</strong>, <strong>garantizar la soberanía y el control territorial</strong>, <strong>contrarrestar las actividades ilícitas</strong> y <strong>coadyuvar al desarrollo sostenible</strong> de la región amazónica.</p>
-    `;
+  <p>En <strong>1991</strong>, con la promulgación de la nueva <strong>Constitución Política de Colombia</strong>, <strong>Guaviare</strong> fue elevado a la categoría de <strong>departamento</strong>, en el marco de la <strong>redistribución territorial</strong> que buscaba mejorar la administración y el desarrollo de las regiones más alejadas del país. Antes del año <strong>1991</strong>, Guaviare era considerado una <strong>Comisaría Especial</strong>, una entidad administrativa que no tenía la misma autonomía ni recursos.</p>
+
+  <p>En ese sentido, la creación del departamento de <strong>Guaviare</strong> consolidó la presencia de la <strong>Fuerza Naval de la Amazonía</strong> en la región, la cual desempeñó un rol fundamental en la <strong>protección de las zonas fronterizas</strong>, la <strong>lucha frontal contra el narcotráfico</strong> y la <strong>defensa de los recursos naturales</strong>. Adicionalmente, la nueva administración permitió una mejor <strong>distribución de recursos</strong> y una mayor atención a las <strong>necesidades de la población</strong>.</p>
+
+  <p>Es importante mencionar que, desde su creación, el departamento de <strong>Guaviare</strong> ha enfrentado varios desafíos, incluyendo la <strong>preservación del medio ambiente</strong> y la <strong>protección de los derechos de las comunidades indígenas</strong>. Sin embargo, la <strong>Fuerza Naval de la Amazonía</strong> ha continuado de manera irrestricta cumpliendo con su misión de <strong>proteger a la población civil</strong>, garantizar la <strong>soberanía</strong> y el <strong>control territorial</strong>, contrarrestar las <strong>actividades ilícitas</strong> y delitos conexos <strong>trasnacionales</strong>, así como <strong>coadyuvar al desarrollo sostenible</strong> de la región amazónica.</p>
+`;
+
     
       //
       break;
 
       case 15:
-      ///Repetir el caso 13
+      ///Repetir el caso 14
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
@@ -633,11 +634,11 @@ function ChangeTextEsp() {
       document.getElementById("TextGuaviare").innerHTML = "En 1991, con la promulgación de la nueva Constitución Política de Colombia, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Creación del departamento de Guaviare, consolidando la presencia de la Fuerza Naval de la Amazonía (1991)";
       document.getElementById("TextPopAmazonas").innerHTML = `
-  <p>En 1991, con la promulgación de la nueva <strong>Constitución Política de Colombia</strong>, Guaviare fue elevado a la categoría de departamento, en el marco de la redistribución territorial que buscaba mejorar la administración y el desarrollo de las regiones más alejadas del país. Antes del año 1991, Guaviare era considerado una <strong>Comisaría Especial</strong>, una entidad administrativa que no tenía la misma autonomía ni recursos.</p>
+  <p>En <strong>1991</strong>, con la promulgación de la nueva <strong>Constitución Política de Colombia</strong>, <strong>Guaviare</strong> fue elevado a la categoría de <strong>departamento</strong>, en el marco de la <strong>redistribución territorial</strong> que buscaba mejorar la administración y el desarrollo de las regiones más alejadas del país. Antes del año <strong>1991</strong>, Guaviare era considerado una <strong>Comisaría Especial</strong>, una entidad administrativa que no tenía la misma autonomía ni recursos.</p>
 
-  <p>En ese sentido, la creación del departamento de Guaviare consolidó la presencia de la <strong>Fuerza Naval de la Amazonía</strong> en la región, la cual desempeñó un rol fundamental en la <strong>protección de las zonas fronterizas</strong>, la <strong>lucha frontal contra el narcotráfico</strong> y la <strong>defensa de los recursos naturales</strong>. Adicionalmente, la nueva administración permitió una mejor distribución de recursos y una mayor atención a las necesidades de la población.</p>
+  <p>En ese sentido, la creación del departamento de <strong>Guaviare</strong> consolidó la presencia de la <strong>Fuerza Naval de la Amazonía</strong> en la región, la cual desempeñó un rol fundamental en la <strong>protección de las zonas fronterizas</strong>, la <strong>lucha frontal contra el narcotráfico</strong> y la <strong>defensa de los recursos naturales</strong>. Adicionalmente, la nueva administración permitió una mejor <strong>distribución de recursos</strong> y una mayor atención a las <strong>necesidades de la población</strong>.</p>
 
-  <p>Es importante mencionar que, desde su creación, el departamento de Guaviare ha enfrentado varios desafíos, incluyendo la <strong>preservación del medio ambiente</strong> y la <strong>protección de los derechos de las comunidades indígenas</strong>. Sin embargo, la Fuerza Naval de la Amazonía ha continuado de manera irrestricta cumpliendo con su misión de <strong>proteger a la población civil</strong>, <strong>garantizar la soberanía y el control territorial</strong>, <strong>contrarrestar las actividades ilícitas</strong> y <strong>coadyuvar al desarrollo sostenible</strong> de la región amazónica.</p>
+  <p>Es importante mencionar que, desde su creación, el departamento de <strong>Guaviare</strong> ha enfrentado varios desafíos, incluyendo la <strong>preservación del medio ambiente</strong> y la <strong>protección de los derechos de las comunidades indígenas</strong>. Sin embargo, la <strong>Fuerza Naval de la Amazonía</strong> ha continuado de manera irrestricta cumpliendo con su misión de <strong>proteger a la población civil</strong>, garantizar la <strong>soberanía</strong> y el <strong>control territorial</strong>, contrarrestar las <strong>actividades ilícitas</strong> y delitos conexos <strong>trasnacionales</strong>, así como <strong>coadyuvar al desarrollo sostenible</strong> de la región amazónica.</p>
 `;
 
       //
@@ -843,6 +844,10 @@ case 16:
   document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 }
 
+
+
+
+
 // This function is called when the user clicks on the "Change to English" button
 function ChangeTextEng() {
   var ImgPutumayoLink = "./Assets/IMG/Hitoria/historias/IMG/his-"
@@ -854,16 +859,27 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp";
 
-      document.getElementById("HistoryDerechos").innerHTML = "The empire known as Casa Arana exploited rubber in the Amazon region. Source: Book *La Fuerza Naval del Sur en la Amazonía colombiana*, 2017.";
-      document.getElementById("Titulocaqueta").innerHTML = "Casa Arana: The Rubber Rebellion (1904-1907)";
-      document.getElementById("Textcaqueta").innerHTML = "Casa Arana presents a colonial structure with typical features of architecture adapted to the Amazon region, where the use of local materials like wood predominates...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Casa Arana: The Rubber Rebellion (1904-1907)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "In 1904, the Peruvian Amazon Company, headquartered in London, was in the Colombian Amazon. It was there that it established relationships with Julio César Arana, which culminated in a merger in 1907, ensuring the company's viability and future, which Arana named Casa Arana. Casa Arana was established in 1912 in La Chorrera, on the banks of the Igaraparaná River, in the Amazonas Department, and had a colonial structure with typical features of architecture adapted to the Amazon region, using local materials such as wood and palm roofs. However, the site is sadly infamous as one of the main centers of exploitation and abuse of indigenous peoples in the region, particularly the Huitoto, Bora, and Ocaína communities, who were subjected to forced labor for rubber extraction, which became a source of wealth and a driver of cultural and social transformations in the Amazon. <br><br>" +
-        "Casa Arana functioned as a collection center and also as a place for punishment for those who did not meet the imposed quotas. It was organized around two collection centers: La Chorrera, for the Igaraparaná River area, and El Encanto, for the Caraparaná River region, from where the rubber was shipped to Iquitos, Peru, and from there abroad. Both centers were subdivided into sections based on the different indigenous settlements: fifteen for La Chorrera and eight for El Encanto. (Source: *El libro rojo del Putumayo*, Norman Thomson - Roberto Pineda Camacho, P. 13-14).<br><br>" +
-        "The indigenous people were subjected to a system of 'debt bondage,' in which they were given tools like machetes in exchange for disproportionate amounts of rubber, creating unpayable debts that perpetuated their slavery. (Source: BBC.com Article – “The Devil's Paradise: The Atrocities of the 'Rubber Holocaust' in the Colombian Amazon,” by Andrea Díaz Cardona, August 26, 2022. Website: <a href='https://www.bbc.com/mundo/noticias-america-latina-60922508' target='_blank'>https://www.bbc.com/mundo/noticias-america-latina-60922508</a>).<br><br>" +
-        "Currently, Casa Arana is a 'Knowledge Center' for young indigenous people from the Putumayo region and is considered a symbol of remembrance and historical memory in the struggle for indigenous rights during the years of economic development in southern Colombia. In this sense, it has become a place of reflection and, in some cases, a destination to dignify the victims of the armed conflict that occurred in the past. (Source: *La Historia de la Fuerza Naval del Sur en la Amazonía Colombiana*, 2017, Chapter 5, P. 30-32).";
-
+      document.getElementById("HistoryDerechos").innerHTML = "The empire known as Casa Arana exploited rubber in the Amazon region. Source: Book *The Southern Naval Force in the Colombian Amazon*, 2017.";
+      document.getElementById("Titulocaqueta").innerHTML = "Casa Arana: The Rubber Rebellion (1904–1907)";
+      document.getElementById("Textcaqueta").innerHTML = "Casa Arana has a colonial structure with features typical of architecture adapted to the Amazon region, where local materials such as wood dominate...";
+      document.getElementById("TituloPopAmazonas").innerHTML = "Casa Arana: The Rubber Rebellion (1904–1907)";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>In 1904, the company known as the <strong>Peruvian Amazon Company</strong>, based in London, was operating in the Colombian Amazon. It established relations with <strong>Julio César Arana</strong>, which led to a merger in 1907, ensuring the company's viability and future under the name <strong>Casa Arana</strong>.</p>
+      
+      <p>Casa Arana was established in 1912 in <strong>La Chorrera</strong>, on the banks of the Igaraparaná River, Amazonas department. It featured a colonial structure with typical architecture adapted to the Amazon region, using local materials such as wood and palm roofs.</p>
+      
+      <p>However, this site is infamously known as a center of exploitation and abuse of indigenous peoples, particularly the <strong>Huitoto</strong>, <strong>Bora</strong>, and <strong>Ocaína</strong> communities, who were subjected to forced labor for rubber extraction—then a source of wealth and cultural transformation in the Amazon.</p>
+      
+      <p>"It functioned as a collection center and a place of punishment for those who failed to meet rubber quotas. Casa Arana was organized around two collection centers: <strong>La Chorrera</strong>, for the Igaraparaná River area, and <strong>El Encanto</strong>, for the Caraparaná River, from where rubber was shipped to Iquitos, Peru, and then abroad. These were subdivided into sections corresponding to different indigenous settlements: fifteen for La Chorrera and eight for El Encanto."</p>
+      <p><em>(The Red Book of Putumayo, Norman Thomson - Roberto Pineda Camacho, pp. 13–14)</em></p>
+      
+      <p>Indigenous people were subjected to a "debt bondage" system, receiving tools like machetes in exchange for disproportionate amounts of rubber, creating unpayable debts that perpetuated their enslavement.</p>
+      <p><em>(BBC.com article – “The Devil's Paradise: Atrocities of the 'Rubber Holocaust' in the Colombian Amazon,” by Andrea Díaz Cardona, August 26, 2022. <a href="https://www.bbc.com/mundo/noticias-america-latina-60922508" target="_blank">bbc.com</a>)</em></p>
+      
+      <p>Today, Casa Arana is a <strong>“Knowledge Center”</strong> for indigenous youth in the Putumayo region and is considered a symbol of remembrance and historical memory in the fight for indigenous rights during Colombia’s economic development in the south. It has become a place for reflection and, in some cases, a destination to dignify the victims of past armed conflict.</p>
+      <p><em>(Book “The History of the Southern Naval Force in the Colombian Amazon”, 2017. Chapter 5, pp. 30–32)</em></p>
+      `;
+      
       //
       break;
 
@@ -890,18 +906,26 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp";
 
-      document.getElementById("HistoryDerechos").innerHTML = "Formation of the Putumayo War Flotilla. Source: *Pañol de la Historia*, 'The Battle of Güepí, and the gunboats Cartagena and Santa Marta,' by: Captain Carlos A. Prieto Ávila – Cyber-corredera. Website: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm' target='_blank'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>.";
+      document.getElementById("HistoryDerechos").innerHTML = "Formation of the Putumayo War Flotilla. Source: *Historical Locker*, “The Battle of Güepí and the gunboats Cartagena and Santa Marta”, by: Naval Captain Carlos A. Prieto Ávila – Cyber-corredera. Website: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>.";
       document.getElementById("Titulocaqueta").innerHTML = "Putumayo War Flotilla (1931)";
-      document.getElementById("Textcaqueta").innerHTML = "The Putumayo War Flotilla was created in 1931 through Decree 1507 of August 31 of that year, as a measure to strengthen Colombia's presence in the Amazon region...";
+      document.getElementById("Textcaqueta").innerHTML = "The Putumayo War Flotilla was created in 1931 under Decree 1507 of August 31 that year, as a measure to strengthen Colombian presence in the Amazon region...";
       document.getElementById("TituloPopAmazonas").innerHTML = "Putumayo War Flotilla (1931)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "The creation of this flotilla was a strategic measure to consolidate Colombian presence in an area that, at the time, lacked significant state presence. Additionally, the flotilla played a crucial role during the Colombia-Peru conflict (1932-1933), deploying units for constant patrols and river control operations in the region. <br><br>" +
-        "The Putumayo War Flotilla was created in 1931 by Decree 1507 of August 31 of that year. This decision was made in response to the need to strengthen the military presence in the Amazon region and protect national sovereignty in the Putumayo River area. It was composed of the gunboats ARC Cartagena and ARC Santa Marta, which were transferred from Santa Cruz on the Magdalena River to the Caucayá Port on the Putumayo River. <br><br>" +
-        "(Pañol de la Historia, 'The Battle of Güepí, and the gunboats Cartagena and Santa Marta,' by: Captain Carlos A. Prieto Ávila – Cyber-corredera, Website: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm' target='_blank'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>). <br><br>" +
-        "By Decree 2167 of 1944, the Putumayo War Flotilla and the Leguízamo River Base were handed over to the National Navy, whose first commanders were Lieutenant Commander Demetrio Salamanca and Marine Infantry Captain Hernando García Rey. <br><br>" +
-        "(Book *Marine Infantry in the History of Colombia*, 2021. Chapter 5 - P. 204). <br><br>" +
-        "Creation of the Putumayo River Base (1940): On March 8, 1940, the Putumayo River Base was created through Decree 0487 of March 8, 1940, which reorganized the Marine Infantry. Given the experience during the conflict with Peru, it was established that the Marine Infantry Company and the Fluvial Flotilla would be under the command of the National Army. <br><br>" +
-        "(Book *Marine Infantry in the History of Colombia*, 2021. Chapter 5, P. 204).";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>The <strong>Putumayo War Flotilla</strong> was created by <strong>Decree 1507 of August 31, 1931</strong>. This decision was in response to the need to strengthen military presence in the Amazon and protect national sovereignty along the Putumayo River.</p>
+      
+      <p>It consisted of the gunboats <strong>ARC “Cartagena”</strong> and <strong>ARC “Santa Marta”</strong>, which were transferred from Santa Cruz on the Magdalena River to <strong>Puerto de Caucayá</strong> on the Putumayo River.</p>
+      
+      <p><em>“Historical Locker, ‘The Battle of Güepí and the gunboats Cartagena and Santa Marta’, by Naval Captain Carlos A. Prieto Ávila – <a href="https://www.cyber-corredera.de/panoles/Panol-48.htm" target="_blank">Cyber-corredera</a></em>)</p>
+      
+      <p>This flotilla was a strategic measure to reinforce state presence in the region. It played a key role during the <strong>Colombian–Peruvian conflict (1932–1933)</strong>, with permanent patrol and control operations in the area.</p>
+      
+      <h4>Creation of the Putumayo River Base (1940)</h4>
+      
+      <p>On <strong>March 8, 1940</strong>, the <strong>Putumayo River Base</strong> was established by <strong>Decree 0487</strong>. This decree reorganized the <strong>Marine Infantry</strong> and, based on experiences from the conflict with Peru, placed the <strong>Marine Infantry Company</strong> and the <strong>River Flotilla</strong> under the command of the <strong>National Army</strong>.</p>
+      
+      <p><em>(Book "The Marine Infantry in Colombia's History", 2021. Chapter 5, p. 204)</em></p>
+      `;
+      
 
       //
       break;
@@ -910,17 +934,26 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
-      document.getElementById("HistoryDerechos").innerHTML = "Monclart Advanced Post. Source: *Book The Marine Infantry in the History of Colombia*, 2021.";
-      document.getElementById("Titulocaqueta").innerHTML = "Creation of the Monclart Advanced Fluvial Post (1933)";
-      document.getElementById("Textcaqueta").innerHTML = "On January 20, 1933, after the conflict with Peru, the Monclart Advanced Fluvial Post was created, a unit that was officially handed over to the Colombian Navy ...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Monclart Advanced Fluvial Post (1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "On January 20, 1933, after the conflict with Peru, the Monclart Advanced Fluvial Post was created, a unit that was officially handed over to the Colombian Navy by the National Army through Decree 2167 of November 1943, as part of the covering forces on the southern border of the country. This military unit was actually a relocation of the former “Chamaco” Post, which was located in front of the Peruvian post in Guëpí. <br><br>" +
-        "(Book *The Marine Infantry in the History of Colombia*, 2021. Chapter 3 and 5 - P. 37 and 218).<br><br>" +
-        "Given the issues during the conflict with such a close foreign post, it was moved 10 kilometers downstream to the beginning of the road that connected with Las Delicias, on the Caquetá River. <br><br>" +
-        "It is important to highlight that the Monclart Advanced Fluvial Post was essential for ensuring control of the Putumayo River, a vital waterway for trade and military operations. Additionally, this fluvial post functioned as a support base to provide supplies, accommodation for Colombian troops, and a point of defense and surveillance. <br><br>" +
-        "Its geographical position allowed control of river traffic, preventing foreign incursions and responding quickly to any threat in the border area. In this sense, it represented a milestone in the consolidation of Colombia's military presence in the Amazon, marking the country's commitment to defending its sovereignty.";
-
+      ddocument.getElementById("HistoryDerechos").innerHTML = "Formation of the Putumayo War Flotilla. Source: *Historical Locker*, “The Battle of Güepí and the gunboats Cartagena and Santa Marta”, by: Naval Captain Carlos A. Prieto Ávila – Cyber-corredera. Website: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>.";
+      document.getElementById("Titulocaqueta").innerHTML = "Putumayo War Flotilla (1931)";
+      document.getElementById("Textcaqueta").innerHTML = "The Putumayo War Flotilla was created in 1931 under Decree 1507 of August 31 that year, as a measure to strengthen Colombian presence in the Amazon region...";
+      document.getElementById("TituloPopAmazonas").innerHTML = "Putumayo War Flotilla (1931)";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+      <p>The <strong>Putumayo War Flotilla</strong> was created by <strong>Decree 1507 of August 31, 1931</strong>. This decision was in response to the need to strengthen military presence in the Amazon and protect national sovereignty along the Putumayo River.</p>
+      
+      <p>It consisted of the gunboats <strong>ARC “Cartagena”</strong> and <strong>ARC “Santa Marta”</strong>, which were transferred from Santa Cruz on the Magdalena River to <strong>Puerto de Caucayá</strong> on the Putumayo River.</p>
+      
+      <p><em>“Historical Locker, ‘The Battle of Güepí and the gunboats Cartagena and Santa Marta’, by Naval Captain Carlos A. Prieto Ávila – <a href="https://www.cyber-corredera.de/panoles/Panol-48.htm" target="_blank">Cyber-corredera</a></em>)</p>
+      
+      <p>This flotilla was a strategic measure to reinforce state presence in the region. It played a key role during the <strong>Colombian–Peruvian conflict (1932–1933)</strong>, with permanent patrol and control operations in the area.</p>
+      
+      <h4>Creation of the Putumayo River Base (1940)</h4>
+      
+      <p>On <strong>March 8, 1940</strong>, the <strong>Putumayo River Base</strong> was established by <strong>Decree 0487</strong>. This decree reorganized the <strong>Marine Infantry</strong> and, based on experiences from the conflict with Peru, placed the <strong>Marine Infantry Company</strong> and the <strong>River Flotilla</strong> under the command of the <strong>National Army</strong>.</p>
+      
+      <p><em>(Book "The Marine Infantry in Colombia's History", 2021. Chapter 5, p. 204)</em></p>
+      `;
+      
       //
       break;
 
@@ -928,31 +961,58 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
-      document.getElementById("HistoryDerechos").innerHTML = "Boats of the 'Avispa' Flotilla. Source: *Book The Marine Infantry in the History of Colombia*, 2021.";
-      document.getElementById("Titulocaqueta").innerHTML = "The Avispa Flotilla (1956)";
-      document.getElementById("Textcaqueta").innerHTML = "In September 1956, at the initiative of Captain Aurelio Castrillón Muñoz of the Marine Infantry and Lieutenant Rafael Grau Araujo, who were serving ...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "The Avispa Flotilla (1956)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "In September 1956, at the initiative of Captain Aurelio Castrillón Muñoz of the Marine Infantry and Lieutenant Rafael Grau Araujo, who were serving in Puerto Leguízamo, the ‘Avispa Flotilla’ was created. The flotilla conducted a demonstration before the military high command on the Putumayo River, with armed boats manned by Marines. This demonstration showcased their speed and maneuverability, which surpassed the ARC Cartagena and ARC Santa Marta gunboats. <br><br>" +
-        "The initial organization of the Avispa Flotilla consisted of 7 armed boats: 6 for the Fluvial Task Force and 1 for Command and Control. The flotilla was placed under the command of the Kilo Company of Puerto Leguízamo. The boats used were 13 feet long, 1.5 feet in draft, with a load capacity of 800 kilograms and a crew of 6 men per boat. This organization remained in place until 1971 when Captain Alejandro Pimiento of the Marine Infantry promoted the creation of the Jungle Commandos. <br><br>" +
-        "To operate the flotilla, a manual was created that presented an organizational plan, emphasizing the tactical needs of the unit. Each task group was composed of 9 boats, each crewed by 4 men, accompanied by a platoon with the administrative organization of a platoon. (Book *The Marine Infantry in the History of Colombia*, 2021. Chapter 3 - P. 58).<br><br>" +
-        "The creation of the Avispa Flotilla demonstrated the Colombian Military Forces’ ability to adapt to the fluvial environments of the Amazon region. Its success was crucial in the recovery of Leticia, highlighting the importance of fluvial power in border territorial conflicts. Its legacy was fundamental to the development of future fluvial units of the Colombian Navy, contributing to the sovereignty, security, and comprehensive development of the Amazonian communities of Colombia.";
+      document.getElementById("HistoryDerechos").innerHTML = "Boats of the 'Avispa' Flotilla. Source: *Book The Marine Infantry in Colombia's History*, 2021.";
+document.getElementById("Titulocaqueta").innerHTML = "The Avispa Flotilla (1956)";
+document.getElementById("Textcaqueta").innerHTML = "In September 1956, thanks to the initiative of Marine Captain Aurelio Castrillón Muñoz and Lieutenant Rafael Grau Araujo, who were serving...";
+document.getElementById("TituloPopAmazonas").innerHTML = "The Avispa Flotilla (1956)";
+document.getElementById("TextPopAmazonas").innerHTML = `
+<p>In <strong>September 1956</strong>, by initiative of Marine Captain <strong>Aurelio Castrillón Muñoz</strong> and Lieutenant <strong>Rafael Grau Araujo</strong>, who were serving in <strong>Puerto Leguízamo (Putumayo)</strong>, the <strong>“Avispa Flotilla”</strong> was created.</p>
+
+<p>This unit held a demonstration before the military high command on the <strong>Putumayo River</strong> using armed boats manned by Marines, showcasing superior speed and maneuverability compared to the gunboats <strong>ARC “Cartagena”</strong> and <strong>ARC “Santa Marta”</strong>.</p>
+
+<p>The initial organization included seven armed boats: six assigned to the <strong>River Task Force</strong> and one as a <strong>Command and Control boat</strong>. The flotilla came under the operational command of <strong>Company Kilo</strong> in Puerto Leguízamo. Each boat was 13 feet long, had a 1.5-foot draft, could carry up to 800 kilograms, and had a crew of six men.</p>
+
+<p>This structure remained until <strong>1971</strong>, when Marine Captain <strong>Alejandro Pimiento</strong> revitalized the unit by creating the <strong>Jungle Commandos</strong>.</p>
+
+<p><em>(Extracts taken verbatim from the “Operational Organization of the Avispa Flotilla”, September 1956)</em></p>
+
+<p>For its operation, a manual was created with a proposed organization plan highlighting the tactical needs of this unit. Each task group consisted of <strong>nine boats</strong>, each crewed by <strong>four men</strong>, accompanied by a platoon with the corresponding administrative structure.</p>
+
+<p><em>(Book "The Marine Infantry in Colombia's History", 2021. Chapter 3, p. 58)</em></p>
+
+<p>The creation of the Avispa Flotilla demonstrated the adaptability of the <strong>Colombian Armed Forces</strong> to the demands of combat in Amazonian river environments. Its success significantly contributed to the national war effort and the <strong>recovery of Leticia</strong>, highlighting the importance of riverine power in border conflicts and its essential role in sovereignty, security, and the development of communities in the Colombian Amazon.</p>
+`;
 
       //
       break;
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
     case 6:
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
-      document.getElementById("HistoryDerechos").innerHTML = "ARC Cartagena. Source: *Book The Marine Infantry in the History of Colombia*, 2021.";
-      document.getElementById("TituloPutumayo").innerHTML = "Colombian–Peruvian Conflict, known as the Leticia Conflict (1932-1933)";
-      document.getElementById("TextPutumayo").innerHTML = "In 1932, due to political fluctuations in Latin American countries, a conflict arose between Colombia and Peru. In early September, a group of Peruvian civilians ...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Colombian–Peruvian Conflict, known as the Leticia Conflict (1932-1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "In 1932, due to political changes in Latin America, the conflict between Colombia and Peru broke out. In early September, a group of Peruvian civilians attacked Leticia, Amazonas, and captured all the Colombian inhabitants. In this scenario, the presence of the Colombian Navy in the south of the country became very important, as the conflict led to the deployment of the river gunboats ARC *Cartagena* and ARC *Santa Marta*, along with the Hospital Ship MC *Yamari* and the units *Madeira* and *Esmarck*, which were of Brazilian origin but mainly crewed by Colombian sailors. Together, they formed the Putumayo River Flotilla, whose main objective was to protect the border rivers and conduct multiple operations on the Putumayo River, ensuring Colombia's territorial integrity and sovereignty. <br><br>" +
-        "Previously, Colombia had been focused on solving internal problems, and when the conflict with Peru broke out, it was not fully prepared to face it. As a result of lack of preparation and resources, the Colombian government resorted to improvisation and patriotism to handle the emergency. Some military units were acquired, and the government had to hire officers from the Royal British Navy to organize and lead the newly created Colombian Navy. This makeshift navy was known by the Peruvians as the 'suicide fleet', as it had to operate in the complex Amazonian trapezoid to reclaim Leticia. However, thanks to the lessons learned from the conflict, the Colombian government decided to create a modern Navy. The British Mission, led by Admiral Bell O. Salter, was responsible for organizing the National Navy as we know it today, a symbol of pride and relentless vigilance over our sovereignty in seas and border rivers. <br><br>" +
-        "The modernization process included the creation of the Naval Cadet School, as the previous National Naval School, established by General Rafael Reyes in 1907, had been dissolved. The new Naval School began its activities on July 3, 1935, aboard the Training Ship *M.G. Cúcuta*, with a team of instructors composed of Colombian and English officers from the defunct Reyes School. Additionally, with the support of officers and non-commissioned officers from the Army, the necessary training for sailors was carried out, and some of these officers later joined the National Navy, ranking within the Marine Infantry. (Book *The Marine Infantry in the History of Colombia*, 2021. Chapter 3, P. 37).";
+      document.getElementById("HistoryDerechos").innerHTML = "ARC Cartagena. Source: *Book The Marine Infantry in Colombia's History*, 2021.";
+document.getElementById("TituloPutumayo").innerHTML = "Colombian–Peruvian Conflict, also known as the Leticia Conflict (1932–1933)";
+document.getElementById("TextPutumayo").innerHTML = "In 1932, due to political fluctuations in Latin American countries, the conflict between Colombia and Peru arose. In early September, a group of Peruvian civilians...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Colombian–Peruvian Conflict, also known as the Leticia Conflict (1932–1933)";
+document.getElementById("TextPopAmazonas").innerHTML = `
+<p>In <strong>1932</strong>, due to political fluctuations in Latin America, the <strong>conflict between Colombia and Peru</strong> broke out. In early September, a group of Peruvian civilians stormed <strong>Leticia (Amazonas)</strong> and took all Colombian residents hostage.</p>
+
+<p>This event prompted the <strong>deployment of the Colombian Navy</strong> to the south of the country. In response, river gunboats <strong>ARC “Cartagena”</strong> and <strong>ARC “Santa Marta”</strong>, the <strong>Hospital Ship MC “Yamari”</strong>, and the <strong>“Madeira”</strong> and <strong>“Esmarck”</strong> units (Brazilian in origin but crewed mostly by Colombian sailors) were dispatched. This formed the <strong>Putumayo River Flotilla</strong>, tasked with protecting border rivers and conducting operations to defend national sovereignty.</p>
+
+<blockquote>
+  <p>“In prior years, Colombia had focused on solving internal issues and was not prepared for an international conflict. Due to lack of resources, improvisation and patriotism became necessary.</p>
+
+  <p>As a result, warships were acquired, and the National Government hired British Royal Navy officers to organize and lead the fledgling Colombian Navy.</p>
+
+  <p>The Peruvians called our improvised fleet the <strong>‘suicide squad’</strong>, operating in the Amazon Trapezium to reclaim Leticia. Yet, the conflict led to the creation of a modern <strong>Colombian Navy</strong>.</p>
+
+  <p>Led by Admiral <strong>Bell O. Salter</strong>, the <strong>British Naval Mission</strong> reorganized what is now the modern <strong>Colombian Navy</strong>, a source of national pride and a vigilant defender of our maritime and riverine borders.</p>
+
+  <p>The <strong>Naval Cadet School</strong> was also created, replacing the old school abolished earlier. It began operations on the training ship <strong>M. G. Cúcuta</strong> on July 3, 1935, staffed by both British and Colombian professors. With support from Army officers and non-commissioned officers, the necessary ground training for sailors was conducted, and many joined the Navy and became part of the <strong>Marine Infantry</strong>.”</p>
+
+  <p><em>(Book "The Marine Infantry in Colombia's History", 2021. Chapter 3, p. 37)</em></p>
+</blockquote>
+`;
 
       //
       break;
@@ -960,14 +1020,29 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory.toString() + "1.png"
 
-      document.getElementById("HistoryDerechos").innerHTML = "Troop deployment for the Battle of Guëpí. Source: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm' target='_blank'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>";
-      document.getElementById("TituloPutumayo").innerHTML = "Battle of Guëpí (1932-1933)";
-      document.getElementById("TextPutumayo").innerHTML = "The Battle of Guëpí was a key confrontation during the Colombian-Peruvian War, which took place on March 26, 1933. This battle occurred in the context of the territorial dispute...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Battle of Guëpí (1932-1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "The Battle of Guëpí, fought on March 26, 1933, was a crucial confrontation during the Colombian-Peruvian War, in the context of the dispute over the sovereignty of the Port of Leticia and the surrounding areas in the Amazon. This battle was a testament to the heroism and courage of the Colombian Armed Forces in recovering territories occupied by Peru. The cause of the battle dates back to the discontent of Peruvian landowners with the signing of the Salomón-Lozano Treaty in 1922, which redefined the borders between Brazil, Colombia, and Peru. The treaty established a Colombian customs post on the border, which made it difficult to transport rubber and sugar cane to Iquitos (Peru) severely affecting the finances of the Peruvian landowners. <br><br>" +
-        "The confrontation took place along a 15-kilometer stretch and lasted almost nine hours of uninterrupted combat. During this battle, the bravery and heroism of the Colombian troops stood out. On March 26, 1933, the Putumayo detachment and the River Flotilla launched an offensive from Puerto Leguízamo against the Peruvian military garrison in Guëpí. With unprecedented courage, our soldiers engaged the enemy in hand-to-hand combat. Sergeant Néstor Ospina Melo, in an act of valor, lowered the Peruvian flag and raised the Colombian flag, while the Colombian soldiers celebrated with a unanimous cry: “Long live Colombia!” <br><br>" +
-        "The victory at Guëpí not only marked the end of the war with Peru, but also restored honor and dignity to Colombia. The figure of soldier Juan Bautista Solarte Obando represents the courage and sacrifice of the Colombian troops: upon discovering an enemy machine gun, he threw himself on it to save the lives of his comrades. A total of 16 Colombian soldiers gave their lives in this heroic battle, ensuring the victory and guaranteeing national sovereignty through an efficient and timely deployment of land, river, and air forces. (Book *The Marine Infantry in the History of Colombia*, 2021. Chapter 5, P. 203).";
+      document.getElementById("HistoryDerechos").innerHTML = "Troop movement to the Battle of Güepí. Source: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm' target='_blank'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>";
+document.getElementById("TituloPutumayo").innerHTML = "Battle of Güepí (1932–1933)";
+document.getElementById("TextPutumayo").innerHTML = "The Battle of Güepí was a key confrontation during the Colombian–Peruvian War, occurring on March 26, 1933...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Battle of Güepí (1932–1933)";
+document.getElementById("TextPopAmazonas").innerHTML = `
+<p><strong>The Battle of Güepí</strong> was a pivotal confrontation during the <strong>Colombian–Peruvian War</strong>, occurring on <strong>March 26, 1933</strong>. It took place amid the territorial dispute over the sovereignty of <strong>Leticia Port</strong> and its surrounding areas in the Amazon department.</p>
+
+<p>This notable battle stemmed from dissatisfaction among Peruvian landowners following the signing of the <strong>Salomón-Lozano Treaty</strong> in 1922, which redefined the borders between Brazil, Colombia, and Peru. Colombia’s establishment of a customs post at the border hindered the flow of rubber and sugarcane to <strong>Iquitos, Peru</strong>, affecting Peruvian trade interests.</p>
+
+<blockquote>
+  <p>“The conflict at Güepí unfolded along a 15-kilometer stretch and lasted nearly nine uninterrupted hours.”</p>
+  <p><em>(Book "History of the Southern Naval Force in the Colombian Amazon", 2017, p. 44)</em></p>
+</blockquote>
+
+<blockquote>
+  <p>“On March 26, 1933, during the conflict with Peru, the Putumayo detachment and River Flotilla were created. From Puerto Leguízamo, an offensive was launched against the Peruvian garrison in Güepí. In fierce hand-to-hand combat, <strong>Sergeant Néstor Ospina Melo</strong> lowered the Peruvian flag and raised the Colombian flag, while troops shouted ‘<strong>¡Viva Colombia!</strong>’. This victory ended the war with Peru and restored Colombia's honor and dignity.</p>
+
+  <p><strong>Juan Bautista Solarte Obando</strong> exemplified soldierly valor by throwing himself onto the enemy machine gun to save his comrades’ lives.”</p>
+  <p><em>(Book "The Marine Infantry in Colombia's History", 2021. Chapter 5, p. 203)</em></p>
+</blockquote>
+
+<p>A total of <strong>16 soldiers sacrificed their lives</strong> in this battle—an act of bravery that ensured the nation’s sovereignty and institutional legitimacy through effective deployment of ground, river, and air capabilities.</p>
+`;
 
       //
       break;
@@ -975,16 +1050,28 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory.toString() + "2.png"
 
-      document.getElementById("HistoryDerechos").innerHTML = "Colombian air squadron, Battle of Tarapacá. Source: <a href='https://www.fac.mil.co/es/noticias/batalla-de-tarapaca-hecho-historico-que-marco-la-historia-de-la-aviacion-militar-en' target='_blank'>Article: Battle of Tarapacá, a historic event that marked the history of military aviation in Colombia</a>";
-      document.getElementById("TituloPutumayo").innerHTML = "The Battle of Tarapacá (1933)";
-      document.getElementById("TextPutumayo").innerHTML = "The Battle of Tarapacá, also known as the Combat of Nuevo Tarapacá or the defense of Lower Putumayo, was a military confrontation that occurred on February 14, 1933 during the Colombian-Peruvian conflict (1932-1933)...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "The Battle of Tarapacá (1933)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "The Battle of Tarapacá, also known as the Combat of Nuevo Tarapacá or the defense of Lower Putumayo, was a military confrontation that took place on February 14, 1933 during the Colombian-Peruvian conflict (1932-1933), in which both nations fought over a vast region around the Putumayo River. The battle began when, on the morning of February 14, 1933, Colombian troops were attacked by a Peruvian air squadron. This attack prompted an immediate response from the Colombian air squadron, which was stationed near Tarapacá, Amazonas. However, no direct combat occurred; the Colombian maneuver aimed to confuse the Peruvian forces about the true intentions of the attack. <br><br>" +
-        "In the same year, General Alfredo Vásquez Cobo traveled aboard the Destroyer ARC *Córdova* and requested the convergence of the gunboats ARC *Cartagena* and ARC *Santa Marta* from Upper Putumayo to Tarapacá. However, this request could not be fulfilled as the Putumayo detachment was engaged in other operations in its area of responsibility, which would culminate in the attack on Güepí, Peru. <br><br>" +
-        "On February 15, in the morning hours, the Colombian river units launched an attack on the Peruvian forces. The landing was personally led by General Efraín Rojas, but upon reaching the fort in Tarapacá, the Colombian troops found that the Peruvian garrison had abandoned the position. At nine in the morning, the Colombian flag was raised over Tarapacá, Amazonas, restoring one of the territorial fragments that had been disputed. <br><br>" +
-        "With the recovery of Tarapacá, the projection of Colombian air and river power over the Amazon region was consolidated, allowing the installation of a support base for subsequent operations. The Battle of Tarapacá marked Colombian control over Lower Putumayo, a strategic position that facilitated subsequent operations toward Leticia, Amazonas. The mediation of the League of Nations in Geneva, Switzerland, was crucial in ending the conflict, achieving the return of Leticia to Colombia in 1934. <br><br>" +
-        "(Cyber-corredera, Website: <a href='https://www.cyber-corredera.de/panoles/Panol-48.htm' target='_blank'>https://www.cyber-corredera.de/panoles/Panol-48.htm</a>, Article “Tarapacá is recovered”).";
+      document.getElementById("HistoryDerechos").innerHTML = "Colombian air squadron, Battle of Tarapacá. Source: <a href='https://www.fac.mil.co/es/noticias/batalla-de-tarapaca-hecho-historico-que-marco-la-historia-de-la-aviacion-militar-en' target='_blank'>FAC Article</a>";
+document.getElementById("TituloPutumayo").innerHTML = "Battle of Tarapacá (1933)";
+document.getElementById("TextPutumayo").innerHTML = "The Battle of Tarapacá, also known as the Battle of Nuevo Tarapacá or the defense of Lower Putumayo, took place on February 14, 1933...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Battle of Tarapacá (1933)";
+document.getElementById("TextPopAmazonas").innerHTML = `
+<p><strong>The Battle of Tarapacá</strong>, also known as the <strong>Battle of Nuevo Tarapacá</strong> or the <strong>Defense of Lower Putumayo</strong>, was fought on <strong>February 14, 1933</strong> during the <strong>Colombian–Peruvian conflict (1932–1933)</strong>.</p>
+
+<blockquote>
+  <p>“The battle began in the morning when Peruvian aircraft attacked Colombian troops, prompting an immediate response from the Colombian air squadron stationed near Tarapacá. No direct air combat ensued, as the goal was to confuse the Peruvians about the true target.</p>
+
+  <p>General Alfredo Vásquez Cobo ordered the convergence of gunboats ARC ‘Cartagena’ and ARC ‘Santa Marta’ toward Tarapacá, but due to active operations in the Putumayo region, they were unavailable.</p>
+
+  <p>On the morning of February 15, the river assault led by General Efraín Rojas found that the Peruvian fort had been abandoned. At 9:00 AM, the Colombian flag was raised over Tarapacá.</p>
+
+  <p>This marked the recovery of the first lost territory. Tarapacá symbolized the growing projection of Colombian air and riverine power in the Amazon, becoming a base for further operations.”</p>
+  <p><em>(Cyber-corredera, Article “Tarapacá Recovered”)</em></p>
+</blockquote>
+
+<p>The battle secured strategic control of the Lower Putumayo and paved the way for Colombia’s advance toward <strong>Leticia</strong>.</p>
+
+<p>The <strong>League of Nations</strong> mediation in Geneva, Switzerland, was instrumental in ending the conflict and returning Leticia to Colombia in <strong>1934</strong>.</p>
+`;
 
       //
       break;
@@ -992,14 +1079,19 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory.toString() + "2.png"
 
-      document.getElementById("HistoryDerechos").innerHTML = "Stamp commemorating the Intendancy of Amazonas, Bank of the Republic of Colombia Archive. Source: <a href='https://sinchi.org.co/galeria-de-fotos' target='_blank'>https://sinchi.org.co/galeria-de-fotos</a>";
-      document.getElementById("TituloPutumayo").innerHTML = "Creation of the National Intendancy of Amazonas (1951)";
-      document.getElementById("TextPutumayo").innerHTML = "The National Intendancy of Amazonas was established by Decree Law 963 on March 14, 1951. This measure strengthened the presence of the Colombian Navy, enhanced naval infrastructure, and reaffirmed...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the National Intendancy of Amazonas (1951)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "The National Intendancy of Amazonas was established by Decree Law 963 on March 14, 1951. This measure reinforced the presence of the Colombian Navy, strengthened naval infrastructure, and reaffirmed Colombian control over the Amazon territory. The Intendancy of Amazonas had previously been a territorial entity created in 1931 to consolidate Colombian sovereignty in the region after conflicts with Peru and Brazil. <br><br>" +
-        "The creation of the National Intendancy of Amazonas was part of a broader effort by the Colombian government to strengthen control over the Amazon region, which had been the subject of territorial disputes with Peru and Brazil. The Amazon region, known as the 'Amazonian Trapezoid,' is a strategic area due to its wealth in natural resources, as well as its crucial geographic position. <br><br>" +
-        "The establishment of the National Intendancy of Amazonas allowed for a greater military and naval presence in the region, facilitating border protection and river navigation. It also strengthened the fight against drug trafficking and related transnational crimes, further consolidating national sovereignty in this key territory for the country's security.";
+      document.getElementById("HistoryDerechos").innerHTML = "Stamp commemorating the Amazon Intendancy. Source: <a href='https://sinchi.org.co/galeria-de-fotos' target='_blank'>Banco de la República Photo Archive</a>";
+document.getElementById("TituloPutumayo").innerHTML = "Creation of the National Intendancy of the Amazon (1951)";
+document.getElementById("TextPutumayo").innerHTML = "The National Intendancy of the Amazon was established by Decree Law 963 on March 14, 1951...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the National Intendancy of the Amazon (1951)";
+document.getElementById("TextPopAmazonas").innerHTML = `
+<p>The <strong>National Intendancy of the Amazon</strong> was established through <strong>Decree Law 963 on March 14, 1951</strong>. This move strengthened Colombia's naval presence and reinforced national sovereignty over the Amazon territory.</p>
+
+<p>The Intendancy had initially been created in <strong>1931</strong> to consolidate Colombia’s claim following conflicts with <strong>Peru and Brazil</strong>.</p>
+
+<p>This measure was part of a broader effort by the Colombian government to assert control over the <strong>Amazon Trapezium</strong>, a strategically important area rich in natural resources.</p>
+
+<p>The establishment of the Intendancy allowed for increased <strong>military and naval presence</strong>, improved border protection, enhanced river navigation, and better support for the fight against <strong>drug trafficking and related transnational crimes</strong>.</p>
+`;
 
       //
       break;
@@ -1007,227 +1099,271 @@ function ChangeTextEng() {
       document.getElementById("asd").style.display = "block";
       document.getElementById("asd").src = ImgPutumayoLink + NumHistory.toString() + "2.png"
 
-      document.getElementById("HistoryDerechos").innerHTML = "Peruvian troops march toward La Pedrera. Source: *The Naval Force of the South in the Colombian Amazon*, 2017.";
-      document.getElementById("TituloPutumayo").innerHTML = "Conflict at La Pedrera (1911)";
-      document.getElementById("TextPutumayo").innerHTML = "The La Pedrera conflict was an armed confrontation between Colombia and Peru that took place in 1911 at the La Pedrera Border Post, a small locality on the banks of the Caquetá River, in the Amazon region...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Conflict at La Pedrera (1911)";
-      document.getElementById("TextPopAmazonas").innerHTML =
-        "The La Pedrera conflict was an armed confrontation between Colombia and Peru that took place in 1911 at the La Pedrera Border Post, a small locality on the banks of the Caquetá River in the Amazon region. This conflict arose due to unresolved territorial disputes between the two countries in the Amazon Basin, where border delimitation was unclear and economic interests in rubber extraction intensified tensions. <br><br>" +
-        "The dispute in the territory began on July 10, 1911. After two days of intense fighting by Colombian troops, they were forced to retreat with honor and bravery to a Brazilian locality due to the inferior conditions they faced. However, this confrontation was just the prelude to what would later become the Colombian-Peruvian conflict twenty years later. (Putumayo Magazine, 2012. P. 19).<br><br>" +
-        "The conflict ended in 1911 with the signing of the Tezanos Pinto-Larrea Treaty, which reaffirmed Colombia and Peru's commitment to resolving their differences through dialogue and diplomatic negotiations. Although this treaty did not definitively resolve the border situation, it helped maintain temporary peace between the two countries. (Book *History of the Naval Force of the South in the Colombian Amazon*, 2017. P. 37-38).";
+      document.getElementById("HistoryDerechos").innerHTML = "Peruvian troops marching to La Pedrera. Source: Book *History of the Southern Naval Force in the Colombian Amazon*, 2017.";
+document.getElementById("TituloPutumayo").innerHTML = "Conflict in La Pedrera (1911)";
+document.getElementById("TextPutumayo").innerHTML = "The La Pedrera conflict was an armed confrontation between Colombia and Peru in 1911, taking place at the border post of La Pedrera on the Caquetá River...";
+document.getElementById("TituloPopAmazonas").innerHTML = "Conflict in La Pedrera (1911)";
+document.getElementById("TextPopAmazonas").innerHTML = `
+<p><strong>The La Pedrera Conflict</strong> was an armed confrontation between Colombia and Peru in <strong>1911</strong> at the border post of La Pedrera, located on the <strong>Caquetá River</strong> in the Amazon region.</p>
 
+<p>The conflict arose due to <strong>unresolved territorial disputes</strong> in the Amazon Basin, where imprecise borders and competing economic interests in rubber extraction escalated tensions.</p>
+
+<p>The hostilities began on <strong>July 10, 1911</strong>. After two days of intense combat, Colombian troops withdrew to Brazil due to overwhelming disadvantage, yet the clash marked a prelude to the <strong>Colombian–Peruvian War</strong> two decades later.</p>
+
+<p><em>(Putumayo Magazine, 2012. p. 19)</em></p>
+
+<p>“The conflict ended in <strong>1911</strong> with the signing of the <strong>Tezanos Pinto–Larrea Treaty</strong>, where Colombia and Peru agreed to resolve their disputes through diplomatic negotiation. Though not a final solution, the treaty helped maintain temporary peace.”</p>
+<p><em>(Book "History of the Southern Naval Force in the Colombian Amazon", 2017. pp. 37–38)</em></p>
+`;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////      
       //
       break;
     case 11:
       document.getElementById("asd").style.display = "block";
-      document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+        document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp";
+      
+        document.getElementById("HistoryDerechos").innerHTML = "Commemoration of the 72nd anniversary of the ARC Leguízamo Naval Base. Source: National Navy Archive, 2015.";
+        document.getElementById("TituloGuaviare").innerHTML = "Rise of the extraction of quinine, jaguars, rubber, and timber (1920-1950)";
+        document.getElementById("TextGuaviare").innerHTML = "During the rise of the extraction of quinine, jaguars, rubber, and timber between 1920 and 1950, the Colombian Navy played a crucial role in the territory that now corresponds to...";
+        document.getElementById("TituloPopAmazonas").innerHTML = "Rise of the extraction of quinine, jaguars, rubber, and timber (1920-1950)";
+        document.getElementById("TextPopAmazonas").innerHTML = `
+          <p>During the rise of the extraction of <strong>quinine</strong>, <strong>jaguars</strong>, <strong>rubber</strong>, and <strong>timber</strong> between <strong>1920 and 1950</strong>, the <strong>Colombian Navy</strong> played a fundamental role in the territory now part of the <strong>Guaviare</strong> department, conducting <strong>territorial control</strong> operations in the tributaries and extraction areas to ensure that no <strong>infiltrations</strong> or <strong>illegal activities</strong> that threatened the region’s <strong>stability</strong> and <strong>security</strong> occurred.</p>
+        
+          <p>Likewise, the <strong>Colombian Navy</strong> facilitated the <strong>transport of materials and personnel</strong> to and from the extraction areas, ensuring that operations could be carried out <strong>efficiently</strong> and <strong>safely</strong>. In this sense, it also helped to <strong>protect the borders</strong>, <strong>avoid conflicts</strong> with neighboring countries, ensure <strong>Colombian sovereignty</strong>, and provide <strong>assistance to local communities</strong>, adapting to the <strong>economic and social changes</strong> brought about by the extraction of natural resources.</p>
+        
+          <p>Finally, the <strong>Naval Institution</strong> played a role in the <strong>regulation and control</strong> of extraction activities to minimize <strong>environmental impact</strong>, although the exploitation of natural resources during this period had significant effects on the <strong>environment</strong>.</p>
+        `;
+      
+        //
+        break;
+      case 12:
+        document.getElementById("asd").style.display = "block";
+        document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp";
+      
+        document.getElementById("HistoryDerechos").innerHTML = "Commemoration of the 72nd anniversary of the ARC Leguízamo Naval Base. Source: National Navy Archive, 2015.";
+        document.getElementById("TituloGuaviare").innerHTML = "Rise of the extraction of quinine, jaguars, rubber, and timber (1920-1950)";
+        document.getElementById("TextGuaviare").innerHTML = "During the rise of the extraction of quinine, jaguars, rubber, and timber between 1920 and 1950, the Colombian Navy played a crucial role in the territory that now corresponds to...";
+        document.getElementById("TituloPopAmazonas").innerHTML = "Rise of the extraction of quinine, jaguars, rubber, and timber (1920-1950)";
+        document.getElementById("TextPopAmazonas").innerHTML = `
+          <p>During the rise of the extraction of <strong>quinine</strong>, <strong>jaguars</strong>, <strong>rubber</strong>, and <strong>timber</strong> between <strong>1920 and 1950</strong>, the <strong>Colombian Navy</strong> played a fundamental role in the territory now part of the <strong>Guaviare</strong> department, conducting <strong>territorial control</strong> operations in the tributaries and extraction areas to ensure that no <strong>infiltrations</strong> or <strong>illegal activities</strong> that threatened the region’s <strong>stability</strong> and <strong>security</strong> occurred.</p>
+        
+          <p>Likewise, the <strong>Colombian Navy</strong> facilitated the <strong>transport of materials and personnel</strong> to and from the extraction areas, ensuring that operations could be carried out <strong>efficiently</strong> and <strong>safely</strong>. In this sense, it also helped to <strong>protect the borders</strong>, <strong>avoid conflicts</strong> with neighboring countries, ensure <strong>Colombian sovereignty</strong>, and provide <strong>assistance to local communities</strong>, adapting to the <strong>economic and social changes</strong> brought about by the extraction of natural resources.</p>
+        
+          <p>Finally, the <strong>Naval Institution</strong> played a role in the <strong>regulation and control</strong> of extraction activities to minimize <strong>environmental impact</strong>, although the exploitation of natural resources during this period had significant effects on the <strong>environment</strong>.</p>
+        `;
+      
+        //
+        break;
+      case 13:
+        document.getElementById("asd").style.display = "none";
+        //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp";
+      
+        document.getElementById("HistoryDerechos").innerHTML = "";
+        document.getElementById("TituloGuaviare").innerHTML = "Military Expedition for the Consolidation of Sovereignty in the Amazon Border (1930-1940)";
+        document.getElementById("TextGuaviare").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the category of department, within the framework of territorial redistribution aimed at improving administration and development...";
+        document.getElementById("TituloPopAmazonas").innerHTML = "Military Expedition for the Consolidation of Sovereignty in the Amazon Border (1930-1940)";
+        document.getElementById("TextPopAmazonas").innerHTML = `
+          <p>In the <strong>1930s</strong>, after the <strong>Colombo-Peruvian</strong> conflict (1932-1933), <strong>Colombia</strong> strengthened its military presence in the <strong>Amazon</strong> territories, including what is now the <strong>Guaviare</strong> department, to secure the borders defined by the <strong>Salomón-Lozano Treaty</strong> (1922).</p>
+      
+          <p>The <strong>Colombian Navy</strong> maintained its presence through <strong>explorations</strong>, <strong>river patrols</strong>, and <strong>coordinated operations</strong> with the <strong>National Army</strong>, to consolidate sovereignty in the <strong>Guaviare</strong> River and its tributaries.</p>
+      
+          <p>Finally, the <strong>Naval Institution</strong> helped establish <strong>river control posts</strong> and ensure the <strong>stability</strong> of the region, demonstrating a high level of <strong>preparedness</strong> and significant <strong>operational and logistical</strong> capacity for <strong>territorial consolidation</strong>.</p>
+        `;
+      
+        //
+        break;
+      case 14:
+        document.getElementById("asd").style.display = "none";
+        //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp";
+      
+        document.getElementById("HistoryDerechos").innerHTML = "";
+        document.getElementById("TituloGuaviare").innerHTML = "Creation of the Guaviare Department, Consolidating the Presence of the Amazon Naval Force (1991)";
+        document.getElementById("TextGuaviare").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the category of department, within the framework of territorial redistribution aimed at improving administration and development...";
+        document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Guaviare Department, Consolidating the Presence of the Amazon Naval Force (1991)";
+        document.getElementById("TextPopAmazonas").innerHTML = `
+          <p>In <strong>1991</strong>, with the promulgation of the new <strong>Political Constitution of Colombia</strong>, <strong>Guaviare</strong> was elevated to the category of <strong>department</strong>, as part of the <strong>territorial redistribution</strong> aimed at improving the administration and development of the country’s more remote regions. Prior to <strong>1991</strong>, Guaviare was considered a <strong>Special Commissariat</strong>, an administrative entity that did not have the same autonomy or resources.</p>
+      
+          <p>In this context, the creation of the <strong>Guaviare</strong> department consolidated the presence of the <strong>Amazon Naval Force</strong> in the region, which played a fundamental role in <strong>protecting border areas</strong>, <strong>fighting drug trafficking</strong>, and <strong>defending natural resources</strong>. Additionally, the new administration allowed for better <strong>resource distribution</strong> and greater attention to the <strong>needs of the population</strong>.</p>
+      
+          <p>It is important to mention that, since its creation, the <strong>Guaviare</strong> department has faced several challenges, including <strong>environmental preservation</strong> and <strong>protection of indigenous communities' rights</strong>. However, the <strong>Amazon Naval Force</strong> has continued to fulfill its mission to <strong>protect civilians</strong>, ensure <strong>sovereignty</strong> and <strong>territorial control</strong>, counter <strong>illicit activities</strong> and <strong>transnational crimes</strong>, and promote the <strong>sustainable development</strong> of the Amazon region.</p>
+        `;
+        break;document.getElementById("asd").style.display = "none";
+        //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp";
+      
+        document.getElementById("HistoryDerechos").innerHTML = "";
+        document.getElementById("TituloGuaviare").innerHTML = "Creation of the Guaviare Department, Consolidating the Presence of the Amazon Naval Force (1991)";
+        document.getElementById("TextGuaviare").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the category of department, within the framework of territorial redistribution aimed at improving administration and development...";
+        document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Guaviare Department, Consolidating the Presence of the Amazon Naval Force (1991)";
+        document.getElementById("TextPopAmazonas").innerHTML = `
+          <p>In <strong>1991</strong>, with the promulgation of the new <strong>Political Constitution of Colombia</strong>, <strong>Guaviare</strong> was elevated to the category of <strong>department</strong>, as part of the <strong>territorial redistribution</strong> aimed at improving the administration and development of the country’s more remote regions. Prior to <strong>1991</strong>, Guaviare was considered a <strong>Special Commissariat</strong>, an administrative entity that did not have the same autonomy or resources.</p>
+      
+          <p>In this context, the creation of the <strong>Guaviare</strong> department consolidated the presence of the <strong>Amazon Naval Force</strong> in the region, which played a fundamental role in <strong>protecting border areas</strong>, <strong>fighting drug trafficking</strong>, and <strong>defending natural resources</strong>. Additionally, the new administration allowed for better <strong>resource distribution</strong> and greater attention to the <strong>needs of the population</strong>.</p>
+      
+          <p>It is important to mention that, since its creation, the <strong>Guaviare</strong> department has faced several challenges, including <strong>environmental preservation</strong> and <strong>protection of indigenous communities' rights</strong>. However, the <strong>Amazon Naval Force</strong> has continued to fulfill its mission to <strong>protect civilians</strong>, ensure <strong>sovereignty</strong> and <strong>territorial control</strong>, counter <strong>illicit activities</strong> and <strong>transnational crimes</strong>, and promote the <strong>sustainable development</strong> of the Amazon region.</p>
+        `;
+        break;
 
-      document.getElementById("HistoryDerechos").innerHTML = "Commemoration of the 72nd anniversary of the ARC Leguízamo Naval Base. Source: National Navy Archive, 2015.";
-      document.getElementById("TituloGuaviare").innerHTML = "Rise of the extraction of quina, jaguars, rubber, and wood (1920-1950)";
-      document.getElementById("TextGuaviare").innerHTML = "During the rise of quina, jaguar, rubber, and wood extraction between 1920 and 1950, the Colombian Navy played a key role in the territory that currently...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Rise of the extraction of quina, jaguars, rubber, and wood (1920-1950)";
-      document.getElementById("TextPopAmazonas").innerHTML = "During the rise of quina, jaguar, rubber, and wood extraction between 1920 and 1950, the Colombian Navy played a key role in the territory that currently corresponds to the department of Guaviare. The institution carried out territorial control operations in the tributaries and extraction zones to prevent infiltrations and illegal activities that could threaten the stability and security of the region.\n\n" +
-        "In addition, the Navy facilitated the transportation of materials and personnel to and from the extraction areas, ensuring that operations were carried out efficiently and safely. In this context, it was also responsible for safeguarding the borders, preventing conflicts with neighboring countries, guaranteeing Colombian sovereignty, and providing assistance to local communities in order to adapt to the economic and social changes generated by the extraction of natural resources.\n\n" +
-        "Finally, the Naval Institution played an important role in regulating and controlling extractive activities to minimize environmental impact, although resource exploitation during this period had significant effects on the environment.";
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+case 16:
+  document.getElementById("asd").style.display = "none";
 
-      //
-      break;
-    case 12:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+  document.getElementById("HistoryDerechos").innerHTML = "";
+  document.getElementById("TituloBaupez").innerHTML = "Inclusion of Caquetá into the National Territory (1858)";
+  document.getElementById("TextBaupez").innerHTML = "In 1958, Caquetá was included as a National Territory of Colombia, and the Colombian Navy played a decisive role in contributing to navigation and control of the river routes that make up this department...";
+  document.getElementById("TituloPopAmazonas").innerHTML = "Inclusion of Caquetá into the National Territory (1858)";
+  document.getElementById("TextPopAmazonas").innerHTML = `
+    In 1958, Caquetá was included as a National Territory of Colombia, and the Colombian Navy played a decisive role in contributing to navigation and control of the river routes that make up this department.
 
-      document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloGuaviare").innerHTML = "Military for the consolidation of sovereignty in the Amazon border (1930-1940)";
-      document.getElementById("TextGuaviare").innerHTML = "In the 1930s, after the Colombia-Peru conflict (1932-1933), Colombia strengthened its military presence in the Amazonian territories...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Military for the consolidation of sovereignty in the Amazon border (1930-1940)";
-      document.getElementById("TextPopAmazonas").innerHTML = "In the 1930s, after the Colombia-Peru conflict (1932-1933), Colombia reinforced its military presence in the Amazonian territories, including what today corresponds to the department of Guaviare, in order to guarantee the borders defined by the Salomón-Lozano Treaty (1922).\n\n" +
-        "The Colombian Navy consolidated its presence through explorations, river patrols, and operations coordinated with the National Army, with the aim of reinforcing sovereignty over the territory in the Guaviare River and its tributaries.\n\n" +
-        "Finally, the Naval Institution contributed to the establishment of river control posts, ensuring stability in the region and demonstrating a high level of readiness and significant operational and logistical capacity for territorial consolidation.";
+    In this regard, the Colombian Navy facilitated the development of the region and had several responsibilities during this territorial reorganization process, including:
 
-      //
-      break;
-    case 13:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
+    <ol>
+      <li>Conducting river patrols in strategic areas of the region to ensure that no illegal activities threatened the stability and safety of the native communities of the department.</li>
+      <li>Facilitating the transportation of military and civilian personnel, supplies, medicine, food, among others, which were essential for the region, maintaining order and territorial control.</li>
+      <li>Guaranteeing the protection of Caquetá’s borders, preventing conflicts with neighboring countries, and ensuring Colombian sovereignty in the area.</li>
+      <li>Providing assistance to local communities, offering timely care, well-being, and safety.</li>
+    </ol>
+  `;
+  break;
 
-      document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloGuaviare").innerHTML = "Creation of the Guaviare Department, consolidating the presence of the Amazon Naval Force (1991)";
-      document.getElementById("TextGuaviare").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the status of a department, as part of a territorial...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Guaviare Department, consolidating the presence of the Amazon Naval Force (1991)";
-      document.getElementById("TextPopAmazonas").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the status of a department, as part of a territorial redistribution aimed at improving the administration and development of the country's most remote regions. Before 1991, Guaviare was considered a Special Commissariat, an administrative entity without the autonomy or resources of a department.\n\n" +
-        "In this context, the creation of the Guaviare department consolidated the presence of the Amazon Naval Force in the region, which played a fundamental role in the protection of border areas, the fight against drug trafficking, and the defense of natural resources. Additionally, the new administrative structure allowed for a more equitable distribution of resources and greater attention to the needs of the population.\n\n" +
-        "It is important to highlight that, since its creation, the Guaviare department has faced several challenges, such as environmental preservation and the protection of indigenous communities' rights. However, the Amazon Naval Force has continued, tirelessly, to fulfill its mission of protecting the civilian population, ensuring sovereignty and territorial control, countering illicit activities and transnational crimes, and contributing to the sustainable development of the Amazon region.";
-
-      //
-      break;
-    //
-    case 14:
-      //repetir el caso 13
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloGuaviare").innerHTML = "Creation of the Guaviare Department, consolidating the presence of the Amazon Naval Force (1991)";
-      document.getElementById("TextGuaviare").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the status of a department, as part of a territorial...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Guaviare Department, consolidating the presence of the Amazon Naval Force (1991)";
-      document.getElementById("TextPopAmazonas").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the status of a department, as part of a territorial redistribution aimed at improving the administration and development of the country's most remote regions. Before 1991, Guaviare was considered a Special Commissariat, an administrative entity without the autonomy or resources of a department.\n\n" +
-        "In this context, the creation of the Guaviare department consolidated the presence of the Amazon Naval Force in the region, which played a fundamental role in the protection of border areas, the fight against drug trafficking, and the defense of natural resources. Additionally, the new administrative structure allowed for a more equitable distribution of resources and greater attention to the needs of the population.\n\n" +
-        "It is important to highlight that, since its creation, the Guaviare department has faced several challenges, such as environmental preservation and the protection of indigenous communities' rights. However, the Amazon Naval Force has continued, tirelessly, to fulfill its mission of protecting the civilian population, ensuring sovereignty and territorial control, countering illicit activities and transnational crimes, and contributing to the sustainable development of the Amazon region.";
-
-      //
-      break;
-
-    case 15:
-      //repetir el caso 13
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloGuaviare").innerHTML = "Creation of the Guaviare Department, consolidating the presence of the Amazon Naval Force (1991)";
-      document.getElementById("TextGuaviare").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the status of a department, as part of a territorial...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Guaviare Department, consolidating the presence of the Amazon Naval Force (1991)";
-      document.getElementById("TextPopAmazonas").innerHTML = "In 1991, with the promulgation of the new Political Constitution of Colombia, Guaviare was elevated to the status of a department, as part of a territorial redistribution aimed at improving the administration and development of the country's most remote regions. Before 1991, Guaviare was considered a Special Commissariat, an administrative entity without the autonomy or resources of a department.\n\n" +
-        "In this context, the creation of the Guaviare department consolidated the presence of the Amazon Naval Force in the region, which played a fundamental role in the protection of border areas, the fight against drug trafficking, and the defense of natural resources. Additionally, the new administrative structure allowed for a more equitable distribution of resources and greater attention to the needs of the population.\n\n" +
-        "It is important to highlight that, since its creation, the Guaviare department has faced several challenges, such as environmental preservation and the protection of indigenous communities' rights. However, the Amazon Naval Force has continued, tirelessly, to fulfill its mission of protecting the civilian population, ensuring sovereignty and territorial control, countering illicit activities and transnational crimes, and contributing to the sustainable development of the Amazon region.";
-
-      //
-      break;
-    case 16:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloBaupez").innerHTML = "Inclusion of Caquetá in the National Territory (1858)";
-      document.getElementById("TextBaupez").innerHTML = "In 1858, Caquetá was included as a National Territory of Colombia, and the Colombian Navy played a crucial role in the navigation and control of the river routes that crossed this territory...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Inclusion of Caquetá in the National Territory (1858)";
-      document.getElementById("TextPopAmazonas").innerHTML = "In 1858, Caquetá was included as a National Territory of Colombia, and the Colombian Navy played a decisive role in the navigation and control of the river routes that pass through this department.\n\n" +
-        "In this context, the Navy facilitated the development of the region and took on several responsibilities during the territorial reorganization process, including:\n\n" +
-        "1. Conducting river patrols in strategic areas of the territory, ensuring that no illicit activities took place that could threaten the stability and security of the indigenous communities in the department.\n" +
-        "2. Facilitating the transportation of military and civilian personnel, as well as supplies, medications, food, and other essentials for the well-being of the region, maintaining order and territorial control.\n" +
-        "3. Ensuring the protection of Caquetá's borders, preventing conflicts with neighboring countries, and safeguarding Colombian sovereignty in the area.\n" +
-        "4. Providing assistance to local communities by offering timely care, well-being, and security.";
-
-      //
-      break;
-    case 17:
-      document.getElementById("asd").style.display = "none";
-      //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
-
-      document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloBaupez").innerHTML = "Honor and bravery of a hero of the Colombian Navy, CP Filogonio Hichamón Kuegajima (R.I.P.) (1981)";
-      document.getElementById("TextBaupez").innerHTML = "First Corporal of Marine Infantry Filogonio Hichamón Kuegajima (R.I.P.) played a crucial role in the 'Leopard' Task Force of the Colombian Navy. His mission was to gather strategic information...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Honor and bravery of a hero of the Colombian Navy, CP Filogonio Hichamón Kuegajima (R.I.P.) (1981)";
-      document.getElementById("TextPopAmazonas").innerHTML = "First Corporal of Marine Infantry Filogonio Hichamón Kuegajima (R.I.P.) played a crucial role in the 'Leopard' Task Force of the Colombian Navy. His mission was to gather strategic information about the illegal armed group at the time, led by Jairo Capera Díaz.\n\n" +
-        "Unfortunately, his identity was discovered, and on October 31, 1981, in the Peñas Blancas area (Caquetá), he was captured, tortured, and finally executed with a bullet to the head on the banks of the Caquetá River. Before his death, Hichamón told Capera: 'I did my job better than you.'\n\n" +
-        "In recognition of his bravery and sacrifice, the Colombian Navy incorporated, in 1993, a floating unit, the ARC 'CP Filogonio Hichamón' River Support Patrol. (The Bulletin – Media outlet of the Colombian Marine Infantry, Edition No. 50 – Year 2020. Article 'Naval Force of the South, historical memory unit', by Lieutenant Commander Wilmar Raúl Amaya Plata – Operational Legal Advisor, Naval Force of the South. P. 100-101).";
-
-      //
-      break;
+  case 17:
+    document.getElementById("asd").style.display = "none";
+  
+    document.getElementById("HistoryDerechos").innerHTML = "";
+    document.getElementById("TituloBaupez").innerHTML = "Inclusion of Caquetá into the National Territory (1858)";
+    document.getElementById("TextBaupez").innerHTML = "In 1958, Caquetá was included as a National Territory of Colombia, and the Colombian Navy played a decisive role in contributing to navigation and control of the river routes that make up this department...";
+    document.getElementById("TituloPopAmazonas").innerHTML = "Inclusion of Caquetá into the National Territory (1858)";
+    document.getElementById("TextPopAmazonas").innerHTML = `
+      In 1958, Caquetá was included as a National Territory of Colombia, and the Colombian Navy played a decisive role in contributing to navigation and control of the river routes that make up this department.
+  
+      In this regard, the Colombian Navy facilitated the development of the region and had several responsibilities during this territorial reorganization process, including:
+  
+      <ol>
+        <li>Conducting river patrols in strategic areas of the region to ensure that no illegal activities threatened the stability and safety of the native communities of the department.</li>
+        <li>Facilitating the transportation of military and civilian personnel, supplies, medicine, food, among others, which were essential for the region, maintaining order and territorial control.</li>
+        <li>Guaranteeing the protection of Caquetá’s borders, preventing conflicts with neighboring countries, and ensuring Colombian sovereignty in the area.</li>
+        <li>Providing assistance to local communities, offering timely care, well-being, and safety.</li>
+      </ol>
+    `;
+    break;
+  
     case 18:
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloBaupez").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
-      document.getElementById("TextBaupez").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization sought better administration of the Amazonian regions. (Towards departmentalization. Geographical Institute Agustín Codazzi IGAC - Geographical Dictionary. Caquetá Department Government).\n\n" +
-        "From its vast territory, which initially covered the entire region south of the Guaviare River, the Amazonian intendencies and commissariats were successively separated. The colonization of Caquetá actually began in 1930, as a result of the Colombia-Peru conflict. It is important to highlight that rubber extraction was the central pillar of the economy during this period.\n\n" +
-        "**Elevation to Department (1981)**\n\n" +
-        "On December 15, 1981, through Law 78, the National Intendency of Caquetá was established as a department, consolidating its current administrative structure and confirming Florencia as its capital.\n\n" +
-        "These events reflect the administrative evolution of Caquetá, from its beginnings as a national territory to its consolidation as a department, highlighting the strategic and geographical importance of the region in the Colombian context.\n\n" +
-        "The creation of the Caquetá department consolidated the presence of the Amazon Naval Force in the region, playing a key role in the front-line fight against drug trafficking and related crimes, defending the fluvial interests and natural resources, as well as providing assistance and protection to the communities and civilian population in the Amazon basin.";
+  document.getElementById("TituloBaupez").innerHTML = "Honor and bravery of a hero of the Colombian Navy, CP Filogonio Hichamón Kuegajima (R.I.P.) (1981)";
+  document.getElementById("TextBaupez").innerHTML = `Corporal First Class of the Marine Infantry Filogonio Hichamón Kuegajima (R.I.P.) played a crucial role in the 'Leopardo' Task Force of the Colombian Navy. His mission was to gather strategic information about the illegal armed group of...`;
+  document.getElementById("TituloPopAmazonas").innerHTML = "Honor and bravery of a hero of the Colombian Navy, CP Filogonio Hichamón Kuegajima (R.I.P.) (1981)";
+  document.getElementById("TextPopAmazonas").innerHTML = `
+    Corporal First Class of the Marine Infantry Filogonio Hichamón Kuegajima (R.I.P.) played a crucial role in the “Leopardo” Task Force of the Colombian Navy. His mission was to gather strategic information about the illegal armed group at the time, led by Jairo Capera Díaz.
 
-      //
-      break;
+    Unfortunately, his identity was discovered, and on October 31, 1981, in the Peñas Blancas area (Caquetá), he was captured, tortured, and finally executed with a coup de grâce on the banks of the Caquetá River. Before his death, Hichamón told Capera: “I did my job better than you.”
+
+    In recognition of his bravery and sacrifice, in 1993 the Colombian Navy named a River Support Patrol Vessel the ARC “CP Filogonio Hichamón”.
+    <em>(El Boletín – Publication of the Colombian Marine Infantry. Issue No. 50 – Year 2020. Article by the Southern Naval Force, historical memory unit, by Lieutenant Wilmar Raúl Amaya Plata – Legal Advisor, Southern Naval Force. Pp. 100-101).</em>
+  `;
+  break;
     case 19:
       //repet case 18
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloBaupez").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
-      document.getElementById("TextBaupez").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization sought better administration of the Amazonian regions. (Towards departmentalization. Geographical Institute Agustín Codazzi IGAC - Geographical Dictionary. Caquetá Department Government).\n\n" +
-        "From its vast territory, which initially covered the entire region south of the Guaviare River, the Amazonian intendencies and commissariats were successively separated. The colonization of Caquetá actually began in 1930, as a result of the Colombia-Peru conflict. It is important to highlight that rubber extraction was the central pillar of the economy during this period.\n\n" +
-        "**Elevation to Department (1981)**\n\n" +
-        "On December 15, 1981, through Law 78, the National Intendency of Caquetá was established as a department, consolidating its current administrative structure and confirming Florencia as its capital.\n\n" +
-        "These events reflect the administrative evolution of Caquetá, from its beginnings as a national territory to its consolidation as a department, highlighting the strategic and geographical importance of the region in the Colombian context.\n\n" +
-        "The creation of the Caquetá department consolidated the presence of the Amazon Naval Force in the region, playing a key role in the front-line fight against drug trafficking and related crimes, defending the fluvial interests and natural resources, as well as providing assistance and protection to the communities and civilian population in the Amazon basin.";
+  document.getElementById("TituloBaupez").innerHTML = "Establishment of the Intendancy of Alto Caquetá (1905)";
+  document.getElementById("TextBaupez").innerHTML = `On February 18, 1905, through Decree 167, several intendancies were reorganized and the Intendancy of Alto Caquetá was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions...`;
+  document.getElementById("TituloPopAmazonas").innerHTML = "Establishment of the Intendancy of Alto Caquetá (1905)";
+  document.getElementById("TextPopAmazonas").innerHTML = `
+    “On February 18, 1905, through Decree 167, several intendancies were reorganized and the Intendancy of Alto Caquetá was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions.”
+    (Toward departmentalization. Agustín Codazzi Geographic Institute IGAC – Geographic Dictionary. Government of the Department of Caquetá).
 
-      //
-      break;
+    From its extensive territory, which initially covered the entire region south of the Guaviare River, several Amazonian intendancies and commissariats were later formed. Colonization of Caquetá effectively began in 1930 due to the Colombo–Peruvian conflict, and rubber extraction was the main economic activity during this period.
+
+    <strong>Elevation to department (1981)</strong>
+
+    On December 15, 1981, through Law 78, the National Intendancy of Caquetá was elevated to department status, consolidating its current administrative structure and reaffirming Florencia as its capital.
+
+    These events reflect the administrative evolution of Caquetá, from its beginnings as a national territory to its consolidation as a department, highlighting the region's strategic and geographical importance in the Colombian context.
+
+    The creation of the Caquetá department consolidated the presence of the Amazon Naval Force in the region, playing a key role in the fight against drug trafficking and its related crimes, the defense of river interests and natural resources, and the assistance and protection of communities and the civilian population of the Amazon basin.
+  `;
+  break;
     case 20:
       //repetition of case 18
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloBaupez").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
-      document.getElementById("TextBaupez").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Establishment of the Alto Caquetá Intendency (1905)";
-      document.getElementById("TextPopAmazonas").innerHTML = "On February 18, 1905, through Decree 167, several intendencies were reorganized and the Alto Caquetá Intendency was created, with its capital in Florencia. This reorganization sought better administration of the Amazonian regions. (Towards departmentalization. Geographical Institute Agustín Codazzi IGAC - Geographical Dictionary. Caquetá Department Government).\n\n" +
-        "From its vast territory, which initially covered the entire region south of the Guaviare River, the Amazonian intendencies and commissariats were successively separated. The colonization of Caquetá actually began in 1930, as a result of the Colombia-Peru conflict. It is important to highlight that rubber extraction was the central pillar of the economy during this period.\n\n" +
-        "**Elevation to Department (1981)**\n\n" +
-        "On December 15, 1981, through Law 78, the National Intendency of Caquetá was established as a department, consolidating its current administrative structure and confirming Florencia as its capital.\n\n" +
-        "These events reflect the administrative evolution of Caquetá, from its beginnings as a national territory to its consolidation as a department, highlighting the strategic and geographical importance of the region in the Colombian context.\n\n" +
-        "The creation of the Caquetá department consolidated the presence of the Amazon Naval Force in the region, playing a key role in the front-line fight against drug trafficking and related crimes, defending the fluvial interests and natural resources, as well as providing assistance and protection to the communities and civilian population in the Amazon basin.";
+  document.getElementById("TituloBaupez").innerHTML = "Establishment of the Intendancy of Alto Caquetá (1905)";
+  document.getElementById("TextBaupez").innerHTML = `On February 18, 1905, through Decree 167, several intendancies were reorganized and the Intendancy of Alto Caquetá was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions...`;
+  document.getElementById("TituloPopAmazonas").innerHTML = "Establishment of the Intendancy of Alto Caquetá (1905)";
+  document.getElementById("TextPopAmazonas").innerHTML = `
+    “On February 18, 1905, through Decree 167, several intendancies were reorganized and the Intendancy of Alto Caquetá was created, with its capital in Florencia. This reorganization aimed at better administration of the Amazonian regions.”
+    (Toward departmentalization. Agustín Codazzi Geographic Institute IGAC – Geographic Dictionary. Government of the Department of Caquetá).
 
-      //
-      break;
+    From its extensive territory, which initially covered the entire region south of the Guaviare River, several Amazonian intendancies and commissariats were later formed. Colonization of Caquetá effectively began in 1930 due to the Colombo–Peruvian conflict, and rubber extraction was the main economic activity during this period.
+
+    <strong>Elevation to department (1981)</strong>
+
+    On December 15, 1981, through Law 78, the National Intendancy of Caquetá was elevated to department status, consolidating its current administrative structure and reaffirming Florencia as its capital.
+
+    These events reflect the administrative evolution of Caquetá, from its beginnings as a national territory to its consolidation as a department, highlighting the region's strategic and geographical importance in the Colombian context.
+
+    The creation of the Caquetá department consolidated the presence of the Amazon Naval Force in the region, playing a key role in the fight against drug trafficking and its related crimes, the defense of river interests and natural resources, and the assistance and protection of communities and the civilian population of the Amazon basin.
+  `;
+  break;
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     case 21:
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloAmazonas").innerHTML = "Creation of the Vaupés Intendancy (1910)";
-      document.getElementById("TextAmazonas").innerHTML = "The territory of Vaupés was recognized as part of the Caquetá Intendancy in 1910. Subsequently, in 1913, the Vaupés Intendancy was created as an independent administrative entity...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Creation of the Vaupés Intendancy (1910)";
-      document.getElementById("TextPopAmazonas").innerHTML = "The territory of Vaupés was recognized as part of the Caquetá Intendancy in 1910. Later, in 1913, the Vaupés Intendancy was created as an independent administrative entity under the central government. This marked the beginning of the recognition of the region as a political-administrative unit.\n\n" +
-        "**Transformation into Special Commissariat (1943)**\n\n" +
-        "In 1943, Vaupés ceased to be an intendancy and became a Special Commissariat. This change implied a modification in the administrative model, which increased the direct supervision of the national government over the region due to its geostrategic importance, cultural diversity, and natural wealth.\n\n" +
-        "**Elevation to Department (1991)**\n\n" +
-        "With the promulgation of the Political Constitution of Colombia in 1991, Vaupés was elevated to the status of a department. This change strengthened its administrative and political autonomy, allowing for greater participation in regional development and in the protection of its indigenous communities and biodiversity.\n\n" +
-        "The intervention of the Colombian Navy significantly contributed to the timely creation of the Vaupés Intendancy and Commissariat, consolidating the stability of the region in terms of territorial control, sovereignty in border areas, and the comprehensive development of the communities.";
-
-      //
+      document.getElementById("TituloAmazonas").innerHTML = "Mass migration due to political violence in Colombia (1948–1958)";
+      document.getElementById("TextAmazonas").innerHTML = "During the mass migration caused by political violence in Colombia, in 1968, the conflict took on a particular dynamic in the department of Vaupés due to its jungle condition...";
+      document.getElementById("TituloPopAmazonas").innerHTML = "Mass migration due to political violence in Colombia (1948–1958)";
+      document.getElementById("TextPopAmazonas").innerHTML = `
+        During the mass migration caused by political violence in Colombia, in 1968, the conflict took on a particular dynamic in the department of Vaupés due to its jungle and hard-to-access condition. This region, mostly inhabited by Indigenous communities, became a stage for abuses and clashes between armed groups seeking to impose political and territorial control.
+    
+        The political violence of the 1960s, known as 'La Violencia', caused a massive migration of people fleeing their homes in search of safety. This situation generated a humanitarian crisis that required a coordinated and effective response. In this context, the Colombian Navy played a fundamental role in the protection and assistance of displaced people, given the region’s geography, crossed by the Apaporis and Vaupés rivers. Being a jungle area, river navigation was the main means of transport and communication, which gave the Naval Institution a strategic role in the region.
+      `;
       break;
     case 22:
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloAmazonas").innerHTML = "Great migration due to political violence in Colombia (1948-1958)";
-      document.getElementById("TextAmazonas").innerHTML = "During the great migration due to political violence in Colombia, in 1968, the conflict adopted a particular dynamic in the department of Vaupés due to its condition...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Great migration due to political violence in Colombia (1948-1958)";
-      document.getElementById("TextPopAmazonas").innerHTML = "During the great migration due to political violence in Colombia, in 1968, the conflict adopted a particular dynamic in the department of Vaupés due to its condition as a jungle territory with difficult access. This region, mostly inhabited by indigenous communities, became the scene of abuses and clashes between armed groups seeking to impose their political and territorial control. The political violence of the 1960s, known as 'La Violencia,' caused a massive migration of people fleeing their homes in search of safety. This situation generated a humanitarian crisis that required a coordinated and effective response. In this context, the Colombian Navy played a fundamental role in the protection and assistance of the displaced people, given the geography of the region, crossed by the Apaporis and Vaupés rivers. Being a jungle area, river navigation was the main form of transportation and communication, which gave the Naval Institution a strategic role in the region.";
+  document.getElementById("TituloAmazonas").innerHTML = "Mass migration due to political violence in Colombia (1948–1958)";
+  document.getElementById("TextAmazonas").innerHTML = "During the mass migration caused by political violence in Colombia, in 1968, the conflict took on a particular dynamic in the department of Vaupés due to its jungle condition...";
+  document.getElementById("TituloPopAmazonas").innerHTML = "Mass migration due to political violence in Colombia (1948–1958)";
+  document.getElementById("TextPopAmazonas").innerHTML = `
+    During the mass migration caused by political violence in Colombia, in 1968, the conflict took on a particular dynamic in the department of Vaupés due to its jungle and hard-to-access condition. This region, mostly inhabited by Indigenous communities, became a stage for abuses and clashes between armed groups seeking to impose political and territorial control.
 
-      //
-      break;
+    The political violence of the 1960s, known as 'La Violencia', caused a massive migration of people fleeing their homes in search of safety. This situation generated a humanitarian crisis that required a coordinated and effective response. In this context, the Colombian Navy played a fundamental role in the protection and assistance of displaced people, given the region’s geography, crossed by the Apaporis and Vaupés rivers. Being a jungle area, river navigation was the main means of transport and communication, which gave the Naval Institution a strategic role in the region.
+  `;
+  break;
     case 23:
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloAmazonas").innerHTML = "Impact of rubber extraction (1960-1970)";
-      document.getElementById("TextAmazonas").innerHTML = "The rubber industry had a significant influence on the migratory dynamics of Vaupés. During the 1960s and 1970s, rubber extraction affected the social and economic structures of the region...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Impact of rubber extraction (1960-1970)";
-      document.getElementById("TextPopAmazonas").innerHTML = "The rubber industry had a significant influence on the migratory dynamics of Vaupés. During the 1960s and 1970s, rubber extraction affected the social and economic structures of indigenous communities, generating tensions and disputes over the regulation of indigenous labor between rubber gatherers, missionaries, and officials. These tensions contributed to some indigenous communities seeking to settle in new regions (Colombian Journal of Anthropology. Volume 46 (2), July-December 2010, p. 331).";
-
-      //
-      break;
+  document.getElementById("TituloAmazonas").innerHTML = "Impact of rubber exploitation (1960–1970)";
+  document.getElementById("TextAmazonas").innerHTML = "The rubber industry had a significant influence on migratory dynamics in Vaupés. During the 1960s and 1970s, rubber exploitation affected the social and economic structures of the region...";
+  document.getElementById("TituloPopAmazonas").innerHTML = "Impact of rubber exploitation (1960–1970)";
+  document.getElementById("TextPopAmazonas").innerHTML = 
+    "The rubber industry had a significant influence on migratory dynamics in Vaupés. During the 1960s and 1970s, rubber exploitation affected the social and economic structures of Indigenous communities, generating tensions and disputes over the regulation of Indigenous labor among rubber tappers, missionaries, and government officials. These tensions contributed to some Indigenous communities seeking to settle in new regions (Colombian Journal of Anthropology. Volume 46 (2), July–December 2010, p. 331).";
+  break;
+  
     case 24:
       document.getElementById("asd").style.display = "none";
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloAmazonas").innerHTML = "Takeover of Mitú – Vaupés (1998)";
-      document.getElementById("TextAmazonas").innerHTML = "The takeover of Mitú – Vaupés, which occurred on November 1, 1998, was considered the bloodiest military action executed by the now-defunct FARC-EP, resulting in 24 military personnel, 16 police officers...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Takeover of Mitú – Vaupés (1998) VERIFY VIABILITY OF INCLUDING THIS EVENT";
-      document.getElementById("TextPopAmazonas").innerHTML = "The takeover of Mitú – Vaupés, on November 1, 1998, was considered the bloodiest military action executed by the now-defunct FARC-EP. The attack resulted in the death of 24 military personnel, 16 police officers, 11 civilians, and left 47 soldiers injured, in addition to more than 60 hostages taken. For 72 hours, the population of Mitú was subjected to war crimes and human rights violations, constituting a blatant violation of International Humanitarian Law. However, the Colombian Armed Forces deployed all their air, river, and land capabilities to consolidate territorial control and protect the civilian population. Over 1,200 uniformed members of the Public Force faced between 900 and 1,500 guerrillas who participated in the attack (Various information sources).";
-
-      //
+      document.getElementById("TituloAmazonas").innerHTML = "Impact of rubber exploitation (1960–1970)";
+      document.getElementById("TextAmazonas").innerHTML = "The rubber industry had a significant influence on migratory dynamics in Vaupés. During the 1960s and 1970s, rubber exploitation affected the social and economic structures of the region...";
+      document.getElementById("TituloPopAmazonas").innerHTML = "Impact of rubber exploitation (1960–1970)";
+      document.getElementById("TextPopAmazonas").innerHTML = 
+        "The rubber industry had a significant influence on migratory dynamics in Vaupés. During the 1960s and 1970s, rubber exploitation affected the social and economic structures of Indigenous communities, generating tensions and disputes over the regulation of Indigenous labor among rubber tappers, missionaries, and government officials. These tensions contributed to some Indigenous communities seeking to settle in new regions (Colombian Journal of Anthropology. Volume 46 (2), July–December 2010, p. 331).";
       break;
     case 25:
       //Repeat of case 24
@@ -1235,13 +1371,12 @@ function ChangeTextEng() {
       //document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 
       document.getElementById("HistoryDerechos").innerHTML = "";
-      document.getElementById("TituloAmazonas").innerHTML = "Takeover of Mitú – Vaupés (1998)";
-      document.getElementById("TextAmazonas").innerHTML = "The takeover of Mitú – Vaupés, which occurred on November 1, 1998, was considered the bloodiest military action executed by the now-defunct FARC-EP, resulting in 24 military personnel, 16 police officers...";
-      document.getElementById("TituloPopAmazonas").innerHTML = "Takeover of Mitú – Vaupés (1998) VERIFY VIABILITY OF INCLUDING THIS EVENT";
-      document.getElementById("TextPopAmazonas").innerHTML = "The takeover of Mitú – Vaupés, on November 1, 1998, was considered the bloodiest military action executed by the now-defunct FARC-EP. The attack resulted in the death of 24 military personnel, 16 police officers, 11 civilians, and left 47 soldiers injured, in addition to more than 60 hostages taken. For 72 hours, the population of Mitú was subjected to war crimes and human rights violations, constituting a blatant violation of International Humanitarian Law. However, the Colombian Armed Forces deployed all their air, river, and land capabilities to consolidate territorial control and protect the civilian population. Over 1,200 uniformed members of the Public Force faced between 900 and 1,500 guerrillas who participated in the attack (Various information sources).";
-
-      //
-      break;
+  document.getElementById("TituloAmazonas").innerHTML = "Impact of rubber exploitation (1960–1970)";
+  document.getElementById("TextAmazonas").innerHTML = "The rubber industry had a significant influence on migratory dynamics in Vaupés. During the 1960s and 1970s, rubber exploitation affected the social and economic structures of the region...";
+  document.getElementById("TituloPopAmazonas").innerHTML = "Impact of rubber exploitation (1960–1970)";
+  document.getElementById("TextPopAmazonas").innerHTML = 
+    "The rubber industry had a significant influence on migratory dynamics in Vaupés. During the 1960s and 1970s, rubber exploitation affected the social and economic structures of Indigenous communities, generating tensions and disputes over the regulation of Indigenous labor among rubber tappers, missionaries, and government officials. These tensions contributed to some Indigenous communities seeking to settle in new regions (Colombian Journal of Anthropology. Volume 46 (2), July–December 2010, p. 331).";
+  break;
   }
   document.getElementById("asd").src = ImgPutumayoLink + NumHistory + ".webp"
 }
