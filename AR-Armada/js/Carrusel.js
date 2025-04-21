@@ -1,5 +1,5 @@
 let time = 0;
-const radius = 2;
+const radius = 2.5;
 
 // Selecciona todas las imágenes con la clase 'ImagenCarrusel'
 const carouselImages = Array.from(document.getElementsByClassName("ImagenCarrusel"));
