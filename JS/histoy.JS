@@ -69,6 +69,31 @@ generarPunto(46); // Llama con X en 20vw
 generarPunto(44); // Llama con X en 50vw
 generarPunto(42); // Llama con X en 70vw*/
 
+
+
+
+
+
+// Selecciona todos los elementos con la clase "puntoRojo"
+const puntosRojosNodeList = document.querySelectorAll('.puntoRojo');
+
+// Convierte el NodeList en un array (opcional si necesitas métodos de array)
+const puntosRojosArray = Array.from(puntosRojosNodeList);
+
+// Paso 3: Lista de índices que quieres volver transparentes
+const indicesParaOcultar = [ 10, 14, 15,19,20,24]; // Cambia esto según los índices que necesites
+
+// Paso 4: Recorrer el array de índices y hacer transparentes esos elementos
+indicesParaOcultar.forEach(indice => {
+  if (puntosRojosArray[indice]) {
+    puntosRojosArray[indice].style.opacity = '0'; // o .style.visibility = 'hidden';
+  }
+});
+
+
+
+
+
 // Ajustar la altura total de la sección histoy-nav para que corresponda con el número de puntos generados
 const contenedor = document.getElementById('histoy-nav');
 contenedor.style.height = `${puntosRojosX.length * DisYPoint}vh`;
